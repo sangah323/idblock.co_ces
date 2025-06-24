@@ -1,0 +1,36 @@
+.paginationButton {
+  width: 36px;
+  height: 36px;
+  color: var(--text-300);
+  border-radius: 100%;
+  cursor: pointer;
+  transition: var(--transition-basic);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationButton:hover {
+  background-color: var(--text-600);
+}
+
+.paginationButton:disabled {
+  cursor: initial;
+}
+
+.paginationButton:disabled:hover {
+  background-color: var(--text-000);
+}
+
+.paginationButton img {
+  width: 18px;
+  height: 18px;
+}
+
+.paginationButton:first-child img {
+  transform: rotate(180deg);
+}
+
+.active {
+  background-color: var(--text-600);
+}

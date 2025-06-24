@@ -1,0 +1,45 @@
+.languageButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px var(--padding-small);
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  transition: var(--transition-basic);
+}
+
+.active {
+  display: none;
+}
+
+.imageBox {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.imageBox img {
+  width: 100%;
+}
+
+.languageButton:hover {
+  border-radius: var(--border-radius-10);
+  background-color: var(--text-500);
+}
+
+.languageButton:hover .inActive {
+  display: none;
+}
+
+.languageButton:hover .active {
+  display: block;
+}
+
+.dropdownWrapper {
+  display: none;
+}
+
+.languageButton:hover .dropdownWrapper {
+  display: block;
+}

@@ -1,0 +1,33 @@
+.errorContainer {
+  min-height: calc(var(--height-full) - 75px);
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+.errorBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+.errorBox p {
+  color: var(--text-300);
+}
+
+.errorBox img {
+  width: 180px;
+  margin-bottom: var(--margin-small);
+}
+
+.errorContainer a {
+  padding: var(--padding-button);
+  background-color: var(--text-500);
+  border-radius: var(--border-radius-15);
+  transition: var(--transition-basic);
+}
+
+.errorContainer a:hover {
+  box-shadow: var(--box-shadow-basic);
+}

@@ -1,0 +1,23 @@
+{
+  "BlogMain": {
+    "title": "一歩ずつ、世界へ",
+    "subTitle": "世界をつなぐテクノロジー、そして私たちの足跡"
+  },
+  "BlogContent": {
+    "noPostMessage": "選択されたフィルターに一致する投稿はありません。"
+  },
+  "BlogPost": {
+    "BlogCta": {
+      "title": "IDBlockについて知りたいですか？",
+      "button": "今すぐ始める"
+    }
+  },
+  "FilterButton": {
+    "all": "すべて",
+    "development": "開発",
+    "design": "デザイン",
+    "insight": "インサイト",
+    "news": "ニュース",
+    "event": "イベント"
+  }
+}

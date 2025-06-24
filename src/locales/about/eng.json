@@ -1,0 +1,361 @@
+{
+  "AboutMain": {
+    "title": ["Realizing the value", "of daily life and technology"],
+    "description": [
+      "Based on blockchain and AI technologies, in the field of fintech,",
+      "we lead digital transformation (DX) and connect all aspects of daily life",
+      "to deliver new experiences and the true value of technology"
+    ]
+  },
+  "AboutGoal": {
+    "goal": {
+      "title": ["Crosshub's", "Global Mission"],
+      "card": [
+        {
+          "cardTitle": "GOAL",
+          "content": ["Connecting the world", "through authentication and payment"]
+        },
+        {
+          "cardTitle": "VISION",
+          "content": [
+            "We aim to build the world's first unified identity verification system creating a platform of equal opportunities based on this foundation and becoming a global leader in the field",
+            " ",
+            " ",
+            " "
+          ]
+        },
+        {
+          "cardTitle": "MISSION",
+          "content": [
+            "We help individuals and businesses connect safely and freely within the global digital environment",
+            " ",
+            " ",
+            " "
+          ]
+        }
+      ]
+    },
+    "value": {
+      "title": ["Our Core Values", "That Drive the Mission"],
+      "card": [
+        {
+          "title": "CHALLENGE",
+          "content": "We begin by overcoming the limitations of global identity verification"
+        },
+        {
+          "title": "INNOVATION",
+          "content": "We offer solutions with the stability and convenience of blockchain technology"
+        },
+        {
+          "title": "CONTINUE",
+          "content": "We connect global services and build a sustainable digital ecosystem"
+        }
+      ]
+    }
+  },
+  "AboutHistory": {
+    "title": "Awards and History",
+    "contentList": [
+      {
+        "year": "2025",
+        "quarter": [
+          {
+            "name": "2Q",
+            "contents": [
+              "Selected as a participating company in the Korea Credit Guarantee Fund 2025 First Half IBK Changgong Open Innovation Program",
+              "Selected for the Infobank Seoul Hongneung Small Giant Special Zone Innopolis Campus Project (GRaND-K Startup School)",
+              "Selected for the Jeonbuk Technopark Private Investment-Driven Technology Business Activation Support Project",
+              "Selected as a participating company in the BOUNCE Smart Ocean & Fintech Acceleration Program by the Busan Center for Creative Economy and Innovation",
+              "Selected as a Participating Company at IVS Japan 2025",
+              "Selected as an Exhibitor for the Tourism Promotion Booth at the 2025 Seoul International Travel Mart (SITM), hosted by the Seoul Tourism Organization",
+              "Selected as a Participating Company in the Global Business Competency Support Consulting Program by the Busan IT Industry Promotion Agency",
+              "Selected as a Participant in the 2025 K-Startup Challenge – Innovation Startup League (General League)",
+              "Selected as a participating company for the 2025 Domestic & International Exhibitions and KTSC Global Connect",
+              "Selected as an Exhibitor at the Seoul Fintech Lab Pavilion, CES 2026",
+              "Selected as a Participating Company in the First Half of 2025 D-Testbed by the Korea Fintech Support Center",
+              "Selected for GDIN K-Global Global Expansion Support Program",
+              "Selected as a Participant in the Fintech-Focused Global Expansion Program – Nexus Luxembourg 2025",
+              "Selected for the Busan Blockchain Business Commercialization Support Program",
+              "Selected for the 7th Cohort of DGB Financial Group’s FIUM Lab",
+              "Selected as a participant in the 9th Cohort of Gwangju Investment Acceleration Program (G-IN Next Level)",
+              "Grand Prize Winner - Seoul Tourism Startup Collaboration Project Contest",
+              "Secured SEED Investment ($518K / Total $1.78M)"
+            ]
+          },
+          {
+            "name": "1Q",
+            "contents": [
+              "Awarded the Grand Prize at the Seoul Tourism Startup Collaboration Project Contest",
+              "Selected for Climbers Startup JAPAN EXPO",
+              "Selected for Synergy Core 1st Startup Support Program",
+              "Selected for J-Curve Batch Program 3rd Cohort",
+              "Selected as 'Little Penguin' Company by Korea Credit Guarantee Fund",
+              "Selected to participate in the 23rd World Korean Business Convention in Atlanta, USA",
+              "Selected for participation in the K-Wave Fest in Almaty, Kazakhstan",
+              "Selected for Korea Tourism Organization Osaka Expo Showcase",
+              "Selected for KOTRA's Service Business Model Support Program",
+              "Grand Prize Winner at the Global Startup Competition (UK & Peking University, China)",
+              "Selected for Woori Financial DINO Lab Busan 1st Cohort",
+              "Selected for Gwangju AI Startup Camp by AI Industry Convergence Project Group",
+              "Selected for Startup Innovation Space by Gyeonggi-do Economic Science Promotion Agency"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "quarter": [
+          {
+            "name": "4Q",
+            "contents": [
+              "Selected as Top Company in the Pre-startup Package and awarded Outstanding Company Commendation",
+              "Gold Prize at Sungkyunkwan University's KINGO-GA Startup Competition",
+              "Best Award at the KIBO Venture Camp 15th Demo Day",
+              "Selected for Korea Tourism Organization Tokyo Tourism Startup Center (KTSC)",
+              "Signed export supply contract (USD 20,000) with Vietnamese partner 'AMOEBA'",
+              "Selected for TechFest Vietnam Global Expansion Support Program",
+              "Selected for Blockchain Growth Support Program by KISA",
+              "Selected for Localization Lab Support Program by NIPA",
+              "Selected by Busan Blockchain Out-of-Region Business Promotion Center"
+            ]
+          },
+          {
+            "name": "3Q",
+            "contents": [
+              "Selected for 1st LAB Project by Seoul Fintech Lab & IBK Bank",
+              "Selected as a resident company at Seoul Fintech Lab",
+              "Certified as a Venture Business (Certificate of Venture Business)",
+              "Selected for KIBO Venture Camp 15th Cohort",
+              "Selected for Global Japan PoC + Living Lab Project"
+            ]
+          },
+          {
+            "name": "2Q",
+            "contents": [
+              "Secured seed investment ($148K) from local angel investor (AC) group",
+              "Selected for Pre-startup Package by Ministry of SMEs and Startups"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "quarter": [
+          {
+            "name": "4Q",
+            "contents": [
+              "Received Grand Prize at BIC Blockchain Conference Competition hosted by Chungbuk Institute of Science and Technology Innovation"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "AboutNews": {
+    "title": "Press Release",
+    "pressItems": [
+      {
+        "title": "Busan CCEI Concludes Japan Open Innovation Program 'Plug in: Tokyo'",
+        "link": "https://www.venturesquare.net/968885",
+        "date": "2025.05.15",
+        "source": "venturesquare",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2025/05/1-4.jpg",
+        "preview": "The Busan Center for Creative Economy & Innovation (CEO Yongwoo Kim, hereinafter referred to as Busan CCEI) announced that it successfully concluded the global open innovation program ‘Plug in: Tokyo,’ held in Tokyo, Japan from May 7 to 10. The program was conducted in collaboration with seven national innovation centers and 10 promising startups, marking a meaningful step in supporting Korean startups’ expansion into the Japanese market."
+      },
+      {
+        "title": "Seoul Fintech Lab creates 4,000 jobs over 7 years",
+        "link": "https://www.donga.com/news/Society/article/all/20250429/131518706/2",
+        "date": "2025.04.30",
+        "source": "The Dong-A Ilbo",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2025/04/29/131519137.1.jpg",
+        "preview": "Just being located in Seoul Fintech Lab is seen as a mark of business credibility. It attracts much more attention and opportunity than seeking investment alone."
+      },
+      {
+        "title": "Seoul Fintech Lab Resident 'Crosshub' Gains Attention as a Fintech-Tourism Convergence Company",
+        "link": "https://www.theguru.co.kr/news/article.html?no=86400",
+        "date": "2025.04.27",
+        "source": "The Guru",
+        "image": "https://www.theguru.co.kr/data/photos/20250417/art_1745592245795_1954b3.png",
+        "preview": "'Crosshub', a resident of the Seoul Fintech Lab—a startup hub operated by the Seoul Metropolitan Government—was recently selected for both the Korea Credit Guarantee Fund's 'Little Penguin' program and the Seoul Tourism Startup program by the Seoul Tourism Organization."
+      },
+      {
+        "title": "Crosshub sets out to build borderless identity, payment ecosystem",
+        "link": "https://www.koreatimes.co.kr/business/banking-finance/20250419/crosshub-sets-out-to-build-borderless-identity-payment-ecosystem",
+        "date": "2025.04.19",
+        "source": "The Korea Times",
+        "image": "https://newsimg.koreatimes.co.kr/2025/04/18/17b1dfc6-3728-429d-b3a0-e69d443f9d21.jpg",
+        "preview": "Vietnam, Japan among first stops in Korean startup's global expansion drive"
+      },
+      {
+        "title": "Seoul Selects 5 Promising 'Tourism Startups'… Up to 70 Million KRW in Support",
+        "link": "https://www.news1.kr/local/moi/5756806",
+        "date": "2025.04.18",
+        "source": "News1",
+        "image": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fi3n.news1.kr%2Fsystem%2Fphotos%2F2025%2F4%2F17%2F7241825%2Fhigh.jpg&w=1920&q=75",
+        "preview": "On April 18, the Seoul Metropolitan Government announced that it has selected five promising tourism startups through the '2025 Seoul Tourism Startup Collaboration Project' in partnership with the Seoul Tourism Organization. The audition drew applications from 152 companies, resulting in a 30:1 competition ratio."
+      },
+      {
+        "title": "CrossHub Selected for Credit Guarantee Fund's 'Little Penguin' Program",
+        "link": "https://www.vtimes.kr/news/articleView.html?idxno=51904",
+        "date": "2025.04.03",
+        "source": "Venture Times",
+        "image": "https://www.vtimes.kr/news/photo/202504/51904_28459_4822.jpg",
+        "preview": "CrossHub, currently developing next-generation 4th-gen hybrid identity authentication service (ID Block) and a global cross-border easy payment service (Block Pay), announced that it has been selected for the Credit Guarantee Fund's promising startup support program 'Little Penguin'."
+      },
+      {
+        "title": "Woori Financial Group Opens Blockchain Startup Hub in Busan",
+        "link": "https://platum.kr/archives/254801",
+        "date": "2025.03.14",
+        "source": "Platum",
+        "image": "https://platum.kr/wp-content/uploads/2025/03/image-24.png",
+        "preview": "Woori Financial Group has established the first blockchain-specialized startup incubator in the Korean financial sector, strategically utilizing Busan's advantage as the nation's only blockchain regulatory free zone."
+      },
+      {
+        "title": "Blockchain & Fintech Startup Hub Opens at Busan Station",
+        "link": "https://www.busan.com/view/busan/view.php?code=2025031309285007833",
+        "date": "2025.03.13",
+        "source": "Busan Ilbo",
+        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2025/03/13/2025031309240166624_l.jpg",
+        "preview": "A new facility to foster startups in blockchain and fintech sectors has opened in Busan. The hub is expected to become a regional innovation center that offers companies stable investment and growth opportunities."
+      },
+      {
+        "title": "Gwangju Attracts Promising AI Companies – Anticipating Mobility and Other Synergies",
+        "link": "https://www.nocutnews.co.kr/news/6306315?utm_source=naver&utm_medium=article&utm_campaign=20250311053240",
+        "date": "2025.03.11",
+        "source": "NoCut News",
+        "image": "https://file2.nocutnews.co.kr/newsroom/image/2025/03/11/202503111708300003_0.jpg",
+        "preview": "Gwangju is intensifying its efforts to build an AI industrial cluster and attract businesses, strengthening its position as a leading AI city by drawing in energy, fintech, and other innovative companies."
+      },
+      {
+        "title": "Seoul Holds Fintech Industry Support Forum – Listens to Resident Companies",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1486",
+        "date": "2025.03.06",
+        "source": "Fintech Today",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202503/1486_2121_3053.jpg",
+        "preview": "On March 5, 2025, the Seoul Metropolitan Government held a forum at Seoul Fintech Lab in Yeouido to support the fintech industry. Mayor Oh Se-hoon and representatives from fintech companies and financial authorities discussed current issues and development strategies."
+      },
+      {
+        "title": "The Need for Next-Generation Hybrid Identity Authentication",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1482",
+        "date": "2025.03.04",
+        "source": "Fintech Today",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202503/1482_2113_474.png",
+        "preview": "May 2020 marked a significant turning point in identity authentication, as the National Assembly passed a bill to amend the Electronic Signature Act, abolishing the monopoly of the long-dominant public certification system and opening the market to private authentication services."
+      },
+      {
+        "title": "'ID Block' Wins Grand Prize at 2025 Global Startup Competition",
+        "link": "https://www.etoday.co.kr/news/view/2447078",
+        "date": "2025.02.21",
+        "source": "EToday",
+        "image": "https://img.etoday.co.kr/pto_db/2025/02/20250221130629_2139337_592_333.png",
+        "preview": "CrossHub once again proved its innovation by winning the grand prize at the 2025 Global Startup Competition. The event was co-hosted by BoxLadder, Peking University, and UK investment firm Simsan Ventures, and brought together top startups from around the world."
+      },
+      {
+        "title": "CrossHub – A Company Providing Blockchain-Based Identity Authentication Services",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1430",
+        "date": "2025.02.10",
+        "source": "Fintech Today",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202502/1430_2048_1121.jpg",
+        "preview": "CrossHub is a company providing blockchain-based identity authentication services. It was co-founded by Park Soo-jung (age 31) in May 2024."
+      },
+      {
+        "title": "Daejeon Innovation Center and Taiwan's i2i Host First Global Online Demo Day of the Year",
+        "link": "https://www.ccnnews.co.kr/news/articleView.html?idxno=360239",
+        "date": "2025.01.21",
+        "source": "Chungcheong News",
+        "image": "https://www.ccnnews.co.kr/news/photo/202501/360239_449842_3740.jpg",
+        "preview": "The Daejeon Center for Creative Economy & Innovation, in collaboration with Taiwanese startup accelerator i2i (Industry to Innovation), held the first global online demo day of the year, 'IP2 Launchpad', offering Korean startups opportunities to enter the Taiwanese market."
+      },
+      {
+        "title": "Korea Early Investment Accelerator Association Hosts 7th KAIA Clubhouse",
+        "link": "https://www.venturesquare.net/949333",
+        "date": "2024.12.04",
+        "source": "Venture Square",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2024/12/kaia-789x364.jpg",
+        "preview": "The Korea Early Investment Accelerator Association (KAIA) successfully hosted its 7th KAIA Clubhouse event on December 4."
+      },
+      {
+        "title": "GA Korea Group and Sungkyunkwan University Host 'KINGO-GA Startup Competition'",
+        "link": "https://www.kyeonggi.com/article/20241202580120",
+        "date": "2024.12.02",
+        "source": "Gyeonggi Ilbo",
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2024/12/02/.cache/512/20241202580121.jpg",
+        "preview": "GA Korea Group has partnered with Sungkyunkwan University to support young entrepreneurs in Korea. The 2024 KINGO-GA Startup Competition was recently held at the GA Korea Plaza in Giheung-gu, Yongin City."
+      },
+      {
+        "title": "CrossHub Signs Supply Contract with Vietnam's 'Amoeba'",
+        "link": "https://www.venturesquare.net/948842",
+        "date": "2024.11.29",
+        "source": "Venture Square",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2024/11/unnamed-4-2.jpg",
+        "preview": "CrossHub has signed a contract with Vietnam's solution provider 'Amoeba' to supply 600,000 units of its blockchain-based decentralized identity (DID) authentication solution, ID Block."
+      },
+      {
+        "title": "Daejeon Innovation Center Supports Startup Entry into Vietnam at 'TechFest 2024'",
+        "link": "https://www.news1.kr/local/daejeon-chungnam/5603906",
+        "date": "2024.11.18",
+        "source": "News1",
+        "image": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fi3n.news1.kr%2Fsystem%2Fphotos%2F2024%2F11%2F18%2F6991844%2Fhigh.jpg&w=1080&q=75",
+        "preview": "The Daejeon Center for Creative Economy & Innovation announced that it will support local startups entering the Vietnamese market by participating in 'TechFest 2024', Vietnam's largest tech innovation expo, to be held from November 26 for three days in Haiphong."
+      },
+      {
+        "title": "CrossHub Raises 200M KRW Investment – Plans to Expand Hiring",
+        "link": "https://news.nate.com/view/20240618n21757",
+        "date": "2024.06.08",
+        "source": "Nate News",
+        "image": "https://news.nateimg.co.kr/orgImg/aj/2024/06/18/20240618135121553218.jpg",
+        "preview": "CrossHub, a blockchain company specializing in digital identity (DID), has secured seed funding from a domestic group of professional investors (AC). The company was valued at 1 billion KRW and raised 200 million KRW in funding."
+      }
+    ]
+  },
+  "AboutMap": {
+    "title": "Location Map",
+    "contact": "TEL : +82 2-6975-9999 | FAX : +82 2-6008-5040",
+    "email": "E-mail : crosshub@crosshub.kr",
+    "maps": [
+      {
+        "name": "HeadOffice",
+        "address": "5F, 123 Ogong-ro, Deokjin-gu, Jeonju, Jeollabuk-do, South Korea"
+      },
+      {
+        "name": "Daejeon R&D Center",
+        "address": "1161 Gyebaek-ro, Seo-gu, Daejeon, South Korea"
+      },
+      {
+        "name": "Seoul Fintech Lab",
+        "address": "5F, O2 Tower, 83 Uisadang-daero, Yeongdeungpo-gu, Seoul, South Korea"
+      },
+      {
+        "name": "Busan Global Center",
+        "address": "9F, BIFC (Busan International Finance Center), 40 Munhyeongeumyung-ro, Nam-gu, Busan, South Korea"
+      },
+      {
+        "name": "Daegu Unicorn Lab",
+        "address": "5F, 111 Oksan-ro, Buk-gu, Daegu, South Korea"
+      },
+      {
+        "name": "Gwangju AI Hub",
+        "address": "3F, Gwangju AI Startup Camp, 193-22 Geumnam-ro, Dong-gu, Gwangju, South Korea"
+      },
+      {
+        "name": "Jeju Smart Tourism Center",
+        "address": "3F, 25 Seohonam-ro, Seogwipo-si, Jeju, South Korea"
+      },
+      {
+        "name": "Tokyo Branch",
+        "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo, Japan"
+      }
+    ]
+  },
+  "AboutContact": {
+    "title": [
+      "CrossHub is building a better future and seeking",
+      "opportunities for synergistic growth together"
+    ],
+    "description": [
+      "If you send us an inquiry about business partnerships",
+      "our team will review it and get back to you as soon as possible"
+    ],
+    "button": "Partnership Inquiry"
+  }
+}

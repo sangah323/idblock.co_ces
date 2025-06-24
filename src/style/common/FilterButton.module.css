@@ -1,0 +1,45 @@
+.filterButton {
+  padding-bottom: var(--padding-small);
+}
+
+.buttonTitle {
+  transition: var(--transition-basic);
+  border-radius: var(--border-radius-10);
+  padding: var(--padding-button-small);
+}
+
+.buttonTitle:hover {
+  background-color: var(--text-500);
+  cursor: pointer;
+}
+
+.active {
+  color: var(--primary-100);
+  position: relative;
+}
+
+.active::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: -4px;
+  right: -4px;
+  bottom: -2px;
+  border: 1px solid var(--primary-100);
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.active .buttonTitle {
+  background-color: var(--text-500);
+}
+
+@media screen and (max-width: 767px) {
+  .buttonTitle {
+    white-space: nowrap;
+  }
+
+  .active::after {
+    bottom: 0;
+  }
+}

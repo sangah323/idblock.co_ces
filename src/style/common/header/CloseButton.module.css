@@ -1,0 +1,16 @@
+.closeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-small);
+}
+
+.closeButton img {
+  width: 28px;
+  transition: var(--transition-basic);
+}
+
+.closeButton:hover img {
+  transform: rotate(90deg);
+  cursor: pointer;
+}

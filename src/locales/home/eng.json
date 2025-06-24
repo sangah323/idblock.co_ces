@@ -1,0 +1,103 @@
+{
+  "HomeMain": {
+    "title": ["SECURE ACCESS", "WITHOUT BORDERS"],
+    "description": [
+      "Skip the hassle of local phone numbers",
+      "and data privacy risks. With IDBlock’s",
+      "decentralized authentication, your identity is protected"
+    ]
+  },
+  "HomeQuestion": {
+    "question": {
+      "title": ["Did You Know", "Your Data’s Already Out There?"],
+      "description": "Centralized data systems are putting billions of personal records at risk every year",
+      "context": [
+        {
+          "name": "10.8B cases",
+          "speech": "Number of corporate personal information leaks"
+        },
+        {
+          "name": "$282M",
+          "speech": "Annual personal information leak damage amount"
+        },
+        {
+          "name": "$33.1B",
+          "speech": "Annual recovery costs due to personal information breaches"
+        }
+      ]
+    },
+    "answer": {
+      "title": "Everything you need, secured in one place - IDBlock",
+      "card": [
+        {
+          "cardTitle": "Based on Blockchain decentralized authentication system",
+          "cardDescription": "Transferring data ownership from centralized systems to individuals Enhancing security with decentralization and zero-knowledge (ZKP) encryption technology"
+        },
+        {
+          "cardTitle": "Flexibility to support both Web2.0 and Web3.0 environments",
+          "cardDescription": "Applicable to Web 2.0, enabling immediate market verification Overcoming the lack of versatility, which was a limitation of existing DIDs"
+        },
+        {
+          "cardTitle": "Enhanced convenience through combination of multi-factor authentication and biometric authentication",
+          "cardDescription": "Robust security measures aligned with financial sector standards Provide convenient user experience"
+        }
+      ]
+    }
+  },
+  "HomeFeature": {
+    "contentList": [
+      {
+        "title": "Identity Verification",
+        "fstDes": "With just one identity verification",
+        "secDes": "you can issue a mobile ID"
+      },
+      {
+        "title": "Strong Security",
+        "fstDes": "Through Zero-Knowledge Proof technology",
+        "secDes": "you can selectively provide only minimal identity information"
+      },
+      {
+        "title": "App Service Integration",
+        "fstDes": "With ID Block's identity verification",
+        "secDes": "signing up and using app services becomes seamless"
+      },
+      {
+        "title": "Payment Management",
+        "fstDes": "Continue using your existing payment method in Korea",
+        "secDes": "register it on the platform and pay online easily"
+      },
+      {
+        "title": "Honorary Citizenship",
+        "fstDes": "Choose your travel destination and become an honorary citizen",
+        "secDes": "to receive various discount benefits"
+      }
+    ]
+  },
+  "HomeStep": {
+    "title": ["One-time identity verification", "for seamless access to apps worldwide"],
+    "step": [
+      {
+        "name": "STEP 1",
+        "content": ["KYC", "verification"]
+      },
+      {
+        "name": "STEP 2",
+        "content": ["Facial", "recognition"]
+      },
+      {
+        "name": "STEP 3",
+        "content": ["ID", "issuance"]
+      }
+    ]
+  },
+  "HomePatent": {
+    "description": "Associated patents, venture business certification, in-house research lab, and more",
+    "title": [
+      "IDBlock has been recognized for its technological capabilities and growth potential",
+      "and holds key technology certifications"
+    ]
+  },
+  "HomePartner": {
+    "title": ["Crosshub", "collaborates with various organizations in Korea and around the world"]
+  }
+}

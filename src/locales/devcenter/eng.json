@@ -1,0 +1,78 @@
+{
+  "DevCenterMain": {
+    "title": ["Seamless Integration,", "Powerful Features"],
+    "subTitle": ["Integrate what you need,", "Scale globally with ease"],
+    "button": "View API Docs"
+  },
+  "DevCenterInfo": {
+    "title": "Easy Integration",
+    "subTitle": [
+      "Connect identity verification to payments",
+      "in just one day with IDBlock API & SDK"
+    ],
+    "cards": ["Identity Verification", "Social Login", "One-Click Payment", "Verified Citizen"]
+  },
+  "DevCenterService": [
+    {
+      "title": "Modular API & SDK",
+      "subTitle": [
+        "Flexible compatibility across platforms",
+        "Quickly integrate identity verification, facial recognition, KYC, and payment features",
+        "as needed"
+      ],
+      "button": "API Docs"
+    },
+    {
+      "title": "Developer Docs & Code Samples",
+      "subTitle": [
+        "Comprehensive guides from setup to deployment",
+        "Includes installation steps and",
+        "API call examples for a fast start"
+      ],
+      "button": "Developer Guide"
+    },
+    {
+      "title": "Start with Your API Key",
+      "subTitle": [
+        "Selectively integrate desired features",
+        "Easily issue API keys and manage",
+        "payment history from the developer dashboard"
+      ],
+      "button": "My Developer Page"
+    }
+  ],
+  "DevCenterProcess": {
+    "title": "Supporting Your Integration Journey",
+    "subTitle": ["From documentation to test environments,", "we fully support SDK integration"],
+    "process": [
+      {
+        "processNumber": "1",
+        "processTitle": "Get Started",
+        "processSubTitle": ["Sign up for IDBlock", "and obtain your personal API key"]
+      },
+      {
+        "processNumber": "2",
+        "processTitle": "Integrate & Develop",
+        "processSubTitle": [
+          "Install the SDK and refer to",
+          "documentation and code samples to begin integration"
+        ]
+      },
+      {
+        "processNumber": "3",
+        "processTitle": "Launch Service",
+        "processSubTitle": [
+          "After testing, switch to production environment,",
+          "and start offering services to global users!"
+        ]
+      }
+    ]
+  },
+  "DevCenterCta": {
+    "title": [
+      "Take the first step towards global service,",
+      "Test now and connect authentication & payment"
+    ],
+    "button": "Get Started"
+  }
+}

@@ -1,0 +1,208 @@
+.goalSection {
+  height: auto;
+  background: linear-gradient(to bottom, var(--text-100), var(--primary-100));
+  padding: var(--padding-layout) 0;
+}
+
+.goalContainer {
+  flex-direction: column;
+}
+
+.goal,
+.value {
+  width: 100%;
+  height: 100%;
+  min-height: var(--height-full);
+  padding: var(--padding-huge) 0;
+  color: var(--text-000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-large);
+  box-sizing: border-box;
+}
+
+.goalTitle h3,
+.valueTitle h3 {
+  font-size: var(--font-size-24);
+  padding-left: var(--padding-content);
+  position: relative;
+  margin-bottom: var(--margin-small);
+}
+
+.goalTitle h3::after,
+.valueTitle h3::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-100);
+  border-radius: 100%;
+}
+
+.goalTitle h2,
+.valueTitle h2 {
+  font-size: var(--font-size-40);
+}
+
+/* goal */
+.goal {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-layout);
+}
+
+.goalTitle > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-small);
+  flex-wrap: wrap;
+}
+
+.goalContent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--gap-small);
+  align-items: center;
+  justify-content: space-between;
+  grid-auto-rows: 1fr;
+}
+
+.goalCard {
+  padding: var(--padding-medium);
+  background-color: rgba(26, 26, 26, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--border-radius-20);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0 2px #ff9574;
+}
+
+.goalCard h4 {
+  font-size: var(--font-size-24);
+  padding-bottom: var(--padding-medium);
+  margin-bottom: var(--margin-medium);
+  border-bottom: 1px solid #784a3b;
+}
+
+.goalCard p {
+  font-size: var(--font-size-18);
+  color: var(--text-500);
+}
+
+/* value */
+.value {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  gap: var(--gap-layout);
+}
+
+.valueContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gap-small);
+  align-items: center;
+  grid-auto-columns: 1fr;
+}
+
+.valueCard {
+  padding: var(--padding-medium);
+  background-color: rgba(255, 151, 117, 0.2);
+  border-radius: var(--border-radius-20);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 22px rgba(140, 51, 23, 0.3);
+  transition: var(--transition-basic);
+}
+
+.valueCard h4 {
+  font-size: var(--font-size-24);
+  padding-bottom: var(--padding-medium);
+  transition: var(--transition-basic);
+}
+
+.valueCard p {
+  font-size: var(--font-size-18);
+
+  transition: var(--transition-basic);
+}
+
+.valueCard img {
+  width: 120px;
+}
+
+.valueCard:hover {
+  box-shadow: var(--box-shadow-basic);
+}
+
+@media screen and (max-width: 480px) {
+  /* common */
+  .goalTitle h3,
+  .valueTitle h3 {
+    font-size: var(--font-size-18);
+    padding-left: var(--padding-medium);
+  }
+
+  .goalTitle h3::after,
+  .valueTitle h3::after {
+    width: 7px;
+    height: 7px;
+  }
+
+  .goalTitle h2,
+  .valueTitle h2 {
+    font-size: var(--font-size-32);
+  }
+
+  /* goal */
+  .goalCard {
+    align-items: center;
+    text-align: center;
+  }
+
+  .goalCard h4 {
+    width: 100%;
+    font-size: var(--font-size-18);
+    padding-bottom: var(--padding-small);
+    margin-bottom: var(--margin-small);
+  }
+
+  .goalCard p {
+    font-size: var(--font-size-16);
+  }
+
+  .goalContent {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  /* value */
+  .value {
+    min-height: 0;
+  }
+
+  .valueCard h4 {
+    font-size: var(--font-size-18);
+    padding-bottom: var(--padding-small);
+    transition: var(--transition-basic);
+  }
+
+  .valueCard p {
+    font-size: var(--font-size-16);
+  }
+
+  .valueCard img {
+    width: var(--height-header);
+  }
+}

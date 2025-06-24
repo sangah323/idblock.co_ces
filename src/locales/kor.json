@@ -1,0 +1,76 @@
+{
+  "Header": {
+    "home": {
+      "label": "서비스 소개"
+    },
+    "about": {
+      "label": "회사 소개",
+      "children": {
+        "aboutMain": "개요",
+        "history": "연혁",
+        "news": "보도자료",
+        "map": "오시는 길",
+        "contact": "문의"
+      }
+    },
+    "devcenter": {
+      "label": "개발자 센터"
+    },
+    "careers": {
+      "label": "채용"
+    },
+    "blog": {
+      "label": "블로그"
+    },
+    "download": "다운로드"
+  },
+  "Footer": {
+    "top": {
+      "context": ["서비스 이용약관", "개인정보 처리 방침"]
+    },
+    "bottom": {
+      "company": "(주)크로스허브",
+      "location": [
+        {
+          "name": "서울 핀테크 Lab",
+          "address": "서울특별시 영등포구 의사당대로 83(오투타워), 5F"
+        },
+        {
+          "name": "부산 글로벌 센터",
+          "address": "부산광역시 남구 문현금융로 40, BIFC 부산국제금융센터, 9F"
+        },
+        {
+          "name": "대구 유니콘 Lab",
+          "address": "대구광역시 북구 옥산로 111, 5F"
+        },
+        {
+          "name": "광주 AI 허브",
+          "address": "광주광역시 동구 금남로 193-22, 광주AI창업캠프, 3F"
+        },
+        {
+          "name": "대전 R&D 센터",
+          "address": "대전광역시 서구 계백로 1161, 404-D38호(유니온빌딩)"
+        },
+        {
+          "name": "전북 R&D 센터",
+          "address": "전북특별자치도 전주시 덕진구 오공로 123, 전북창조경제혁신센터, 5F"
+        },
+        {
+          "name": "제주 스마트 관광 센터",
+          "address": "제주특별자치도 서귀포시 서호남로 25, 3F"
+        },
+        {
+          "name": "일본 도쿄 지사",
+          "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo"
+        }
+      ]
+    }
+  },
+  "notfound": {
+    "context": [
+      "요청하신 페이지를 찾을 수 없습니다.",
+      "입력하신 주소가 정확한지 다시 한번 확인해주세요."
+    ],
+    "button": "홈페이지"
+  }
+}

@@ -1,0 +1,188 @@
+.historySection {
+  padding: var(--padding-section) 0;
+}
+
+.title {
+  font-size: var(--font-size-40);
+  text-align: center;
+  margin-bottom: var(--margin-huge);
+}
+
+.historyContainer {
+  flex-direction: column;
+  gap: var(--gap-huge);
+}
+
+/* historyCard */
+.historyCard {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-huge);
+  position: relative;
+}
+
+/* images */
+.images {
+  width: 50%;
+  height: var(--height-half);
+  display: flex;
+  position: sticky;
+  top: 25%;
+  left: 0;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.image h2 {
+  color: var(--primary-100);
+  font-size: var(--font-size-28);
+  margin-bottom: var(--margin-medium);
+}
+
+.imageList {
+  width: 440px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: var(--border-radius-10);
+  border: 1px solid var(--text-600);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.05),
+    0 12px 24px rgba(0, 0, 0, 0.03);
+}
+
+.imageList img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fadeImage {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.fadeImageLoaded {
+  opacity: 1;
+}
+
+/* contents */
+.contents {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-layout);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+.quarter {
+  width: 100%;
+}
+
+.quarter h3 {
+  width: 100%;
+  font-size: var(--font-size-24);
+  color: var(--primary-100);
+  padding-bottom: var(--padding-medium);
+  margin-bottom: var(--margin-medium);
+  border-bottom: 1px solid var(--text-600);
+}
+
+/* quarter - timeline */
+.timeline {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.timeline li {
+  padding-left: var(--padding-medium);
+  position: relative;
+  line-height: 150%;
+}
+
+.timeline li::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 7px;
+  height: 7px;
+  background-color: var(--text-600);
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+  .historyContainer {
+    gap: var(--gap-content);
+  }
+
+  .historyCard {
+    flex-direction: column;
+  }
+
+  .images {
+    width: 100%;
+    height: 36vh;
+    top: var(--height-header);
+    background-color: var(--text-000);
+    z-index: 999;
+  }
+
+  .image,
+  .contents {
+    width: 100%;
+  }
+
+  .imageList {
+    width: 450px;
+    max-height: 220px;
+  }
+
+  .content {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: var(--font-size-32);
+  }
+
+  .imageList {
+    width: 100%;
+  }
+
+  .imageList img {
+    width: 100%;
+  }
+}

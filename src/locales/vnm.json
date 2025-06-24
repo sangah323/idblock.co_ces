@@ -1,0 +1,77 @@
+{
+  "Header": {
+    "home": {
+      "label": "Giới thiệu dịch vụ"
+    },
+    "about": {
+      "label": "Về chúng tôi",
+      "children": {
+        "aboutMain": "Tổng quan",
+        "history": "Lịch sử phát triển",
+        "news": "Thông cáo báo chí",
+        "map": "Bản đồ",
+        "contact": "Liên hệ"
+      }
+    },
+    "devcenter": {
+      "label": "Dành cho lập trình viên"
+    },
+    "careers": {
+      "label": "Tuyển dụng"
+    },
+    "blog": {
+      "label": "Blog"
+    },
+    "download": "Tải về"
+  },
+  "Footer": {
+    "top": {
+      "context": ["Điều khoản sử dụng dịch vụ", "Chính sách xử lý thông tin cá nhân"],
+      "file": [
+        "/assets/footer/ID_Block_Service_Terms_of_Use.pdf",
+        "/assets/footer/ID_Block_Privacy_Policy.pdf"
+      ]
+    },
+    "bottom": {
+      "company": "Công ty TNHH Crosshub",
+      "location": [
+        {
+          "name": "Seoul Fintech Lab",
+          "address": "Tầng 5, Tòa nhà O₂, 83 Đường Uisadang-daero, Yeongdeungpo-gu, Seoul"
+        },
+        {
+          "name": "Trung tâm Toàn cầu Busan",
+          "address": "Tầng 9, Trung tâm Tài chính Quốc tế Busan (BIFC), 40 Munhyeon-geumyung-ro, Nam-gu, Busan"
+        },
+        {
+          "name": "Unicorn Lab Daegu",
+          "address": "Tầng 5, 111 Đường Oksan-ro, Buk-gu, Daegu"
+        },
+        {
+          "name": "Trung tâm AI Gwangju",
+          "address": "Tầng 3, Trại Khởi nghiệp AI Gwangju, 193-22 Geumnam-ro, Dong-gu, Gwangju"
+        },
+        {
+          "name": "Trung tâm R&D Daejeon",
+          "address": "Phòng 404-D38, Tòa nhà Union, 1161 Đường Gyebaek-ro, Seo-gu, Daejeon"
+        },
+        {
+          "name": "Trung tâm R&D Jeonbuk",
+          "address": "Tầng 5, Trung tâm Đổi mới Kinh tế Sáng tạo Jeonbuk, 123 Ogong-ro, Deokjin-gu, Jeonju, Tỉnh tự trị đặc biệt Jeonbuk"
+        },
+        {
+          "name": "Trung tâm Du lịch Thông minh Jeju",
+          "address": "Tầng 3, 25 Sehonam-ro, Seogwipo-si, Tỉnh tự trị đặc biệt Jeju"
+        },
+        {
+          "name": "Chi nhánh Tokyo Nhật Bản",
+          "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo"
+        }
+      ]
+    }
+  },
+  "notfound": {
+    "context": ["Không tìm thấy trang bạn yêu cầu.", "Vui lòng kiểm tra lại địa chỉ bạn đã nhập."],
+    "button": "Trang chủ"
+  }
+}

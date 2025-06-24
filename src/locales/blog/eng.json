@@ -1,0 +1,23 @@
+{
+  "BlogMain": {
+    "title": "Step by step, going global",
+    "subTitle": "Building technology that connect the world, this is our journey"
+  },
+  "BlogContent": {
+    "noPostMessage": "No posts match the selected filter."
+  },
+  "BlogPost": {
+    "BlogCta": {
+      "title": "Curious about IDBlock?",
+      "button": "Get Started Now"
+    }
+  },
+  "FilterButton": {
+    "all": "All",
+    "development": "Development",
+    "design": "Design",
+    "insight": "Insight",
+    "news": "News",
+    "event": "Event"
+  }
+}

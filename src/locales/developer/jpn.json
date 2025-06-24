@@ -1,0 +1,177 @@
+{
+  "devSidebar": {
+    "context": [
+      {
+        "title": "Identity Verification",
+        "type": "auth",
+        "tabs": [
+          "Identity Verification Request",
+          "Identity Verification History",
+          "Identity Verification Status",
+          "Identity Verification Result"
+        ],
+        "tabsType": ["request", "history", "status", "result"]
+      },
+      {
+        "title": "Payment",
+        "type": "payment",
+        "tabs": ["Payment Request", "Payment Inquiry", "Payment Cancel"],
+        "tabsType": ["payRequest", "inquiry", "cancel"]
+      },
+      {
+        "title": "Developer Guide",
+        "type": "guide",
+        "tabs": ["Get Started", "Error Code"],
+        "tabsType": ["started", "errorCode"]
+      }
+    ]
+  },
+  "devSidebarDashboard": {
+    "context": [
+      {
+        "title": "API Key",
+        "type": "api"
+      },
+      {
+        "title": "Payment History",
+        "type": "payment"
+      }
+    ],
+    "example": {
+      "title": "Example Code"
+    }
+  },
+  "devAuth": {
+    "title": "Identity Verification",
+    "description": "All APIs related to identity verification, including verification requests, inquiries, and modifications.",
+    "request": {
+      "title": "Identity Verification Request",
+      "method": "POST",
+      "endpoint": "/api/v1/identity/verify",
+      "description": "You can request identity verification and receive a response.",
+      "paramsType": ["Required Parameters", "require"],
+      "params": {
+        "name": "string",
+        "birthDate": "string",
+        "passportNumber": "string"
+      }
+    },
+    "history": {
+      "title": "Identity Verification History Inquiry",
+      "method": "POST",
+      "endpoint": "/api/v1/identity/history",
+      "description": "You can check the identity verification history.",
+      "paramsType": ["Optional Parameters", "optional"],
+      "params": {
+        "startDate": "string",
+        "endDate": "string",
+        "status": "string"
+      }
+    },
+    "status": {
+      "title": "Identity Verification Status Inquiry",
+      "method": "POST",
+      "endpoint": "/api/v1/identity/status/verificationId",
+      "description": "You can check the progress status of identity verification.",
+      "paramsType": ["Required Parameters", "require"],
+      "params": {
+        "verificationId": "string"
+      }
+    },
+    "result": {
+      "title": "Identity Verification Detailed Result Inquiry",
+      "method": "POST",
+      "endpoint": "/api/v1/identity/result/verificationId",
+      "description": "You can check the detailed results of identity verification.",
+      "paramsType": ["Required Parameters", "require"],
+      "params": {
+        "verificationId": "string"
+      }
+    }
+  },
+  "devPayment": {
+    "title": "Payment",
+    "description": "All APIs related to payment, including payment requests, inquiries, and modifications.",
+    "request": {
+      "title": "Payment Request",
+      "method": "POST",
+      "endpoint": "/api/v1/payment/request",
+      "description": "You can request payment and receive a response.",
+      "paramsType": ["Required Parameters", "require"],
+      "params": {
+        "amount": "number",
+        "currency": "string",
+        "orderId": "string"
+      }
+    },
+    "inquiry": {
+      "title": "Payment Inquiry",
+      "method": "GET",
+      "endpoint": "/api/v1/payment/inquiry/paymentId",
+      "description": "You can check details using the payment ID.",
+      "paramsType": ["Required Parameters", "require"],
+      "params": {
+        "paymentId": "string"
+      }
+    },
+    "cancel": {
+      "title": "Payment Cancel",
+      "method": "POST",
+      "endpoint": "/api/v1/payment/cancel/paymentId",
+      "description": "You can send a payment cancellation request.",
+      "paramsType": ["Required Parameters", "require"],
+      "params": {
+        "paymentId": "string",
+        "cancelReason": "string"
+      }
+    }
+  },
+  "devGuide": {
+    "title": "Developer Guide",
+    "started": {
+      "title": "Getting Started",
+      "description": "Learn how to start development using the IDBlock API.",
+      "content": {
+        "title": "Basic Requirements",
+        "params": {
+          "API Version": "v1",
+          "Base URL": "https://admin.idblock.id",
+          "Authentication Method": "Bearer Token"
+        }
+      }
+    },
+    "errorCodes": {
+      "title": "HTTP Error Codes",
+      "content": {
+        "title": "Error Codes",
+        "params": [
+          {
+            "code": "400",
+            "name": "Bad Request",
+            "description": "The request is invalid."
+          },
+          {
+            "code": "401",
+            "name": "Unauthorized",
+            "description": "Authentication is required."
+          },
+          {
+            "code": "403",
+            "name": "Forbidden",
+            "description": "Access is forbidden."
+          },
+          {
+            "code": "404",
+            "name": "Not Found",
+            "description": "The requested resource could not be found."
+          },
+          {
+            "code": "500",
+            "name": "Internal Server Error",
+            "description": "An internal server error has occurred."
+          }
+        ]
+      }
+    }
+  }
+}

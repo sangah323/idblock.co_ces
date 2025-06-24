@@ -1,0 +1,9 @@
+.mobileContainer {
+  display: flex;
+}
+
+@media screen and (min-width: 950px) {
+  .mobileContainer {
+    display: none;
+  }
+}

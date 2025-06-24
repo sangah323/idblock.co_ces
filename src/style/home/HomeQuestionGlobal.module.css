@@ -1,0 +1,58 @@
+.question,
+.questionContent {
+  width: 100%;
+}
+
+.questionContent ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-auto-rows: 1fr;
+  align-items: stretch;
+  gap: var(--gap-content);
+}
+
+.questionItem {
+  height: 100%;
+}
+
+.problem {
+  left: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: var(--gap-medium);
+  padding: var(--padding-layout) var(--padding-medium);
+}
+
+.activeNumber {
+  font-size: var(--font-size-32);
+  font-weight: 700;
+  color: var(--primary-100);
+}
+
+.activeNumber span {
+  font-size: var(--font-size-24);
+}
+
+.answerContent ul {
+  grid-template-columns: 1fr;
+}
+
+.answerContent ul li {
+  flex-direction: row;
+  gap: var(--gap-content);
+}
+
+.answerContent .answerIcon {
+  margin: 0;
+  width: auto;
+}
+
+@media screen and (max-width: 470px) {
+  .answerContent ul li {
+    flex-direction: column;
+  }
+}

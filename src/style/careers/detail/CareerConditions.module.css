@@ -1,0 +1,123 @@
+.aside {
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-content);
+  box-sizing: border-box;
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+  padding: var(--padding-content);
+  border: 1px solid var(--text-500);
+  border-radius: var(--border-radius-10);
+  padding-bottom: 70px;
+}
+
+.contentItem {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-medium);
+  font-size: var(--font-size-14);
+  padding-bottom: var(--padding-small);
+  border-bottom: 1px solid var(--text-500);
+  position: relative;
+}
+
+.contentItem:last-child {
+  border-bottom: none;
+}
+
+.title {
+  min-width: 50px;
+  font-weight: 500;
+  color: var(--text-400);
+}
+
+.content {
+  width: 100%;
+  text-align: right;
+}
+
+.location {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+.location .content:nth-child(2) {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.applyButton {
+  width: 100%;
+  padding: var(--padding-button);
+  color: var(--text-000);
+  background-color: var(--primary-100);
+  border-radius: var(--border-radius-10);
+  transition: var(--transition-basic);
+  position: relative;
+}
+
+.applyButton:hover {
+  background-color: var(--secondary-100);
+}
+
+.applyButton::after {
+  color: var(--text-400);
+  content: '📩 crosshub@crosshub.kr';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0;
+  transition: var(--transition-basic);
+}
+
+.applyButton:hover::after {
+  top: 70px;
+  opacity: 1;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1020px) {
+  .aside,
+  .contents,
+  .location {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 951px) {
+  .aside {
+    min-width: 200px;
+  }
+
+  .contents {
+    padding: var(--padding-small);
+    padding-bottom: 50px;
+  }
+
+  .contentItem {
+    font-size: var(--font-size-12);
+    gap: 0.5rem;
+  }
+  .applyButton {
+    font-size: var(--font-size-14);
+    padding: var(--padding-button-small);
+  }
+}

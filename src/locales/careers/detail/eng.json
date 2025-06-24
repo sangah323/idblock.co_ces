@@ -1,0 +1,191 @@
+{
+  "CareerInfoPanel": {
+    "CareerHeader": {
+      "title": "About Our Company",
+      "contents": [
+        {
+          "contentTitle": "Introducing Our Company",
+          "description": [
+            "Crosshub is a fintech × deep tech startup that solves digital identity verification issues for foreigners using blockchain-based DID (Decentralized Identity) technology.",
+            "Beyond simple authentication, we help global users enter the digital financial ecosystem safely and quickly, aiming to lead the digital transformation (DX) of the fintech industry."
+          ]
+        },
+        {
+          "contentTitle": "Our Goals Are Clear",
+          "descriptionLinked": [
+            "We change the market with our technology,",
+            "We’re making global expansion into Vietnam, Japan, Singapore, and the U.S. a reality,",
+            "And we’re looking for teammates to grow and take on challenges with us."
+          ]
+        },
+        {
+          "contentTitle": "We’re Looking for People Like This",
+          "description": [
+            "We’re not just looking for someone who’s good at work — we want true teammates who grow, challenge themselves, and think with us."
+          ],
+          "descriptionBulletList": [
+            "People curious about new technologies and problem-solving",
+            "Those who enjoy learning and growing fast",
+            "People interested in all aspects of the product from planning to design to development",
+            "Those unafraid to take on unfamiliar tech stacks",
+            "People who radiate positivity and energize those around them",
+            "Those interested or skilled in multicultural environments and second languages"
+          ]
+        }
+      ]
+    },
+    "CareerSummary": {
+      "title": "Job Overview",
+      "contents": [
+        {
+          "contentTitle": "Main Responsibilities",
+          "descriptionBulletList_1": ["Frontend development for in-house solutions"],
+          "descriptionBulletList_2": ["Backend development for in-house solutions"],
+          "descriptionBulletList_3": [
+            "Support and participate in global expansion (including business trips)",
+            "Handle English/Japanese communication and interpretation tasks",
+            "Review new business opportunities (strategic projects and execution plans)"
+          ]
+        },
+        {
+          "contentTitle": "Qualifications",
+          "descriptionBulletList_1": [
+            "At least 1 year of relevant experience",
+            "Development languages: React Native, React.js, Vite, TailwindCSS, TypeScript, etc."
+          ],
+          "descriptionBulletList_2": [
+            "At least 1 year of relevant experience",
+            "Development languages: Java, Node.js, Nest.js, TypeScript, etc."
+          ],
+          "descriptionBulletList_3": [
+            "Fluent in English/Japanese communication (supporting overseas projects, negotiation, and interpretation)"
+          ]
+        },
+        {
+          "contentTitle": "Preferred Qualifications",
+          "descriptionBulletList_1": [
+            "Experience in all phases of multiple projects (from initiation to completion)",
+            "Understanding of RESTful APIs",
+            "Experience in blockchain-related projects",
+            "Experience integrating international payment modules"
+          ],
+          "descriptionBulletList_2": [
+            "Experience in all phases of multiple projects (from initiation to completion)",
+            "Understanding of RESTful APIs",
+            "Experience in blockchain-related projects",
+            "Experience integrating international payment modules"
+          ],
+          "descriptionBulletList_3": [
+            "More than 3 years of relevant experience",
+            "Business-level English is a plus",
+            "Deep understanding of IT sectors such as blockchain, fintech, or STO"
+          ]
+        }
+      ]
+    },
+    "CareerDescription": {
+      "title": "Application Guide",
+      "contents": [
+        {
+          "contentTitle": "Required Documents for Application",
+          "descriptionLinked": [
+            "Applicants are encouraged to submit the following documents in any format.",
+            "We value your story and potential more than formal documents."
+          ],
+          "descriptionNumberList": [
+            "Resume",
+            "Cover Letter",
+            "Project Experience or Portfolio (optional)",
+            "Any additional materials or stories you'd like to share (optional)"
+          ]
+        },
+        {
+          "contentTitle": "Recruitment Process",
+          "descriptionLinked": [
+            "Our recruitment process is swift and flexible,",
+            "designed to engage in genuine conversations with each applicant."
+          ],
+          "descriptionNumberList": [
+            "Document Submission",
+            "First Interview – Role & Cultural Fit",
+            "Second Interview (if necessary)",
+            "Final Onboarding"
+          ]
+        },
+        {
+          "contentTitle": "Important Notes",
+          "descriptionBulletList": [
+            "All documents should be submitted in PDF format.",
+            "Ensure that any portfolio or project links are accessible.",
+            "Results of the document review will be communicated individually.",
+            "Providing false information may result in disqualification.",
+            "Please ensure all information is accurate and truthful.",
+            "Submitted documents will not be returned and will be disposed of in accordance with relevant laws after the recruitment process.",
+            "The recruitment schedule may change depending on circumstances; any changes will be communicated individually.",
+            "Multiple applications are allowed, but please avoid applying multiple times for the same position."
+          ]
+        }
+      ]
+    }
+  },
+  "CareerConditions": {
+    "button": "Apply",
+    "1": {
+      "department": {
+        "title": "Department",
+        "content": "Front-end Engineer"
+      },
+      "career": {
+        "title": "Experience",
+        "content": "At least 5 years"
+      },
+      "jobType": {
+        "title": "Employment Type",
+        "content": "Full-time"
+      },
+      "jobLocation": {
+        "title": "Work Location",
+        "content": "Seoul",
+        "contentDetail": "5F, O2 Tower, 83, Uisadang-daero, Yeongdeungpo-gu, Seoul"
+      }
+    },
+    "2": {
+      "department": {
+        "title": "Department",
+        "content": "Back-end Engineer"
+      },
+      "career": {
+        "title": "Experience",
+        "content": "At least 5 years"
+      },
+      "jobType": {
+        "title": "Employment Type",
+        "content": "Full-time"
+      },
+      "jobLocation": {
+        "title": "Work Location",
+        "content": "Seoul",
+        "contentDetail": "5F, O2 Tower, 83, Uisadang-daero, Yeongdeungpo-gu, Seoul"
+      }
+    },
+    "3": {
+      "department": {
+        "title": "Department",
+        "content": "Global Strategy Manager"
+      },
+      "career": {
+        "title": "Experience",
+        "content": "At least 5 years"
+      },
+      "jobType": {
+        "title": "Employment Type",
+        "content": "Full-time"
+      },
+      "jobLocation": {
+        "title": "Work Location",
+        "content": "Seoul",
+        "contentDetail": "5F, O2 Tower, 83, Uisadang-daero, Yeongdeungpo-gu, Seoul"
+      }
+    }
+  }
+}

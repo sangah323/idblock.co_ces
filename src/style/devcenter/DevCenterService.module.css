@@ -1,0 +1,139 @@
+.serviceSection {
+  min-height: calc(100vh - var(--height-header));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.serviceContainer {
+  padding: var(--padding-huge) 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-section);
+}
+
+.serviceContents {
+  min-height: var(--height-half);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-huge);
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+.title {
+  font-size: var(--font-size-40);
+}
+
+.subTitle {
+  font-size: var(--font-size-18);
+  color: var(--text-300);
+}
+
+.button {
+  color: var(--text-000);
+  background-color: var(--primary-100);
+  padding: var(--padding-button);
+  border-radius: var(--border-radius-10);
+  transition: var(--transition-basic);
+}
+
+.button:hover {
+  background-color: var(--secondary-100);
+}
+
+.image {
+  width: 340px;
+  height: 340px;
+  background-color: #fff0e6;
+  border-radius: var(--border-radius-10);
+  box-shadow: 0px 0px 0px 2px rgba(255, 136, 99, 0.2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  width: 180px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.reverse .title {
+  text-align: right;
+}
+
+.reverse .content {
+  align-items: flex-end;
+}
+
+.reverse .subTitle {
+  text-align: right;
+}
+
+.reverse .image img {
+  width: 236px;
+}
+
+@media screen and (max-width: 1020px) {
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .image img {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .serviceContents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .reverse .content {
+    align-items: center;
+  }
+
+  .title,
+  .subTitle,
+  .reverse .title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: var(--font-size-32);
+    text-align: center;
+  }
+
+  .subTitle {
+    font-size: var(--font-size-16);
+  }
+
+  .subTitle p {
+    text-align: center;
+  }
+
+  .button {
+    font-size: var(--font-size-12);
+  }
+}

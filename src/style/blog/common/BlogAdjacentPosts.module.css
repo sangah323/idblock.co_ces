@@ -1,0 +1,7 @@
+.postsWrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-content);
+}

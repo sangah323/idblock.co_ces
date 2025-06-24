@@ -1,0 +1,191 @@
+{
+  "CareerInfoPanel": {
+    "CareerHeader": {
+      "title": "Giới Thiệu Công Ty",
+      "contents": [
+        {
+          "contentTitle": "Giới Thiệu Về Chúng Tôi",
+          "description": [
+            "Crosshub là một startup fintech × deep tech sử dụng công nghệ DID (Định danh Phi tập trung) dựa trên blockchain để giải quyết vấn đề xác thực danh tính số cho người nước ngoài.",
+            "Chúng tôi không chỉ dừng lại ở việc xác thực, mà còn hỗ trợ người dùng toàn cầu tham gia vào hệ sinh thái tài chính số một cách an toàn và nhanh chóng, với mục tiêu dẫn đầu quá trình chuyển đổi số (DX) của ngành fintech."
+          ]
+        },
+        {
+          "contentTitle": "Mục Tiêu Của Chúng Tôi Rất Rõ Ràng",
+          "descriptionLinked": [
+            "Thay đổi thị trường bằng năng lực công nghệ,",
+            "Thực hiện mở rộng toàn cầu tại Việt Nam, Nhật Bản, Singapore và Mỹ,",
+            "Và đang tìm kiếm những đồng đội sẵn sàng cùng phát triển và chinh phục thử thách."
+          ]
+        },
+        {
+          "contentTitle": "Chúng Tôi Đang Tìm Kiếm Những Người Như Thế Này",
+          "description": [
+            "Chúng tôi không chỉ tìm kiếm những người 'làm việc giỏi', mà là những người đồng hành thật sự, cùng suy nghĩ, phát triển và thử thách bản thân."
+          ],
+          "descriptionBulletList": [
+            "Người có niềm đam mê với công nghệ mới và giải quyết vấn đề",
+            "Người thích học hỏi nhanh và cảm thấy hứng thú khi phát triển bản thân",
+            "Người quan tâm đến toàn bộ quy trình sản phẩm từ lên ý tưởng, thiết kế đến phát triển",
+            "Người sẵn sàng thử thách với các công nghệ chưa quen thuộc",
+            "Người có năng lượng tích cực, truyền cảm hứng cho những người xung quanh",
+            "Người có hứng thú hoặc thành thạo trong môi trường đa văn hóa và ngôn ngữ thứ hai"
+          ]
+        }
+      ]
+    },
+    "CareerSummary": {
+      "title": "Giới Thiệu Vị Trí",
+      "contents": [
+        {
+          "contentTitle": "Công Việc Chính",
+          "descriptionBulletList_1": ["Phát triển frontend cho các giải pháp nội bộ"],
+          "descriptionBulletList_2": ["Phát triển backend cho các giải pháp nội bộ"],
+          "descriptionBulletList_3": [
+            "Tham gia và hỗ trợ mở rộng thị trường quốc tế (bao gồm công tác nước ngoài)",
+            "Thực hiện các công việc liên quan đến tiếng Anh/tiếng Nhật và phiên dịch",
+            "Xem xét các dự án kinh doanh mới (bao gồm chiến lược và kế hoạch thực hiện)"
+          ]
+        },
+        {
+          "contentTitle": "Yêu Cầu",
+          "descriptionBulletList_1": [
+            "Ít nhất 1 năm kinh nghiệm liên quan",
+            "Ngôn ngữ lập trình: React Native, React.js, Vite, TailwindCSS, TypeScript, v.v."
+          ],
+          "descriptionBulletList_2": [
+            "Ít nhất 1 năm kinh nghiệm liên quan",
+            "Ngôn ngữ lập trình: Java, Node.js, Nest.js, TypeScript, v.v."
+          ],
+          "descriptionBulletList_3": [
+            "Thành thạo giao tiếp bằng tiếng Anh/tiếng Nhật (hỗ trợ dự án quốc tế, đàm phán, phiên dịch)"
+          ]
+        },
+        {
+          "contentTitle": "Ưu Tiên",
+          "descriptionBulletList_1": [
+            "Có kinh nghiệm thực hiện đầy đủ các giai đoạn của nhiều dự án (từ khởi đầu đến hoàn thành)",
+            "Hiểu biết về RESTful API",
+            "Đã từng tham gia dự án liên quan đến blockchain",
+            "Có kinh nghiệm tích hợp các module thanh toán quốc tế"
+          ],
+          "descriptionBulletList_2": [
+            "Có kinh nghiệm thực hiện đầy đủ các giai đoạn của nhiều dự án (từ khởi đầu đến hoàn thành)",
+            "Hiểu biết về RESTful API",
+            "Đã từng tham gia dự án liên quan đến blockchain",
+            "Có kinh nghiệm tích hợp các module thanh toán quốc tế"
+          ],
+          "descriptionBulletList_3": [
+            "Trên 3 năm kinh nghiệm liên quan",
+            "Ưu tiên ứng viên có khả năng sử dụng tiếng Anh trong kinh doanh",
+            "Hiểu biết sâu về các lĩnh vực như blockchain, fintech, STO"
+          ]
+        }
+      ]
+    },
+    "CareerDescription": {
+      "title": "Hướng Dẫn Ứng Tuyển",
+      "contents": [
+        {
+          "contentTitle": "Hồ Sơ Ứng Tuyển",
+          "descriptionLinked": [
+            "Ứng viên vui lòng nộp các tài liệu sau theo định dạng tự do.",
+            "Chúng tôi đánh giá cao câu chuyện và tiềm năng của bạn hơn là hình thức tài liệu."
+          ],
+          "descriptionNumberList": [
+            "Sơ yếu lý lịch (CV)",
+            "Thư giới thiệu bản thân",
+            "Kinh nghiệm dự án hoặc portfolio (không bắt buộc)",
+            "Các tài liệu hoặc câu chuyện khác bạn muốn chia sẻ (không bắt buộc)"
+          ]
+        },
+        {
+          "contentTitle": "Quy Trình Tuyển Dụng",
+          "descriptionLinked": [
+            "Quy trình tuyển dụng của chúng tôi nhanh chóng và linh hoạt,",
+            "nhằm mục đích trò chuyện chân thành với từng ứng viên."
+          ],
+          "descriptionNumberList": [
+            "Tiếp nhận hồ sơ",
+            "Phỏng vấn vòng 1 – Phù hợp công việc & văn hóa",
+            "Phỏng vấn vòng 2 (nếu cần)",
+            "Hướng dẫn gia nhập cuối cùng"
+          ]
+        },
+        {
+          "contentTitle": "Lưu Ý",
+          "descriptionBulletList": [
+            "Tất cả tài liệu nên được nộp dưới dạng PDF.",
+            "Đảm bảo các liên kết đến portfolio hoặc dự án có thể truy cập được.",
+            "Kết quả xét duyệt hồ sơ sẽ được thông báo riêng lẻ.",
+            "Việc cung cấp thông tin sai lệch có thể dẫn đến việc hủy bỏ kết quả tuyển dụng.",
+            "Vui lòng đảm bảo tất cả thông tin là chính xác và trung thực.",
+            "Hồ sơ và portfolio đã nộp sẽ không được trả lại và sẽ bị hủy theo quy định pháp luật sau khi kết thúc quy trình tuyển dụng.",
+            "Lịch trình tuyển dụng có thể thay đổi tùy theo tình hình; mọi thay đổi sẽ được thông báo riêng lẻ.",
+            "Có thể nộp đơn cho nhiều vị trí, nhưng vui lòng tránh nộp nhiều lần cho cùng một vị trí."
+          ]
+        }
+      ]
+    }
+  },
+  "CareerConditions": {
+    "button": "Ứng tuyển",
+    "1": {
+      "department": {
+        "title": "Bộ phận",
+        "content": "Kỹ sư Front-end"
+      },
+      "career": {
+        "title": "Kinh nghiệm",
+        "content": "Từ 5 năm trở lên"
+      },
+      "jobType": {
+        "title": "Loại hình công việc",
+        "content": "Toàn thời gian"
+      },
+      "jobLocation": {
+        "title": "Địa điểm làm việc",
+        "content": "Seoul",
+        "contentDetail": "Tầng 5, Tòa nhà O2, 83 Uisadang-daero, Quận Yeongdeungpo, Seoul"
+      }
+    },
+    "2": {
+      "department": {
+        "title": "Bộ phận",
+        "content": "Kỹ sư Back-end"
+      },
+      "career": {
+        "title": "Kinh nghiệm",
+        "content": "Từ 5 năm trở lên"
+      },
+      "jobType": {
+        "title": "Loại hình công việc",
+        "content": "Toàn thời gian"
+      },
+      "jobLocation": {
+        "title": "Địa điểm làm việc",
+        "content": "Seoul",
+        "contentDetail": "Tầng 5, Tòa nhà O2, 83 Uisadang-daero, Quận Yeongdeungpo, Seoul"
+      }
+    },
+    "3": {
+      "department": {
+        "title": "Bộ phận",
+        "content": "Quản lý Chiến lược Toàn cầu"
+      },
+      "career": {
+        "title": "Kinh nghiệm",
+        "content": "Từ 5 năm trở lên"
+      },
+      "jobType": {
+        "title": "Loại hình công việc",
+        "content": "Toàn thời gian"
+      },
+      "jobLocation": {
+        "title": "Địa điểm làm việc",
+        "content": "Seoul",
+        "contentDetail": "Tầng 5, Tòa nhà O2, 83 Uisadang-daero, Quận Yeongdeungpo, Seoul"
+      }
+    }
+  }
+}

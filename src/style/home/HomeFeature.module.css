@@ -1,0 +1,152 @@
+.featureSection {
+  padding: var(--padding-section) 0;
+  background: linear-gradient(to bottom, var(--text-000), var(--text-500));
+}
+
+.featureContainer {
+  align-items: flex-start;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-content);
+  gap: var(--gap-layout);
+}
+
+.featureContentWrapper,
+.featureImageWrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.featureContentWrapper {
+  width: 372px;
+  height: var(--height-full);
+  padding: 0 var(--padding-small);
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+/* featureContent */
+.featureContent {
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  transition: var(--transition-basic);
+}
+
+.featureContent h2 {
+  font-size: var(--font-size-40);
+  margin-top: 0.5rem;
+  margin-bottom: var(--margin-small);
+}
+
+.featureContent p {
+  font-size: var(--font-size-18);
+  color: var(--text-400);
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+}
+
+.progress {
+  margin-bottom: var(--margin-large);
+  padding-left: 6px;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.progress li {
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-400);
+  border-radius: 100%;
+}
+
+.progress .activeProgress {
+  width: 18px;
+  height: 12px;
+  border-radius: var(--border-radius-10);
+  background-color: var(--primary-100);
+}
+
+.featureImage {
+  height: var(--height-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureImage img {
+  width: 530px;
+}
+
+@media screen and (max-width: 1170px) {
+  .featureSection {
+    background: var(--text-500);
+  }
+
+  .featureContentWrapper,
+  .featureImageWrapper {
+    width: 100%;
+  }
+
+  .featureContentWrapper {
+    justify-content: flex-start;
+    padding: var(--padding-content) 0;
+    top: var(--height-header);
+    height: auto;
+    background: var(--text-500);
+  }
+
+  .featureContent {
+    text-align: left;
+  }
+
+  .featureImage img {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .featureImage img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .featureContent h2 {
+    font-size: var(--font-size-32);
+  }
+
+  .featureContent p {
+    font-size: var(--font-size-16);
+  }
+
+  .progress li {
+    width: 10px;
+    height: 10px;
+  }
+
+  .progress .activeProgress {
+    width: 14px;
+    height: 10px;
+  }
+}

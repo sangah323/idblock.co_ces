@@ -1,0 +1,83 @@
+{
+  "DevCenterMain": {
+    "title": ["Tích hợp dễ dàng,", "Tính năng mạnh mẽ"],
+    "subTitle": ["Kết nối những gì bạn cần,", "Mở rộng toàn cầu một cách dễ dàng"],
+    "button": "Xem Tài liệu API"
+  },
+  "DevCenterInfo": {
+    "title": "Tích hợp dễ dàng",
+    "subTitle": [
+      "Kết nối xác minh danh tính đến thanh toán",
+      "chỉ trong một ngày với IDBlock API & SDK"
+    ],
+    "cards": [
+      "Xác minh danh tính",
+      "Đăng nhập xã hội",
+      "Thanh toán một chạm",
+      "Công dân đã xác minh"
+    ]
+  },
+  "DevCenterService": [
+    {
+      "title": "API & SDK dạng mô-đun",
+      "subTitle": [
+        "Tương thích linh hoạt trên nhiều nền tảng",
+        "Nhanh chóng tích hợp xác minh danh tính, nhận diện khuôn mặt, KYC và các tính năng thanh toán",
+        "theo nhu cầu"
+      ],
+      "button": "Tài liệu API"
+    },
+    {
+      "title": "Tài liệu & Mẫu mã cho Nhà phát triển",
+      "subTitle": [
+        "Hướng dẫn toàn diện từ thiết lập đến triển khai",
+        "Bao gồm các bước cài đặt và",
+        "ví dụ gọi API để bắt đầu nhanh chóng"
+      ],
+      "button": "Hướng dẫn Phát triển"
+    },
+    {
+      "title": "Bắt đầu với API Key của bạn",
+      "subTitle": [
+        "Chọn lọc tích hợp các tính năng mong muốn",
+        "Dễ dàng phát hành API key và quản lý",
+        "lịch sử thanh toán từ bảng điều khiển nhà phát triển"
+      ],
+      "button": "Trang Nhà phát triển của tôi"
+    }
+  ],
+  "DevCenterProcess": {
+    "title": "Hỗ trợ hành trình tích hợp của bạn",
+    "subTitle": [
+      "Từ tài liệu đến môi trường thử nghiệm,",
+      "chúng tôi hỗ trợ đầy đủ việc tích hợp SDK"
+    ],
+    "process": [
+      {
+        "processNumber": "1",
+        "processTitle": "Bắt đầu",
+        "processSubTitle": ["Đăng ký IDBlock", "và nhận API key cá nhân của bạn"]
+      },
+      {
+        "processNumber": "2",
+        "processTitle": "Tích hợp & Phát triển",
+        "processSubTitle": ["Cài đặt SDK và tham khảo", "tài liệu và mẫu mã để bắt đầu tích hợp"]
+      },
+      {
+        "processNumber": "3",
+        "processTitle": "Khởi chạy Dịch vụ",
+        "processSubTitle": [
+          "Sau khi thử nghiệm, chuyển sang môi trường sản xuất,",
+          "và bắt đầu cung cấp dịch vụ cho người dùng toàn cầu!"
+        ]
+      }
+    ]
+  },
+  "DevCenterCta": {
+    "title": [
+      "Bước đầu tiên hướng tới dịch vụ toàn cầu,",
+      "Hãy thử nghiệm ngay và kết nối xác thực & thanh toán"
+    ],
+    "button": "Bắt đầu"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "CareersMain": {
+    "title": "One App, Infinite Connections",
+    "subTitle": [
+      "A platform that builds trust across borders",
+      "Join us on a journey to connect the world"
+    ],
+    "button": "Join Now"
+  },
+  "CareersIntro": {
+    "title": "THIS IS CROSSHUB",
+    "subTitle": "Fail fast, grow faster",
+    "contents": [
+      {
+        "contentsTitle": "Ownership",
+        "contentsSubTitle": "You are the driver of your growth",
+        "description": "At Crosshub, autonomy and responsibility empower individuals to plan and execute on their own. One person’s initiative can shift the direction of our services—and reshape the market through technology."
+      },
+      {
+        "contentsTitle": "Focus",
+        "contentsSubTitle": "We pursue one clear goal",
+        "description": "We focus on digital transformation in identity verification and payments. With fast decisions and clear direction, we create user-centric technologies that the market truly needs."
+      },
+      {
+        "contentsTitle": "Dialogue",
+        "contentsSubTitle": "We grow through open dialogue",
+        "description": "Ideas are driven by execution, not titles. Everyone contributes to planning and decision-making. Through candid discussions and bold questions, our team grows together."
+      }
+    ]
+  },
+  "CareersCulture": {
+    "title": "OUR CULTURE",
+    "subTitle": "Get to know how we work and grow",
+    "contents": [
+      {
+        "contentsTitle": "Fast Feedback",
+        "description": "We test ideas instantly and share results quickly. We're not afraid of failure—only slow execution."
+      },
+      {
+        "contentsTitle": "Experiment-Driven Development",
+        "description": "We validate hypotheses through hands-on experiments. We prioritize real user reactions over perfection."
+      },
+      {
+        "contentsTitle": "Encouraging Risk & Failure",
+        "description": "Failure is not a taboo. We welcome bold attempts and treat every failure as a step forward."
+      },
+      {
+        "contentsTitle": "Execution & Product First",
+        "description": "We act before we talk. From idea to launch, we build real products with our own hands."
+      },
+      {
+        "contentsTitle": "Global Mindset",
+        "description": "We build borderless services with a global-first approach, constantly exchanging feedback with international partners."
+      },
+      {
+        "contentsTitle": "Autonomy & Ownership",
+        "description": "Everyone works like a leader and contributes to the team's direction. True growth happens with freedom and responsibility."
+      }
+    ]
+  },
+  "CareersHiringProcess": {
+    "title": "HOW WE HIRE",
+    "subTitle": "From application to onboarding — your journey with us",
+    "contents": [
+      {
+        "contentsTitle": "Application Review",
+        "description": "We carefully review your resume to see how your passion and experience align with our mission and team."
+      },
+      {
+        "contentsTitle": "Interview",
+        "description": "We focus on both job-related skills and how you collaborate and grow. We value honest, comfortable conversations."
+      },
+      {
+        "contentsTitle": "Final Decision",
+        "description": "We share the results promptly and coordinate your start date. Trust and respect are at the core of our hiring process."
+      },
+      {
+        "contentsTitle": "Onboarding",
+        "description": "From day one, we help you integrate quickly into the team. You’ll become a full member of Crosshub in no time."
+      }
+    ]
+  },
+  "CareersOpenRoles": {
+    "title": "OPEN ROLES",
+    "subTitle": "People driving real change beyond technology",
+    "contents": [
+      {
+        "department": "Engineering",
+        "roles": [
+          {
+            "role": "Front-end Engineer",
+            "employmentType": "Full-time",
+            "careerLevel": "Experienced",
+            "workLocation": "Seoul"
+          },
+          {
+            "role": "Back-end Engineer",
+            "employmentType": "Full-time",
+            "careerLevel": "Experienced",
+            "workLocation": "Seoul"
+          }
+        ]
+      },
+      {
+        "department": "Business",
+        "roles": [
+          {
+            "role": "Global Strategy Manager",
+            "employmentType": "Full-time",
+            "careerLevel": "Experienced",
+            "workLocation": "Seoul"
+          },
+          {
+            "role": "Growth Manager",
+            "employmentType": "Full-time",
+            "careerLevel": "Experienced",
+            "workLocation": "Seoul"
+          }
+        ]
+      },
+      {
+        "department": "Marketing",
+        "roles": [
+          {
+            "role": "Marketing Manager",
+            "employmentType": "Full-time",
+            "careerLevel": "Experienced",
+            "workLocation": "Seoul"
+          }
+        ]
+      }
+    ]
+  }
+}

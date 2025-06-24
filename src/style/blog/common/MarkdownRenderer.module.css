@@ -1,0 +1,146 @@
+.renderContainer {
+  height: 100%;
+  max-width: 800px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-huge);
+  padding: var(--padding-huge);
+}
+
+.markdownWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.markdownWrapper h1,
+.markdownWrapper h2,
+.markdownWrapper h3 {
+  width: 100%;
+  align-items: left;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.markdownWrapper h2 {
+  font-size: var(--font-size-28);
+}
+
+.markdownWrapper h3 {
+  font-size: var(--font-size-24);
+}
+
+.markdownWrapper p {
+  width: 100%;
+  color: var(--text-300);
+}
+
+.markdownWrapper blockquote p {
+  color: var(--text-400);
+  padding-left: var(--padding-content);
+  border-left: 3px solid var(--text-400);
+}
+
+.markdownWrapper img,
+.markdownWrapper iframe {
+  width: 100%;
+  min-height: 315px;
+  border-radius: var(--border-radius-10);
+  border: 1px solid var(--text-600);
+  object-fit: cover;
+}
+
+.markdownWrapper a {
+  display: inline-block;
+  color: var(--primary-100);
+  transition: var(--transition-basic);
+}
+
+.markdownWrapper a:hover {
+  color: var(--secondary-100);
+}
+
+.markdownWrapper ul,
+.markdownWrapper ol {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+.markdownWrapper ol {
+  counter-reset: item;
+}
+
+.markdownWrapper ul li {
+  color: var(--text-300);
+  line-height: 150%;
+  padding-left: var(--padding-small);
+  position: relative;
+}
+
+.markdownWrapper ol li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.markdownWrapper ol li::before {
+  font-size: var(--font-size-14);
+  color: var(--text-300);
+  content: counter(item) '.';
+  counter-increment: item;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.markdownWrapper ul li::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background-color: var(--text-400);
+  border-radius: 100%;
+}
+
+.markdownWrapper pre {
+  width: 100%;
+}
+
+.markdownWrapper pre code {
+  padding: var(--padding-small);
+  border: 1px solid var(--text-600);
+  border-radius: var(--border-radius-10);
+}
+
+.markdownWrapper strong {
+  font-weight: 600;
+}
+
+.markdownWrapper hr {
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .renderContainer {
+    padding: var(--padding-huge) 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: var(--font-size-32);
+  }
+
+  .markdownWrapper img,
+  .markdownWrapper iframe {
+    min-height: 200px;
+  }
+}

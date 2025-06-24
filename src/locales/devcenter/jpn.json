@@ -1,0 +1,75 @@
+{
+  "DevCenterMain": {
+    "title": ["シームレスな連携、", "強力な機能"],
+    "subTitle": ["必要な機能を統合し、", "グローバルに簡単に拡張"],
+    "button": "APIドキュメントを見る"
+  },
+  "DevCenterInfo": {
+    "title": "簡単な連携",
+    "subTitle": ["IDBlockのAPI & SDKで、", "本人確認から決済まで1日で接続"],
+    "cards": ["本人確認", "ソーシャルログイン", "ワンクリック決済", "認証済み市民"]
+  },
+  "DevCenterService": [
+    {
+      "title": "モジュール型API & SDK",
+      "subTitle": [
+        "さまざまなプラットフォームに柔軟に対応",
+        "本人確認、顔認証、KYC、決済機能を",
+        "必要に応じて迅速に統合可能"
+      ],
+      "button": "APIドキュメント"
+    },
+    {
+      "title": "開発者向けドキュメント & コードサンプル",
+      "subTitle": [
+        "セットアップからデプロイまでの完全なガイド",
+        "インストール手順や",
+        "API呼び出し例を含み、迅速な開始をサポート"
+      ],
+      "button": "開発ガイド"
+    },
+    {
+      "title": "APIキーで今すぐ開始",
+      "subTitle": [
+        "必要な機能を選択的に連携",
+        "開発者ダッシュボードからAPIキーの発行や",
+        "決済履歴の管理も簡単に"
+      ],
+      "button": "マイ開発ページ"
+    }
+  ],
+  "DevCenterProcess": {
+    "title": "連携の旅をサポート",
+    "subTitle": ["ドキュメントからテスト環境まで、", "SDK統合を完全にサポート"],
+    "process": [
+      {
+        "processNumber": "1",
+        "processTitle": "開始する",
+        "processSubTitle": ["IDBlockに登録し、", "個人用APIキーを取得"]
+      },
+      {
+        "processNumber": "2",
+        "processTitle": "連携と開発",
+        "processSubTitle": [
+          "SDKをインストールし、",
+          "ドキュメントとコードサンプルを参照して連携を開始"
+        ]
+      },
+      {
+        "processNumber": "3",
+        "processTitle": "サービスを開始",
+        "processSubTitle": [
+          "テスト完了後、運用環境に切り替え、",
+          "グローバルユーザーへのサービス提供を開始！"
+        ]
+      }
+    ]
+  },
+  "DevCenterCta": {
+    "title": [
+      "グローバルサービスへの第一歩を踏み出し、",
+      "今すぐテストして認証と決済を接続しましょう"
+    ],
+    "button": "開始する"
+  }
+}

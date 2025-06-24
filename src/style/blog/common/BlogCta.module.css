@@ -1,0 +1,82 @@
+.actionWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+/* ctaBox */
+.ctaBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-small);
+  padding: var(--gap-content) 0;
+  background-color: var(--text-500);
+  border: 1px solid var(--text-600);
+  border-radius: var(--border-radius-10);
+}
+
+.title {
+  font-size: var(--font-size-18);
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff5520, #ff1e56, #ffa500);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.startLink {
+  color: var(--text-000);
+  padding: var(--padding-button);
+  background-color: var(--primary-100);
+  border-radius: var(--border-radius-10);
+  cursor: pointer;
+  transition: var(--transition-basic);
+}
+
+.startLink:hover {
+  background-color: var(--secondary-100);
+}
+
+/* shareBox */
+.shareBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.shareBox a,
+.shareBox button {
+  width: 32px;
+  height: 32px;
+  background-color: var(--text-500);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-basic);
+}
+
+.shareBox a:hover,
+.shareBox button:hover {
+  background-color: var(--text-400);
+}
+
+.shareBox img {
+  width: 20px;
+}
+
+.shareBox a:nth-child(2) img {
+  width: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .ctaBox {
+    flex-direction: column;
+  }
+}

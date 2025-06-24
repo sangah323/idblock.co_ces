@@ -1,0 +1,360 @@
+{
+  "AboutMain": {
+    "title": ["Hiện thực hóa giá trị", "của cuộc sống và công nghệ"],
+    "description": [
+      "Dựa trên công nghệ Blockchain và AI,",
+      "dẫn đầu chuyển đổi số (DX) trong lĩnh vực fintech",
+      "kết nối mọi khía cạnh đời sống để hiện thực hóa trải nghiệm và giá trị công nghệ mới"
+    ]
+  },
+  "AboutGoal": {
+    "goal": {
+      "title": ["Mục tiêu hướng ra thế giới", "của Crosshub"],
+      "card": [
+        {
+          "cardsdffTitle": "MỤC TIÊU",
+          "content": ["Kết nối thế giới", "thông qua xác thực và thanh toán"]
+        },
+        {
+          "cardTitle": "TẦM NHÌN",
+          "content": [
+            "Xây dựng hệ thống xác thực danh tính đơn nhất đầu tiên trên thế giới",
+            "và trở thành doanh nghiệp",
+            "cung cấp mọi cơ hội dựa trên đó",
+            " "
+          ]
+        },
+        {
+          "cardTitle": "SỨ MỆNH",
+          "content": [
+            "Giúp cá nhân và doanh nghiệp",
+            "có thể kết nối an toàn và tự do",
+            "trong môi trường số toàn cầu",
+            " "
+          ]
+        }
+      ]
+    },
+    "value": {
+      "title": ["Giá trị cốt lõi", "cho mục tiêu của chúng tôi"],
+      "card": [
+        {
+          "title": "THÁCH THỨC",
+          "content": "Khởi đầu từ việc vượt qua giới hạn xác thực danh tính toàn cầu"
+        },
+        {
+          "title": "ĐỔI MỚI",
+          "content": "Cung cấp giải pháp ổn định và tiện lợi dựa trên công nghệ blockchain"
+        },
+        {
+          "title": "TIẾP TỤC",
+          "content": "Kết nối dịch vụ toàn cầu và xây dựng hệ sinh thái số bền vững"
+        }
+      ]
+    }
+  },
+  "AboutHistory": {
+    "title": "Giải thưởng và Lịch sử",
+    "contentList": [
+      {
+        "year": "2025",
+        "quarter": [
+          {
+            "name": "Quý 2",
+            "contents": [
+              "Được chọn là doanh nghiệp tham gia chương trình Đổi mới sáng tạo mở IBK Changgong nửa đầu năm 2025 của Quỹ bảo đảm tín dụng",
+              "Được chọn cho dự án Khu đặc biệt Doanh nghiệp nhỏ và vừa Seoul Hongneung của Infobank, Campus Innopolis (Trường Khởi nghiệp GRaND-K)",
+              "Được chọn cho dự án Hỗ trợ kích hoạt hoạt động kinh doanh công nghệ do đầu tư tư nhân dẫn dắt tại Jeonbuk Technopark",
+              "Được chọn là doanh nghiệp tham gia chương trình tăng tốc BOUNCE Smart Ocean & Fintech của Trung tâm Đổi mới Sáng tạo Kinh tế Busan",
+              "Được chọn là doanh nghiệp tham gia IVS Japan 2025",
+              "Được chọn là doanh nghiệp tham gia gian hàng quảng bá du lịch tại Hội chợ Du lịch Quốc tế Seoul 2025 (SITM) do Tổ chức Du lịch Seoul tổ chức",
+              "Được lựa chọn là doanh nghiệp tham gia chương trình tư vấn hỗ trợ năng lực kinh doanh toàn cầu của Cơ quan Xúc tiến Công nghiệp CNTT Busan",
+              "Được chọn là doanh nghiệp tham gia Cuộc thi Thử thách Khởi nghiệp K-Startup 2025 – Bảng Khởi nghiệp Đổi mới sáng tạo (Bảng Chung)",
+              "Được chọn là doanh nghiệp tham gia Triển lãm trong và ngoài nước & KTSC Global Connect năm 2025",
+              "Được chọn là doanh nghiệp tham gia Gian hàng Seoul Fintech Lab tại CES 2026",
+              "Được lựa chọn là doanh nghiệp tham gia D-Testbed nửa đầu năm 2025 bởi Trung tâm Hỗ trợ Fintech Hàn Quốc",
+              "Được lựa chọn vào Chương trình hỗ trợ mở rộng ra nước ngoài GDIN K-Global",
+              "Được chọn tham gia Chương trình mở rộng ra nước ngoài dành riêng cho Fintech – Nexus Luxembourg 2025",
+              "Được lựa chọn tham gia Chương trình Hỗ trợ Thương mại hóa Doanh nghiệp Blockchain tại Busan",
+              "Được chọn vào Khóa 7 của FIUM Lab – Tập đoàn tài chính DGB",
+              "Được lựa chọn là doanh nghiệp tham gia Chương trình Tăng tốc Đầu tư Gwangju (G-IN Next Level) khóa 9",
+              "Đạt giải Xuất sắc tại Cuộc thi Dự án Hợp tác Startup Du lịch Seoul",
+              "Gọi vốn SEED thành công (₫13.1B / Tổng cộng ₫44.9B)"
+            ]
+          },
+          {
+            "name": "Quý 1",
+            "contents": [
+              "Được chọn tham gia Climbers Startup JAPAN EXPO",
+              "Được chọn vào chương trình hỗ trợ startup Synergy Core khóa 1",
+              "Được chọn tham gia chương trình J-curve batch 3",
+              "Được chọn là doanh nghiệp 'Little Penguin' của Quỹ bảo lãnh tín dụng",
+              "Tham gia Hội nghị Kinh doanh Thế giới Hàn kiều lần thứ 23 tại Atlanta, Mỹ",
+              "Tham dự sự kiện 'K-Wave Fest' tại Almaty, Kazakhstan",
+              "Tham gia Showcase doanh nghiệp du lịch liên kết EXPO Osaka - Tổng cục Du lịch Hàn Quốc",
+              "Được chọn vào chương trình hỗ trợ mô hình dịch vụ KOTRA",
+              "Đạt giải Nhất cuộc thi khởi nghiệp toàn cầu liên kết Đại học Bắc Kinh và Anh quốc",
+              "Được chọn vào chương trình DinoLab Busan khóa 1 của Woori Financial Group",
+              "Được chọn là doanh nghiệp cư trú tại Trại Khởi nghiệp AI Gwangju",
+              "Được chọn cư trú tại không gian khởi nghiệp đổi mới tỉnh Gyeonggi"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "quarter": [
+          {
+            "name": "Quý 4",
+            "contents": [
+              "Được chọn là Doanh nghiệp Xuất sắc của Gói Khởi nghiệp dự bị và nhận bằng khen doanh nghiệp ưu tú",
+              "Đạt giải Vàng tại Cuộc thi Khởi nghiệp KINGO-GA Đại học Sungkyunkwan",
+              "Đạt giải Xuất sắc tại Ngày hội Demo vận hành bởi Trung tâm Khởi nghiệp Kibo Venture Camp khóa 15",
+              "Được chọn làm doanh nghiệp mới tại Trung tâm Hỗ trợ Doanh nghiệp Du lịch Tokyo KTSC",
+              "Ký hợp đồng cung cấp với công ty giải pháp AMOEBA tại Việt Nam (₫500M)",
+              "Được chọn tham gia Chương trình Hỗ trợ Doanh nghiệp tiến vào thị trường TechFest Việt Nam",
+              "Được chọn tham gia Chương trình Hỗ trợ Phát triển Doanh nghiệp Blockchain của KISA",
+              "Được chọn tham gia Chương trình Phòng thí nghiệm địa phương hóa NIPA",
+              "Được chọn là doanh nghiệp tại Trung tâm Ươm tạo Doanh nghiệp Blockchain Busan"
+            ]
+          },
+          {
+            "name": "Quý 3",
+            "contents": [
+              "Được chọn vào dự án LAB 1st của Seoul Fintech Lab x IBK",
+              "Được chọn là doanh nghiệp cư trú tại Seoul Fintech Lab",
+              "Nhận chứng nhận Doanh nghiệp Khởi nghiệp (Venture Business Certificate)",
+              "Được chọn vào chương trình Kibo Venture Camp khóa 15",
+              "Được chọn tham gia chương trình PoC+ Living Lab tại Nhật Bản"
+            ]
+          },
+          {
+            "name": "Quý 2",
+            "contents": [
+              "Gọi vốn seed thành công từ nhóm nhà đầu tư chuyên nghiệp (₫3.7B)",
+              "Được chọn vào chương trình Gói Khởi nghiệp dự bị Bộ Doanh nghiệp Vừa và Nhỏ"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "quarter": [
+          {
+            "name": "Quý 4",
+            "contents": [
+              "Đạt giải Xuất sắc tại Cuộc thi Hội thảo Blockchain BIC tổ chức bởi Viện Đổi mới Khoa học Công nghệ Chungbuk"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "AboutNews": {
+    "title": "Thông cáo báo chí",
+    "pressItems": [
+      {
+        "title": "Busan CCEI kết thúc chương trình đổi mới mở 'Plug in: Tokyo' tại Nhật Bản",
+        "link": "https://www.venturesquare.net/968885",
+        "date": "2025.05.15",
+        "source": "venturesquare",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2025/05/1-4.jpg",
+        "preview": "Trung tâm Đổi mới Sáng tạo Kinh tế Sáng tạo Busan (Giám đốc điều hành Kim Yongwoo, gọi tắt là Busan CCEI) cho biết đã kết thúc thành công chương trình đổi mới mở toàn cầu ‘Plug in: Tokyo’, được tổ chức tại Tokyo, Nhật Bản từ ngày 7 đến ngày 10 tháng 5. Chương trình được phối hợp thực hiện cùng 7 trung tâm đổi mới sáng tạo trên toàn quốc và 10 startup triển vọng, đánh dấu bước đi đầu tiên có hiệu quả trong việc hỗ trợ mở rộng ra thị trường Nhật Bản."
+      },
+      {
+        "title": "Seoul Fintech Lab tạo ra 4.000 việc làm trong 7 năm",
+        "link": "https://www.donga.com/news/Society/article/all/20250429/131518706/2",
+        "date": "2025.04.30",
+        "source": "Dong-A Ilbo",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2025/04/29/131519137.1.jpg",
+        "preview": "Chỉ cần đặt trụ sở tại Seoul Fintech Lab cũng được coi là một 'dấu chứng nhận' cho tiềm năng kinh doanh. Điều đó giúp các công ty thu hút nhiều sự chú ý và cơ hội hơn so với việc tự tìm nhà đầu tư."
+      },
+      {
+        "title": "Doanh nghiệp cư trú tại Seoul Fintech Lab 'Crosshub' thu hút sự chú ý với mô hình kết hợp Fintech và Du lịch",
+        "link": "https://www.theguru.co.kr/news/article.html?no=86400",
+        "date": "2025.04.27",
+        "source": "The Guru",
+        "image": "https://www.theguru.co.kr/data/photos/20250417/art_1745592245795_1954b3.png",
+        "preview": "'Crosshub', một doanh nghiệp khởi nghiệp đang hoạt động tại Seoul Fintech Lab – trung tâm hỗ trợ khởi nghiệp do thành phố Seoul điều hành – gần đây đã được lựa chọn tham gia cả chương trình 'Chim cánh cụt nhỏ' của Quỹ bảo lãnh tín dụng Hàn Quốc và chương trình 'Doanh nghiệp khởi nghiệp du lịch Seoul' của Tổ chức Du lịch Seoul."
+      },
+      {
+        "title": "Crosshub xây dựng hệ sinh thái xác thực và thanh toán không biên giới",
+        "link": "https://www.koreatimes.co.kr/business/banking-finance/20250419/crosshub-sets-out-to-build-borderless-identity-payment-ecosystem",
+        "date": "2025.04.19",
+        "source": "The Korea Times",
+        "image": "https://newsimg.koreatimes.co.kr/2025/04/18/17b1dfc6-3728-429d-b3a0-e69d443f9d21.jpg",
+        "preview": "Việt Nam, Nhật Bản là điểm dừng chân đầu tiên trong chiến lược mở rộng toàn cầu của startup Hàn Quốc."
+      },
+      {
+        "title": "Seoul chọn 5 startup du lịch triển vọng… hỗ trợ tối đa 70 triệu won",
+        "link": "https://www.news1.kr/local/moi/5756806",
+        "date": "2025.04.18",
+        "source": "News1",
+        "image": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fi3n.news1.kr%2Fsystem%2Fphotos%2F2025%2F4%2F17%2F7241825%2Fhigh.jpg&w=1920&q=75",
+        "preview": "Thành phố Seoul đã chọn 5 công ty khởi nghiệp du lịch triển vọng thông qua Dự án hợp tác Startup Du lịch 2025, với tỷ lệ cạnh tranh 30:1."
+      },
+      {
+        "title": "Crosshub được chọn vào chương trình 'Little Penguin' của Quỹ Bảo lãnh Tín dụng",
+        "link": "https://www.vtimes.kr/news/articleView.html?idxno=51904",
+        "date": "2025.04.03",
+        "source": "Venture Times",
+        "image": "https://www.vtimes.kr/news/photo/202504/51904_28459_4822.jpg",
+        "preview": "Crosshub, công ty phát triển dịch vụ xác thực thế hệ thứ 4 IDBlock và dịch vụ thanh toán xuyên biên giới BlockPay, đã được chọn vào chương trình hỗ trợ startup tiềm năng 'Little Penguin' của Quỹ Bảo lãnh Tín dụng."
+      },
+      {
+        "title": "Woori Financial mở trung tâm khởi nghiệp blockchain tại Busan",
+        "link": "https://platum.kr/archives/254801",
+        "date": "2025.03.14",
+        "source": "Platum",
+        "image": "https://platum.kr/wp-content/uploads/2025/03/image-24.png",
+        "preview": "Woori Financial Group đã mở trung tâm hỗ trợ startup blockchain đầu tiên trong ngành tài chính Hàn Quốc tại Busan, tận dụng lợi thế khu vực tự do blockchain duy nhất của đất nước."
+      },
+      {
+        "title": "Busan khai trương trung tâm hỗ trợ startup blockchain và fintech tại ga Busan",
+        "link": "https://www.busan.com/view/busan/view.php?code=2025031309285007833",
+        "date": "2025.03.13",
+        "source": "Busan Ilbo",
+        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2025/03/13/2025031309240166624_l.jpg",
+        "preview": "Busan khai trương trung tâm hỗ trợ phát triển các startup blockchain và fintech nhằm thúc đẩy đổi mới ngành công nghệ địa phương."
+      },
+      {
+        "title": "Gwangju thu hút doanh nghiệp AI triển vọng… kỳ vọng kết hợp với mobility",
+        "link": "https://www.nocutnews.co.kr/news/6306315?utm_source=naver&utm_medium=article&utm_campaign=20250311053240",
+        "date": "2025.03.11",
+        "source": "NoCut News",
+        "image": "https://file2.nocutnews.co.kr/newsroom/image/2025/03/11/202503111708300003_0.jpg",
+        "preview": "Thành phố Gwangju đang tập trung xây dựng cụm công nghiệp AI và thu hút hàng loạt doanh nghiệp AI trong các lĩnh vực năng lượng, fintech, mobility..."
+      },
+      {
+        "title": "Seoul tổ chức hội nghị bàn tròn phát triển ngành fintech",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1486",
+        "date": "2025.03.06",
+        "source": "Fintech Today",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202503/1486_2121_3053.jpg",
+        "preview": "Ngày 5/3/2025, thành phố Seoul đã tổ chức hội nghị bàn tròn tại Seoul Fintech Lab để thảo luận phương hướng phát triển ngành fintech với sự tham dự của thị trưởng Oh Se-hoon và đại diện các công ty fintech."
+      },
+      {
+        "title": "Sự cần thiết của xác thực danh tính thế hệ tiếp theo",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1482",
+        "date": "2025.03.04",
+        "source": "Fintech Today",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202503/1482_2113_474.png",
+        "preview": "Tháng 5/2020 đánh dấu bước ngoặt lớn trong lĩnh vực xác thực danh tính khi đạo luật về chữ ký điện tử sửa đổi được Quốc hội thông qua, mở đường cho thị trường dịch vụ xác thực tư nhân."
+      },
+      {
+        "title": "IDBlock giành giải Nhất tại cuộc thi Khởi nghiệp toàn cầu 2025",
+        "link": "https://www.etoday.co.kr/news/view/2447078",
+        "date": "2025.02.21",
+        "source": "EToday",
+        "image": "https://img.etoday.co.kr/pto_db/2025/02/20250221130629_2139337_592_333.png",
+        "preview": "Crosshub đã chứng minh vị thế công ty đổi mới khi giành giải Nhất tại cuộc thi Khởi nghiệp toàn cầu 2025, do Boxlader, Đại học Bắc Kinh và Simsan Ventures đồng tổ chức."
+      },
+      {
+        "title": "Crosshub – Công ty cung cấp dịch vụ xác thực danh tính dựa trên blockchain",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1430",
+        "date": "2025.02.10",
+        "source": "Fintech Today",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202502/1430_2048_1121.jpg",
+        "preview": "Crosshub là công ty cung cấp dịch vụ xác thực danh tính dựa trên blockchain, được đồng sáng lập bởi Park Soo-jung vào tháng 5/2024."
+      },
+      {
+        "title": "Daejeon Innovation Center và i2i Đài Loan tổ chức Global Online Demo Day",
+        "link": "https://www.ccnnews.co.kr/news/articleView.html?idxno=360239",
+        "date": "2025.01.21",
+        "source": "Chungcheong News",
+        "image": "https://www.ccnnews.co.kr/news/photo/202501/360239_449842_3740.jpg",
+        "preview": "Daejeon Innovation Center và i2i (Đài Loan) đã tổ chức sự kiện 'IP2 Launchpad', tạo cơ hội cho các startup Hàn Quốc thâm nhập thị trường Đài Loan."
+      },
+      {
+        "title": "Hiệp hội Accelerator tổ chức 'Câu lạc bộ thực hành KAIA lần thứ 7'",
+        "link": "https://www.venturesquare.net/949333",
+        "date": "2024.12.04",
+        "source": "Venture Square",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2024/12/kaia-789x364.jpg",
+        "preview": "Hiệp hội Các Nhà Đầu tư Ban đầu (KAIA) đã tổ chức thành công sự kiện 'Câu lạc bộ thực hành KAIA lần thứ 7'."
+      },
+      {
+        "title": "GA Korea Group và Đại học Sungkyunkwan tổ chức cuộc thi khởi nghiệp KINGO-GA",
+        "link": "https://www.kyeonggi.com/article/20241202580120",
+        "date": "2024.12.02",
+        "source": "Kyonggi Ilbo",
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2024/12/02/.cache/512/20241202580121.jpg",
+        "preview": "GA Korea Group cùng Đại học Sungkyunkwan hợp tác tổ chức cuộc thi khởi nghiệp để hỗ trợ thanh niên khởi nghiệp Hàn Quốc."
+      },
+      {
+        "title": "Crosshub ký hợp đồng cung cấp với Amoeba Việt Nam",
+        "link": "https://www.venturesquare.net/948842",
+        "date": "2024.11.29",
+        "source": "Venture Square",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2024/11/unnamed-4-2.jpg",
+        "preview": "Crosshub đã ký hợp đồng cung cấp 600,000 gói giải pháp xác thực danh tính IDBlock với công ty giải pháp Amoeba tại Việt Nam."
+      },
+      {
+        "title": "Daejeon Innovation Center tham gia TechFest 2024 tại Việt Nam",
+        "link": "https://www.news1.kr/local/daejeon-chungnam/5603906",
+        "date": "2024.11.18",
+        "source": "News1",
+        "image": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fi3n.news1.kr%2Fsystem%2Fphotos%2F2024%2F11%2F18%2F6991844%2Fhigh.jpg&w=1080&q=75",
+        "preview": "Daejeon Innovation Center sẽ hỗ trợ startup địa phương thâm nhập thị trường Việt Nam bằng cách tham gia hội chợ công nghệ lớn nhất Việt Nam - TechFest 2024."
+      },
+      {
+        "title": "Crosshub huy động thành công 200 triệu KRW… mở rộng tuyển dụng nhân sự",
+        "link": "https://news.nate.com/view/20240618n21757",
+        "date": "2024.06.08",
+        "source": "Nate News",
+        "image": "https://news.nateimg.co.kr/orgImg/aj/2024/06/18/20240618135121553218.jpg",
+        "preview": "Crosshub đã huy động thành công 200 triệu KRW từ nhóm nhà đầu tư chuyên nghiệp (AC), định giá doanh nghiệp ở mức 1 tỷ KRW."
+      }
+    ]
+  },
+  "AboutMap": {
+    "title": "Chỉ đường",
+    "contact": "TEL : +82 2-6975-9999 | FAX : +82 2-6008-5040",
+    "email": "E-mail : crosshub@crosshub.kr",
+    "maps": [
+      {
+        "name": "Jeonju Trụ sở chính",
+        "address": "Tầng 5, Trung tâm Đổi mới Kinh tế Sáng tạo Jeonbuk, 123 Ogong-ro, Deokjin-gu, Jeonju, Tỉnh tự trị đặc biệt Jeonbuk"
+      },
+      {
+        "name": "Daejeon Trung tâm R&D",
+        "address": "Phòng 404-D38, Tòa nhà Union, 1161 Gyebaek-ro, Seo-gu, Daejeon"
+      },
+      {
+        "name": "Seoul Fintech Lab",
+        "address": "Tầng 5, Tòa nhà O₂, 83 Uisadang-daero, Yeongdeungpo-gu, Seoul"
+      },
+      {
+        "name": "Busan Trung tâm Toàn cầu",
+        "address": "Tầng 9, BIFC Busan International Financial Center, 40 Munhyeon Financial-ro, Nam-gu, Busan"
+      },
+      {
+        "name": "Daegu Unicorn Lab",
+        "address": "Tầng 5, 111 Oksan-ro, Buk-gu, Daegu"
+      },
+      {
+        "name": "Gwangju Trung tâm AI",
+        "address": "Tầng 3, Trại khởi nghiệp AI Gwangju, 193-22 Geumnam-ro, Dong-gu, Gwangju"
+      },
+      {
+        "name": "Jeju Trung tâm Du lịch Thông minh",
+        "address": "Tầng 3, 25 Sehonam-ro, Seogwipo-si, Jeju"
+      },
+      {
+        "name": "Tokyo Chi nhánh",
+        "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo"
+      }
+    ]
+  },
+  "AboutContact": {
+    "title": [
+      "Crosshub đang tìm kiếm cơ hội đồng hành",
+      "để tạo ra tương lai tốt đẹp hơn và nâng cao sức mạnh tổng hợp"
+    ],
+    "description": [
+      "Nếu bạn gửi yêu cầu liên hệ về hợp tác kinh doanh,",
+      "chúng tôi sẽ xem xét và phản hồi nhanh chóng"
+    ],
+    "button": "Liên hệ hợp tác"
+  }
+}

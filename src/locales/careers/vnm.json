@@ -1,0 +1,134 @@
+{
+  "CareersMain": {
+    "title": "Một ứng dụng, kết nối vô tận",
+    "subTitle": [
+      "Nền tảng xây dựng niềm tin vượt biên giới",
+      "Hãy cùng chúng tôi kết nối thế giới"
+    ],
+    "button": "Tham gia ngay"
+  },
+  "CareersIntro": {
+    "title": "THIS IS CROSSHUB",
+    "subTitle": "Thất bại nhanh chóng, phát triển nhanh hơn",
+    "contents": [
+      {
+        "contentsTitle": "Ownership",
+        "contentsSubTitle": "Mỗi cá nhân là động lực phát triển",
+        "description": "Tại Crosshub, chúng tôi đề cao quyền tự chủ và trách nhiệm. Mỗi cá nhân có thể lên kế hoạch và thực thi, và chính hành động của một người có thể thay đổi hướng đi của sản phẩm và cả thị trường."
+      },
+      {
+        "contentsTitle": "Focus",
+        "contentsSubTitle": "Tập trung vào một mục tiêu rõ ràng",
+        "description": "Chúng tôi tập trung vào chuyển đổi số trong xác thực danh tính và thanh toán. Với quyết định nhanh chóng và định hướng rõ ràng, chúng tôi phát triển công nghệ lấy người dùng làm trung tâm."
+      },
+      {
+        "contentsTitle": "Dialogue",
+        "contentsSubTitle": "Phát triển qua đối thoại cởi mở",
+        "description": "Ý tưởng không dựa trên chức danh mà dựa trên khả năng thực thi. Mọi người đều có thể tham gia vào việc lập kế hoạch và ra quyết định. Đối thoại cởi mở và những câu hỏi thách thức giúp chúng tôi phát triển cùng nhau."
+      }
+    ]
+  },
+  "CareersCulture": {
+    "title": "OUR CULTURE",
+    "subTitle": "Khám phá cách chúng tôi làm việc và phát triển",
+    "contents": [
+      {
+        "contentsTitle": "Phản hồi nhanh chóng",
+        "description": "Chúng tôi thử nghiệm ý tưởng ngay lập tức và chia sẻ kết quả nhanh. Chúng tôi không sợ thất bại—chỉ sợ hành động chậm trễ."
+      },
+      {
+        "contentsTitle": "Văn hóa phát triển dựa trên thử nghiệm",
+        "description": "Chúng tôi xây dựng giả thuyết và trực tiếp kiểm nghiệm. Phản hồi thực tế từ người dùng quan trọng hơn sự hoàn hảo."
+      },
+      {
+        "contentsTitle": "Khuyến khích thử thách & thất bại",
+        "description": "Thất bại không phải điều cấm kỵ. Chúng tôi hoan nghênh sự dũng cảm và xem thất bại là bước đệm tiến tới thành công."
+      },
+      {
+        "contentsTitle": "Hành động là ưu tiên, sản phẩm là trọng tâm",
+        "description": "Hành động trước, nói sau. Từ lên ý tưởng đến ra mắt, chúng tôi trực tiếp tạo ra sản phẩm thực tế."
+      },
+      {
+        "contentsTitle": "Tư duy toàn cầu",
+        "description": "Chúng tôi phát triển dịch vụ không biên giới với định hướng toàn cầu, và thường xuyên hợp tác, nhận phản hồi từ các đối tác quốc tế."
+      },
+      {
+        "contentsTitle": "Tự chủ và trách nhiệm trong phát triển",
+        "description": "Mỗi người đều làm việc như một người lãnh đạo, đóng góp vào định hướng chung. Sự trưởng thành thật sự đến từ quyền tự chủ đi kèm trách nhiệm."
+      }
+    ]
+  },
+  "CareersHiringProcess": {
+    "title": "HOW WE HIRE",
+    "subTitle": "Hành trình từ ứng tuyển đến gia nhập đội ngũ",
+    "contents": [
+      {
+        "contentsTitle": "Xét duyệt hồ sơ",
+        "description": "Chúng tôi xem xét kỹ lưỡng hồ sơ của bạn để đánh giá mức độ phù hợp giữa kinh nghiệm, đam mê và định hướng của đội ngũ."
+      },
+      {
+        "contentsTitle": "Phỏng vấn",
+        "description": "Chúng tôi tìm hiểu kỹ năng chuyên môn, khả năng làm việc nhóm và định hướng phát triển cá nhân qua cuộc trò chuyện cởi mở và chân thành."
+      },
+      {
+        "contentsTitle": "Quyết định cuối cùng",
+        "description": "Chúng tôi nhanh chóng thông báo kết quả và thỏa thuận lịch gia nhập. Niềm tin và sự minh bạch là giá trị cốt lõi trong quy trình tuyển dụng."
+      },
+      {
+        "contentsTitle": "Gia nhập công ty",
+        "description": "Ngay từ ngày đầu tiên, bạn sẽ được hỗ trợ để hòa nhập nhanh chóng. Bạn sẽ sớm trở thành một phần của Crosshub."
+      }
+    ]
+  },
+  "CareersOpenRoles": {
+    "title": "OPEN ROLES",
+    "subTitle": "Những người tạo nên sự thay đổi vượt qua công nghệ",
+    "contents": [
+      {
+        "department": "Kỹ thuật",
+        "roles": [
+          {
+            "role": "Kỹ sư Front-end",
+            "employmentType": "Toàn thời gian",
+            "careerLevel": "Có kinh nghiệm",
+            "workLocation": "Seoul"
+          },
+          {
+            "role": "Kỹ sư Back-end",
+            "employmentType": "Toàn thời gian",
+            "careerLevel": "Có kinh nghiệm",
+            "workLocation": "Seoul"
+          }
+        ]
+      },
+      {
+        "department": "Kinh doanh",
+        "roles": [
+          {
+            "role": "Quản lý Chiến lược Toàn cầu",
+            "employmentType": "Toàn thời gian",
+            "careerLevel": "Có kinh nghiệm",
+            "workLocation": "Seoul"
+          },
+          {
+            "role": "Quản lý Tăng trưởng",
+            "employmentType": "Toàn thời gian",
+            "careerLevel": "Có kinh nghiệm",
+            "workLocation": "Seoul"
+          }
+        ]
+      },
+      {
+        "department": "Tiếp thị",
+        "roles": [
+          {
+            "role": "Quản lý Tiếp thị",
+            "employmentType": "Toàn thời gian",
+            "careerLevel": "Có kinh nghiệm",
+            "workLocation": "Seoul"
+          }
+        ]
+      }
+    ]
+  }
+}

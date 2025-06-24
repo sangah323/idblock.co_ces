@@ -1,0 +1,23 @@
+{
+  "BlogMain": {
+    "title": "Từng bước một, vươn ra thế giới",
+    "subTitle": "Công nghệ kết nối thế giới và dấu chân của chúng ta"
+  },
+  "BlogContent": {
+    "noPostMessage": "Không có bài viết nào phù hợp với bộ lọc đã chọn."
+  },
+  "BlogPost": {
+    "BlogCta": {
+      "title": "Bạn muốn tìm hiểu về IDBlock?",
+      "button": "Bắt đầu ngay"
+    }
+  },
+  "FilterButton": {
+    "all": "Tất cả",
+    "development": "Phát triển",
+    "design": "Thiết kế",
+    "insight": "Nhận định",
+    "news": "Tin tức",
+    "event": "Sự kiện"
+  }
+}

@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-huge) 0;
+  gap: var(--gap-huge);
+}
+
+.mainInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-layout);
+}
+
+.department {
+  font-size: var(--font-size-40);
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-layout);
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    flex-wrap: wrap-reverse;
+  }
+
+  .department {
+    font-size: var(--font-size-32);
+  }
+}

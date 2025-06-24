@@ -1,0 +1,120 @@
+/* mainContent */
+.mainContent {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.mainContent .titleBox,
+.mainContent .contentBox {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-medium);
+}
+
+.mainContent .titleBox {
+  gap: var(--gap-small);
+}
+
+.mainContent .titleBox .title,
+.mainContent .contentBox .content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: var(--gap-small);
+}
+
+/* mainContent - titleBox */
+.mainContent .titleBox .title h2 {
+  font-size: var(--font-size-28);
+
+  font-weight: 600;
+}
+
+.mainContent .titleBox .title p {
+  flex: 0.1 1;
+  min-width: 40px;
+}
+
+.mainContent .titleBox .title .green {
+  color: var(--code-green-base);
+  font-weight: 500;
+}
+
+.mainContent .titleBox .title .yellow {
+  color: var(--code-yellow-base);
+  font-weight: 500;
+}
+
+.mainContent .titleBox .title .blue {
+  color: var(--code-blue-base);
+  font-weight: 500;
+}
+
+.mainContent .titleBox .title .purple {
+  color: var(--code-purple-base);
+  font-weight: 500;
+}
+
+.mainContent .titleBox .title .red {
+  color: var(--code-red-base);
+  font-weight: 500;
+}
+
+/* mainContent - contentBox */
+.mainContent .contentBox .content {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.mainContent .contentBox h3 {
+  font-size: var(--font-size-24);
+
+  font-weight: 600;
+}
+
+.mainContent .contentBox .content {
+  width: 100%;
+
+  padding-top: var(--padding-small);
+  border-top: 1px solid var(--text-500);
+}
+
+.mainContent .contentBox .content .params {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-small);
+}
+
+.mainContent .contentBox .content .grayCode {
+  padding: var(--padding-button);
+  background-color: var(--text-500);
+  border-radius: var(--border-radius-10);
+}
+
+.mainContent .contentBox .content .params .type,
+.mainContent .contentBox .content .params .require,
+.mainContent .contentBox .content .params .optional {
+  font-size: var(--font-size-12);
+  color: var(--code-green-base);
+  background-color: var(--code-green-bg);
+  padding: var(--padding-button-small);
+  border-radius: var(--border-radius-10);
+}
+
+.mainContent .contentBox .content .params .require {
+  color: var(--code-red-base);
+  background-color: var(--code-red-bg);
+}
+.mainContent .contentBox .content .params .optional {
+  color: var(--code-blue-base);
+  background-color: var(--code-blue-bg);
+}

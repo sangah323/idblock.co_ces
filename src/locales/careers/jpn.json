@@ -1,0 +1,134 @@
+{
+  "CareersMain": {
+    "title": "ひとつのアプリ、無限のつながり",
+    "subTitle": [
+      "国境を越えて信頼をつなぐプラットフォーム",
+      "世界をひとつにする旅に参加しませんか"
+    ],
+    "button": "今すぐ参加する"
+  },
+  "CareersIntro": {
+    "title": "THIS IS CROSSHUB",
+    "subTitle": "早く失敗し、もっと早く成長する",
+    "contents": [
+      {
+        "contentsTitle": "Ownership",
+        "contentsSubTitle": "個人が成長の主体です",
+        "description": "クロスハブでは、自律と責任を持って個人が企画・実行する文化を大切にしています。一人の行動がサービスの方向を変え、技術で市場に変革をもたらします。"
+      },
+      {
+        "contentsTitle": "Focus",
+        "contentsSubTitle": "明確な目標に集中します",
+        "description": "私たちは「本人確認と決済のデジタル化」という明確な目標に集中しています。迅速な意思決定と明確な方向性で、ユーザー中心の技術を実現します。"
+      },
+      {
+        "contentsTitle": "Dialogue",
+        "contentsSubTitle": "オープンな対話で成長します",
+        "description": "役職ではなく、実行力がアイデアを説得します。誰でも企画や意思決定に関われる環境で、率直な対話と挑戦的な質問がチームの成長を促します。"
+      }
+    ]
+  },
+  "CareersCulture": {
+    "title": "OUR CULTURE",
+    "subTitle": "クロスハブの働き方と価値観をご紹介します",
+    "contents": [
+      {
+        "contentsTitle": "迅速なフィードバック",
+        "description": "アイデアをすぐに試し、結果をすばやく共有します。失敗よりも遅い実行を恐れます。"
+      },
+      {
+        "contentsTitle": "実験重視の開発文化",
+        "description": "仮説を立て、自ら実験して学ぶことを推奨しています。「完璧」よりも「ユーザーの本音」が大切です。"
+      },
+      {
+        "contentsTitle": "挑戦と失敗の推奨",
+        "description": "失敗はNGワードではありません。挑戦を歓迎し、失敗を次のステップへの資産として捉えます。"
+      },
+      {
+        "contentsTitle": "実行重視・プロダクト志向",
+        "description": "言う前にやる！企画からリリースまで自分たちの手で作り上げるプロダクト中心のチームです。"
+      },
+      {
+        "contentsTitle": "グローバルなマインドセット",
+        "description": "国境のないサービスを目指し、グローバルを前提に考えています。海外パートナーと連携し、世界からのフィードバックを受け取ります。"
+      },
+      {
+        "contentsTitle": "自律と責任のある成長",
+        "description": "誰もがリーダーとして働き、チームの方向性に貢献します。自律の中で本当の成長を経験できます。"
+      }
+    ]
+  },
+  "CareersHiringProcess": {
+    "title": "HOW WE HIRE",
+    "subTitle": "応募から入社までのステップをご紹介します",
+    "contents": [
+      {
+        "contentsTitle": "書類選考",
+        "description": "応募者の経験と情熱が伝わる書類をお待ちしています。チームとの方向性が合っているか丁寧に確認します。"
+      },
+      {
+        "contentsTitle": "面接",
+        "description": "業務スキルだけでなく、協働のスタイルや成長の方向性についてお話する時間です。リラックスした誠実な対話を大切にしています。"
+      },
+      {
+        "contentsTitle": "最終決定",
+        "description": "面接後はすぐに結果をご連絡し、入社日を調整します。信頼を大切にした採用を行っています。"
+      },
+      {
+        "contentsTitle": "入社",
+        "description": "初日からスムーズにチームに溶け込めるようオンボーディングを準備しています。すぐにクロスハブの一員として活躍いただけます。"
+      }
+    ]
+  },
+  "CareersOpenRoles": {
+    "title": "OPEN ROLES",
+    "subTitle": "技術を超えて、変化を創る人々",
+    "contents": [
+      {
+        "department": "エンジニアリング",
+        "roles": [
+          {
+            "role": "フロントエンドエンジニア",
+            "employmentType": "正社員",
+            "careerLevel": "経験者",
+            "workLocation": "ソウル"
+          },
+          {
+            "role": "バックエンドエンジニア",
+            "employmentType": "正社員",
+            "careerLevel": "経験者",
+            "workLocation": "ソウル"
+          }
+        ]
+      },
+      {
+        "department": "ビジネス",
+        "roles": [
+          {
+            "role": "グローバル戦略マネージャー",
+            "employmentType": "正社員",
+            "careerLevel": "経験者",
+            "workLocation": "ソウル"
+          },
+          {
+            "role": "グロースマネージャー",
+            "employmentType": "正社員",
+            "careerLevel": "経験者",
+            "workLocation": "ソウル"
+          }
+        ]
+      },
+      {
+        "department": "マーケティング",
+        "roles": [
+          {
+            "role": "マーケティングマネージャー",
+            "employmentType": "正社員",
+            "careerLevel": "経験者",
+            "workLocation": "ソウル"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+:root {
+  /* color */
+  --primary-100: #ff5520;
+  --primary-200: #ffd7ca;
+  --primary-300: #e56a6e;
+  --primary-400: #ff8863;
+  --secondary-100: #e64a1d;
+  --text-000: #ffffff;
+  --text-100: #1e1e1e;
+  --text-200: #3c3c3c;
+  --text-300: #666666;
+  --text-400: #aaaaaa;
+  --text-500: #f3f3f3;
+  --text-600: #e6e6e6;
+  --code-green-base: #33a14b;
+  --code-green-bg: #f3fcf3;
+  --code-red-base: #f23b3b;
+  --code-red-bg: #fef1f1;
+  --code-yellow-base: #ffc550;
+  --code-yellow-bg: #fff8e9;
+  --code-blue-base: #1e90ff;
+  --code-blue-bg: #ebf5ff;
+  --code-purple-base: #7a45c6;
+  --code-purple-bg: #f4effa;
+  --primary-gradient: linear-gradient(to right, #ff8863, #ff5520);
+
+  /* font size */
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-36: 36px;
+  --font-size-32: 32px;
+  --font-size-40: 40px;
+  --font-size-48: 48px;
+  --font-size-menu: 15px;
+
+  /* padding */
+  --padding-small: 1rem;
+  --padding-medium: 1.5rem;
+  --padding-huge: 6rem;
+
+  --padding-section: 12rem;
+  --padding-layout: 4rem;
+  --padding-content: 2rem;
+  --padding-button: 0.6rem 1rem;
+  --padding-button-small: 0.3rem 0.8rem;
+
+  /* margin */
+  --margin-small: 1rem;
+  --margin-medium: 1.5rem;
+  --margin-huge: 6rem;
+
+  --margin-section: 12rem;
+  --margin-layout: 4rem;
+  --margin-content: 2rem;
+
+  /* gap */
+  --gap-xsmall: 0.5rem;
+  --gap-small: 1rem;
+  --gap-medium: 1.5rem;
+  --gap-huge: 6rem;
+
+  --gap-section: 12rem;
+  --gap-layout: 4rem;
+  --gap-content: 2rem;
+
+  /* border-radius */
+  --border-radius-5: 5px;
+  --border-radius-10: 10px;
+  --border-radius-15: 15px;
+  --border-radius-20: 20px;
+  --border-radius-30: 30px;
+
+  /* transition */
+  --transition-basic: all 0.3s ease-in-out;
+
+  /* box-shadow */
+  --box-shadow-basic: 0 0px 6px rgba(0, 0, 0, 0.2);
+  --box-shadow-medium: 2.25px 3px 14.4px 0.75px rgba(0, 0, 0, 0.25);
+  --box-shadow-white: 0px 0px 6px 0.35px rgba(221, 221, 221, 0.15);
+
+  /* width */
+  --width-full: 100vw;
+  --width-half: 50vw;
+  --width-hamburger: 950px;
+
+  /* height */
+  --height-full: 100vh;
+  --height-half: 50vh;
+  --height-basic: 80vh;
+  --height-header: 66px;
+}
+
+/* 기본 글꼴 */
+body {
+  font-family: Pretendard, 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+}
+
+/* 영어 */
+html[lang='en'] body,
+[lang='en'] {
+  font-family: 'Liberation Sans', sans-serif;
+}
+
+/* 한국어 */
+html[lang='ko'] body,
+[lang='ko'] {
+  font-family: Pretendard, 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: var(--text-100);
+  box-sizing: border-box;
+  font-display: optional;
+  font-weight: 400;
+}
+
+html.scroll-lock,
+body.scroll-lock {
+  overflow: hidden !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+button {
+  font-size: 15px;
+  font-family: Pretendard, 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+  font-display: optional;
+  box-sizing: border-box;
+}
+
+/* 영어 */
+html[lang='en'] body a,
+html[lang='en'] body button {
+  font-family: 'Inter', sans-serif;
+}
+
+/* 한국어 */
+html[lang='ko'] body a,
+html[lang='ko'] body button {
+  font-family: Pretendard, 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+}
+
+a {
+  color: var(--text-100);
+  display: block;
+  outline: 0;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  object-fit: contain;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+button {
+  border: none;
+  color: var(--text-100);
+  background-color: transparent;
+  line-height: 150%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 150%;
+}
+
+p,
+li p {
+  line-height: 150%;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subSection {
+  width: 100%;
+  /* min-height: calc(100vh - var(--height-header)); */
+}
+
+.code {
+  font-family: 'Menlo', sans-serif;
+}

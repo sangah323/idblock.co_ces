@@ -1,0 +1,42 @@
+.devSection {
+  height: 100%;
+  min-height: calc(100vh - var(--height-header));
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.main {
+  width: 50vw;
+  max-width: 1000px;
+  padding: var(--padding-huge) 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-section);
+  color: #333;
+}
+
+.main > div {
+  width: 100%;
+}
+
+.main p {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .devSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    width: 80vw;
+  }
+}

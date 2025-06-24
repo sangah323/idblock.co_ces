@@ -1,0 +1,81 @@
+.section {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+.title {
+  width: 100%;
+  font-size: var(--font-size-24);
+  font-weight: 600;
+  padding-bottom: var(--padding-small);
+  border-bottom: 1px solid var(--text-500);
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-medium);
+}
+
+.contentBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+.contentTitle {
+  font-size: var(--font-size-18);
+  font-weight: 600;
+}
+
+.description,
+.descriptionLinked,
+.descriptionBulletList,
+.descriptionNumberList {
+  font-size: var(--font-size-16);
+
+  color: var(--text-300);
+  font-weight: 300;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+.descriptionBulletList li {
+  padding-left: var(--padding-small);
+  position: relative;
+  list-style-type: none;
+  line-height: 150%;
+}
+
+.descriptionBulletList li::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: var(--text-400);
+  border-radius: 100%;
+}
+
+.descriptionNumberListItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}

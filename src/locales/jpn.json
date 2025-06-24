@@ -1,0 +1,80 @@
+{
+  "Header": {
+    "home": {
+      "label": "サービス紹介"
+    },
+    "about": {
+      "label": "会社概要",
+      "children": {
+        "aboutMain": "概要",
+        "history": "沿革",
+        "news": "ニュースリリース",
+        "map": "アクセス",
+        "contact": "お問い合わせ"
+      }
+    },
+    "devcenter": {
+      "label": "開発者向け"
+    },
+    "careers": {
+      "label": "採用情報"
+    },
+    "blog": {
+      "label": "ブログ"
+    },
+    "download": "ダウンロード"
+  },
+  "Footer": {
+    "top": {
+      "context": ["サービス利用規約", "個人情報取扱方針"],
+      "file": [
+        "/assets/footer/ID_Block_Service_Terms_of_Use.pdf",
+        "/assets/footer/ID_Block_Privacy_Policy.pdf"
+      ]
+    },
+    "bottom": {
+      "company": "クロスハブ株式会社",
+      "location": [
+        {
+          "name": "ソウルフィンテックLab",
+          "address": "ソウル特別市 永登浦区 議事堂大路83（オーツータワー）、5F"
+        },
+        {
+          "name": "釜山グローバルセンター",
+          "address": "釜山広域市 南区 門峴金融路40、BIFC釜山国際金融センター、9F"
+        },
+        {
+          "name": "大邱ユニコーンLab",
+          "address": "大邱広域市 北区 玉山路111、5F"
+        },
+        {
+          "name": "光州AIハブ",
+          "address": "光州広域市 東区 金南路193-22、光州AI創業キャンプ、3F"
+        },
+        {
+          "name": "大田R&Dセンター",
+          "address": "大田広域市 西区 済伯路1161、404-D38号（ユニオンビル）"
+        },
+        {
+          "name": "全北R&Dセンター",
+          "address": "全北特別自治道 全州市 徳津区 五公路123、全北創造経済革新センター、5F"
+        },
+        {
+          "name": "済州スマート観光センター",
+          "address": "済州特別自治道 西帰浦市 西湖南路25、3F"
+        },
+        {
+          "name": "日本東京支社",
+          "address": "東京都渋谷区千駄ヶ谷5丁目27−5"
+        }
+      ]
+    }
+  },
+  "notfound": {
+    "context": [
+      "リクエストされたページが見つかりませんでした。",
+      "入力されたアドレスが正しいか再度ご確認ください。"
+    ],
+    "button": "ホームページ"
+  }
+}

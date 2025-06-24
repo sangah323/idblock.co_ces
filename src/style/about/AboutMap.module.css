@@ -1,0 +1,169 @@
+.mapSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-section) 0;
+}
+
+.mapContainer {
+  flex-direction: column;
+  gap: var(--gap-layout);
+}
+
+.mapTitle {
+  font-size: var(--font-size-40);
+}
+
+/* mapGrid */
+.mapGrid {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+/* mapGrid - mapContact */
+.mapContact {
+  width: 100%;
+  text-align: left;
+}
+
+.contactRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: var(--margin-small);
+}
+
+.contactRow img {
+  width: 22px;
+  height: 22px;
+  margin-right: var(--margin-small);
+}
+
+.contactRow .contactText {
+  font-size: var(--font-size-16);
+  font-style: normal;
+}
+
+/* mapGrid - mapBox */
+.mapBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+/* sideBar */
+.sideBarWrapper {
+  width: 100%;
+}
+
+.sideBar {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-small);
+  flex-wrap: wrap;
+}
+
+.sideBar li {
+  padding: var(--padding-button);
+  background-color: var(--text-500);
+  border-radius: var(--border-radius-15);
+  transition: var(--transition-basic);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.sideBar li:hover {
+  background-color: var(--text-400);
+}
+
+.sideBar li.active {
+  color: var(--text-000);
+  background-color: var(--primary-100);
+}
+
+/* currentMap */
+.currentMap {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+.currentMap .contactRow {
+  gap: var(--gap-small);
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.currentMap .contactRow img {
+  margin: 0;
+}
+
+.currentMap .contactRow p:nth-child(2) {
+  position: relative;
+  padding-right: 1rem;
+}
+
+.contactRow p:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 2px;
+  height: 100%;
+  background-color: var(--text-600);
+}
+
+.currentMap .mapImage {
+  width: 100%;
+  aspect-ratio: 1.69;
+  object-fit: contain;
+  object-position: center;
+}
+
+.currentMap > div > div {
+  border-radius: var(--border-radius-15);
+}
+
+@media screen and (max-width: 480px) {
+  .mapTitle {
+    font-size: var(--font-size-32);
+  }
+
+  .contactRow img {
+    width: 18px;
+    height: 18px;
+    margin-right: var(--margin-small);
+  }
+
+  .contactRow,
+  .contactRow .contactText {
+    font-size: var(--font-size-14);
+  }
+
+  .sideBarWrapper {
+    width: 100%;
+  }
+
+  .sideBar {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+
+  .sideBar li {
+    font-size: var(--font-size-14);
+  }
+}

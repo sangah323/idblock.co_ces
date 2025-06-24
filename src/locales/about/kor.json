@@ -1,0 +1,358 @@
+{
+  "AboutMain": {
+    "title": ["일상생활과 기술의", "가치를 실현하다"],
+    "description": [
+      "블록체인과 AI 기술을 기반으로 핀테크 분야에서",
+      "디지털 전환(DX)을 선도하고 일상의 모든 측면을",
+      "연결해 새로운 경험과 기술의 가치를 실현합니다"
+    ]
+  },
+  "AboutGoal": {
+    "goal": {
+      "title": ["크로스허브의", "세계를 향한 목표"],
+      "card": [
+        {
+          "cardsdffTitle": "GOAL",
+          "content": ["인증과 결제를 통해", "세계를 하나로 연결합니다"]
+        },
+        {
+          "cardTitle": "VISION",
+          "content": [
+            "전 세계 최초 단일화 신원 인증을",
+            "구축하여 이에 기반한 모든 기회의",
+            "장을 제공할 수 있는 기업으로",
+            "성공할 것입니다"
+          ]
+        },
+        {
+          "cardTitle": "MISSION",
+          "content": [
+            "개인과 기업 모두가",
+            "글로벌 디지털 환경에서",
+            "안전하고 자유롭게",
+            "연결될 수 있도록 돕습니다"
+          ]
+        }
+      ]
+    },
+    "value": {
+      "title": ["목표를 위한", "우리의 핵심 가치"],
+      "card": [
+        {
+          "title": "CHALLENGE",
+          "content": "글로벌 신원 인증의 한계를 극복하는 것에서 출발합니다"
+        },
+        {
+          "title": "INNOVATION",
+          "content": "블록체인 기술 기반 안정성과 편리성을 갖춘 솔루션을 제공합니다"
+        },
+        {
+          "title": "CONTINUE",
+          "content": "글로벌 서비스를 연결하고 지속 가능한 디지털 생태계를 구축합니다"
+        }
+      ]
+    }
+  },
+  "AboutHistory": {
+    "title": "수상 및 연혁",
+    "contentList": [
+      {
+        "year": "2025",
+        "quarter": [
+          {
+            "name": "2Q",
+            "contents": [
+              "신용보증기금 2025 상반기 IBK창공 오픈이노베이션 프로그램 참가기업 선정",
+              "인포뱅크 서울홍릉강소특구 이노폴리스 캠퍼스 사업(GRaND-K 창업학교) 선정",
+              "전북테크노파크 민간투자주도형 기술사업 활성화 지원사업 선정",
+              "부산창조경제혁신센터 BOUNCE 스마트해양·핀테크 액셀러레이팅 참가기업 선정",
+              "IVS Japan 2025 참가 기업 선정",
+              "서울관광재단 서울국제트래블마트(2025 SITM) 관광홍보관 참가기업 선정",
+              "부산정보산업진흥원 글로벌 비즈니스 역량 지원 컨설팅 참가기업 선정",
+              "도전! K-스타트업 2025 혁신창업리그(일반리그) 참가기업 선정",
+              "2025년 국내외 전시ㆍKTSC 글로벌 커넥트 참가기업 선정",
+              "전북 CES(국제전자제품박람회) 2026 공동관 및 단독관 참가기업 선정",
+              " 한국핀테크지원센터 2025년 상반기 D-테스트베드 참여기업 선정",
+              "GDIN K-Global 해외진출 지원사업선정",
+              "핀테크 특화 해외진출 프로그램(Nexus Luxembourg 2025) 참가기업 선정",
+              "부산 블록체인 기업 사업화 지원사업 선정",
+              "DGB 금융그룹 피움랩 7기 선정",
+              "광주투자액셀러레이팅(G-IN Next Level) 9기 참여기업 선정",
+              "서울 관광스타트업 협력 프로젝트 공모전 최우수상 수상",
+              "SEED 투자 유치(7억 / 누적 24억)"
+            ]
+          },
+          {
+            "name": "1Q",
+            "contents": [
+              "Climbers Startup JAPAN EXPO 참여기업 선정",
+              "Synergy Core 1기 스타트업 지원사업 선정",
+              "J-curve 배치프로그램 3기 참여기업 선정",
+              "신용보증기금 '리틀펭귄' 기업 선정",
+              "부산 제23차 세계한인비즈니스대회 미국 아틀란타 참가기업 선정",
+              "카자흐스탄 알마티 「K-Wave Fest」 참가기관 선정",
+              "한국관광공사 오사카엑스포 연계 관광 벤처기업 쇼케이스 참여기업 선정",
+              "KOTRA 서비스 BM 지원사업 선정",
+              "영국, 중국 북경대 연합 글로벌창업경진대회 대상 수상",
+              "우리금융 디노랩 부산 1기 선정",
+              "인공지능산업융합사업단 주관 광주 AI 창업캠프 입주기업 선정",
+              "경기도경제과학진흥원 주관 창업혁신공간 입주기업 선정"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2024",
+        "quarter": [
+          {
+            "name": "4Q",
+            "contents": [
+              "예비창업패키지 최우수기업 선정 및 우수기업표창장 수여",
+              "성균관대학교 KINGO-GA 창업 경진대회 '금상' 수상",
+              "기보벤쳐캠프 15기 운영사 데모데이 '최우수상' 수상",
+              "한국관광공사 도쿄 관광기업지원센터(KTSC) 신규 입주 기업 선정",
+              "베트남 솔루션 공급기업 'AMOEBA' 수출 공급 계약 체결 (2,700만 원)",
+              "베트남 TechFest 현지진출기업 지원 사업 선정",
+              "KISA(한국인터넷진흥원) 블록체인 기업성장 지원사업 선정",
+              "NIPA(정보통신산업진흥원) 현지화랩 지원사업 선정",
+              "부산광역시 블록체인 역외기업 육성센터 기업 선정"
+            ]
+          },
+          {
+            "name": "3Q",
+            "contents": [
+              "서울핀테크랩 X IBK 기업은행 1st LAB 사업 선정",
+              "서울핀테크랩 입주기업 선정",
+              "벤처기업(Certificate of Venture Business) 획득",
+              "기술보증기금(KIBO) 주관 제 15기 기보벤처캠프 기업 선정",
+              "글로벌 일본 PoC+리빙랩 사업 선정"
+            ]
+          },
+          {
+            "name": "2Q",
+            "contents": [
+              "국내 전문투자자(AC) 그룹 시드 투자 유치(2억원)",
+              "중소벤쳐기업부 주관 예비창업패키지 선정"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2023",
+        "quarter": [
+          {
+            "name": "4Q",
+            "contents": ["충북과학기술혁신원 주관 BIC 블록체인 컨퍼런스 경진대회 ‘최우수상' 수상"]
+          }
+        ]
+      }
+    ]
+  },
+  "AboutNews": {
+    "title": "보도자료",
+    "pressItems": [
+      {
+        "title": "부산창경, 일본 오픈이노베이션 '플러그 인:도쿄' 마무리",
+        "link": "https://www.venturesquare.net/968885",
+        "date": "2025.05.15",
+        "source": "venturesquare",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2025/05/1-4.jpg",
+        "preview": "부산창조경제혁신센터(대표이사 김용우, 이하 부산창경)는 지난 5월 7일부터 10일까지 일본 도쿄에서 개최된 글로벌 오픈이노베이션(개방형 혁신) 프로그램인 ‘플러그 인:도쿄(Plug in:Tokyo)’를 전국 7개 창조경제혁신센터, 유망 스타트업 10개사와 함께 성공적으로 운영하며 일본 진출 지원 거점으로서의 첫 행보를 성과 중심으로 마무리했다고 밝혔다."
+      },
+      {
+        "title": "서울핀테크랩, 7년간 4000명 고용 효과",
+        "link": "https://www.donga.com/news/Society/article/all/20250429/131518706/2",
+        "date": "2025.04.30",
+        "source": "동아일보",
+        "image": "https://dimg.donga.com/wps/NEWS/IMAGE/2025/04/29/131519137.1.jpg",
+        "preview": "서울핀테크랩에 입주해 있다는 것만으로도 사업성이 있다는 ‘인증마크’를 받은 셈이거든요. 홀로 투자 유치를 할 때보다 훨씬 더 많은 관심과 기회를 받고 있습니다."
+      },
+      {
+        "title": "서울핀테크랩 입주사 '크로스허브', 핀테크·관광 융합 기업으로 주목",
+        "link": "https://www.theguru.co.kr/news/article.html?no=86400",
+        "date": "2025.04.27",
+        "source": "더 구루",
+        "image": "https://www.theguru.co.kr/data/photos/20250417/art_1745592245795_1954b3.png",
+        "preview": "서울시가 운영하는 핀테크 창업지원 허브 '서울핀테크랩'의 입주사인 '크로스허브'가 최근 신용보증기금의 '리틀펭귄' 프로그램과 서울관광재단의 '서울관광새싹기업' 사업에 동시에 선정됐다."
+      },
+      {
+        "title": "Crosshub sets out to build borderless identity, payment ecosystem",
+        "link": "https://www.koreatimes.co.kr/business/banking-finance/20250419/crosshub-sets-out-to-build-borderless-identity-payment-ecosystem",
+        "date": "2025.04.19",
+        "source": "The Korea Times",
+        "image": "https://newsimg.koreatimes.co.kr/2025/04/18/17b1dfc6-3728-429d-b3a0-e69d443f9d21.jpg",
+        "preview": "Vietnam, Japan among first stops in Korean startup’s global expansion drive"
+      },
+      {
+        "title": "서울시, 유망 '관광 새싹기업' 5곳 선정…최대 7000만 원 지원",
+        "link": "https://www.news1.kr/local/moi/5756806",
+        "date": "2025.04.18",
+        "source": "뉴스 1",
+        "image": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fi3n.news1.kr%2Fsystem%2Fphotos%2F2025%2F4%2F17%2F7241825%2Fhigh.jpg&w=1920&q=75",
+        "preview": "서울시가 서울관광재단과 '2025 서울 관광새싹기업 협력프로젝트'를 통해 유망 관광 스타트업 5곳을 최종 선정했다고 18일 밝혔다. 이번 오디션은 152개 기업이 지원해 30대 1의 경쟁률을 기록했다."
+      },
+      {
+        "title": "크로스허브, 신용보증기금 '리틀펭귄' 선정",
+        "link": "https://www.vtimes.kr/news/articleView.html?idxno=51904",
+        "date": "2025.04.03",
+        "source": "벤처타임즈",
+        "image": "https://www.vtimes.kr/news/photo/202504/51904_28459_4822.jpg",
+        "preview": "차세대 4세대 하이브리드 신원인증 서비스(ID Block)와 글로벌 크로스보더 간편결제 서비스(Block Pay)를 개발 중인 크로스허브가 신용보증기금의 유망 스타트업 지원 프로그램인 '리틀펭귄'에 선정됐다고 밝혔다."
+      },
+      {
+        "title": "우리금융, 부산에 블록체인 스타트업 허브 개설",
+        "link": "https://platum.kr/archives/254801",
+        "date": "2025.03.14",
+        "source": "Platum",
+        "image": "https://platum.kr/wp-content/uploads/2025/03/image-24.png",
+        "preview": "우리금융그룹이 국내 금융권 최초로 블록체인 특화 스타트업 육성 센터를 부산에 개설했다. 이번 움직임은 국내 유일의 블록체인 규제자유특구인 부산의 지역적 이점을 활용한 전략적 행보로 평가받고 있다."
+      },
+      {
+        "title": "부산역에 블록체인·핀테크 스타트업 육성 허브 둥지",
+        "link": "https://www.busan.com/view/busan/view.php?code=2025031309285007833",
+        "date": "2025.03.13",
+        "source": "부산일보",
+        "image": "https://www.busan.com/nas/wcms/wcms_data/photos/2025/03/13/2025031309240166624_l.jpg",
+        "preview": "부산의 블록체인과 핀테크 분야 스타트업(신생기업)을 육성하기 위한 지원 시설이 문을 열었다. 이 시설이 해당 산업의 지역 혁신 허브로 자리매김하면, 기업들도 안정적인 투자와 성장 기회를 확보할 것으로 기대된다."
+      },
+      {
+        "title": "광주시, AI 유망기업 유치…모빌리티 등 융합 기대",
+        "link": "https://www.nocutnews.co.kr/news/6306315?utm_source=naver&utm_medium=article&utm_campaign=20250311053240",
+        "date": "2025.03.11",
+        "source": "노컷뉴스",
+        "image": "https://file2.nocutnews.co.kr/newsroom/image/2025/03/11/202503111708300003_0.jpg",
+        "preview": "광주시가 인공지능(AI) 산업 집적단지(클러스터) 조성과 기업 집적화에 총력을 기울이는 가운데 에너지·핀테크 등 다양한 관련기업들을 잇따라 유치하며 'AI 대표도시'로서 입지를 강화하고 있다."
+      },
+      {
+        "title": "서울시, 핀테크 산업 육성 간담회 개최…입주업체 대표들 목소리 경청",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1486",
+        "date": "2025.03.06",
+        "source": "핀테크투데이",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202503/1486_2121_3053.jpg",
+        "preview": "2025년 3월 5일, 서울시는 여의도 소재 서울핀테크랩에서 핀테크 산업 육성을 위한 간담회를 개최했다. 이날 행사에는 오세훈 서울시장을 비롯해 핀테크 기업 대표, 금융당국 관계자 등이 참석해 핀테크 산업의 현안과 발전 방향에 대해 의견을 나누는 시간을 가졌다."
+      },
+      {
+        "title": "차세대 하이브리드 신원인증의 필요성",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1482",
+        "date": "2025.03.04",
+        "source": "핀테크투데이",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202503/1482_2113_474.png",
+        "preview": "2020년 5월은 신원인증 분야에 의미 있는 변화가 시작된 시기였다. 전자서명법 개정안이 국회 본회의를 통과하면서 오랜 기간 독점 지위를 누리던 공인인증서가 폐지되고, 사설 인증 서비스 시장이 열렸다."
+      },
+      {
+        "title": "‘아이디블록(IDBlock)’ 2025 글로벌창업경진대회 대상 수상",
+        "link": "https://www.etoday.co.kr/news/view/2447078",
+        "date": "2025.02.21",
+        "source": "이투데이",
+        "image": "https://img.etoday.co.kr/pto_db/2025/02/20250221130629_2139337_592_333.png",
+        "preview": "크로스허브가 ‘2025 글로벌 창업경진대회’에서 대상을 받으며 혁신 기업으로서의 입지를 다시 한번 증명했다. 이번 대회는 글로벌 투자유치 플랫폼 박스레더와 북경대학교, 영국 투자기관 심산벤처스가 공동 주최한 행사로, 세계적으로 유망한 스타트업들이 치열한 경쟁을 펼쳤다."
+      },
+      {
+        "title": "블록체인 기반의 신원인증 서비스를 제공하는 기업 ‘크로스허브’",
+        "link": "https://www.fintechtoday.co.kr/news/articleView.html?idxno=1430",
+        "date": "2025.02.10",
+        "source": "핀테크투데이",
+        "image": "https://cdn.fintechtoday.co.kr/news/photo/202502/1430_2048_1121.jpg",
+        "preview": "크로스허브는 블록체인 기반의 신원인증 서비스를 제공하는 기업이다. 박수정 공동창업자(31)에 의해서 2024년 5월에 설립 되었다."
+      },
+      {
+        "title": "대전혁신센터-대만 i2i, 새해 첫 글로벌 온라인 데모데이 개최",
+        "link": "https://www.ccnnews.co.kr/news/articleView.html?idxno=360239",
+        "date": "2025.01.21",
+        "source": "충청뉴스",
+        "image": "https://www.ccnnews.co.kr/news/photo/202501/360239_449842_3740.jpg",
+        "preview": "대전창조경제혁신센터가 지난 16일 대만의 스타트업 엑셀러레이터인 i2i(Industry to Innovation)와 함께 새해 첫 글로벌 온라인 데모데이 ‘IP2 Launchpad’를 개최하며 한국 스타트업들에게 대만 시장진출 기회를 제공했다."
+      },
+      {
+        "title": "초기투자액셀러레이터협회, '제7회 KAIA 실무자 클럽하우스' 개최",
+        "link": "https://www.venturesquare.net/949333",
+        "date": "2024.12.04",
+        "source": "벤처스퀘어",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2024/12/kaia-789x364.jpg",
+        "preview": "(사)초기투자액셀러레이터협회(협회장 전화성, 이하 협회)는 ‘제7회 KAIA 실무자 클럽하우스’ 행사를 성공적으로 개최했다고 4일 밝혔다."
+      },
+      {
+        "title": "지에이코리아그룹, 성균관대와 'KINGO-GA 창업경진대회'…",
+        "link": "https://www.kyeonggi.com/article/20241202580120",
+        "date": "2024.12.02",
+        "source": "경기일보",
+        "image": "https://ypzxxdrj8709.edge.naverncp.com/data2/content/image/2024/12/02/.cache/512/20241202580121.jpg",
+        "preview": "지에이코리아 그룹이 성균관대와 함께 대한민국 청년 창업가 지원에 팔을 걷어붙이고 있다. 지에이코리아 그룹은 최근 용인시 기흥구 GA 코리아 프라자에서 ‘2024 KINGO-GA 창업경진대회’를 진행했다고 2일 밝혔다."
+      },
+      {
+        "title": "크로스허브, 베트남 '아메바'와 공급 계약 체결",
+        "link": "https://www.venturesquare.net/948842",
+        "date": "2024.11.29",
+        "source": "벤처스퀘어",
+        "image": "https://www.venturesquare.net/wp-content/uploads/2024/11/unnamed-4-2.jpg",
+        "preview": "크로스허브는 베트남의 솔루션 공급 기업 ‘아메바(Amoeba)’와 자사의 DID(분산형 신원 인증) 블록체인 기반 신원인증 솔루션 ‘아이디블록(IDBlock)’ 600,000 건을 공급하는 계약을 체결했다."
+      },
+      {
+        "title": "대전혁신센터, 베트남 '테크페스트 2024' 참가…스타트업 진출 지원",
+        "link": "https://www.news1.kr/local/daejeon-chungnam/5603906",
+        "date": "2024.11.18",
+        "source": "뉴스1",
+        "image": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fi3n.news1.kr%2Fsystem%2Fphotos%2F2024%2F11%2F18%2F6991844%2Fhigh.jpg&w=1080&q=75",
+        "preview": "대전창조경제혁신센터는 오는 26일부터 3일간 베트남 하이퐁에서 열리는 베트남 최대 기술혁신 전시회 ‘테크페스트 2024‘에 참가해 대전 스타트업의 베트남 시장 진출을 본격 지원한다고 18일 밝혔다."
+      },
+      {
+        "title": "크로스허브, 2억 규모 투자 유치…\"인재 채용도 확대\"",
+        "link": "https://news.nate.com/view/20240618n21757",
+        "date": "2024.06.08",
+        "source": "네이트신문",
+        "image": "https://news.nateimg.co.kr/orgImg/aj/2024/06/18/20240618135121553218.jpg",
+        "preview": "DID(Digital Identify) 기반 블록체인 개발 기업 크로스허브가 국내 전문투자자(AC) 그룹을 통해 시드(Seed) 투자를 유치했다고 18일 밝혔다. 투자 규모는 10억원의 가치를 인정받아 2억원을 투자 받았다."
+      }
+    ]
+  },
+  "AboutMap": {
+    "title": "오시는 길",
+    "contact": "TEL : +82 2-6975-9999 | FAX : +82 2-6008-5040",
+    "email": "E-mail : crosshub@crosshub.kr",
+    "maps": [
+      {
+        "name": "본사",
+        "address": "전북특별자치도 전주시 덕진구 오공로 123, 전북창조경제혁신센터, 5F"
+      },
+      {
+        "name": "대전 R&D 센터",
+        "address": "대전광역시 서구 계백로 1161, 404-D38호(유니온빌딩)"
+      },
+      {
+        "name": "서울 핀테크 Lab",
+        "address": "서울특별시 영등포구 의사당대로 83(오투타워), 5F"
+      },
+      {
+        "name": "부산 글로벌 센터",
+        "address": "부산광역시 남구 문현금융로 40, BIFC 부산국제금융센터, 9F"
+      },
+      {
+        "name": "대구 유니콘 Lab",
+        "address": "대구광역시 북구 옥산로 111, 5F"
+      },
+      {
+        "name": "광주 AI 허브",
+        "address": "광주광역시 동구 금남로 193-22, 광주AI창업캠프, 3F"
+      },
+      {
+        "name": "제주 스마트 관광 센터",
+        "address": "제주특별자치도 서귀포시 서호남로 25, 3F"
+      },
+      {
+        "name": "일본 도쿄 지사",
+        "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo"
+      }
+    ]
+  },
+  "AboutContact": {
+    "title": [
+      "크로스허브는 더 나은 미래를 만들고",
+      "시너지를 높일 수 있는 동반 성장의 기회를 찾고있어요"
+    ],
+    "description": [
+      "사업 제휴 등과 관련한 문의를 보내주시면",
+      "담당 부서 검토 후 빠른 시일 내에 회신드릴게요"
+    ],
+    "button": "제휴 문의"
+  }
+}

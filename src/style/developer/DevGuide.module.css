@@ -1,0 +1,26 @@
+.mainContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-huge);
+}
+
+/* mainTitle */
+.mainContainer .mainTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+  margin-bottom: 0;
+}
+
+.mainTitle h1 {
+  font-size: var(--font-size-40);
+  font-weight: 600;
+}
+
+.mainContainer > div {
+  width: 100%;
+}

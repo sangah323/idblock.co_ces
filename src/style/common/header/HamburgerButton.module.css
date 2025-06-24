@@ -1,0 +1,34 @@
+.hamburgerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px var(--padding-small);
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburgerButton img {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.hamburgerButton .active {
+  display: none;
+}
+
+.hamburgerButton:hover .inActive {
+  display: none;
+}
+
+.hamburgerButton:hover .active {
+  display: block;
+}
+
+@media screen and (min-width: 951px) {
+  .hamburgerButton {
+    display: none;
+  }
+}

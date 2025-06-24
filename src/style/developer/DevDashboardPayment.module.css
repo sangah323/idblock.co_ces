@@ -1,0 +1,133 @@
+.mainContainer {
+  padding-right: calc((100vw - 1200px) / 2);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-layout);
+}
+
+.mainTitle {
+  font-size: var(--font-size-32);
+  font-weight: 600;
+}
+
+.subTitle {
+  font-size: var(--font-size-18);
+  font-weight: 500;
+}
+
+/* filterBox */
+.filterBox {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-content);
+}
+
+.filterDate,
+.filterMethod {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+/* filterBox - filterDate */
+.calendarBox {
+  position: relative;
+}
+
+.dateRange {
+  min-width: 190px;
+  text-align: left;
+  padding: 0.6rem;
+  border: 1px solid var(--text-400);
+  border-radius: var(--border-radius-10);
+}
+
+.calendar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+/* filterBox - filterMethod */
+.methods {
+  padding: 0.6rem;
+  border-radius: var(--border-radius-10);
+  border-color: var(--text-400);
+  appearance: none;
+}
+
+.methodWrapper {
+  position: relative;
+}
+
+.methodWrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0.6rem;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  background: url('/assets/developer/arrow-icon.png') no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.filterButton {
+  background-color: var(--primary-100);
+  color: var(--text-000);
+  padding: 0.6rem 1rem;
+  border-radius: var(--border-radius-10);
+  transition: var(--transition-basic);
+}
+
+.filterButton:hover {
+  background-color: var(--primary-400);
+}
+
+/* historyBox */
+.historyBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-content);
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background-color: var(--text-500);
+  border-top: 1px solid var(--text-400);
+  border-bottom: 1px solid var(--text-400);
+}
+
+thead tr th {
+  width: 100%;
+  font-size: var(--font-size-14);
+  font-weight: 500;
+  text-align: center;
+  padding: var(--padding-small);
+}
+
+tbody tr {
+  border-top: 1px solid var(--text-500);
+  border-bottom: 1px solid var(--text-500);
+}
+
+tbody tr td {
+  font-size: var(--font-size-12);
+  text-align: center;
+  vertical-align: middle;
+  padding: var(--padding-small);
+}

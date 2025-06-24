@@ -1,0 +1,16 @@
+.menuContainer {
+  display: flex;
+  justify-content: flex-end;
+  white-space: nowrap;
+  gap: 0.3rem;
+}
+
+.menuContainer::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+@media screen and (max-width: 950px) {
+  .menuContainer {
+    display: none;
+  }
+}

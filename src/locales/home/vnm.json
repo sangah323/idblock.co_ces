@@ -1,0 +1,100 @@
+{
+  "HomeMain": {
+    "title": ["Truy cập an toàn", "Không biên giới"],
+    "description": [
+      "Không còn phiền toái vì số điện thoại địa phương",
+      "hay rủi ro rò rỉ dữ liệu. Với xác thực phi tập trung",
+      "của IDBlock, danh tính của bạn được bảo vệ"
+    ]
+  },
+  "HomeQuestion": {
+    "question": {
+      "title": ["Bạn có biết không?", "Dữ liệu cá nhân của bạn có thể đã bị rò rỉ"],
+      "description": "Các hệ thống dữ liệu tập trung đang khiến hàng tỷ thông tin cá nhân gặp rủi ro mỗi năm",
+      "context": [
+        {
+          "name": "10.8B cases",
+          "speech": "Số vụ rò rỉ thông tin cá nhân của doanh nghiệp"
+        },
+        {
+          "name": "$282M",
+          "speech": "Thiệt hại hằng năm do rò rỉ thông tin cá nhân"
+        },
+        {
+          "name": "$33.1B",
+          "speech": "Chi phí phục hồi hằng năm do vi phạm dữ liệu cá nhân"
+        }
+      ]
+    },
+    "answer": {
+      "title": "Mọi thứ bạn cần, an toàn ở một nơi duy nhất – IDBlock",
+      "card": [
+        {
+          "cardTitle": "Hệ thống xác thực phi tập trung dựa trên Blockchain",
+          "cardDescription": "Chuyển quyền sở hữu dữ liệu từ hệ thống tập trung sang cá nhân Tăng cường bảo mật nhờ công nghệ mã hóa Zero-Knowledge (ZKP) và phi tập trung"
+        },
+        {
+          "cardTitle": "Linh hoạt hỗ trợ cả môi trường Web2.0 và Web3.0",
+          "cardDescription": "Áp dụng được cho Web2.0, cho phép kiểm chứng thị trường ngay lập tức Khắc phục điểm yếu về tính linh hoạt của các DID hiện có"
+        },
+        {
+          "cardTitle": "Tăng tiện ích nhờ kết hợp xác thực đa yếu tố và sinh trắc học",
+          "cardDescription": "Đảm bảo các biện pháp bảo mật đạt chuẩn ngành tài chính, mang đến trải nghiệm thuận tiện cho người dùng"
+        }
+      ]
+    }
+  },
+  "HomeFeature": {
+    "contentList": [
+      {
+        "title": "Xác thực danh tính",
+        "fstDes": "Chỉ cần một lần xác thực danh tính",
+        "secDes": "là có thể cấp thẻ ID di động"
+      },
+      {
+        "title": "Bảo mật mạnh mẽ",
+        "fstDes": "Thông qua công nghệ bằng chứng không kiến thức",
+        "secDes": "chỉ cung cấp chọn lọc thông tin cá nhân tối thiểu"
+      },
+      {
+        "title": "Liên kết dịch vụ ứng dụng",
+        "fstDes": "Với xác thực IDBlock,",
+        "secDes": "việc đăng ký và sử dụng ứng dụng trở nên tự do"
+      },
+      {
+        "title": "Quản lý thanh toán",
+        "fstDes": "Sử dụng phương thức thanh toán đã quen thuộc tại Hàn Quốc",
+        "secDes": "đăng ký vào nền tảng và thanh toán trực tuyến"
+      },
+      {
+        "title": "Thẻ công dân danh dự",
+        "fstDes": "Chọn điểm đến và trở thành công dân danh dự",
+        "secDes": "để nhận nhiều ưu đãi giảm giá"
+      }
+    ]
+  },
+  "HomeStep": {
+    "title": ["Xác minh danh tính một lần", "để truy cập ứng dụng toàn cầu dễ dàng"],
+    "step": [
+      {
+        "name": "BƯỚC 1",
+        "content": ["Xác minh", "KYC"]
+      },
+      {
+        "name": "BƯỚC 2",
+        "content": ["Nhận diện", "khuôn mặt"]
+      },
+      {
+        "name": "BƯỚC 3",
+        "content": ["Cấp phát", "ID"]
+      }
+    ]
+  },
+  "HomePatent": {
+    "description": "Sở hữu chứng nhận công nghệ cốt lõi như bằng sáng chế liên kết, chứng nhận doanh nghiệp khởi nghiệp, phòng nghiên cứu doanh nghiệp",
+    "title": ["IDBlock đã được công nhận về năng lực công nghệ", "và tiềm năng tăng trưởng"]
+  },
+  "HomePartner": {
+    "title": ["Crosshub hợp tác với nhiều tổ chức tại Hàn Quốc", "và trên toàn thế giới"]
+  }
+}

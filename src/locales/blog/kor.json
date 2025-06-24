@@ -1,0 +1,23 @@
+{
+  "BlogMain": {
+    "title": "한 걸음씩, 세계로",
+    "subTitle": "세상을 연결하는 기술, 그리고 우리의 발자취"
+  },
+  "BlogContent": {
+    "noPostMessage": "해당 조건에 맞는 게시글이 없습니다."
+  },
+  "BlogPost": {
+    "BlogCta": {
+      "title": "IDBlock이 궁금하다면?",
+      "button": "지금 시작하기"
+    }
+  },
+  "FilterButton": {
+    "all": "전체",
+    "development": "개발",
+    "design": "디자인",
+    "insight": "인사이트",
+    "news": "뉴스",
+    "event": "이벤트"
+  }
+}

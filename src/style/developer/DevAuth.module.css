@@ -1,0 +1,35 @@
+.mainContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-huge);
+}
+
+.mainContainer > div {
+  margin-bottom: var(--margin-huge);
+}
+
+/* mainTitle */
+.mainContainer .mainTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--gap-small);
+  margin-bottom: 0;
+}
+
+.mainTitle h1 {
+  font-size: var(--font-size-40);
+  font-weight: 600;
+}
+
+.mainTitle > p {
+  font-weight: 400;
+}
+
+.mainContainer > div {
+  width: 100%;
+}
