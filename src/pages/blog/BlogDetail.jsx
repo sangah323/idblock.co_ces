@@ -7,29 +7,29 @@ export default function BlogDetail() {
   const { slug } = useParams();
   const lan = useSelector((state) => state.lan.ver);
 
-  useEffect(() => {
-    document.documentElement.classList.add('scroll-lock');
-    document.body.classList.add('scroll-lock');
+  // useEffect(() => {
+  //   document.documentElement.classList.add('scroll-lock');
+  //   document.body.classList.add('scroll-lock');
 
-    const interval = setInterval(() => {
-      const iframe = document.getElementById('pdfWrapper');
-      if (iframe) {
-        setTimeout(() => {
-          document.documentElement.classList.remove('scroll-lock');
-          document.body.classList.remove('scroll-lock');
-          window.scrollTo(0, 0);
-        }, 200);
+  //   const interval = setInterval(() => {
+  //     const iframe = document.getElementById('pdfWrapper');
+  //     if (iframe) {
+  //       setTimeout(() => {
+  //         document.documentElement.classList.remove('scroll-lock');
+  //         document.body.classList.remove('scroll-lock');
+  //         window.scrollTo(0, 0);
+  //       }, 200);
 
-        clearInterval(interval);
-      }
-    }, 100);
+  //       clearInterval(interval);
+  //     }
+  //   }, 100);
 
-    return () => {
-      clearInterval(interval);
-      document.documentElement.classList.remove('scroll-lock');
-      document.body.classList.remove('scroll-lock');
-    };
-  }, []);
+  //   return () => {
+  //     clearInterval(interval);
+  //     document.documentElement.classList.remove('scroll-lock');
+  //     document.body.classList.remove('scroll-lock');
+  //   };
+  // }, []);
 
   return <BlogPost slug={slug} lan={lan.toLowerCase()} />;
 }
