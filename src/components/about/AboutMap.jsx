@@ -12,9 +12,15 @@ import Image from '@/components/common/Image';
 export default function AboutMap({ lan }) {
   const mapRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
-
+  const [apiKey, setApiKey] = useState('');
   const t = useT('AboutMap');
   const mapList = translate('about', lan.toLowerCase(), 'AboutMap.maps');
+
+  useEffect(() => {
+    secret('GOOGLE_API_KEY').then((key) => {
+      setApiKey(key);
+    });
+  }, []);
 
   useEffect(() => {
     if (mapRef.current) {
@@ -65,7 +71,7 @@ export default function AboutMap({ lan }) {
                 <p>{`${mapList[activeIndex].address}`}</p>
               </div>
 
-              <APIProvider apiKey={`${secret('GOOGLE_API_KEY')}`}>
+              <APIProvider apiKey={`${apiKey}`}>
                 <Map
                   className={styles.mapImage}
                   center={MAP_LOCATION_LIST[activeIndex]}
