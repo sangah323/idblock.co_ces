@@ -7,7 +7,6 @@ import { MAP_LOCATION_LIST } from '@/utils/constants';
 import { useT } from '@/hooks/useT';
 import { AdvancedMarker, APIProvider, Map } from '@vis.gl/react-google-maps';
 import Image from '@/components/common/Image';
-import { getGoogleApiKey } from '@/utils/secret';
 
 export default function AboutMap({ lan }) {
   const mapRef = useRef(null);
@@ -65,7 +64,7 @@ export default function AboutMap({ lan }) {
                 <p>{`${mapList[activeIndex].address}`}</p>
               </div>
 
-              <APIProvider apiKey={`${getGoogleApiKey().API_KEY}`}>
+              <APIProvider apiKey={`${process.env.VITE_GOOGLE_MAP_API_KEY}`}>
                 <Map
                   className={styles.mapImage}
                   center={MAP_LOCATION_LIST[activeIndex]}
