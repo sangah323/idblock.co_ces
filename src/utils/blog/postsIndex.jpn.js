@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "nextrise-2025",
+    "title": "クロスハブがアジア最大のスタートアップ博覧会、NextRise Seoul 2025に参加します！",
+    "description": "IDBlockとB·Payが旅行者とグローバルビジネス向けの本人確認と国境を越えた決済方法をどのように革新しているかを直接ご確認ください。500の参加スタートアップの一つとして、世界の14億人のための境界のない世界をどのように構築しているかを現場でご紹介します。",
+    "filter": "news",
+    "date": "2025-06-24",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQELtnW2cgNbnA/feedshare-shrink_800/B4EZeapxz8HcAk-/0/1750646334453?e=1753920000&v=beta&t=AZBdIY9beH2tXhvkdfckDaUNow_14JavrtMSNg3KQ_k"
+  },
+  {
     "slug": "nexus-luxembourg-2025-wrap",
     "title": "🇱🇺 Nexus Luxembourg 2025を終えて、CrossHubの新たな一章へ",
     "description": "人、アイデア、エネルギー — CrossHubはNexus Luxembourg 2025で大きな刺激を受けました。次はNextRise Seoul 2025でお会いしましょう！",

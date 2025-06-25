@@ -5,7 +5,7 @@ import { CONTACT_ICON_LIST } from '@/utils/constants';
 import { translate } from '@/utils/translates';
 import { MAP_LOCATION_LIST } from '@/utils/constants';
 import { useT } from '@/hooks/useT';
-
+import { secret } from '@aws-amplify/backend';
 import { AdvancedMarker, APIProvider, Map } from '@vis.gl/react-google-maps';
 import Image from '@/components/common/Image';
 
@@ -65,7 +65,7 @@ export default function AboutMap({ lan }) {
                 <p>{`${mapList[activeIndex].address}`}</p>
               </div>
 
-              <APIProvider apiKey={`${import.meta.env.VITE_GOOGLE_API_KEY}`}>
+              <APIProvider apiKey={`${secret('GOOGLE_API_KEY')}`}>
                 <Map
                   className={styles.mapImage}
                   center={MAP_LOCATION_LIST[activeIndex]}

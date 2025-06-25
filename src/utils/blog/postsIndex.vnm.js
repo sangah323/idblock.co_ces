@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "nextrise-2025",
+    "title": "CrossHub tham gia triển lám startup lớn nhất châu Á, NextRise Seoul 2025!",
+    "description": "Khám phá cách IDBlock và B·Pay đang cách mạng hóa xác thực danh tính và phương thức thanh toán xuyên biên giới cho du khách và doanh nghiệp toàn cầu. Là một trong 500 startup tham gia, chúng tôi sẽ giới thiệu tại chỗ cách chúng tôi đang xây dựng một thế giới không biên giới cho 1,4 tỷ người trên toàn thế giới.",
+    "filter": "news",
+    "date": "2025-06-24",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQELtnW2cgNbnA/feedshare-shrink_800/B4EZeapxz8HcAk-/0/1750646334453?e=1753920000&v=beta&t=AZBdIY9beH2tXhvkdfckDaUNow_14JavrtMSNg3KQ_k"
+  },
+  {
     "slug": "nexus-luxembourg-2025-wrap",
     "title": "🇱🇺 Kết thúc Nexus Luxembourg 2025 – Hành trình mới cùng CrossHub",
     "description": "Con người, ý tưởng và năng lượng — CrossHub đã được truyền cảm hứng mạnh mẽ tại Nexus Luxembourg 2025. Hẹn gặp lại tại NextRise Seoul 2025!",
