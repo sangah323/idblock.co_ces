@@ -5,22 +5,16 @@ import { CONTACT_ICON_LIST } from '@/utils/constants';
 import { translate } from '@/utils/translates';
 import { MAP_LOCATION_LIST } from '@/utils/constants';
 import { useT } from '@/hooks/useT';
-import { secret } from '@aws-amplify/backend';
 import { AdvancedMarker, APIProvider, Map } from '@vis.gl/react-google-maps';
 import Image from '@/components/common/Image';
+import { getGoogleApiKey } from '@/utils/secret';
 
 export default function AboutMap({ lan }) {
   const mapRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
-  const [apiKey, setApiKey] = useState('');
   const t = useT('AboutMap');
   const mapList = translate('about', lan.toLowerCase(), 'AboutMap.maps');
 
-  useEffect(() => {
-    secret('GOOGLE_API_KEY').then((key) => {
-      setApiKey(key);
-    });
-  }, []);
 
   useEffect(() => {
     if (mapRef.current) {
@@ -71,7 +65,7 @@ export default function AboutMap({ lan }) {
                 <p>{`${mapList[activeIndex].address}`}</p>
               </div>
 
-              <APIProvider apiKey={`${apiKey}`}>
+              <APIProvider apiKey={`${getGoogleApiKey().API_KEY}`}>
                 <Map
                   className={styles.mapImage}
                   center={MAP_LOCATION_LIST[activeIndex]}
