@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "trust-my-tech-2025-selection",
+    "title": "🎉 Selected for 'Trust My Tech 2025'! CrossHub Partners with Thales for Global Expansion",
+    "description": "CrossHub has been selected for the Ministry of SMEs and Startups' 'Trust My Tech 2025' global enterprise collaboration program to develop technology jointly with French company Thales.",
+    "filter": "news",
+    "date": "2025-06-26",
+    "thumbnail": "https://www.vtimes.kr/news/photo/202506/52475_29054_4728.jpg"
+  },
+  {
     "slug": "nextrise-2025",
     "title": "CrossHub is participating in Asias largest startup expo, NextRise Seoul 2025!",
     "description": "See how IDBlock and B·Pay are revolutionizing identity verification and cross-border payment methods for travelers and global businesses. As one of 500 participating startups, discover how were building a borderless world for 1.4 billion people worldwide.",

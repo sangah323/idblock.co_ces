@@ -4,12 +4,10 @@ title: "🎉 Selected for 'Trust My Tech 2025'! CrossHub Partners with Thales fo
 description:
   "CrossHub has been selected for the Ministry of SMEs and Startups' 'Trust My Tech 2025' global
   enterprise collaboration program to develop technology jointly with French company Thales."
-date: '2025-01-24'
+date: '2025-06-26'
 filter: 'news'
-thumbnail: '/thumbnail/trust-my-tech-2025-selection-eng.png'
+thumbnail: 'https://www.vtimes.kr/news/photo/202506/52475_29054_4728.jpg'
 ---
-
-![관련이미지](/thumbnail/trust-my-tech-2025-selection-kor.jpg)
 
 ## 🚀 CrossHub Selected for 'Trust My Tech 2025' Program!
 

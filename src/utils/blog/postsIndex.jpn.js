@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "trust-my-tech-2025-selection",
+    "title": "🎉 「Trust My Tech 2025」プログラム最終選定！CrossHub、タレスと共にグローバル飛躍へ",
+    "description": "CrossHubが中小ベンチャー企業部の「Trust My Tech 2025」グローバル企業協業プログラムに選定され、フランスのタレスと共同技術開発に乗り出します。",
+    "filter": "news",
+    "date": "2025-06-26",
+    "thumbnail": "https://www.vtimes.kr/news/photo/202506/52475_29054_4728.jpg"
+  },
+  {
     "slug": "nextrise-2025",
     "title": "クロスハブがアジア最大のスタートアップ博覧会、NextRise Seoul 2025に参加します！",
     "description": "IDBlockとB·Payが旅行者とグローバルビジネス向けの本人確認と国境を越えた決済方法をどのように革新しているかを直接ご確認ください。500の参加スタートアップの一つとして、世界の14億人のための境界のない世界をどのように構築しているかを現場でご紹介します。",

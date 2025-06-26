@@ -4,12 +4,10 @@ title: "🎉 중기부 'Trust My Tech 2025' 프로그램 최종 선정! 탈레�
 description:
   "크로스허브가 중소벤처기업부의 'Trust My Tech 2025' 글로벌 기업 협업 프로그램에 선정되어 프랑스
   탈레스와 공동 기술개발에 나섭니다."
-date: '2025-01-24'
+date: '2025-06-26'
 filter: 'news'
-thumbnail: '/thumbnail/trust-my-tech-2025-selection-kor.jpg'
+thumbnail: 'https://www.vtimes.kr/news/photo/202506/52475_29054_4728.jpg'
 ---
-
-![관련이미지](/thumbnail/trust-my-tech-2025-selection-kor.jpg)
 
 ## 🚀 크로스허브, 중기부 'Trust My Tech 2025' 프로그램 최종 선정!
 

@@ -4,12 +4,10 @@ title: '🎉 「Trust My Tech 2025」プログラム最終選定！CrossHub、�
 description:
   'CrossHubが中小ベンチャー企業部の「Trust My Tech
   2025」グローバル企業協業プログラムに選定され、フランスのタレスと共同技術開発に乗り出します。'
-date: '2025-01-24'
+date: '2025-06-26'
 filter: 'news'
-thumbnail: '/thumbnail/trust-my-tech-2025-selection-jpn.png'
+thumbnail: 'https://www.vtimes.kr/news/photo/202506/52475_29054_4728.jpg'
 ---
-
-![관련이미지](/thumbnail/trust-my-tech-2025-selection-kor.jpg)
 
 ## 🚀 CrossHub、「Trust My Tech 2025」プログラム最終選定！
 

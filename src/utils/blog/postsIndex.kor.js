@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "trust-my-tech-2025-selection",
+    "title": "🎉 중기부 'Trust My Tech 2025' 프로그램 최종 선정! 탈레스와 함께하는 글로벌 도약",
+    "description": "크로스허브가 중소벤처기업부의 'Trust My Tech 2025' 글로벌 기업 협업 프로그램에 선정되어 프랑스 탈레스와 공동 기술개발에 나섭니다.",
+    "filter": "news",
+    "date": "2025-06-26",
+    "thumbnail": "https://www.vtimes.kr/news/photo/202506/52475_29054_4728.jpg"
+  },
+  {
     "slug": "nextrise-2025",
     "title": "크로스허브가 아시아 최대 스타트업 박람회, NextRise Seoul 2025에 참가합니다!",
     "description": "IDBlock과 B·Pay가 여행객과 글로벌 비즈니스를 위한 신원 인증 및 국경 간 결제 방식을 어떻게 혁신하고 있는지 직접 확인해보세요.500개의 참가 스타트업 중 하나로서, 전 세계 14억 명을 위한 경계 없는 세상을 어떻게 구축하고 있는지 현장에서 소개드립니다.",

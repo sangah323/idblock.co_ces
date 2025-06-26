@@ -6,12 +6,10 @@ title:
 description:
   "CrossHub đã được chọn cho chương trình hợp tác doanh nghiệp toàn cầu 'Trust My Tech 2025' của Bộ
   Doanh nghiệp vừa và nhỏ để phát triển công nghệ cùng với công ty Pháp Thales."
-date: '2025-01-24'
+date: '2025-06-26'
 filter: 'news'
-thumbnail: '/thumbnail/trust-my-tech-2025-selection-vnm.png'
+thumbnail: 'https://www.vtimes.kr/news/photo/202506/52475_29054_4728.jpg'
 ---
-
-![관련이미지](/thumbnail/trust-my-tech-2025-selection-kor.jpg)
 
 ## 🚀 CrossHub được chọn cho chương trình 'Trust My Tech 2025'!
 
