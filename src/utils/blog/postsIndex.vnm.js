@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "crosshub-nipa-gip-global-success-case-2025",
+    "title": "Crosshub được chọn làm Tình huống Thành công Toàn cầu GIP của NIPA",
+    "description": "Chúng tôi vinh dự được chọn làm tình huống thành công toàn cầu của Global ICT Portal (GIP) bởi Cơ quan Xúc tiến Công nghiệp CNTT Quốc gia (NIPA), đánh dấu một cột mốc mới trong đổi mới số xuyên biên giới.",
+    "filter": "news",
+    "date": "2025-06-26",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQH89QLtFXYFFw/feedshare-shrink_800/B4EZekwLEvGcAo-/0/1750815782522?e=1753920000&v=beta&t=B8F14j1jFv8FCaDIDVYIdFbLWBp72xNm4SO008vpXJo"
+  },
+  {
     "slug": "trust-my-tech-2025-selection",
     "title": "🎉 Được chọn cho chương trình 'Trust My Tech 2025'! CrossHub hợp tác với Thales để mở rộng toàn cầu",
     "description": "CrossHub đã được chọn cho chương trình hợp tác doanh nghiệp toàn cầu 'Trust My Tech 2025' của Bộ Doanh nghiệp vừa và nhỏ để phát triển công nghệ cùng với công ty Pháp Thales.",

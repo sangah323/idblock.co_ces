@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "crosshub-nipa-gip-global-success-case-2025",
+    "title": "Crosshub, NIPA GIP 글로벌 성공 사례로 선정",
+    "description": "Crosshub가 정보통신산업진흥원(NIPA)의 GIP 글로벌 성공 사례로 선정되어 국경을 넘나드는 디지털 혁신의 새로운 이정표를 세웠습니다.",
+    "filter": "news",
+    "date": "2025-06-26",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQH89QLtFXYFFw/feedshare-shrink_800/B4EZekwLEvGcAo-/0/1750815782522?e=1753920000&v=beta&t=B8F14j1jFv8FCaDIDVYIdFbLWBp72xNm4SO008vpXJo"
+  },
+  {
     "slug": "trust-my-tech-2025-selection",
     "title": "🎉 중기부 'Trust My Tech 2025' 프로그램 최종 선정! 탈레스와 함께하는 글로벌 도약",
     "description": "크로스허브가 중소벤처기업부의 'Trust My Tech 2025' 글로벌 기업 협업 프로그램에 선정되어 프랑스 탈레스와 공동 기술개발에 나섭니다.",
