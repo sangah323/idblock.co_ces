@@ -6,8 +6,10 @@ description:
   nhận tầm nhìn cách mạng hóa du lịch thông qua các giải pháp IDBlock và B-Pay.'
 date: '2025-06-27'
 filter: 'news'
-thumbnail: '/thumbnail/fintech-ir-award-2025-vnm.png'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg'
 ---
+
+!["관련이미지"](https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image02.jpeg)
 
 # 🎉 Crosshub Giành Giải Thưởng Cao Nhất từ Hội Đồng IR Chuyên Về Fintech & Hỗ Trợ Fintech!
 

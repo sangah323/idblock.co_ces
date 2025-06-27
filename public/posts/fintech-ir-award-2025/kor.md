@@ -6,8 +6,10 @@ description:
   여행 혁신 비전을 인정받았습니다.'
 date: '2025-06-27'
 filter: 'news'
-thumbnail: '/thumbnail/fintech-ir-award-2025-kor.png'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg'
 ---
+
+!["관련이미지"](https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image02.jpeg)
 
 # 🎉 크로스허브(Crosshub), 핀테크 전문 IR 및 핀테크 지원 협의회로부터 최고상 수상!
 

@@ -6,9 +6,9 @@ description:
   recognizing our vision to revolutionize travel through IDBlock and B-Pay solutions.'
 date: '2025-06-27'
 filter: 'news'
-thumbnail: '/thumbnail/fintech-ir-award-2025-eng.png'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg'
 ---
-
+!["관련이미지"](https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image02.jpeg)
 # 🎉 Crosshub Wins Top Award from Fintech Specialized IR & Fintech Support Council!
 
 We are thrilled to announce that Crosshub has been awarded the top prize by the Fintech Specialized
