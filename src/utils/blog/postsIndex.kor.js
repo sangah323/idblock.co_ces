@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "fintech-ir-award-2025",
+    "title": "🎉 크로스허브(Crosshub), 핀테크 전문 IR 및 핀테크 지원 협의회로부터 최고상 수상!",
+    "description": "크로스허브가 핀테크 전문 IR 및 핀테크 지원 협의회로부터 최고상을 수상하며, IDBlock과 B-Pay를 통한 여행 혁신 비전을 인정받았습니다.",
+    "filter": "news",
+    "date": "2025-06-27",
+    "thumbnail": "/thumbnail/fintech-ir-award-2025-kor.png"
+  },
+  {
     "slug": "crosshub-nipa-gip-global-success-case-2025",
     "title": "Crosshub, NIPA GIP 글로벌 성공 사례로 선정",
     "description": "Crosshub가 정보통신산업진흥원(NIPA)의 GIP 글로벌 성공 사례로 선정되어 국경을 넘나드는 디지털 혁신의 새로운 이정표를 세웠습니다.",

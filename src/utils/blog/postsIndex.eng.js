@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "fintech-ir-award-2025",
+    "title": "🎉 Crosshub Wins Top Award from Fintech Specialized IR & Fintech Support Council!",
+    "description": "Crosshub has been awarded the top prize by the Fintech Specialized IR & Fintech Support Council, recognizing our vision to revolutionize travel through IDBlock and B-Pay solutions.",
+    "filter": "news",
+    "date": "2025-06-27",
+    "thumbnail": "/thumbnail/fintech-ir-award-2025-eng.png"
+  },
+  {
     "slug": "crosshub-nipa-gip-global-success-case-2025",
     "title": "Crosshub Featured as GIP Global Success Case by NIPA",
     "description": "We are honored to be featured as a Global ICT Portal (GIP) global success case by National IT Industry Promotion Agency (NIPA), marking a new milestone in cross-border digital innovation.",
