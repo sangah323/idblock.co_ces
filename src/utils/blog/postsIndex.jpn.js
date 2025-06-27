@@ -5,7 +5,7 @@ export const posts = [
     "description": "クロスハブがフィンテック専門IR及びフィンテック支援協議会より最高賞を受賞し、IDBlockとB-Payを通じた旅行革新ビジョンが認められました。",
     "filter": "news",
     "date": "2025-06-27",
-    "thumbnail": "/thumbnail/fintech-ir-award-2025-jpn.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg"
   },
   {
     "slug": "crosshub-nipa-gip-global-success-case-2025",

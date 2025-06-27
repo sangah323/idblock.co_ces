@@ -5,7 +5,7 @@ export const posts = [
     "description": "Crosshub đã được trao giải thưởng cao nhất từ Hội đồng IR Chuyên về Fintech & Hỗ trợ Fintech, ghi nhận tầm nhìn cách mạng hóa du lịch thông qua các giải pháp IDBlock và B-Pay.",
     "filter": "news",
     "date": "2025-06-27",
-    "thumbnail": "/thumbnail/fintech-ir-award-2025-vnm.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg"
   },
   {
     "slug": "crosshub-nipa-gip-global-success-case-2025",

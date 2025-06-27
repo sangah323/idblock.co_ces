@@ -5,7 +5,7 @@ export const posts = [
     "description": "Crosshub has been awarded the top prize by the Fintech Specialized IR & Fintech Support Council, recognizing our vision to revolutionize travel through IDBlock and B-Pay solutions.",
     "filter": "news",
     "date": "2025-06-27",
-    "thumbnail": "/thumbnail/fintech-ir-award-2025-eng.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg"
   },
   {
     "slug": "crosshub-nipa-gip-global-success-case-2025",

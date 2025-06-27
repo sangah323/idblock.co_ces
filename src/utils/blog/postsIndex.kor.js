@@ -5,7 +5,7 @@ export const posts = [
     "description": "크로스허브가 핀테크 전문 IR 및 핀테크 지원 협의회로부터 최고상을 수상하며, IDBlock과 B-Pay를 통한 여행 혁신 비전을 인정받았습니다.",
     "filter": "news",
     "date": "2025-06-27",
-    "thumbnail": "/thumbnail/fintech-ir-award-2025-kor.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg"
   },
   {
     "slug": "crosshub-nipa-gip-global-success-case-2025",
