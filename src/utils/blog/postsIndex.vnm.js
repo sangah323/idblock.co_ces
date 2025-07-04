@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "sitm-2025-day1",
+    "title": "Hội chợ Du lịch Quốc tế Seoul (SITM) 2025 Ngày đầu kết thúc thành công! 🌏",
+    "description": "Ngày đầu SITM 2025 đã thành công tuyệt vời! Chúng tôi đã gặp gỡ các chuyên gia ngành du lịch toàn cầu và chia sẻ hành trình cách mạng hóa trải nghiệm du lịch của CrossHub thông qua IDBlock và B·Pay.",
+    "filter": "event",
+    "date": "2025-07-04",
+    "thumbnail": "/thumbnail/sitm-2025-day1.png"
+  },
+  {
     "slug": "fintech-ir-award-2025",
     "title": "🎉 Crosshub Giành Giải Thưởng Cao Nhất từ Hội Đồng IR Chuyên Về Fintech & Hỗ Trợ Fintech!",
     "description": "Crosshub đã được trao giải thưởng cao nhất từ Hội đồng IR Chuyên về Fintech & Hỗ trợ Fintech, ghi nhận tầm nhìn cách mạng hóa du lịch thông qua các giải pháp IDBlock và B-Pay.",

@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "sitm-2025-day1",
+    "title": "서울 국제트래블마트(SITM) 2025 첫째 날 성공적 마무리! 🌏",
+    "description": "SITM 2025 첫째 날, 전 세계 여행 업계 전문가들과 만나 CrossHub의 글로벌 여행 혁신 여정을 공유했습니다. IDBlock과 B·Pay를 통한 새로운 여행 경험을 소개했습니다.",
+    "filter": "event",
+    "date": "2025-07-04",
+    "thumbnail": "/thumbnail/sitm-2025-day1.png"
+  },
+  {
     "slug": "fintech-ir-award-2025",
     "title": "🎉 크로스허브(Crosshub), 핀테크 전문 IR 및 핀테크 지원 협의회로부터 최고상 수상!",
     "description": "크로스허브가 핀테크 전문 IR 및 핀테크 지원 협의회로부터 최고상을 수상하며, IDBlock과 B-Pay를 통한 여행 혁신 비전을 인정받았습니다.",

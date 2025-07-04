@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "sitm-2025-day1",
+    "title": "Seoul International Travel Mart (SITM) 2025 Day 1 Successfully Concluded! 🌏",
+    "description": "SITM 2025 Day 1 was a tremendous success! We met with global travel industry professionals and shared CrossHub journey to revolutionize travel experiences through IDBlock and B·Pay.",
+    "filter": "event",
+    "date": "2025-07-04",
+    "thumbnail": "/thumbnail/sitm-2025-day1.png"
+  },
+  {
     "slug": "fintech-ir-award-2025",
     "title": "🎉 Crosshub Wins Top Award from Fintech Specialized IR & Fintech Support Council!",
     "description": "Crosshub has been awarded the top prize by the Fintech Specialized IR & Fintech Support Council, recognizing our vision to revolutionize travel through IDBlock and B-Pay solutions.",

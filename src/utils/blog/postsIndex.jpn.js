@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "sitm-2025-day1",
+    "title": "ソウル国際トラベルマート（SITM）2025 初日が成功裏に終了！🌏",
+    "description": "SITM 2025 初日、世界各国の旅行業界の専門家の皆様とお会いし、IDBlockとB·Payを通じてグローバル旅行体験を革新するCrossHubの取り組みを共有いたしました。",
+    "filter": "event",
+    "date": "2025-07-04",
+    "thumbnail": "/thumbnail/sitm-2025-day1.png"
+  },
+  {
     "slug": "fintech-ir-award-2025",
     "title": "🎉 クロスハブ（Crosshub）、フィンテック専門IR及びフィンテック支援協議会より最高賞を受賞！",
     "description": "クロスハブがフィンテック専門IR及びフィンテック支援協議会より最高賞を受賞し、IDBlockとB-Payを通じた旅行革新ビジョンが認められました。",
