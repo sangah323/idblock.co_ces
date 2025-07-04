@@ -5,7 +5,7 @@ export const posts = [
     "description": "SITM 2025 첫째 날, 전 세계 여행 업계 전문가들과 만나 CrossHub의 글로벌 여행 혁신 여정을 공유했습니다. IDBlock과 B·Pay를 통한 새로운 여행 경험을 소개했습니다.",
     "filter": "event",
     "date": "2025-07-04",
-    "thumbnail": "/thumbnail/sitm-2025-day1.png"
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQGPwdEK-1Rm7A/feedshare-document-images_800/B4EZe_tZ9RHwAc-/1/1751268044905?e=1752710400&v=beta&t=PJl7Ih9KZxaLquCYnv9WAjbxg-IJzMmbVE7R6taQSV0"
   },
   {
     "slug": "fintech-ir-award-2025",
@@ -212,6 +212,14 @@ export const posts = [
     "title": "크로스허브, Startup Japan 2025에서 IDBlock과 B·Pay를 소개하다!",
     "description": "크로스허브가 Startup Japan 2025에 참가해 글로벌 인증·결제 솔루션 IDBlock과 B·Pay를 일본 현지 미디어에 소개했습니다. 국경 없는 경험을 현실로 만드는 여정에 함께하세요!",
     "filter": "insight",
+    "date": "2025-05-22",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D22AQH17cOMT-MY5Q/feedshare-shrink_800/B4DZb22lUnG0Ag-/0/1747898232919?e=2147483647&v=beta&t=AOBAzBUIHC2xezANVwPXzhdREckLjHG8BAEoXrdPW5Y"
+  },
+  {
+    "slug": "test",
+    "title": "test",
+    "description": "test12312312312",
+    "filter": "news",
     "date": "2025-05-22",
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4D22AQH17cOMT-MY5Q/feedshare-shrink_800/B4DZb22lUnG0Ag-/0/1747898232919?e=2147483647&v=beta&t=AOBAzBUIHC2xezANVwPXzhdREckLjHG8BAEoXrdPW5Y"
   },

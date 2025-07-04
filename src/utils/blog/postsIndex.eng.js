@@ -8,6 +8,14 @@ export const posts = [
     "thumbnail": "/thumbnail/sitm-2025-day1.png"
   },
   {
+    "slug": "test",
+    "title": "테스트세트스ㅡㅅㅅㅅㅅ",
+    "description": "Crosshub took the stage at Startup Japan 2025 to introduce IDBlock and B·Pay, our innovative global identity and payment solutions, featured on Japanese media. Join us on our journey to a borderless experience!",
+    "filter": "insight",
+    "date": "2025-07-04",
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D22AQH17cOMT-MY5Q/feedshare-shrink_800/B4DZb22lUnG0Ag-/0/1747898232919?e=2147483647&v=beta&t=AOBAzBUIHC2xezANVwPXzhdREckLjHG8BAEoXrdPW5Y"
+  },
+  {
     "slug": "fintech-ir-award-2025",
     "title": "🎉 Crosshub Wins Top Award from Fintech Specialized IR & Fintech Support Council!",
     "description": "Crosshub has been awarded the top prize by the Fintech Specialized IR & Fintech Support Council, recognizing our vision to revolutionize travel through IDBlock and B-Pay solutions.",
