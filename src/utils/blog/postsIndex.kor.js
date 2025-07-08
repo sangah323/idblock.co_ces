@@ -216,14 +216,6 @@ export const posts = [
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4D22AQH17cOMT-MY5Q/feedshare-shrink_800/B4DZb22lUnG0Ag-/0/1747898232919?e=2147483647&v=beta&t=AOBAzBUIHC2xezANVwPXzhdREckLjHG8BAEoXrdPW5Y"
   },
   {
-    "slug": "test",
-    "title": "test",
-    "description": "test12312312312",
-    "filter": "news",
-    "date": "2025-05-22",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D22AQH17cOMT-MY5Q/feedshare-shrink_800/B4DZb22lUnG0Ag-/0/1747898232919?e=2147483647&v=beta&t=AOBAzBUIHC2xezANVwPXzhdREckLjHG8BAEoXrdPW5Y"
-  },
-  {
     "slug": "k-tourism-festa-osaka-2025",
     "title": "크로스허브, 2025 오사카 엑스포 연계 K-관광페스타 참가!",
     "description": "크로스허브가 2025 오사카 엑스포 연계 K-관광페스타에 참가해 IDBlock과 B·Pay를 선보입니다. 글로벌 현장에서 만나는 크로스보더 인증·결제의 미래!",
