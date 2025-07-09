@@ -45,7 +45,7 @@ export const posts = [
     "description": "People, ideas, and energy — CrossHub was truly inspired by Nexus Luxembourg 2025. See you next at NextRise Seoul 2025!",
     "filter": "insight",
     "date": "2025-06-20",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D1FAQG7Y-qUpA34bA/feedshare-document-images_800/B4DZeKu0.qG8Ag-/1/1750379224074?e=1751500800&v=beta&t=ROd5rv04lDwq3Lv7Iu64EjAz1u-Pxu9_Qul9rvUEG1k"
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D1FAQG7Y-qUpA34bA/feedshare-document-images_1280/B4DZeKu0.qG8Aw-/1/1750379224313?e=1752710400&v=beta&t=hIsOYQbZR7Q9oZCMn1nDuL9I1WxtZvOZLPVgdQZ7Mwg"
   },
   {
     "slug": "nexus-luxembourg-2025-day2",
@@ -69,7 +69,7 @@ export const posts = [
     "description": "From showcasing IDBlock and B·Pay to connecting with global audiences, VivaTech 2025 has been an unforgettable ride. Now, we head to our next stop: Nexus Luxembourg.",
     "filter": "insight",
     "date": "2025-06-17",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQHfFEnzlMMztQ/feedshare-document-images_800/B4EZd3p2zoHgAg-/1/1750059153227?e=1751500800&v=beta&t=Ekt925Az4US6YfOH-bH-DpywSfQxjwMucqAnB_yvg8Y"
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQHfFEnzlMMztQ/feedshare-document-images_1280/B4EZd3p2zoHgAw-/1/1750059153346?e=1752710400&v=beta&t=KQ3lUmwVqav9yHDFYtbp8WTFEz0gN4liKpBPaCn4kEQ"
   },
   {
     "slug": "cybernews-china-breach-response",
@@ -77,7 +77,7 @@ export const posts = [
     "description": "A massive data breach centered on Chinese citizens. How does CrossHub view this, and what trust-based technologies are we building for the future?",
     "filter": "news",
     "date": "2025-06-16",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_800/B4EZdnzTBOHYAc-/1/1749793222716?e=1750896000&v=beta&t=z3QjE2IQOpb8izSHrQhacn3dvM-Wjb75Laf5gg-fbkE"
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0"
   },
   {
     "slug": "viva-tech-2025-kstyle-highlight",

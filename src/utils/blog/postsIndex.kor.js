@@ -45,7 +45,7 @@ export const posts = [
     "description": "사람, 아이디어, 그리고 에너지 — CrossHub는 Nexus Luxembourg 2025에서 영감을 얻었습니다. 이제 다음 여정, NextRise Seoul 2025에서 다시 만나요!",
     "filter": "insight",
     "date": "2025-06-20",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D1FAQG7Y-qUpA34bA/feedshare-document-images_800/B4DZeKu0.qG8Ag-/1/1750379224074?e=1751500800&v=beta&t=ROd5rv04lDwq3Lv7Iu64EjAz1u-Pxu9_Qul9rvUEG1k"
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D1FAQG7Y-qUpA34bA/feedshare-document-images_1280/B4DZeKu0.qG8Aw-/1/1750379224313?e=1752710400&v=beta&t=hIsOYQbZR7Q9oZCMn1nDuL9I1WxtZvOZLPVgdQZ7Mwg"
   },
   {
     "slug": "nexus-luxembourg-2025-day2",
@@ -69,7 +69,7 @@ export const posts = [
     "description": "IDBlock과 B·Pay를 선보이고, 전 세계 관람객들과 연결된 VivaTech 2025 — 그 뜨거운 여운을 안고 이제 다음 무대, Nexus Luxembourg로 향합니다.",
     "filter": "insight",
     "date": "2025-06-17",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQHfFEnzlMMztQ/feedshare-document-images_800/B4EZd3p2zoHgAg-/1/1750059153227?e=1751500800&v=beta&t=Ekt925Az4US6YfOH-bH-DpywSfQxjwMucqAnB_yvg8Y"
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQHfFEnzlMMztQ/feedshare-document-images_1280/B4EZd3p2zoHgAw-/1/1750059153346?e=1752710400&v=beta&t=KQ3lUmwVqav9yHDFYtbp8WTFEz0gN4liKpBPaCn4kEQ"
   },
   {
     "slug": "cybernews-china-breach-response",
@@ -77,7 +77,7 @@ export const posts = [
     "description": "중국 국민 중심의 대규모 개인정보 유출 사건. CrossHub는 이를 어떻게 바라보고, 어떤 신뢰 기반 기술로 미래를 준비하고 있을까요?",
     "filter": "news",
     "date": "2025-06-16",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_800/B4EZdnzTBOHYAc-/1/1749793222716?e=1750896000&v=beta&t=z3QjE2IQOpb8izSHrQhacn3dvM-Wjb75Laf5gg-fbkE"
+    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0"
   },
   {
     "slug": "viva-tech-2025-kstyle-highlight",
