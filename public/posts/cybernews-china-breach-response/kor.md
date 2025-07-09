@@ -1,17 +1,21 @@
 ---
-slug: "cybernews-china-breach-response"
-title: "🔐 40억 명 개인정보 유출 사건, 우리는 어떻게 대응해야 할까?"
-description: "중국 국민 중심의 대규모 개인정보 유출 사건. CrossHub는 이를 어떻게 바라보고, 어떤 신뢰 기반 기술로 미래를 준비하고 있을까요?"
-date: "2025-06-16"
-filter: "news"
-thumbnail: "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_800/B4EZdnzTBOHYAc-/1/1749793222716?e=1750896000&v=beta&t=z3QjE2IQOpb8izSHrQhacn3dvM-Wjb75Laf5gg-fbkE"
+slug: 'cybernews-china-breach-response'
+title: '🔐 40억 명 개인정보 유출 사건, 우리는 어떻게 대응해야 할까?'
+description:
+  '중국 국민 중심의 대규모 개인정보 유출 사건. CrossHub는 이를 어떻게 바라보고, 어떤 신뢰 기반
+  기술로 미래를 준비하고 있을까요?'
+date: '2025-06-16'
+filter: 'news'
+thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0'
 ---
 
 ## 🚨 40억 명의 데이터가 유출되었습니다
 
-지난주 [CyberNews](https://cybernews.com/security/chinese-data-leak-billiones-records-exposed/)에 따르면, **중국 시민들을 중심으로 한 40억 명 이상의 개인정보 기록이 유출**된 사실이 확인되었습니다.
+지난주 [CyberNews](https://cybernews.com/security/chinese-data-leak-billiones-records-exposed/)에
+따르면, **중국 시민들을 중심으로 한 40억 명 이상의 개인정보 기록이 유출**된 사실이 확인되었습니다.
 
-이는 단일 국가 대상 유출 규모로는 사상 최대 수준이며, 단순한 해킹을 넘어 **글로벌 플랫폼 보안 인프라 전체에 경고**를 주는 사건으로 평가됩니다.
+이는 단일 국가 대상 유출 규모로는 사상 최대 수준이며, 단순한 해킹을 넘어 **글로벌 플랫폼 보안 인프라
+전체에 경고**를 주는 사건으로 평가됩니다.
 
 ---
 

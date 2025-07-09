@@ -1,17 +1,21 @@
 ---
-slug: "cybernews-china-breach-response"
-title: "🔐 Rò rỉ thông tin cá nhân của 4 tỷ người — Chúng ta nên phản ứng thế nào?"
-description: "Sự cố rò rỉ dữ liệu cá nhân quy mô lớn tại Trung Quốc. CrossHub nhìn nhận sự việc này ra sao và đang xây dựng công nghệ đáng tin cậy nào cho tương lai?"
-date: "2025-06-16"
-filter: "news"
-thumbnail: "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_800/B4EZdnzTBOHYAc-/1/1749793222716?e=1750896000&v=beta&t=z3QjE2IQOpb8izSHrQhacn3dvM-Wjb75Laf5gg-fbkE"
+slug: 'cybernews-china-breach-response'
+title: '🔐 Rò rỉ thông tin cá nhân của 4 tỷ người — Chúng ta nên phản ứng thế nào?'
+description:
+  'Sự cố rò rỉ dữ liệu cá nhân quy mô lớn tại Trung Quốc. CrossHub nhìn nhận sự việc này ra sao và
+  đang xây dựng công nghệ đáng tin cậy nào cho tương lai?'
+date: '2025-06-16'
+filter: 'news'
+thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0'
 ---
 
 ## 🚨 Dữ liệu của 4 tỷ người bị rò rỉ
 
-Theo [CyberNews](https://cybernews.com/security/chinese-data-leak-billiones-records-exposed/), hơn **4 tỷ bản ghi thông tin cá nhân**, chủ yếu của công dân Trung Quốc, đã bị rò rỉ gần đây.
+Theo [CyberNews](https://cybernews.com/security/chinese-data-leak-billiones-records-exposed/), hơn
+**4 tỷ bản ghi thông tin cá nhân**, chủ yếu của công dân Trung Quốc, đã bị rò rỉ gần đây.
 
-Đây là một trong những vụ rò rỉ lớn nhất lịch sử đối với một quốc gia và được xem như **lời cảnh báo cho toàn bộ hệ thống bảo mật toàn cầu**.
+Đây là một trong những vụ rò rỉ lớn nhất lịch sử đối với một quốc gia và được xem như **lời cảnh báo
+cho toàn bộ hệ thống bảo mật toàn cầu**.
 
 ---
 
@@ -59,7 +63,8 @@ CrossHub cân bằng giữa bảo mật và khả năng sử dụng bằng:
 
 ## 🌍 Xây dựng nền tảng niềm tin mới
 
-Trong số 4 tỷ người bị ảnh hưởng, có thể có người đã mất đi quyền lợi quan trọng chỉ vì một vụ tấn công.
+Trong số 4 tỷ người bị ảnh hưởng, có thể có người đã mất đi quyền lợi quan trọng chỉ vì một vụ tấn
+công.
 
 Chúng tôi muốn **tái thiết lập niềm tin bằng công nghệ**,  
 và **trả lại quyền kiểm soát danh tính cho người dùng.**

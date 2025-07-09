@@ -4,7 +4,7 @@ title: "🔐 4 Billion Personal Records Leaked — How Should We Respond?"
 description: "A massive data breach centered on Chinese citizens. How does CrossHub view this, and what trust-based technologies are we building for the future?"
 date: "2025-06-16"
 filter: "news"
-thumbnail: "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_800/B4EZdnzTBOHYAc-/1/1749793222716?e=1750896000&v=beta&t=z3QjE2IQOpb8izSHrQhacn3dvM-Wjb75Laf5gg-fbkE"
+thumbnail: "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0"
 ---
 
 ## 🚨 4 Billion Records Leaked
