@@ -64,7 +64,8 @@ export default function AboutMap({ lan }) {
                 <p>{`${mapList[activeIndex].address}`}</p>
               </div>
 
-              <APIProvider apiKey={`${process.env.VITE_GOOGLE_MAP_API_KEY}`}>
+              {/* <APIProvider apiKey={`${import.meta.env.VITE_GOOGLE_MAP_API_KEY}`}> */}
+              <APIProvider apiKey={"AIzaSyCjHTRDc1udkI8f459ImTKhh0Isjt-4CPU"}>
                 <Map
                   className={styles.mapImage}
                   center={MAP_LOCATION_LIST[activeIndex]}
