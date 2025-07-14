@@ -8,7 +8,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build:posts": "node src/utils/blog/generatePostIndex.cjs",
-    "dev": "npm run build:posts && vite"
+    "dev": "npm run build:posts && vite",
+    "blog:create": "node src/utils/blog/blogManager.cjs",
+    "blog:create:files": "node src/utils/blog/blogManager.cjs create files",
+    "blog:list": "node src/utils/blog/blogManager.cjs list",
+    "blog:delete": "node src/utils/blog/blogManager.cjs delete",
+    "blog:edit": "node src/utils/blog/blogManager.cjs edit"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
