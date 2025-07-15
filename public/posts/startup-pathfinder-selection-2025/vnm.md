@@ -6,7 +6,7 @@ description:
   tâm Đổi mới Kinh tế Sáng tạo Incheon và Pacemakers tổ chức.'
 date: '2025-07-15'
 filter: 'news'
-thumbnail: '/thumbnail/startup-pathfinder-selection-2025-vnm.png'
+thumbnail: '../../thumbnail/startup-pathfinder-selection-2025-eng.png'
 ---
 
 # CrossHub được chọn cho chương trình Startup Pathfinder của Incheon CEIC 🚀

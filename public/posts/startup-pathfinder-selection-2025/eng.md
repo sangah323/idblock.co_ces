@@ -6,7 +6,7 @@ description:
   Incheon Center for Creative Economy & Innovation and Pacemakers.'
 date: '2025-07-15'
 filter: 'news'
-thumbnail: '/thumbnail/startup-pathfinder-selection-2025-eng.png'
+thumbnail: '../../thumbnail/startup-pathfinder-selection-2025-eng.png'
 ---
 
 # CrossHub Selected for Startup Pathfinder Program by Incheon CEIC 🚀
