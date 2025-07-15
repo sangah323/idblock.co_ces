@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "startup-pathfinder-selection-2025",
+    "title": "CrossHub được chọn cho chương trình Startup Pathfinder của Incheon CEIC",
+    "description": "CrossHub đã được chọn là một trong 10 startup tham gia chương trình Startup Pathfinder do Trung tâm Đổi mới Kinh tế Sáng tạo Incheon và Pacemakers tổ chức.",
+    "filter": "news",
+    "date": "2025-07-15",
+    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-vnm.png"
+  },
+  {
     "slug": "sitm-2025-day1",
     "title": "Hội chợ Du lịch Quốc tế Seoul (SITM) 2025 Ngày đầu kết thúc thành công! 🌏",
     "description": "Ngày đầu SITM 2025 đã thành công tuyệt vời! Chúng tôi đã gặp gỡ các chuyên gia ngành du lịch toàn cầu và chia sẻ hành trình cách mạng hóa trải nghiệm du lịch của CrossHub thông qua IDBlock và B·Pay.",
@@ -318,14 +326,6 @@ export const posts = [
     "filter": "insight",
     "date": "2025-01-21",
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQHWCkqwtYoiSA/feedshare-shrink_2048_1536/B4EZTY8f7_GYAo-/0/1738806526115?e=2147483647&v=beta&t=ISaTC_ibaCKIMywo0x1M3JPfNcuvSM2AlG-8tI7g6ss"
-  },
-  {
-    "slug": "startup-pathfinder-selection-2025",
-    "title": "CrossHub được chọn cho chương trình Startup Pathfinder của Incheon CEIC",
-    "description": "CrossHub đã được chọn là một trong 10 startup tham gia chương trình Startup Pathfinder do Trung tâm Đổi mới Kinh tế Sáng tạo Incheon và Pacemakers tổ chức.",
-    "filter": "news",
-    "date": "2025-01-15",
-    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-vnm.png"
   },
   {
     "slug": "new-year-2025",
