@@ -6,7 +6,7 @@ description:
   Pathfinder」プログラムに10社のスタートアップの一つとして選定されました。'
 date: '2025-07-15'
 filter: 'news'
-thumbnail: '/thumbnail/startup-pathfinder-selection-2025-jpn.png'
+thumbnail: '../../thumbnail/startup-pathfinder-selection-2025-eng.png'
 ---
 
 # CrossHub、仁川創造経済革新センター Startup Pathfinder プログラム選定 🚀

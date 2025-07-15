@@ -6,7 +6,7 @@ description:
   스타트업 중 하나로 선정되었습니다.'
 date: '2025-07-15'
 filter: 'news'
-thumbnail: '/thumbnail/startup-pathfinder-selection-2025-kor.png'
+thumbnail: '../../thumbnail/startup-pathfinder-selection-2025-eng.png'
 ---
 
 # CrossHub, 인천창조경제혁신센터 Startup Pathfinder 프로그램 선정 🚀
