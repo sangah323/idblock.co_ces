@@ -320,6 +320,14 @@ export const posts = [
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQHWCkqwtYoiSA/feedshare-shrink_2048_1536/B4EZTY8f7_GYAo-/0/1738806526115?e=2147483647&v=beta&t=ISaTC_ibaCKIMywo0x1M3JPfNcuvSM2AlG-8tI7g6ss"
   },
   {
+    "slug": "startup-pathfinder-selection-2025",
+    "title": "CrossHub、仁川創造経済革新センター Startup Pathfinder プログラム選定",
+    "description": "CrossHubが仁川創造経済革新センターとPacemakersが主催する「Startup Pathfinder」プログラムに10社のスタートアップの一つとして選定されました。",
+    "filter": "news",
+    "date": "2025-01-15",
+    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-jpn.png"
+  },
+  {
     "slug": "new-year-2025",
     "title": "2025年新年のご挨拶：ともに成長する一年に",
     "description": "2025年、辰年を迎え、クロスハブから皆さまへ新年のご挨拶。挑戦と成長に満ちた一年となりますように。\n",

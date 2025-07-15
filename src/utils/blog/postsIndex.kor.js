@@ -320,6 +320,14 @@ export const posts = [
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQHWCkqwtYoiSA/feedshare-shrink_2048_1536/B4EZTY8f7_GYAo-/0/1738806526115?e=2147483647&v=beta&t=ISaTC_ibaCKIMywo0x1M3JPfNcuvSM2AlG-8tI7g6ss"
   },
   {
+    "slug": "startup-pathfinder-selection-2025",
+    "title": "CrossHub, 인천창조경제혁신센터 Startup Pathfinder 프로그램 선정",
+    "description": "CrossHub가 인천창조경제혁신센터와 Pacemakers가 주최하는 Startup Pathfinder 프로그램에 10개 스타트업 중 하나로 선정되었습니다.",
+    "filter": "news",
+    "date": "2025-01-15",
+    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-kor.png"
+  },
+  {
     "slug": "new-year-2025",
     "title": "2025 새해 인사: 함께 성장하는 한 해가 되길",
     "description": "2025년, 용의 해를 맞아 크로스허브가 전하는 새해 인사. 도전과 성장이 가득한 한 해가 되길 기원합니다.\n",

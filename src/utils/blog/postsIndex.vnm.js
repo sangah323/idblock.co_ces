@@ -320,6 +320,14 @@ export const posts = [
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQHWCkqwtYoiSA/feedshare-shrink_2048_1536/B4EZTY8f7_GYAo-/0/1738806526115?e=2147483647&v=beta&t=ISaTC_ibaCKIMywo0x1M3JPfNcuvSM2AlG-8tI7g6ss"
   },
   {
+    "slug": "startup-pathfinder-selection-2025",
+    "title": "CrossHub được chọn cho chương trình Startup Pathfinder của Incheon CEIC",
+    "description": "CrossHub đã được chọn là một trong 10 startup tham gia chương trình Startup Pathfinder do Trung tâm Đổi mới Kinh tế Sáng tạo Incheon và Pacemakers tổ chức.",
+    "filter": "news",
+    "date": "2025-01-15",
+    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-vnm.png"
+  },
+  {
     "slug": "new-year-2025",
     "title": "Lời chúc năm mới 2025: Cùng nhau phát triển vươn xa",
     "description": "Nhân dịp năm Giáp Thìn 2025, Crosshub gửi lời chúc mừng năm mới đến tất cả các bạn. Chúc một năm đầy thử thách và trưởng thành.\n",
