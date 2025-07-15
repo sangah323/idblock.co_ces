@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "startup-pathfinder-selection-2025",
+    "title": "CrossHub、仁川創造経済革新センター Startup Pathfinder プログラム選定",
+    "description": "CrossHubが仁川創造経済革新センターとPacemakersが主催する「Startup Pathfinder」プログラムに10社のスタートアップの一つとして選定されました。",
+    "filter": "news",
+    "date": "2025-07-15",
+    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-jpn.png"
+  },
+  {
     "slug": "sitm-2025-day1",
     "title": "ソウル国際トラベルマート（SITM）2025 初日が成功裏に終了！🌏",
     "description": "SITM 2025 初日、世界各国の旅行業界の専門家の皆様とお会いし、IDBlockとB·Payを通じてグローバル旅行体験を革新するCrossHubの取り組みを共有いたしました。",
@@ -318,14 +326,6 @@ export const posts = [
     "filter": "insight",
     "date": "2025-01-21",
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQHWCkqwtYoiSA/feedshare-shrink_2048_1536/B4EZTY8f7_GYAo-/0/1738806526115?e=2147483647&v=beta&t=ISaTC_ibaCKIMywo0x1M3JPfNcuvSM2AlG-8tI7g6ss"
-  },
-  {
-    "slug": "startup-pathfinder-selection-2025",
-    "title": "CrossHub、仁川創造経済革新センター Startup Pathfinder プログラム選定",
-    "description": "CrossHubが仁川創造経済革新センターとPacemakersが主催する「Startup Pathfinder」プログラムに10社のスタートアップの一つとして選定されました。",
-    "filter": "news",
-    "date": "2025-01-15",
-    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-jpn.png"
   },
   {
     "slug": "new-year-2025",
