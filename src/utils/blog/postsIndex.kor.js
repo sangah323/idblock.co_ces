@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "startup-pathfinder-selection-2025",
+    "title": "CrossHub, 인천창조경제혁신센터 Startup Pathfinder 프로그램 선정",
+    "description": "CrossHub가 인천창조경제혁신센터와 Pacemakers가 주최하는 Startup Pathfinder 프로그램에 10개 스타트업 중 하나로 선정되었습니다.",
+    "filter": "news",
+    "date": "2025-07-15",
+    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-kor.png"
+  },
+  {
     "slug": "sitm-2025-day1",
     "title": "서울 국제트래블마트(SITM) 2025 첫째 날 성공적 마무리! 🌏",
     "description": "SITM 2025 첫째 날, 전 세계 여행 업계 전문가들과 만나 CrossHub의 글로벌 여행 혁신 여정을 공유했습니다. IDBlock과 B·Pay를 통한 새로운 여행 경험을 소개했습니다.",
@@ -318,14 +326,6 @@ export const posts = [
     "filter": "insight",
     "date": "2025-01-21",
     "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQHWCkqwtYoiSA/feedshare-shrink_2048_1536/B4EZTY8f7_GYAo-/0/1738806526115?e=2147483647&v=beta&t=ISaTC_ibaCKIMywo0x1M3JPfNcuvSM2AlG-8tI7g6ss"
-  },
-  {
-    "slug": "startup-pathfinder-selection-2025",
-    "title": "CrossHub, 인천창조경제혁신센터 Startup Pathfinder 프로그램 선정",
-    "description": "CrossHub가 인천창조경제혁신센터와 Pacemakers가 주최하는 Startup Pathfinder 프로그램에 10개 스타트업 중 하나로 선정되었습니다.",
-    "filter": "news",
-    "date": "2025-01-15",
-    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-kor.png"
   },
   {
     "slug": "new-year-2025",
