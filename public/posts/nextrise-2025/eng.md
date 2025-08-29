@@ -7,7 +7,7 @@ description:
   were building a borderless world for 1.4 billion people worldwide.'
 date: '2025-06-24'
 filter: 'news'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E22AQELtnW2cgNbnA/feedshare-shrink_800/B4EZeapxz8HcAk-/0/1750646334453?e=1753920000&v=beta&t=AZBdIY9beH2tXhvkdfckDaUNow_14JavrtMSNg3KQ_k'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/NextRise2025.png'
 ---
 
 🚀 **CrossHub** is participating in Asia's largest startup expo **NextRise Seoul 2025**!

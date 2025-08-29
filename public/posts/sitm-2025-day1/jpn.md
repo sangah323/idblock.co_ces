@@ -6,7 +6,7 @@ description:
   初日、世界各国の旅行業界の専門家の皆様とお会いし、IDBlockとB·Payを通じてグローバル旅行体験を革新するCrossHubの取り組みを共有いたしました。'
 date: '2025-07-04'
 filter: 'event'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQGPwdEK-1Rm7A/feedshare-document-images_800/B4EZe_tZ9RHwAc-/1/1751268044905?e=1752710400&v=beta&t=PJl7Ih9KZxaLquCYnv9WAjbxg-IJzMmbVE7R6taQSV0'
+thumbnail: '/thumbnail/sitm-2025-day1.png'
 ---
 
 # ソウル国際トラベルマート（SITM）2025 初日が成功裏に終了！✨

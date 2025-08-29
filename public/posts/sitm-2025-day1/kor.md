@@ -6,7 +6,7 @@ description:
   공유했습니다. IDBlock과 B·Pay를 통한 새로운 여행 경험을 소개했습니다.'
 date: '2025-07-04'
 filter: 'event'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQGPwdEK-1Rm7A/feedshare-document-images_800/B4EZe_tZ9RHwAc-/1/1751268044905?e=1752710400&v=beta&t=PJl7Ih9KZxaLquCYnv9WAjbxg-IJzMmbVE7R6taQSV0'
+thumbnail: '/thumbnail/sitm-2025-day1.png'
 ---
 
 # 서울 국제트래블마트(SITM) 2025 첫째 날 성공적 마무리! ✨
