@@ -342,5 +342,13 @@ export const posts = [
     "filter": "news",
     "date": "2024-11-26",
     "thumbnail": "https://img.youtube.com/vi/2qPQ_ykOQhI/maxresdefault.jpg"
+  },
+  {
+    "slug": "crosshub-vietnam-mega-expo-mou-2024",
+    "title": "CrossHub Ký MOU với Sáu Công ty Hàn Quốc tại Triển lãm Mega-us Việt Nam",
+    "description": "CrossHub đã ký kết biên bản ghi nhớ hợp tác chiến lược với sáu công ty Hàn Quốc bao gồm Intween, Abrahms, Blueforg, Core Solution, Hailo, và Tripbuilder tại Triển lãm Mega-us Việt Nam.",
+    "filter": "news",
+    "date": "2024-08-27",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   }
 ];

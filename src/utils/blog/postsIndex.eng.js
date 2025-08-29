@@ -342,5 +342,13 @@ export const posts = [
     "filter": "news",
     "date": "2024-11-26",
     "thumbnail": "https://img.youtube.com/vi/2qPQ_ykOQhI/maxresdefault.jpg"
+  },
+  {
+    "slug": "crosshub-vietnam-mega-expo-mou-2024",
+    "title": "CrossHub Signs MOUs with Six Korean Companies at Vietnam Mega-us Expo",
+    "description": "CrossHub has signed strategic MOUs with six Korean companies including Intween, Abrahms, Blueforg, Core Solution, Hailo, and Tripbuilder at the Vietnam Mega-us Expo.",
+    "filter": "news",
+    "date": "2024-08-27",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   }
 ];
