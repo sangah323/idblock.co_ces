@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "crosshub-vietnam-mega-expo-mou-2024",
+    "title": "CrossHub、ベトナムMega-usエキスポで韓国企業6社とMOU締結",
+    "description": "CrossHubがベトナムMega-usエキスポでIntween、Abrahms、Blueforg、Core Solution、Hailo、Tripbuilder等6社の韓国企業と戦略的業務協約を締結しました。",
+    "filter": "news",
+    "date": "2025-08-27",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
+  },
+  {
     "slug": "startup-pathfinder-selection-2025",
     "title": "CrossHub、仁川創造経済革新センター Startup Pathfinder プログラム選定",
     "description": "CrossHubが仁川創造経済革新センターとPacemakersが主催する「Startup Pathfinder」プログラムに10社のスタートアップの一つとして選定されました。",
@@ -342,13 +350,5 @@ export const posts = [
     "filter": "news",
     "date": "2024-11-26",
     "thumbnail": "https://img.youtube.com/vi/2qPQ_ykOQhI/maxresdefault.jpg"
-  },
-  {
-    "slug": "crosshub-vietnam-mega-expo-mou-2024",
-    "title": "CrossHub、ベトナムMega-usエキスポで韓国企業6社とMOU締結",
-    "description": "CrossHubがベトナムMega-usエキスポでIntween、Abrahms、Blueforg、Core Solution、Hailo、Tripbuilder等6社の韓国企業と戦略的業務協約を締結しました。",
-    "filter": "news",
-    "date": "2024-08-27",
-    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   }
 ];

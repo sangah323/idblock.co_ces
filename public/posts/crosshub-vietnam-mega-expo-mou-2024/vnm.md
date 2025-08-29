@@ -4,7 +4,7 @@ title: 'CrossHub Ký MOU với Sáu Công ty Hàn Quốc tại Triển lãm Mega
 description:
   'CrossHub đã ký kết biên bản ghi nhớ hợp tác chiến lược với sáu công ty Hàn Quốc bao gồm Intween,
   Abrahms, Blueforg, Core Solution, Hailo, và Tripbuilder tại Triển lãm Mega-us Việt Nam.'
-date: '2024-08-27'
+date: '2025-08-27'
 filter: 'news'
 thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png'
 ---

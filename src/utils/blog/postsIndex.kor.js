@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "crosshub-vietnam-mega-expo-mou-2024",
+    "title": "CrossHub, 베트남 메가-us 엑스포에서 6개 한국 기업과 MOU 체결",
+    "description": "CrossHub가 베트남 메가-us 엑스포에서 Intween, Abrahms, Blueforg, Core Solution, Hailo, Tripbuilder 등 6개 한국 기업과 전략적 업무협약을 체결했습니다.",
+    "filter": "news",
+    "date": "2025-08-27",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
+  },
+  {
     "slug": "startup-pathfinder-selection-2025",
     "title": "CrossHub, 인천창조경제혁신센터 Startup Pathfinder 프로그램 선정",
     "description": "CrossHub가 인천창조경제혁신센터와 Pacemakers가 주최하는 Startup Pathfinder 프로그램에 10개 스타트업 중 하나로 선정되었습니다.",
@@ -342,13 +350,5 @@ export const posts = [
     "filter": "news",
     "date": "2024-11-26",
     "thumbnail": "https://img.youtube.com/vi/2qPQ_ykOQhI/maxresdefault.jpg"
-  },
-  {
-    "slug": "crosshub-vietnam-mega-expo-mou-2024",
-    "title": "CrossHub, 베트남 메가-us 엑스포에서 6개 한국 기업과 MOU 체결",
-    "description": "CrossHub가 베트남 메가-us 엑스포에서 Intween, Abrahms, Blueforg, Core Solution, Hailo, Tripbuilder 등 6개 한국 기업과 전략적 업무협약을 체결했습니다.",
-    "filter": "news",
-    "date": "2024-08-27",
-    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   }
 ];

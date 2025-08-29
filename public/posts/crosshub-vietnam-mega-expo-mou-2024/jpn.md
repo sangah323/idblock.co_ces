@@ -4,7 +4,7 @@ title: 'CrossHub、ベトナムMega-usエキスポで韓国企業6社とMOU締�
 description:
   'CrossHubがベトナムMega-usエキスポでIntween、Abrahms、Blueforg、Core
   Solution、Hailo、Tripbuilder等6社の韓国企業と戦略的業務協約を締結しました。'
-date: '2024-08-27'
+date: '2025-08-27'
 filter: 'news'
 thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png'
 ---
