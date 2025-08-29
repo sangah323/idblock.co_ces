@@ -4,7 +4,7 @@ title: 'クロスハブがアジア最大のスタートアップ博覧会、Nex
 description: 'IDBlockとB·Payが旅行者とグローバルビジネス向けの本人確認と国境を越えた決済方法をどのように革新しているかを直接ご確認ください。500の参加スタートアップの一つとして、世界の14億人のための境界のない世界をどのように構築しているかを現場でご紹介します。'
 date: '2025-06-24'
 filter: 'news'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E22AQELtnW2cgNbnA/feedshare-shrink_800/B4EZeapxz8HcAk-/0/1750646334453?e=1753920000&v=beta&t=AZBdIY9beH2tXhvkdfckDaUNow_14JavrtMSNg3KQ_k'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/NextRise2025.png'
 ---
 
 🚀 **クロスハブ**がアジア最大のスタートアップ博覧会 **NextRise Seoul 2025**に参加します！

@@ -7,7 +7,7 @@ description:
   없는 세상을 어떻게 구축하고 있는지 현장에서 소개드립니다.'
 date: '2025-06-24'
 filter: 'news'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E22AQELtnW2cgNbnA/feedshare-shrink_800/B4EZeapxz8HcAk-/0/1750646334453?e=1753920000&v=beta&t=AZBdIY9beH2tXhvkdfckDaUNow_14JavrtMSNg3KQ_k'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/NextRise2025.png'
 ---
 
 🚀 **크로스허브**가 아시아 최대 스타트업 박람회 **NextRise Seoul 2025**에 참가합니다!
