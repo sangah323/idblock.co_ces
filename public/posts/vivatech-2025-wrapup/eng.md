@@ -6,7 +6,7 @@ description:
   unforgettable ride. Now, we head to our next stop: Nexus Luxembourg.'
 date: '2025-06-17'
 filter: 'insight'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQHfFEnzlMMztQ/feedshare-document-images_1280/B4EZd3p2zoHgAw-/1/1750059153346?e=1752710400&v=beta&t=KQ3lUmwVqav9yHDFYtbp8WTFEz0gN4liKpBPaCn4kEQ'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/vivaTech2025.png'
 ---
 
 ## 🎉 VivaTech 2025 — A Parisian Experience Powered by Innovation

@@ -6,7 +6,7 @@ description:
   Seoul 2025でお会いしましょう！'
 date: '2025-06-20'
 filter: 'insight'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4D1FAQG7Y-qUpA34bA/feedshare-document-images_1280/B4DZeKu0.qG8Aw-/1/1750379224313?e=1752710400&v=beta&t=hIsOYQbZR7Q9oZCMn1nDuL9I1WxtZvOZLPVgdQZ7Mwg'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/NexusLuxembourg.png'
 ---
 
 ## 🎉 Nexus Luxembourg 2025を終えて、CrossHubの新たな一章へ

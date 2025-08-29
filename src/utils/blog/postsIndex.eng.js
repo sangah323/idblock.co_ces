@@ -45,7 +45,7 @@ export const posts = [
     "description": "People, ideas, and energy — CrossHub was truly inspired by Nexus Luxembourg 2025. See you next at NextRise Seoul 2025!",
     "filter": "insight",
     "date": "2025-06-20",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4D1FAQG7Y-qUpA34bA/feedshare-document-images_1280/B4DZeKu0.qG8Aw-/1/1750379224313?e=1752710400&v=beta&t=hIsOYQbZR7Q9oZCMn1nDuL9I1WxtZvOZLPVgdQZ7Mwg"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/NexusLuxembourg.png"
   },
   {
     "slug": "nexus-luxembourg-2025-day2",
@@ -69,7 +69,7 @@ export const posts = [
     "description": "From showcasing IDBlock and B·Pay to connecting with global audiences, VivaTech 2025 has been an unforgettable ride. Now, we head to our next stop: Nexus Luxembourg.",
     "filter": "insight",
     "date": "2025-06-17",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQHfFEnzlMMztQ/feedshare-document-images_1280/B4EZd3p2zoHgAw-/1/1750059153346?e=1752710400&v=beta&t=KQ3lUmwVqav9yHDFYtbp8WTFEz0gN4liKpBPaCn4kEQ"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/vivaTech2025.png"
   },
   {
     "slug": "cybernews-china-breach-response",
@@ -77,7 +77,7 @@ export const posts = [
     "description": "A massive data breach centered on Chinese citizens. How does CrossHub view this, and what trust-based technologies are we building for the future?",
     "filter": "news",
     "date": "2025-06-16",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/cybernews1.png"
   },
   {
     "slug": "viva-tech-2025-kstyle-highlight",
