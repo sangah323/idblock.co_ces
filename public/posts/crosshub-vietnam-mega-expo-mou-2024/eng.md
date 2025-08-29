@@ -4,7 +4,7 @@ title: 'CrossHub Signs MOUs with Six Korean Companies at Vietnam Mega-us Expo'
 description:
   'CrossHub has signed strategic MOUs with six Korean companies including Intween, Abrahms,
   Blueforg, Core Solution, Hailo, and Tripbuilder at the Vietnam Mega-us Expo.'
-date: '2024-08-27'
+date: '2025-08-27'
 filter: 'news'
 thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png'
 ---

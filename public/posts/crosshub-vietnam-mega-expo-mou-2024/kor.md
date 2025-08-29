@@ -4,7 +4,7 @@ title: 'CrossHub, 베트남 메가-us 엑스포에서 6개 한국 기업과 MOU 
 description:
   'CrossHub가 베트남 메가-us 엑스포에서 Intween, Abrahms, Blueforg, Core Solution, Hailo,
   Tripbuilder 등 6개 한국 기업과 전략적 업무협약을 체결했습니다.'
-date: '2024-08-27'
+date: '2025-08-27'
 filter: 'news'
 thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png'
 ---

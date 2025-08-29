@@ -1,5 +1,13 @@
 export const posts = [
   {
+    "slug": "crosshub-vietnam-mega-expo-mou-2024",
+    "title": "CrossHub Ký MOU với Sáu Công ty Hàn Quốc tại Triển lãm Mega-us Việt Nam",
+    "description": "CrossHub đã ký kết biên bản ghi nhớ hợp tác chiến lược với sáu công ty Hàn Quốc bao gồm Intween, Abrahms, Blueforg, Core Solution, Hailo, và Tripbuilder tại Triển lãm Mega-us Việt Nam.",
+    "filter": "news",
+    "date": "2025-08-27",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
+  },
+  {
     "slug": "startup-pathfinder-selection-2025",
     "title": "CrossHub được chọn cho chương trình Startup Pathfinder của Incheon CEIC",
     "description": "CrossHub đã được chọn là một trong 10 startup tham gia chương trình Startup Pathfinder do Trung tâm Đổi mới Kinh tế Sáng tạo Incheon và Pacemakers tổ chức.",
@@ -342,13 +350,5 @@ export const posts = [
     "filter": "news",
     "date": "2024-11-26",
     "thumbnail": "https://img.youtube.com/vi/2qPQ_ykOQhI/maxresdefault.jpg"
-  },
-  {
-    "slug": "crosshub-vietnam-mega-expo-mou-2024",
-    "title": "CrossHub Ký MOU với Sáu Công ty Hàn Quốc tại Triển lãm Mega-us Việt Nam",
-    "description": "CrossHub đã ký kết biên bản ghi nhớ hợp tác chiến lược với sáu công ty Hàn Quốc bao gồm Intween, Abrahms, Blueforg, Core Solution, Hailo, và Tripbuilder tại Triển lãm Mega-us Việt Nam.",
-    "filter": "news",
-    "date": "2024-08-27",
-    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   }
 ];
