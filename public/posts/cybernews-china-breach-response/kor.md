@@ -6,7 +6,7 @@ description:
   기술로 미래를 준비하고 있을까요?'
 date: '2025-06-16'
 filter: 'news'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/cybernews1.png'
 ---
 
 ## 🚨 40억 명의 데이터가 유출되었습니다

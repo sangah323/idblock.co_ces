@@ -4,7 +4,7 @@ title: '🔐 40億件の個人情報が流出──私たちはどう対応す�
 description: '中国国民を中心とした大規模な個人情報流出事件。CrossHubはこの事件をどう捉え、どのような信頼技術で未来に備えるのか？'
 date: '2025-06-16'
 filter: 'news'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/cybernews1.png'
 ---
 
 ## 🚨 40億件の情報が流出しました

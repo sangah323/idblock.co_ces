@@ -6,7 +6,7 @@ description:
   đang xây dựng công nghệ đáng tin cậy nào cho tương lai?'
 date: '2025-06-16'
 filter: 'news'
-thumbnail: 'https://media.licdn.com/dms/image/v2/D4E1FAQF6BXStkXB_Vg/feedshare-document-images_1280/B4EZdnzTBOHYAs-/1/1749793223132?e=1752710400&v=beta&t=-FonVfLGQ43uF5T2b96fHrNGtye-Kak-5roD0oywMG0'
+thumbnail: 'https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/cybernews1.png'
 ---
 
 ## 🚨 Dữ liệu của 4 tỷ người bị rò rỉ
