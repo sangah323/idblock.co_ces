@@ -5,7 +5,7 @@ export const posts = [
     "description": "CrossHub가 인천창조경제혁신센터와 Pacemakers가 주최하는 Startup Pathfinder 프로그램에 10개 스타트업 중 하나로 선정되었습니다.",
     "filter": "news",
     "date": "2025-07-15",
-    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-kor.png"
+    "thumbnail": "../../thumbnail/startup-pathfinder-selection-2025-eng.png"
   },
   {
     "slug": "sitm-2025-day1",
@@ -13,7 +13,7 @@ export const posts = [
     "description": "SITM 2025 첫째 날, 전 세계 여행 업계 전문가들과 만나 CrossHub의 글로벌 여행 혁신 여정을 공유했습니다. IDBlock과 B·Pay를 통한 새로운 여행 경험을 소개했습니다.",
     "filter": "event",
     "date": "2025-07-04",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E1FAQGPwdEK-1Rm7A/feedshare-document-images_800/B4EZe_tZ9RHwAc-/1/1751268044905?e=1752710400&v=beta&t=PJl7Ih9KZxaLquCYnv9WAjbxg-IJzMmbVE7R6taQSV0"
+    "thumbnail": "/thumbnail/sitm-2025-day1.png"
   },
   {
     "slug": "fintech-ir-award-2025",
@@ -22,14 +22,6 @@ export const posts = [
     "filter": "news",
     "date": "2025-06-27",
     "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg"
-  },
-  {
-    "slug": "crosshub-nipa-gip-global-success-case-2025",
-    "title": "Crosshub, NIPA GIP 글로벌 성공 사례로 선정",
-    "description": "Crosshub가 정보통신산업진흥원(NIPA)의 GIP 글로벌 성공 사례로 선정되어 국경을 넘나드는 디지털 혁신의 새로운 이정표를 세웠습니다.",
-    "filter": "news",
-    "date": "2025-06-26",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQH89QLtFXYFFw/feedshare-shrink_800/B4EZekwLEvGcAo-/0/1750815782522?e=1753920000&v=beta&t=B8F14j1jFv8FCaDIDVYIdFbLWBp72xNm4SO008vpXJo"
   },
   {
     "slug": "trust-my-tech-2025-selection",
@@ -45,7 +37,7 @@ export const posts = [
     "description": "IDBlock과 B·Pay가 여행객과 글로벌 비즈니스를 위한 신원 인증 및 국경 간 결제 방식을 어떻게 혁신하고 있는지 직접 확인해보세요.500개의 참가 스타트업 중 하나로서, 전 세계 14억 명을 위한 경계 없는 세상을 어떻게 구축하고 있는지 현장에서 소개드립니다.",
     "filter": "news",
     "date": "2025-06-24",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQELtnW2cgNbnA/feedshare-shrink_800/B4EZeapxz8HcAk-/0/1750646334453?e=1753920000&v=beta&t=AZBdIY9beH2tXhvkdfckDaUNow_14JavrtMSNg3KQ_k"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/NextRise2025.png"
   },
   {
     "slug": "nexus-luxembourg-2025-wrap",

@@ -5,7 +5,7 @@ export const posts = [
     "description": "CrossHub đã được chọn là một trong 10 startup tham gia chương trình Startup Pathfinder do Trung tâm Đổi mới Kinh tế Sáng tạo Incheon và Pacemakers tổ chức.",
     "filter": "news",
     "date": "2025-07-15",
-    "thumbnail": "/thumbnail/startup-pathfinder-selection-2025-vnm.png"
+    "thumbnail": "../../thumbnail/startup-pathfinder-selection-2025-eng.png"
   },
   {
     "slug": "sitm-2025-day1",
@@ -24,14 +24,6 @@ export const posts = [
     "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/fintech-ir-award-2025/image01.jpeg"
   },
   {
-    "slug": "crosshub-nipa-gip-global-success-case-2025",
-    "title": "Crosshub được chọn làm Tình huống Thành công Toàn cầu GIP của NIPA",
-    "description": "Chúng tôi vinh dự được chọn làm tình huống thành công toàn cầu của Global ICT Portal (GIP) bởi Cơ quan Xúc tiến Công nghiệp CNTT Quốc gia (NIPA), đánh dấu một cột mốc mới trong đổi mới số xuyên biên giới.",
-    "filter": "news",
-    "date": "2025-06-26",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQH89QLtFXYFFw/feedshare-shrink_800/B4EZekwLEvGcAo-/0/1750815782522?e=1753920000&v=beta&t=B8F14j1jFv8FCaDIDVYIdFbLWBp72xNm4SO008vpXJo"
-  },
-  {
     "slug": "trust-my-tech-2025-selection",
     "title": "🎉 Được chọn cho chương trình 'Trust My Tech 2025'! CrossHub hợp tác với Thales để mở rộng toàn cầu",
     "description": "CrossHub đã được chọn cho chương trình hợp tác doanh nghiệp toàn cầu 'Trust My Tech 2025' của Bộ Doanh nghiệp vừa và nhỏ để phát triển công nghệ cùng với công ty Pháp Thales.",
@@ -45,7 +37,7 @@ export const posts = [
     "description": "Khám phá cách IDBlock và B·Pay đang cách mạng hóa xác thực danh tính và phương thức thanh toán xuyên biên giới cho du khách và doanh nghiệp toàn cầu. Là một trong 500 startup tham gia, chúng tôi sẽ giới thiệu tại chỗ cách chúng tôi đang xây dựng một thế giới không biên giới cho 1,4 tỷ người trên toàn thế giới.",
     "filter": "news",
     "date": "2025-06-24",
-    "thumbnail": "https://media.licdn.com/dms/image/v2/D4E22AQELtnW2cgNbnA/feedshare-shrink_800/B4EZeapxz8HcAk-/0/1750646334453?e=1753920000&v=beta&t=AZBdIY9beH2tXhvkdfckDaUNow_14JavrtMSNg3KQ_k"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/NextRise2025.png"
   },
   {
     "slug": "nexus-luxembourg-2025-wrap",
