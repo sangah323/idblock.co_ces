@@ -342,5 +342,13 @@ export const posts = [
     "filter": "news",
     "date": "2024-11-26",
     "thumbnail": "https://img.youtube.com/vi/2qPQ_ykOQhI/maxresdefault.jpg"
+  },
+  {
+    "slug": "crosshub-vietnam-mega-expo-mou-2024",
+    "title": "CrossHub, 베트남 메가-us 엑스포에서 6개 한국 기업과 MOU 체결",
+    "description": "CrossHub가 베트남 메가-us 엑스포에서 Intween, Abrahms, Blueforg, Core Solution, Hailo, Tripbuilder 등 6개 한국 기업과 전략적 업무협약을 체결했습니다.",
+    "filter": "news",
+    "date": "2024-08-27",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   }
 ];
