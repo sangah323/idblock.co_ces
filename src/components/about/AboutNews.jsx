@@ -30,12 +30,7 @@ export default function AboutNews({ lan }) {
   const news = pressItems.map((press, index) => {
     return (
       <div key={index} className={styles.newsCard}>
-        <a
-          href={press.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="news link"
-        >
+        <a href={press.link} target="_blank" rel="noopener noreferrer" aria-label="news link">
           <div className={styles.newsImage}>
             <Image src={press.image} alt="news image" />
           </div>
@@ -54,18 +49,10 @@ export default function AboutNews({ lan }) {
   return (
     <section className={`subSection ${styles.newsSection}`}>
       <div className={`container ${styles.newsContainer}`}>
-        <h2 className={styles.newsTitle}>{t("title")}</h2>
+        <h2 className={styles.newsTitle}>{t('title')}</h2>
         <div className={styles.newsBox}>
-          <button
-            onClick={handlePrev}
-            className={styles.leftArrow}
-            aria-label="prev"
-          >
-            <Image
-              className={styles.arrow}
-              src="/assets/about/arrow-left.png"
-              alt="left arrow"
-            />
+          <button onClick={handlePrev} className={styles.leftArrow} aria-label="prev">
+            <Image className={styles.arrow} src="/assets/about/arrow-left.png" alt="left arrow" />
           </button>
 
           <div className={styles.newsList}>
@@ -85,16 +72,8 @@ export default function AboutNews({ lan }) {
             </div>
           </div>
 
-          <button
-            onClick={handleNext}
-            className={styles.rightArrow}
-            aria-label="next"
-          >
-            <Image
-              className={styles.arrow}
-              src="/assets/about/arrow-right.png"
-              alt="right arrow"
-            />
+          <button onClick={handleNext} className={styles.rightArrow} aria-label="next">
+            <Image className={styles.arrow} src="/assets/about/arrow-right.png" alt="right arrow" />
           </button>
         </div>
       </div>
