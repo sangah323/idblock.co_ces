@@ -40,7 +40,7 @@ export default function About() {
         </Element>
         <Element name="history">
           {/* <AboutHistory lan={lan} /> */}
-          <AboutCompanyTimeline />
+          <AboutCompanyTimeline lan={lan} />
         </Element>
         <Element name="news">
           <AboutNews lan={lan} />

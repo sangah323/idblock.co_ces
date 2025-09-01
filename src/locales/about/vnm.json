@@ -55,6 +55,20 @@
   },
   "AboutHistory": {
     "title": "Giải thưởng và Lịch sử",
+    "timelineData": {
+      "2025": [
+        { "month": "Tháng 5", "title": "Được chọn cho dự án 'Đại học khởi nghiệp' năm 2025" },
+        { "month": "Tháng 5", "title": "Nhận chứng nhận InnoBiz cho doanh nghiệp vừa và nhỏ" },
+        { "month": "Tháng 5", "title": "Được chọn tham gia Pium Lab 7 của Tập đoàn Tài chính iM" },
+        { "month": "Tháng 2", "title": "Hợp tác bảo mật với công ty bảo mật toàn cầu CERTIC" }
+      ],
+      "2024": [
+        { "month": "Tháng 12", "title": "Ra mắt beta IDBlock" },
+        { "month": "Tháng 8", "title": "Thành lập công ty CrossHub" }
+      ],
+      "2023": [{ "month": "Tháng 10", "title": "Thành lập đội và bắt đầu R&D ban đầu" }],
+      "2022": [{ "month": "Tháng 11", "title": "Kiểm tra ý tưởng và nghiên cứu thị trường" }]
+    },
     "contentList": [
       {
         "year": "2025",
