@@ -1,0 +1,108 @@
+import React, { useMemo, useState } from "react";
+import "@/style/about/AboutCompanyTimeline.css";
+
+// ----------------------------- 더미 데이터 ------------------------------
+const timelineData = {
+    2025: [
+        { month: "05월", title: "2025년 '창업중심대학' 지원사업 선정" },
+        { month: "05월", title: "강소기업 이노비즈 인증 획득" },
+        { month: "05월", title: "iM금융그룹 피움랩 7기 선발" },
+        { month: "02월", title: "글로벌 보안기업 서틱과 보안 협력" },
+    ],
+    2024: [
+        { month: "12월", title: "IDBlock 베타 론칭" },
+        { month: "08월", title: "CrossHub 법인 설립" },
+    ],
+    2023: [
+        { month: "10월", title: "팀 결성 및 초기 R&D 시작" },
+    ],
+    2022: [
+        { month: "11월", title: "아이디어 검증 및 시장 조사" },
+    ],
+};
+
+// -------------------------------- 유틸 ----------------------------------------
+function classNames(...args) {
+    return args.filter(Boolean).join(" ");
+}
+
+// ------------------------------ YearTabs --------------------------------------
+function YearTabs({ years, activeYear, onChange }) {
+    return (
+        <div className="year-tabs">
+            <div className="year-tabs-buttons">
+                {years.map((y) => {
+                    const active = y === activeYear;
+                    return (
+                        <button
+                            key={y}
+                            onClick={() => onChange(y)}
+                            className={classNames("year-button", active && "active")}
+                            aria-pressed={active}
+                        >
+                            {y}
+                        </button>
+                    );
+                })}
+            </div>
+            <div className="year-line">
+                <div className="year-dot" />
+            </div>
+        </div>
+    );
+}
+
+// ------------------------------ TimelineItem ----------------------------------
+function TimelineItem({ month, title, description }) {
+    return (
+        <div className="timeline-item">
+            <div className="timeline-month">{month}</div>
+            <div className="timeline-content">
+                <div className="timeline-title">{title}</div>
+                {description && <p className="timeline-description">{description}</p>}
+            </div>
+        </div>
+    );
+}
+
+// ------------------------------ Timeline --------------------------------------
+function Timeline({ year, entries }) {
+    return (
+        <div className="timeline">
+            <div className="timeline-year">{year}</div>
+            <div className="timeline-entries">
+                {entries.map((e, idx) => (
+                    <TimelineItem key={`${year}-${idx}`} {...e} />
+                ))}
+            </div>
+        </div>
+    );
+}
+
+// ---------------------------- CompanyTimeline ---------------------------------
+export default function CompanyTimeline({ data = timelineData, defaultYear }) {
+    const years = useMemo(
+        () =>
+            Object.keys(data)
+                .map((y) => Number(y))
+                .sort((a, b) => b - a),
+        [data]
+    );
+    const [activeYear, setActiveYear] = useState(defaultYear ?? years[0]);
+
+    const entries = data[String(activeYear)] ?? [];
+
+    return (
+        <main className="company-timeline">
+            <section className="timeline-container">
+                <h1 className="sr-only">회사 연혁</h1>
+                <YearTabs years={years} activeYear={activeYear} onChange={setActiveYear} />
+                <Timeline year={activeYear} entries={entries} />
+            </section>
+        </main>
+    );
+}
+
+/* ---------------------------- CompanyTimeline.css ----------------------------
+
+*/

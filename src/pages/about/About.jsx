@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AboutMain from '@/components/about/AboutMain';
 import AboutGoal from '@/components/about/AboutGoal';
-import AboutHistory from '@/components/about/AboutHistory';
+import AboutCompanyTimeline from '@/components/about/AboutCompanyTimeline';
 import AboutNews from '@/components/about/AboutNews';
 import AboutMap from '@/components/about/AboutMap';
 import AboutContact from '@/components/about/AboutContact';
@@ -39,7 +39,8 @@ export default function About() {
           <AboutGoal />
         </Element>
         <Element name="history">
-          <AboutHistory lan={lan} />
+          {/* <AboutHistory lan={lan} /> */}
+          <AboutCompanyTimeline />
         </Element>
         <Element name="news">
           <AboutNews lan={lan} />

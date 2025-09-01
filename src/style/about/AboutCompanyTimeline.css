@@ -1,0 +1,86 @@
+.company-timeline {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding: 3rem 1.5rem;
+  }
+  
+  .timeline-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .year-tabs-buttons {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .year-button {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #777;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .year-button.active {
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  .year-button:hover {
+    color: #ccc;
+  }
+  
+  .year-line {
+    position: relative;
+    margin-top: 1.5rem;
+    height: 1px;
+    background-color: #444;
+  }
+  
+  .year-dot {
+    position: absolute;
+    top: -4px;
+    left: 4rem;
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .timeline-year {
+    color: #555;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 3rem;
+  }
+  
+  .timeline-item {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+  }
+  
+  .timeline-month {
+    color: #888;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .timeline-title {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+  
+  .timeline-description {
+    margin-top: 0.5rem;
+    color: #aaa;
+    font-size: 1rem;
+  }
