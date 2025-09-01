@@ -1,21 +1,6 @@
 import React, { useEffect, useRef, useMemo, useState } from 'react';
 import '@/style/about/AboutCompanyTimeline.css';
-
-// ----------------------------- 더미 데이터 ------------------------------
-const timelineData = {
-  2025: [
-    { month: '05월', title: "2025년 '창업중심대학' 지원사업 선정" },
-    { month: '05월', title: '강소기업 이노비즈 인증 획득' },
-    { month: '05월', title: 'iM금융그룹 피움랩 7기 선발' },
-    { month: '02월', title: '글로벌 보안기업 서틱과 보안 협력' },
-  ],
-  2024: [
-    { month: '12월', title: 'IDBlock 베타 론칭' },
-    { month: '08월', title: 'CrossHub 법인 설립' },
-  ],
-  2023: [{ month: '10월', title: '팀 결성 및 초기 R&D 시작' }],
-  2022: [{ month: '11월', title: '아이디어 검증 및 시장 조사' }],
-};
+import { translate } from '@/utils/translates';
 
 // -------------------------------- 유틸 ----------------------------------------
 function classNames(...args) {
@@ -89,7 +74,9 @@ function Timeline({ year, entries }) {
 }
 
 // ---------------------------- CompanyTimeline ---------------------------------
-export default function CompanyTimeline({ data = timelineData, defaultYear }) {
+export default function CompanyTimeline({ lan, defaultYear }) {
+  const data = translate('about', lan.toLowerCase(), 'AboutHistory.timelineData');
+  console.log(data);
   const years = useMemo(
     () =>
       Object.keys(data)
