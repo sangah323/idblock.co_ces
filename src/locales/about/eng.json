@@ -55,6 +55,29 @@
   },
   "AboutHistory": {
     "title": "Awards and History",
+    "timelineData": {
+      "2025": [
+        {
+          "month": "May",
+          "title": "Selected for the 'University Start-up Support' project in 2025"
+        },
+        {
+          "month": "May",
+          "title": "Acquired InnoBiz certification for small and medium enterprises"
+        },
+        { "month": "May", "title": "Selected for iM Financial Group Pium Lab 7th batch" },
+        {
+          "month": "February",
+          "title": "Security collaboration with global security company CERTIC"
+        }
+      ],
+      "2024": [
+        { "month": "December", "title": "IDBlock beta launch" },
+        { "month": "August", "title": "CrossHub corporate establishment" }
+      ],
+      "2023": [{ "month": "October", "title": "Team formation and initial R&D start" }],
+      "2022": [{ "month": "November", "title": "Idea validation and market research" }]
+    },
     "contentList": [
       {
         "year": "2025",
