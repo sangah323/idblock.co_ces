@@ -57,27 +57,44 @@
     "title": "Awards and History",
     "timelineData": {
       "2025": [
+        { "month": "Feb", "title": "Collaboration with global security company Certik" },
+        { "month": "Feb", "title": "2025 Service BM Overseas Expansion Support Agreement" },
+        {
+          "month": "Mar",
+          "title": "Selected companies for two intellectual property areas (Technology Transfer / Valuation)"
+        },
+        { "month": "Apr", "title": "Selected for G-IN Next Level 9th cohort" },
         {
           "month": "May",
-          "title": "Selected for the 'University Start-up Support' project in 2025"
+          "title": "Selected for 2025 'Entrepreneurial University' Support Program"
         },
         {
           "month": "May",
-          "title": "Acquired InnoBiz certification for small and medium enterprises"
+          "title": "Obtained Inno-Biz Certification for Small and Medium Enterprise"
         },
-        { "month": "May", "title": "Selected for iM Financial Group Pium Lab 7th batch" },
+        { "month": "May", "title": "Selected for iM Financial Group Pium Lab 7th cohort" },
+        { "month": "May", "title": "Selected for CES 2026 Joint & Solo Pavilion Participation" },
         {
-          "month": "February",
-          "title": "Security collaboration with global security company CERTIC"
+          "month": "May",
+          "title": "Selected for 2025 Seoul Tourism Startup Collaboration Project Competition"
+        },
+        { "month": "May", "title": "2025 Specialized Capability BI Nurturing Support Program" },
+        {
+          "month": "Jun",
+          "title": "Selected for Ministry of Science and ICT Blockchain Specialized Cluster Project"
+        },
+        {
+          "month": "Jul",
+          "title": "Selected for Gwangju Technology Investment Open Innovation Gold Stage"
         }
       ],
       "2024": [
-        { "month": "December", "title": "IDBlock beta launch" },
-        { "month": "August", "title": "CrossHub corporate establishment" }
+        { "month": "Dec", "title": "IDBlock Beta Launch" },
+        { "month": "Aug", "title": "CrossHub Corporation Established" }
       ],
-      "2023": [{ "month": "October", "title": "Team formation and initial R&D start" }],
-      "2022": [{ "month": "November", "title": "Idea validation and market research" }]
+      "2023": [{ "month": "Oct", "title": "Team Formation and Initial R&D Started" }]
     },
+
     "contentList": [
       {
         "year": "2025",
