@@ -13,7 +13,7 @@ export const posts = [
     "description": "CrossHub has successfully completed the localization capacity building program for the 2025 Korea-Africa Startup Competition organized by the Korea-Africa Foundation and Korea Social Investment.",
     "filter": "news",
     "date": "2025-08-13",
-    "thumbnail": "../../thumbnail/korea-africa-startup-competition-2025-eng.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/africa.jpeg"
   },
   {
     "slug": "startup-pathfinder-selection-2025",
