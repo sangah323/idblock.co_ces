@@ -13,7 +13,7 @@ export const posts = [
     "description": "CrossHubが韓国アフリカ財団と韓国社会投資主催の2025年韓国・アフリカスタートアップ競技大会現地化能力強化プログラムを成功裏に修了しました。",
     "filter": "news",
     "date": "2025-08-13",
-    "thumbnail": "../../thumbnail/korea-africa-startup-competition-2025-jpn.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/africa.jpeg"
   },
   {
     "slug": "startup-pathfinder-selection-2025",

@@ -13,7 +13,7 @@ export const posts = [
     "description": "크로스허브가 한아프리카재단과 한국사회투자 주관 2025 한-아프리카 스타트업 경진대회 현지화 역량 강화 프로그램을 성공적으로 수료했습니다.",
     "filter": "news",
     "date": "2025-08-13",
-    "thumbnail": "../../thumbnail/korea-africa-startup-competition-2025-kor.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/africa.jpeg"
   },
   {
     "slug": "startup-pathfinder-selection-2025",

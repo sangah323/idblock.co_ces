@@ -13,7 +13,7 @@ export const posts = [
     "description": "CrossHub đã hoàn thành thành công chương trình tăng cường năng lực bản địa hóa cho Cuộc thi Startup Hàn-Phi 2025 do Quỹ Hàn-Phi và Đầu tư Xã hội Hàn Quốc tổ chức.",
     "filter": "news",
     "date": "2025-08-13",
-    "thumbnail": "../../thumbnail/korea-africa-startup-competition-2025-vnm.png"
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/africa.jpeg"
   },
   {
     "slug": "startup-pathfinder-selection-2025",
