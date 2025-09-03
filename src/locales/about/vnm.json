@@ -57,15 +57,36 @@
     "title": "Giải thưởng và Lịch sử",
     "timelineData": {
       "2025": [
-        { "month": "Tháng 5", "title": "Được chọn cho dự án 'Đại học khởi nghiệp' năm 2025" },
-        { "month": "Tháng 5", "title": "Nhận chứng nhận InnoBiz cho doanh nghiệp vừa và nhỏ" },
-        { "month": "Tháng 5", "title": "Được chọn tham gia Pium Lab 7 của Tập đoàn Tài chính iM" },
-        { "month": "Tháng 2", "title": "Hợp tác bảo mật với công ty bảo mật toàn cầu CERTIC" }
+        { "month": "02", "title": "Hợp tác với công ty bảo mật toàn cầu Certik" },
+        { "month": "02", "title": "Thỏa thuận Hỗ trợ Mở rộng Dịch vụ BM ra nước ngoài 2025" },
+        {
+          "month": "03",
+          "title": "Các công ty được chọn trong 2 lĩnh vực sở hữu trí tuệ (Chuyển giao công nghệ / Định giá)"
+        },
+        { "month": "04", "title": "Được chọn vào khóa 9 G-IN Next Level" },
+        { "month": "05", "title": "Được chọn cho Chương trình Hỗ trợ 'Đại học Khởi nghiệp' 2025" },
+        { "month": "05", "title": "Đạt chứng nhận Inno-Biz cho doanh nghiệp nhỏ và vừa" },
+        { "month": "05", "title": "Được chọn vào khóa 7 Pium Lab của Tập đoàn iM Finance" },
+        { "month": "05", "title": "Được chọn tham gia CES 2026 Pavilion chung & riêng" },
+        {
+          "month": "05",
+          "title": "Được chọn cho Cuộc thi Dự án Hợp tác Startup Du lịch Seoul 2025"
+        },
+        { "month": "05", "title": "Chương trình Hỗ trợ Nuôi dưỡng Năng lực Chuyên môn BI 2025" },
+        {
+          "month": "06",
+          "title": "Được chọn cho Dự án Cụm Chuyên biệt Blockchain Bộ Khoa học và CNTT"
+        },
+        {
+          "month": "07",
+          "title": "Được chọn tham gia Gwangju Technology Investment Open Innovation Gold Stage"
+        }
       ],
       "2024": [
-        { "month": "Tháng 12", "title": "Ra mắt beta IDBlock" },
-        { "month": "Tháng 8", "title": "Thành lập công ty CrossHub" }
-      ]
+        { "month": "12", "title": "Ra mắt phiên bản Beta IDBlock" },
+        { "month": "08", "title": "Thành lập Công ty TNHH CrossHub" }
+      ],
+      "2023": [{ "month": "10", "title": "Thành lập đội nhóm và bắt đầu R&D ban đầu" }]
     },
     "contentList": [
       {
