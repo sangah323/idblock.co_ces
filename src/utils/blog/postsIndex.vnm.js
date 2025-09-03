@@ -8,6 +8,14 @@ export const posts = [
     "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   },
   {
+    "slug": "korea-africa-startup-competition-2025",
+    "title": "🌍 CrossHub Hoàn Thành Chương Trình Tăng Cường Năng Lực Bản Địa Hóa Cuộc Thi Startup Hàn-Phi 2025",
+    "description": "CrossHub đã hoàn thành thành công chương trình tăng cường năng lực bản địa hóa cho Cuộc thi Startup Hàn-Phi 2025 do Quỹ Hàn-Phi và Đầu tư Xã hội Hàn Quốc tổ chức.",
+    "filter": "news",
+    "date": "2025-08-13",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/africa.jpeg"
+  },
+  {
     "slug": "startup-pathfinder-selection-2025",
     "title": "CrossHub được chọn cho chương trình Startup Pathfinder của Incheon CEIC",
     "description": "CrossHub đã được chọn là một trong 10 startup tham gia chương trình Startup Pathfinder do Trung tâm Đổi mới Kinh tế Sáng tạo Incheon và Pacemakers tổ chức.",
