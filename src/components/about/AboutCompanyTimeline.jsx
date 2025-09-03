@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useMemo, useState } from 'react';
 import '@/style/about/AboutCompanyTimeline.css';
 import { translate } from '@/utils/translates';
+import { useT } from '@/hooks/useT';
 
 // -------------------------------- 유틸 ----------------------------------------
 function classNames(...args) {
@@ -76,7 +77,8 @@ function Timeline({ year, entries }) {
 // ---------------------------- CompanyTimeline ---------------------------------
 export default function CompanyTimeline({ lan, defaultYear }) {
   const data = translate('about', lan.toLowerCase(), 'AboutHistory.timelineData');
-  console.log(data);
+  const t = useT('AboutHistory');
+  
   const years = useMemo(
     () =>
       Object.keys(data)
@@ -91,7 +93,7 @@ export default function CompanyTimeline({ lan, defaultYear }) {
   return (
     <main className="company-timeline">
       <section className="timeline-container">
-        <h1 className="sr-only">회사 연혁</h1>
+        <h1 className="sr-only">{t('goal.title[0]')}</h1>
         <YearTabs years={years} activeYear={activeYear} onChange={setActiveYear} />
         <Timeline year={activeYear} entries={entries} />
       </section>
