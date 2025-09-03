@@ -7,21 +7,21 @@ import { useT } from '@/hooks/useT';
 import Image from '@/components/common/Image';
 
 export default function HomeMain() {
-  const t = useT("HomeMain");
+  const t = useT('HomeMain');
 
   return (
     <section className="subSection">
       <div className={`container ${styles.heroContainer}`}>
         <div className={styles.heroContent}>
           <div className={styles.heroTitle}>
-            <h1>{t("title[0]")}</h1>
-            <h1>{t("title[1]")}</h1>
+            <h1>{t('title[0]')}</h1>
+            <h1>{t('title[1]')}</h1>
           </div>
 
           <div className={styles.heroDescription}>
-            <p>{t("description[0]")}</p>
-            <p>{t("description[1]")}</p>
-            <p>{t("description[2]")}</p>
+            <p>{t('description[0]')}</p>
+            <p>{t('description[1]')}</p>
+            <p>{t('description[2]')}</p>
           </div>
 
           <div className={styles.downloadButtons}>
@@ -32,11 +32,7 @@ export default function HomeMain() {
               target="_blank"
               aria-label="download"
             >
-              <Image
-                loading="lazy"
-                src={DOWNLOAD_ICON_LIST.ANDROID}
-                alt="App Icon"
-              />
+              <Image loading="lazy" src={DOWNLOAD_ICON_LIST.ANDROID} alt="App Icon" />
               <p>Google Play</p>
             </Link>
             <Link
@@ -46,30 +42,15 @@ export default function HomeMain() {
               target="_blank"
               aria-label="download"
             >
-              <Image
-                loading="lazy"
-                src={DOWNLOAD_ICON_LIST.APPLE}
-                alt="App Icon"
-              />
+              <Image loading="lazy" src={DOWNLOAD_ICON_LIST.APPLE} alt="App Icon" />
               <p>App Store</p>
             </Link>
           </div>
         </div>
 
         <div className={styles.heroImage}>
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            controls={false}
-            width="100%"
-            height="auto"
-          >
-            <source
-              src="/assets/home/first_idblock_demo.webm"
-              type="video/webm"
-            />
+          <video autoPlay muted loop playsInline controls={false} width="100%" height="100%">
+            <source src="/assets/home/first_idblock_demo.webm" type="video/webm" />
           </video>
         </div>
       </div>
