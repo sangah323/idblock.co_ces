@@ -8,6 +8,14 @@ export const posts = [
     "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   },
   {
+    "slug": "korea-africa-startup-competition-2025",
+    "title": "🌍 CrossHub Completes Localization Capacity Building Program for 2025 Korea-Africa Startup Competition",
+    "description": "CrossHub has successfully completed the localization capacity building program for the 2025 Korea-Africa Startup Competition organized by the Korea-Africa Foundation and Korea Social Investment.",
+    "filter": "news",
+    "date": "2025-08-13",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/africa.jpeg"
+  },
+  {
     "slug": "startup-pathfinder-selection-2025",
     "title": "CrossHub Selected for Startup Pathfinder Program by Incheon CEIC",
     "description": "CrossHub has been selected as one of 10 startups for the Startup Pathfinder program, hosted by Incheon Center for Creative Economy & Innovation and Pacemakers.",

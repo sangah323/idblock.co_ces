@@ -8,6 +8,14 @@ export const posts = [
     "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/mousInVietnam1.png"
   },
   {
+    "slug": "korea-africa-startup-competition-2025",
+    "title": "🌍 크로스허브, 2025 한-아프리카 스타트업 경진대회 현지화 역량 강화 프로그램 수료",
+    "description": "크로스허브가 한아프리카재단과 한국사회투자 주관 2025 한-아프리카 스타트업 경진대회 현지화 역량 강화 프로그램을 성공적으로 수료했습니다.",
+    "filter": "news",
+    "date": "2025-08-13",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/africa.jpeg"
+  },
+  {
     "slug": "startup-pathfinder-selection-2025",
     "title": "CrossHub, 인천창조경제혁신센터 Startup Pathfinder 프로그램 선정",
     "description": "CrossHub가 인천창조경제혁신센터와 Pacemakers가 주최하는 Startup Pathfinder 프로그램에 10개 스타트업 중 하나로 선정되었습니다.",
