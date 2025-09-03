@@ -93,7 +93,7 @@ export default function CompanyTimeline({ lan, defaultYear }) {
   return (
     <main className="company-timeline">
       <section className="timeline-container">
-        <h1 className="sr-only">{t('goal.title[0]')}</h1>
+        <h1 className="sr-only">{t('title')}</h1>
         <YearTabs years={years} activeYear={activeYear} onChange={setActiveYear} />
         <Timeline year={activeYear} entries={entries} />
       </section>
