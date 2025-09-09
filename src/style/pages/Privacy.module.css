@@ -1,0 +1,372 @@
+.container {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 2rem 0;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  opacity: 0.9;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.section {
+  padding: 2.5rem 2rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #667eea;
+  display: inline-block;
+}
+
+.sectionContent {
+  color: #4a5568;
+  line-height: 1.8;
+}
+
+.sectionContent > p {
+  margin-bottom: 1.25rem;
+}
+
+.sectionContent > p:last-child {
+  margin-bottom: 0;
+}
+
+.subsection {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #f7fafc;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.subsection h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.75rem;
+}
+
+.subsection h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.75rem;
+}
+
+.subsection p {
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+  line-height: 1.7;
+}
+
+.subsection p:last-child {
+  margin-bottom: 0;
+}
+
+.table {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.tableRow {
+  background-color: #ffffff;
+}
+
+.tableCell {
+  padding: 1.5rem;
+}
+
+.tableCell strong {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.tableCell p {
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.tableCell p:last-child {
+  margin-bottom: 0;
+}
+
+.providerInfo {
+  background-color: #edf2f7;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 1px solid #cbd5e0;
+}
+
+.providerInfo h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.providerInfo p {
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.providerInfo p:last-child {
+  margin-bottom: 0;
+}
+
+.delegationInfo {
+  background-color: #f0fff4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 1px solid #9ae6b4;
+}
+
+.delegationInfo h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.delegationInfo p {
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.delegationInfo p:last-child {
+  margin-bottom: 0;
+}
+
+.contactInfo {
+  background-color: #fff5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 1px solid #fed7d7;
+}
+
+.contactInfo h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.contactInfo p {
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.contactInfo p:last-child {
+  margin-bottom: 0;
+}
+
+.agencyInfo {
+  margin: 1.5rem 0;
+}
+
+.agency {
+  background-color: #fffaf0;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  border: 1px solid #fbd38d;
+}
+
+.agency:last-child {
+  margin-bottom: 0;
+}
+
+.agency h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #2d3748;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.effectiveDate p {
+  font-size: 1.125rem;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem 0;
+  }
+
+  .content {
+    margin: 0 1rem;
+    border-radius: 8px;
+  }
+
+  .header {
+    padding: 2rem 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 2rem 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.25rem;
+  }
+
+  .subsection,
+  .providerInfo,
+  .delegationInfo,
+  .contactInfo {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .tableCell {
+    padding: 1rem;
+  }
+
+  .footer {
+    padding: 1.5rem 1rem;
+  }
+
+  .effectiveDate p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    margin: 0 0.5rem;
+  }
+
+  .header {
+    padding: 1.5rem 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .section {
+    padding: 1.5rem 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.125rem;
+  }
+
+  .subsection,
+  .providerInfo,
+  .delegationInfo,
+  .contactInfo,
+  .agency {
+    padding: 0.75rem;
+  }
+
+  .tableCell {
+    padding: 0.75rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .container {
+    background-color: white;
+    padding: 0;
+  }
+
+  .content {
+    box-shadow: none;
+    border-radius: 0;
+    max-width: none;
+  }
+
+  .header {
+    background: white !important;
+    color: black !important;
+    padding: 1rem 0;
+  }
+
+  .section {
+    page-break-inside: avoid;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .subsection,
+  .providerInfo,
+  .delegationInfo,
+  .contactInfo,
+  .agency {
+    background-color: white !important;
+    border: 1px solid #ccc !important;
+  }
+
+  .footer {
+    background-color: white !important;
+    color: black !important;
+    border-top: 1px solid #ccc;
+  }
+}

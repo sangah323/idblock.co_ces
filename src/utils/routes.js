@@ -66,6 +66,17 @@ export const AUTH_ROUTES = {
   },
 };
 
+export const POLICY_ROUTES = {
+  PRIVACY: {
+    PATH: '/privacy',
+    NAME: 'privacy',
+  },
+  PRIVACY_EN: {
+    PATH: '/privacy-en',
+    NAME: 'privacy-en',
+  },
+};
+
 export const NOTFOUND_ROUTES = {
   ROOT: {
     PATH: '/notfound',
