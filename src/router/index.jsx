@@ -9,6 +9,7 @@ import {
   DEVELOPER_ROUTES,
   BLOG_ROUTES,
   AUTH_ROUTES,
+  POLICY_ROUTES,
   NOTFOUND_ROUTES,
 } from '@/utils/routes';
 
@@ -38,6 +39,8 @@ import Login from '@/pages/auth/Login';
 import Signup from '@/pages/auth/Signup';
 
 import NotFound from '@/pages/NotFound';
+import Privacy from '@/pages/policy/Privacy';
+import PrivacyEn from '@/pages/policy/PrivacyEn';
 
 const router = createBrowserRouter([
   {
@@ -83,6 +86,14 @@ const router = createBrowserRouter([
             element: <BlogDetail />,
           },
         ],
+      },
+      {
+        path: POLICY_ROUTES.PRIVACY.PATH,
+        element: <Privacy />,
+      },
+      {
+        path: POLICY_ROUTES.PRIVACY_EN.PATH,
+        element: <PrivacyEn />,
       },
     ],
   },
