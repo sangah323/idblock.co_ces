@@ -365,16 +365,20 @@
     "email": "E-mail : crosshub@crosshub.kr",
     "maps": [
       {
-        "name": "HeadOffice",
-        "address": "5F, 123 Ogong-ro, Deokjin-gu, Jeonju, Jeollabuk-do, South Korea"
+        "name": "Headquarters",
+        "address": "5F, Jeonbuk Center for Creative Economy & Innovation, 123 Ogong-ro, Deokjin-gu, Jeonju-si, Jeonbuk State, South Korea"
       },
       {
         "name": "Daejeon R&D Center",
-        "address": "1161 Gyebaek-ro, Seo-gu, Daejeon, South Korea"
+        "address": "404-D38, Union Building, 1161 Gyebaek-ro, Seo-gu, Daejeon, South Korea"
       },
       {
         "name": "Seoul Fintech Lab",
         "address": "5F, O2 Tower, 83 Uisadang-daero, Yeongdeungpo-gu, Seoul, South Korea"
+      },
+      {
+        "name": "Incheon Corporate Research Institute",
+        "address": "7F, 229 Seokjeong-ro, Michuhol-gu, Incheon, South Korea"
       },
       {
         "name": "Busan Global Center",
@@ -383,10 +387,6 @@
       {
         "name": "Daegu Unicorn Lab",
         "address": "5F, 111 Oksan-ro, Buk-gu, Daegu, South Korea"
-      },
-      {
-        "name": "Gwangju AI Hub",
-        "address": "3F, Gwangju AI Startup Camp, 193-22 Geumnam-ro, Dong-gu, Gwangju, South Korea"
       },
       {
         "name": "Jeju Smart Tourism Center",
