@@ -57,36 +57,21 @@
     "title": "Giải thưởng và Lịch sử",
     "timelineData": {
       "2025": [
-        { "month": "02", "title": "Hợp tác với công ty bảo mật toàn cầu Certik" },
-        { "month": "02", "title": "Thỏa thuận Hỗ trợ Mở rộng Dịch vụ BM ra nước ngoài 2025" },
-        {
-          "month": "03",
-          "title": "Các công ty được chọn trong 2 lĩnh vực sở hữu trí tuệ (Chuyển giao công nghệ / Định giá)"
-        },
-        { "month": "04", "title": "Được chọn vào khóa 9 G-IN Next Level" },
-        { "month": "05", "title": "Được chọn cho Chương trình Hỗ trợ 'Đại học Khởi nghiệp' 2025" },
-        { "month": "05", "title": "Đạt chứng nhận Inno-Biz cho doanh nghiệp nhỏ và vừa" },
-        { "month": "05", "title": "Được chọn vào khóa 7 Pium Lab của Tập đoàn iM Finance" },
-        { "month": "05", "title": "Được chọn tham gia CES 2026 Pavilion chung & riêng" },
-        {
-          "month": "05",
-          "title": "Được chọn cho Cuộc thi Dự án Hợp tác Startup Du lịch Seoul 2025"
-        },
-        { "month": "05", "title": "Chương trình Hỗ trợ Nuôi dưỡng Năng lực Chuyên môn BI 2025" },
-        {
-          "month": "06",
-          "title": "Được chọn cho Dự án Cụm Chuyên biệt Blockchain Bộ Khoa học và CNTT"
-        },
-        {
-          "month": "07",
-          "title": "Được chọn tham gia Gwangju Technology Investment Open Innovation Gold Stage"
-        }
+        { "month": "01", "title": "Được chọn là Doanh nghiệp Xuất sắc Gói Khởi nghiệp Dự bị 2024 và nhận Bằng khen Doanh nghiệp Ưu tú" },
+        { "month": "02", "title": "Giành Giải Nhất Cuộc thi Khởi nghiệp Toàn cầu" },
+        { "month": "03", "title": "Được chọn là Doanh nghiệp 'Chim cánh cụt nhỏ' của Quỹ Bảo lãnh Tín dụng Hàn Quốc" },
+        { "month": "06", "title": "Giành Giải Nhất tại Ngày Demo IR chuyên biệt Fintech X Hội đồng Hỗ trợ Fintech" },
+        { "month": "06", "title": "Được chọn vào Chương trình Hợp tác Doanh nghiệp Toàn cầu (Trust My Tech)" },
+        { "month": "07", "title": "Giành Giải Nhất Cuộc thi IR chuyên biệt Fintech nửa đầu năm 2025 do Ủy ban Dịch vụ Tài chính tổ chức" },
+        { "month": "08", "title": "Thử thách Mở rộng Số hóa Khu vực - Giải thưởng Giám đốc Cơ quan Xúc tiến Công nghiệp CNTT Hàn Quốc" }
       ],
       "2024": [
-        { "month": "12", "title": "Ra mắt phiên bản Beta IDBlock" },
-        { "month": "08", "title": "Thành lập Công ty TNHH CrossHub" }
+        { "month": "05", "title": "Thành lập Công ty TNHH CrossHub" },
+        { "month": "08", "title": "Giải Xuất sắc Trại Khởi nghiệp KIBO lần thứ 15" },
+        { "month": "11", "title": "Giải Phổ biến Ngày Demo Tuần lễ Fintech Seoul với Ngân hàng IBK" },
+        { "month": "12", "title": "Giải Vàng Cuộc thi Khởi nghiệp KINGO-GA" }
       ],
-      "2023": [{ "month": "10", "title": "Thành lập đội nhóm và bắt đầu R&D ban đầu" }]
+      "2023": [{ "month": "11", "title": "Giải Xuất sắc Cuộc thi Ý tưởng Khởi nghiệp Blockchain do Viện Đổi mới Khoa học Công nghệ Chungbuk tổ chức" }]
     },
     "contentList": [
       {

@@ -57,41 +57,21 @@
     "title": "Awards and History",
     "timelineData": {
       "2025": [
-        { "month": "Feb", "title": "Collaboration with global security company Certik" },
-        { "month": "Feb", "title": "2025 Service BM Overseas Expansion Support Agreement" },
-        {
-          "month": "Mar",
-          "title": "Selected companies for two intellectual property areas (Technology Transfer / Valuation)"
-        },
-        { "month": "Apr", "title": "Selected for G-IN Next Level 9th cohort" },
-        {
-          "month": "May",
-          "title": "Selected for 2025 'Entrepreneurial University' Support Program"
-        },
-        {
-          "month": "May",
-          "title": "Obtained Inno-Biz Certification for Small and Medium Enterprise"
-        },
-        { "month": "May", "title": "Selected for iM Financial Group Pium Lab 7th cohort" },
-        { "month": "May", "title": "Selected for CES 2026 Joint & Solo Pavilion Participation" },
-        {
-          "month": "May",
-          "title": "Selected for 2025 Seoul Tourism Startup Collaboration Project Competition"
-        },
-        { "month": "May", "title": "2025 Specialized Capability BI Nurturing Support Program" },
-        {
-          "month": "Jun",
-          "title": "Selected for Ministry of Science and ICT Blockchain Specialized Cluster Project"
-        },
-        {
-          "month": "Jul",
-          "title": "Selected for Gwangju Technology Investment Open Innovation Gold Stage"
-        }
+        { "month": "Jan", "title": "Selected as Outstanding Company in 2024 Pre-startup Package and Received Outstanding Company Commendation" },
+        { "month": "Feb", "title": "Grand Prize Winner at Global Startup Competition" },
+        { "month": "Mar", "title": "Selected as Korea Credit Guarantee Fund 'Little Penguin' Company" },
+        { "month": "Jun", "title": "Grand Prize Winner at Fintech-specialized IR X Fintech Support Council IR Demo Day" },
+        { "month": "Jun", "title": "Selected for Global Enterprise Collaboration Program (Trust My Tech)" },
+        { "month": "Jul", "title": "Grand Prize Winner at Financial Services Commission's First Half 2025 Fintech-specialized IR Competition" },
+        { "month": "Aug", "title": "Regional Digital Scale-up Challenge - Korea IT Industry Promotion Agency Director's Award" }
       ],
       "2024": [
-        { "month": "Dec", "title": "IDBlock Beta Launch" },
-        { "month": "Aug", "title": "CrossHub Corporation Established" }
-      ]
+        { "month": "May", "title": "CrossHub Corporation Established" },
+        { "month": "Aug", "title": "15th KIBO Venture Camp Excellence Award" },
+        { "month": "Nov", "title": "Seoul Fintech Week Demo Day with IBK Bank Popularity Award" },
+        { "month": "Dec", "title": "KINGO-GA Startup Competition Gold Prize" }
+      ],
+      "2023": [{ "month": "Nov", "title": "Chungbuk Institute of Science & Technology Innovation Blockchain Startup Idea Competition Excellence Award" }]
     },
 
     "contentList": [
