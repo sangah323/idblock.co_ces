@@ -1,5 +1,21 @@
 export const posts = [
   {
+    "slug": "crosshub-serbia-global-collaboration-2025",
+    "title": "Crosshub、セルビアでグローバル協力プログラムを成功裏に完了",
+    "description": "BIPAと在セルビア韓国大使館の強力な支援により、Crosshubはベオグラードとノヴィサドでグローバル協力プログラムに参加し、4つのMOUを締結してグローバル展開戦略を強化しました。",
+    "filter": "news",
+    "date": "2025-09-22",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/serbia3.jpeg"
+  },
+  {
+    "slug": "crosshub-vietnam-roadshow-2025",
+    "title": "Crosshub、2025年ベトナムロードショーに参加",
+    "description": "CrosshubがNext Challenge Asia Venturesの支援を受けて2025年ベトナムロードショーに参加し、デジタルアイデンティティとクロスボーダー決済ソリューションを紹介します。",
+    "filter": "event",
+    "date": "2025-09-08",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/vietnamRoadshow.jpeg"
+  },
+  {
     "slug": "crosshub-vietnam-mega-expo-mou-2024",
     "title": "CrossHub、ベトナムMega-usエキスポで韓国企業6社とMOU締結",
     "description": "CrossHubがベトナムMega-usエキスポでIntween、Abrahms、Blueforg、Core Solution、Hailo、Tripbuilder等6社の韓国企業と戦略的業務協約を締結しました。",
