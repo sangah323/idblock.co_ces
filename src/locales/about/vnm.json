@@ -363,36 +363,36 @@
     "email": "E-mail : crosshub@crosshub.kr",
     "maps": [
       {
-        "name": "Jeonju Trụ sở chính",
-        "address": "Tầng 5, Trung tâm Đổi mới Kinh tế Sáng tạo Jeonbuk, 123 Ogong-ro, Deokjin-gu, Jeonju, Tỉnh tự trị đặc biệt Jeonbuk"
+        "name": "Trụ sở chính",
+        "address": "5F, Jeonbuk Center for Creative Economy & Innovation, 123 Ogong-ro, Deokjin-gu, Jeonju-si, Jeonbuk State, South Korea"
       },
       {
-        "name": "Daejeon Trung tâm R&D",
-        "address": "Phòng 404-D38, Tòa nhà Union, 1161 Gyebaek-ro, Seo-gu, Daejeon"
+        "name": "Trung tâm R&D Daejeon",
+        "address": "404-D38, Union Building, 1161 Gyebaek-ro, Seo-gu, Daejeon, South Korea"
       },
       {
         "name": "Seoul Fintech Lab",
-        "address": "Tầng 5, Tòa nhà O₂, 83 Uisadang-daero, Yeongdeungpo-gu, Seoul"
+        "address": "5F, O2 Tower, 83 Uisadang-daero, Yeongdeungpo-gu, Seoul, South Korea"
       },
       {
-        "name": "Busan Trung tâm Toàn cầu",
-        "address": "Tầng 9, BIFC Busan International Financial Center, 40 Munhyeon Financial-ro, Nam-gu, Busan"
+        "name": "Viện Nghiên cứu Doanh nghiệp Incheon",
+        "address": "7F, 229 Seokjeong-ro, Michuhol-gu, Incheon, South Korea"
+      },
+      {
+        "name": "Trung tâm Toàn cầu Busan",
+        "address": "9F, BIFC (Busan International Finance Center), 40 Munhyeongeumyung-ro, Nam-gu, Busan, South Korea"
       },
       {
         "name": "Daegu Unicorn Lab",
-        "address": "Tầng 5, 111 Oksan-ro, Buk-gu, Daegu"
+        "address": "5F, 111 Oksan-ro, Buk-gu, Daegu, South Korea"
       },
       {
-        "name": "Gwangju Trung tâm AI",
-        "address": "Tầng 3, Trại khởi nghiệp AI Gwangju, 193-22 Geumnam-ro, Dong-gu, Gwangju"
+        "name": "Trung tâm Du lịch Thông minh Jeju",
+        "address": "3F, 25 Seohonam-ro, Seogwipo-si, Jeju, South Korea"
       },
       {
-        "name": "Jeju Trung tâm Du lịch Thông minh",
-        "address": "Tầng 3, 25 Sehonam-ro, Seogwipo-si, Jeju"
-      },
-      {
-        "name": "Tokyo Chi nhánh",
-        "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo"
+        "name": "Chi nhánh Tokyo",
+        "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo, Japan"
       }
     ]
   },
