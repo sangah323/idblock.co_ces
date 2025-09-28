@@ -57,25 +57,21 @@
     "title": "수상 및 연혁",
     "timelineData": {
       "2025": [
-
-        { "month": "02월", "title": "글로벌 보안기업 서틱과 보안 협력" },
-        { "month": "02월", "title": "2025 서비스 BM 해외진출 지원사업 협약" },
-        { "month": "03월", "title": "지식재산 2개분야(기술이전/가치평가) 지원기업 선정" },
-        { "month": "04월", "title": "G-IN Next Level 9기 선정" },
-        { "month": "05월", "title": "2025년 '창업중심대학' 지원사업 선정" },
-        { "month": "05월", "title": "강소기업 이노비즈 인증 획득" },
-        { "month": "05월", "title": "iM금융그룹 피움랩 7기 선발" },
-        { "month": "05월", "title": "CES 2026 공동관 및 단독관 참가기업 선정" },
-        { "month": "05월", "title": "2025 서울 관광스타트업 협력 프로젝트 공모전 선정" },
-        { "month": "05월", "title": "2025 특화역량 BI육성 지원사업" },
-        { "month": "06월", "title": "과학기술정보통신부 블록체인 특화 클러스터 조성사업 선정" },
-        { "month": "07월", "title": "광주 기술 투자 오픈이노베이션 Gold Stage 참여기업 선정" }
+        { "month": "Jan", "title": "2024 예비창업패키지 최우수기업 선정 및 우수기업표창장"},
+        { "month": "Feb", "title": "글로벌창업 경진대회 대상"},
+        { "month": "Mar", "title": "신용보증기금 ‘리틀펭귄’ 기업 선정"},
+        { "month": "Jun", "title": "핀테크 특화 IR X 핀테크지원협의체 IR 데모데이 대상"},
+        { "month": "Jun", "title": "글로벌 기업 협업 프로그램(Trust My Tech) 선정"},
+        { "month": "Jul", "title": "금융위원회 주최 2025년 상반기 핀테크 특화 IR대회 대상"},
+        { "month": "Aug", "title": "지역 디지털 스케일업 챌린지 정보통신산업진흥원장상"}
       ],
       "2024": [
-        { "month": "12월", "title": "IDBlock 베타 론칭" },
-        { "month": "08월", "title": "CrossHub 법인 설립" }
+        { "month": "May", "title": "CrossHub 법인 설립" },
+        { "month": "Aug", "title": "제 15기 기보벤처캠프 최우수상"},
+        { "month": "Nov", "title": "서울 핀테크 위크 데모데이 with IBK 기업은행 인기상"},
+        { "month": "Dec", "title": "KINGO-GA 창업경진대회 금상"}
       ],
-      "2023": [{ "month": "10월", "title": "충북과학기술혁신원 주관 BIC 블록체인 컨퍼런스 경진대회 ‘최우수상' 수상" }]
+      "2023": [{ "month": "Nov", "title": "충북과학기술혁신원 주관 블록체인 창업 아이디어 경진대회 최우수상" }]
     },
     "contentList": [
       {
