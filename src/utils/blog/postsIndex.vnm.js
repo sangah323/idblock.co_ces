@@ -1,5 +1,21 @@
 export const posts = [
   {
+    "slug": "crosshub-serbia-global-collaboration-2025",
+    "title": "Crosshub Hoàn Thành Thành Công Chương Trình Hợp Tác Toàn Cầu Tại Serbia",
+    "description": "Với sự hỗ trợ mạnh mẽ từ BIPA và Đại sứ quán Hàn Quốc tại Serbia, Crosshub đã tham gia Chương trình Hợp tác Toàn cầu tại Belgrade và Novi Sad, ký kết 4 MOU và tăng cường chiến lược mở rộng toàn cầu.",
+    "filter": "news",
+    "date": "2025-09-22",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/serbia3.jpeg"
+  },
+  {
+    "slug": "crosshub-vietnam-roadshow-2025",
+    "title": "Crosshub Tham Gia Vietnam RoadShow 2025",
+    "description": "Crosshub sẽ tham gia Vietnam RoadShow 2025 với sự hỗ trợ từ Next Challenge Asia Ventures, giới thiệu các giải pháp nhận dạng số và thanh toán xuyên biên giới.",
+    "filter": "event",
+    "date": "2025-09-08",
+    "thumbnail": "https://d2qilacgdmcy5c.cloudfront.net/post-thumbnail/vietnamRoadshow.jpeg"
+  },
+  {
     "slug": "crosshub-vietnam-mega-expo-mou-2024",
     "title": "CrossHub Ký MOU với Sáu Công ty Hàn Quốc tại Triển lãm Mega-us Việt Nam",
     "description": "CrossHub đã ký kết biên bản ghi nhớ hợp tác chiến lược với sáu công ty Hàn Quốc bao gồm Intween, Abrahms, Blueforg, Core Solution, Hailo, và Tripbuilder tại Triển lãm Mega-us Việt Nam.",
