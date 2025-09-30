@@ -44,16 +44,16 @@
           "address": "Tầng 9, Trung tâm Tài chính Quốc tế Busan (BIFC), 40 Munhyeon-geumyung-ro, Nam-gu, Busan"
         },
         {
-          "name": "Unicorn Lab Daegu",
-          "address": "Tầng 5, 111 Đường Oksan-ro, Buk-gu, Daegu"
-        },
-        {
-          "name": "Trung tâm AI Gwangju",
-          "address": "Tầng 3, Trại Khởi nghiệp AI Gwangju, 193-22 Geumnam-ro, Dong-gu, Gwangju"
+          "name": "Trung tâm R&D Incheon",
+          "address": "Tầng 7, 229 Seokjeong-ro, Quận Michuhol, Thành phố Incheon, Hàn Quốc"
         },
         {
           "name": "Trung tâm R&D Daejeon",
           "address": "Phòng 404-D38, Tòa nhà Union, 1161 Đường Gyebaek-ro, Seo-gu, Daejeon"
+        },
+        {
+          "name": "Unicorn Lab Daegu",
+          "address": "Tầng 5, 111 Đường Oksan-ro, Buk-gu, Daegu"
         },
         {
           "name": "Trung tâm R&D Jeonbuk",
