@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - IDBLOCK</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8fafc;
+        }
+
+        .container {
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-size: 1.125rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .section {
+            padding: 2.5rem 2rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .section:last-of-type {
+            border-bottom: none;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #667eea;
+            display: inline-block;
+        }
+
+        .section-content {
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .section-content>p {
+            margin-bottom: 1.25rem;
+        }
+
+        .section-content>p:last-child {
+            margin-bottom: 0;
+        }
+
+        .subsection {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: #f7fafc;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .subsection h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.75rem;
+        }
+
+        .subsection h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.75rem;
+        }
+
+        .subsection p {
+            margin-bottom: 0.75rem;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .subsection p:last-child {
+            margin-bottom: 0;
+        }
+
+        .table {
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .table-row {
+            background-color: #ffffff;
+        }
+
+        .table-cell {
+            padding: 1.5rem;
+        }
+
+        .table-cell strong {
+            display: block;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .table-cell p {
+            margin-bottom: 0.5rem;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .table-cell p:last-child {
+            margin-bottom: 0;
+        }
+
+        .provider-info {
+            background-color: #edf2f7;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border: 1px solid #cbd5e0;
+        }
+
+        .provider-info h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .provider-info p {
+            margin-bottom: 0.75rem;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .provider-info p:last-child {
+            margin-bottom: 0;
+        }
+
+        .delegation-info {
+            background-color: #f0fff4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border: 1px solid #9ae6b4;
+        }
+
+        .delegation-info h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .delegation-info p {
+            margin-bottom: 0.75rem;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .delegation-info p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-info {
+            background-color: #fff5f5;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border: 1px solid #fed7d7;
+        }
+
+        .contact-info h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .contact-info p:last-child {
+            margin-bottom: 0;
+        }
+
+        .agency-info {
+            margin: 1.5rem 0;
+        }
+
+        .agency {
+            background-color: #fffaf0;
+            padding: 1rem 1.5rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            border: 1px solid #fbd38d;
+        }
+
+        .agency:last-child {
+            margin-bottom: 0;
+        }
+
+        .agency h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .footer {
+            background-color: #2d3748;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .effective-date p {
+            font-size: 1.125rem;
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem 0;
+            }
+
+            .content {
+                margin: 0 1rem;
+                border-radius: 8px;
+            }
+
+            .header {
+                padding: 2rem 1.5rem;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .section {
+                padding: 2rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.25rem;
+            }
+
+            .subsection,
+            .provider-info,
+            .delegation-info,
+            .contact-info {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            .table-cell {
+                padding: 1rem;
+            }
+
+            .footer {
+                padding: 1.5rem 1rem;
+            }
+
+            .effective-date p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content {
+                margin: 0 0.5rem;
+            }
+
+            .header {
+                padding: 1.5rem 1rem;
+            }
+
+            .title {
+                font-size: 1.75rem;
+            }
+
+            .section {
+                padding: 1.5rem 1rem;
+            }
+
+            .section-title {
+                font-size: 1.125rem;
+            }
+
+            .subsection,
+            .provider-info,
+            .delegation-info,
+            .contact-info,
+            .agency {
+                padding: 0.75rem;
+            }
+
+            .table-cell {
+                padding: 0.75rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .container {
+                background-color: white;
+                padding: 0;
+            }
+
+            .content {
+                box-shadow: none;
+                border-radius: 0;
+                max-width: none;
+            }
+
+            .header {
+                background: white !important;
+                color: black !important;
+                padding: 1rem 0;
+            }
+
+            .section {
+                page-break-inside: avoid;
+                border-bottom: 1px solid #ccc;
+            }
+
+            .subsection,
+            .provider-info,
+            .delegation-info,
+            .contact-info,
+            .agency {
+                background-color: white !important;
+                border: 1px solid #ccc !important;
+            }
+
+            .footer {
+                background-color: white !important;
+                color: black !important;
+                border-top: 1px solid #ccc;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <header class="header">
+                <h1 class="title">Privacy Policy</h1>
+                <p class="subtitle">
+                    IDBLOCK Co., Ltd. establishes the following privacy policy to protect users' personal information
+                    and rights in accordance with the Personal Information Protection Act.
+                </p>
+            </header>
+
+            <div class="section">
+                <h2 class="section-title">Article 1 (Purpose of Processing Personal Information)</h2>
+                <div class="section-content">
+                    <p>The company processes personal information for the following purposes. The personal information
+                        being processed will not be used for purposes other than the following, and if the purpose of
+                        use changes, necessary measures such as obtaining separate consent will be implemented in
+                        accordance with Article 18 of the Personal Information Protection Act.</p>
+
+                    <div class="subsection">
+                        <h3>1. Website membership registration and management</h3>
+                        <p>Personal information is processed for the purpose of confirming membership registration
+                            intention, identity verification and authentication for providing membership services,
+                            maintaining and managing membership qualifications, preventing fraudulent use of services,
+                            and various notifications and complaint handling.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>2. Provision of goods or services</h3>
+                        <p>Personal information is processed for the purpose of service provision, sending contracts and
+                            invoices, content provision, customized service provision, identity verification, age
+                            verification, payment settlement, and debt collection.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>3. Complaint handling</h3>
+                        <p>Personal information is processed for the purpose of verifying the identity of complainants,
+                            confirming complaint matters, contacting and notifying for fact investigation, and notifying
+                            processing results.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 2 (Processing and Retention Period of Personal Information)</h2>
+                <div class="section-content">
+                    <p>① The company processes and retains personal information within the retention and use period
+                        prescribed by law or the retention and use period of personal information agreed upon when
+                        collecting personal information from data subjects.</p>
+
+                    <p>② The processing and retention periods for each personal information are as follows.</p>
+
+                    <div class="table">
+                        <div class="table-row">
+                            <div class="table-cell">
+                                <strong>Website membership registration and management</strong>
+                                <p>Personal information related to website membership registration and management is
+                                    retained and used for the above purposes from the date of consent for collection and
+                                    use until membership withdrawal.</p>
+                                <p>Retention basis: Data subject's consent</p>
+                                <p>Related laws: Act on the Use and Protection of Credit Information</p>
+                                <p>Exception reasons: -</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 3 (Provision of Personal Information to Third Parties)</h2>
+                <div class="section-content">
+                    <p>① The company processes personal information only within the scope specified in Article 1
+                        (Purpose of Processing Personal Information), and provides personal information to third parties
+                        only in cases corresponding to Articles 17 and 18 of the Personal Information Protection Act,
+                        such as data subject consent and special provisions of law.</p>
+
+                    <p>② The company provides personal information to third parties as follows.</p>
+
+                    <div class="provider-info">
+                        <h4>Recipient of personal information: IDBLOCK Co., Ltd.</h4>
+                        <p><strong>Purpose of using personal information by the recipient:</strong> Website membership
+                            registration and management, provision of goods or services</p>
+                        <p><strong>Personal information items provided:</strong> Email, password, login ID, mobile phone
+                            number, home address, home phone number, work address, work phone number, company name</p>
+                        <p><strong>Retention and use period by the recipient:</strong> Until membership withdrawal</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 4 (Consignment of Personal Information Processing)</h2>
+                <div class="section-content">
+                    <p>① The company consigns personal information processing tasks as follows for smooth personal
+                        information processing.</p>
+
+                    <div class="delegation-info">
+                        <h4>1. Website membership registration and management</h4>
+                        <p><strong>Consignee (trustee):</strong> IDBLOCK Co., Ltd.</p>
+                        <p><strong>Content of consigned tasks:</strong> Website membership registration and management,
+                            provision of goods or services</p>
+                        <p><strong>Consignment period:</strong> Until membership withdrawal</p>
+                    </div>
+
+                    <p>② When concluding consignment contracts, the company specifies matters concerning prohibition of
+                        personal information processing other than the purpose of consignment work, technical and
+                        administrative protection measures, restrictions on re-consignment, management and supervision
+                        of consignees, and liability for damages in documents such as contracts in accordance with
+                        Article 26 of the Personal Information Protection Act, and supervises whether consignees process
+                        personal information safely.</p>
+
+                    <p>③ If the content of consigned work or consignees change, we will disclose this through this
+                        privacy policy without delay.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 5 (Rights and Obligations of Data Subjects and Legal Representatives
+                    and How to Exercise Them)</h2>
+                <div class="section-content">
+                    <p>① Data subjects may exercise rights such as personal information access, correction, deletion,
+                        and processing suspension against the company at any time.</p>
+
+                    <p>② The exercise of rights under paragraph 1 may be made to the company in writing, by email, fax,
+                        etc. in accordance with Article 41, paragraph 1 of the Enforcement Decree of the Personal
+                        Information Protection Act, and the company will take action without delay.</p>
+
+                    <p>③ The exercise of rights under paragraph 1 may be made through legal representatives of data
+                        subjects or agents who have received delegation. In this case, a power of attorney according to
+                        Form No. 11 of the Enforcement Rules of the Personal Information Protection Act must be
+                        submitted.</p>
+
+                    <p>④ Requests for personal information access and processing suspension may be restricted by
+                        Articles 35, paragraph 4, and 37, paragraph 2 of the Personal Information Protection Act.</p>
+
+                    <p>⑤ Requests for correction or deletion of personal information cannot be made if the personal
+                        information is specified as a collection target in other laws.</p>
+
+                    <p>⑥ The company verifies whether the person making requests for access, correction/deletion, or
+                        processing suspension in accordance with data subject rights is the person in question or a
+                        legitimate representative.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 6 (Items of Personal Information Being Processed)</h2>
+                <div class="section-content">
+                    <p>① The company processes the following personal information items.</p>
+
+                    <div class="subsection">
+                        <h3>1. Website membership registration and management</h3>
+                        <p><strong>Required items:</strong> Email, password, login ID, mobile phone number, home
+                            address, home phone number, work address, work phone number, company name</p>
+                        <p><strong>Optional items:</strong> None</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>2. Provision of goods or services</h3>
+                        <p><strong>Required items:</strong> Email, password, login ID, mobile phone number, home
+                            address, home phone number, work address, work phone number, company name</p>
+                        <p><strong>Optional items:</strong> None</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>3. The following personal information items may be automatically generated and collected
+                            during internet service use.</h3>
+                        <p>IP address, cookies, MAC address, service usage records, visit records, fraudulent usage
+                            records, etc.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 7 (Destruction of Personal Information)</h2>
+                <div class="section-content">
+                    <p>① The company destroys personal information without delay when it becomes unnecessary due to
+                        expiration of the personal information retention period or achievement of processing purposes.
+                    </p>
+
+                    <p>② If personal information must be preserved according to other laws even though the personal
+                        information retention period agreed upon by the data subject has expired or the processing
+                        purpose has been achieved, the relevant personal information is moved to a separate database
+                        (DB) or stored in a different storage location.</p>
+
+                    <p>③ The procedures and methods for destroying personal information are as follows.</p>
+
+                    <div class="subsection">
+                        <h4>1. Destruction procedures</h4>
+                        <p>The company selects personal information for which reasons for destruction have occurred and
+                            destroys personal information with approval from the company's personal information
+                            protection manager.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h4>2. Destruction methods</h4>
+                        <p>Information in electronic file format uses technical methods that cannot reproduce records.
+                        </p>
+                        <p>Personal information printed on paper is destroyed by shredding or incineration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 8 (Measures to Ensure Safety of Personal Information)</h2>
+                <div class="section-content">
+                    <p>The company implements the following technical, administrative, and physical measures necessary
+                        to ensure safety in accordance with Article 29 of the Personal Information Protection Act.</p>
+
+                    <div class="subsection">
+                        <h3>1. Regular internal audits</h3>
+                        <p>Regular internal audits are conducted quarterly to ensure stability related to personal
+                            information handling.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>2. Minimization and training of personal information handling staff</h3>
+                        <p>We designate staff who handle personal information and implement measures to manage personal
+                            information by limiting and minimizing them to those in charge.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>3. Establishment and implementation of internal management plans</h3>
+                        <p>Internal management plans are established and implemented for safe processing of personal
+                            information.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>4. Technical measures against hacking, etc.</h3>
+                        <p>The company installs security programs to prevent leakage and damage of personal information
+                            by hacking or computer viruses, conducts regular updates and inspections, installs systems
+                            in areas controlled from external access, and monitors and blocks them technically and
+                            physically.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>5. Encryption of personal information</h3>
+                        <p>Users' personal information passwords are encrypted and stored and managed so that only the
+                            person knows them, and important data uses separate security functions such as encrypting
+                            files and transmission data or using file lock functions.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>6. Storage and prevention of forgery/alteration of access records</h3>
+                        <p>Records of access to personal information processing systems are stored and managed for at
+                            least 6 months, and security functions are used to prevent access records from being forged,
+                            altered, stolen, or lost.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>7. Access restrictions to personal information</h3>
+                        <p>Necessary measures are taken for access control to personal information by granting,
+                            changing, and revoking access rights to database systems that process personal information,
+                            and unauthorized access from outside is controlled using intrusion prevention systems.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>8. Use of locking devices for document security</h3>
+                        <p>Documents and auxiliary storage media containing personal information are stored in safe
+                            places with locking devices.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 9 (Personal Information Protection Manager)</h2>
+                <div class="section-content">
+                    <p>① The company designates a personal information protection manager as follows to take overall
+                        responsibility for personal information processing and to handle complaints and remedy damages
+                        related to personal information processing by data subjects.</p>
+
+                    <div class="contact-info">
+                        <h4>▶ Personal Information Protection Manager</h4>
+                        <p><strong>Name:</strong> Lee Kyung Won</p>
+                        <p><strong>Position:</strong> CEO</p>
+                        <p><strong>Rank:</strong> CEO</p>
+                        <p><strong>Contact:</strong> 010-4214-4000, lkw@idblock.co, 010-4214-4000</p>
+                        <p>※ Connected to the personal information protection department.</p>
+                    </div>
+
+                    <div class="contact-info">
+                        <h4>▶ Personal Information Protection Department</h4>
+                        <p><strong>Department:</strong> Development Team</p>
+                        <p><strong>Person in charge:</strong> Lee Kyung Won</p>
+                        <p><strong>Contact:</strong> 010-4214-4000, lkw@idblock.co, 010-4214-4000</p>
+                    </div>
+
+                    <p>② Data subjects may contact the personal information protection manager and department for all
+                        personal information protection-related inquiries, complaint handling, damage remedies, etc.
+                        that occur while using the company's services (or business). The company will respond and
+                        process data subject inquiries without delay.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 10 (Changes to Privacy Policy)</h2>
+                <div class="section-content">
+                    <p>① This privacy policy applies from the effective date, and if there are additions, deletions, or
+                        corrections to changes according to laws and policies, we will notify through announcements from
+                        7 days before the implementation of changes.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 11 (Requests for Personal Information Access)</h2>
+                <div class="section-content">
+                    <p>Data subjects may make requests for personal information access according to Article 35 of the
+                        Personal Information Protection Act to the department below. The company will strive to process
+                        data subjects' personal information access requests promptly.</p>
+
+                    <div class="contact-info">
+                        <h4>▶ Personal Information Access Request Reception and Processing Department</h4>
+                        <p><strong>Department:</strong> Development Team</p>
+                        <p><strong>Person in charge:</strong> Lee Kyung Won</p>
+                        <p><strong>Contact:</strong> 010-4214-4000, lkw@idblock.co, 010-4214-4000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Article 12 (Remedies for Rights Violations)</h2>
+                <div class="section-content">
+                    <p>Data subjects may apply for dispute resolution or consultation to the Personal Information
+                        Dispute Mediation Committee, Personal Information Violation Report Center, etc. to receive
+                        remedies for damages caused by personal information violations. For other reports and
+                        consultations regarding personal information violations, please contact the institutions below.
+                    </p>
+
+                    <div class="agency-info">
+                        <div class="agency">
+                            <h4>1. Personal Information Dispute Mediation Committee : (without area code) 1833-6972
+                                (www.kopico.go.kr)</h4>
+                        </div>
+
+                        <div class="agency">
+                            <h4>2. Personal Information Violation Report Center : (without area code) privacy.go.kr</h4>
+                        </div>
+
+                        <div class="agency">
+                            <h4>3. Supreme Prosecutors' Office : (without area code) 1301 (www.spo.go.kr)</h4>
+                        </div>
+
+                        <div class="agency">
+                            <h4>4. National Police Agency : (without area code) 182 (ecrm.cyber.go.kr)</h4>
+                        </div>
+                    </div>
+
+                    <p>Those who have suffered infringement of rights or interests due to dispositions or omissions by
+                        heads of public institutions regarding requests under Articles 35 (access to personal
+                        information), 36 (correction/deletion of personal information), and 37 (suspension of personal
+                        information processing, etc.) of the Personal Information Protection Act may file for
+                        administrative appeals in accordance with the Administrative Appeals Act.</p>
+
+                    <p>※ For detailed information about administrative appeals, please refer to the Central
+                        Administrative Appeals Commission website (www.simpan.go.kr).</p>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="effective-date">
+                    <p><strong>This privacy policy is effective from November 5, 2024.</strong></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
