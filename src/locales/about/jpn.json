@@ -74,7 +74,6 @@
         { "month": "12月", "title": "IDBlockベータローンチ" },
         { "month": "8月", "title": "CrossHub法人設立" }
       ]
-
     },
     "contentList": [
       {
@@ -174,6 +173,14 @@
   "AboutNews": {
     "title": "プレスリリース",
     "pressItems": [
+      {
+        "title": "クロスハブ、4つの投資会社からシード投資8億ウォンを調達",
+        "link": "https://www.insidevina.com/news/articleView.html?idxno=41118",
+        "date": "2025.10.13",
+        "source": "インサイドビナ",
+        "image": "https://cdn.insidevina.com/news/photo/202510/41118_41263_2248.png",
+        "preview": "ブロックチェーン基盤の次世代本人認証・決済ソリューション企業クロスハブが、国内4つの投資会社からシード（SEED）投資の調達に成功したと13日に発表した。"
+      },
       {
         "title": "クロスハブ、タイにデジタル身元認証·決済ソリューションを輸出",
         "link": "https://www.insidevina.com/news/articleView.html?idxno=40442",
