@@ -44,16 +44,16 @@
           "address": "9F, BIFC (Busan International Finance Center), 40 Munhyeongeumyung-ro, Nam-gu, Busan, South Korea"
         },
         {
-          "name": "Daegu Unicorn Lab",
-          "address": "5F, 111 Oksan-ro, Buk-gu, Daegu, South Korea"
-        },
-        {
-          "name": "Gwangju AI Hub",
-          "address": "3F, Gwangju AI Startup Camp, 193-22 Geumnam-ro, Dong-gu, Gwangju, South Korea"
+          "name": "Incheon R&D Center",
+          "address": "7F, 229 Seokjeong-ro, Michuhol-gu, Incheon, South Korea"
         },
         {
           "name": "Daejeon R&D Center",
           "address": "1161 Gyebaek-ro, Seo-gu, Daejeon, South Korea"
+        },
+        {
+          "name": "Daegu Unicorn Lab",
+          "address": "5F, 111 Oksan-ro, Buk-gu, Daegu, South Korea"
         },
         {
           "name": "Jeonbuk R&D Center",

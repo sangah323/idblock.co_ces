@@ -71,9 +71,12 @@
         { "month": "7月", "title": "光州技術投資オープンイノベーションGold Stage参加企業選定" }
       ],
       "2024": [
-        { "month": "12月", "title": "IDBlockベータローンチ" },
-        { "month": "8月", "title": "CrossHub法人設立" }
-      ]
+        { "month": "5月", "title": "CrossHub法人設立" },
+        { "month": "8月", "title": "第15期技術保証基金ベンチャーキャンプ最優秀賞受賞" },
+        { "month": "11月", "title": "ソウルフィンテックウィークデモデイwith IBK企業銀行人気賞受賞" },
+        { "month": "12月", "title": "KINGO-GA創業競技大会金賞受賞" }
+      ],
+      "2023": [{ "month": "11月", "title": "忠北科学技術革新院主管ブロックチェーン創業アイデア競技大会最優秀賞受賞" }]
     },
     "contentList": [
       {
@@ -374,35 +377,35 @@
     "maps": [
       {
         "name": "本社",
-        "address": "全北特別自治道 全州市 徳津区 五公路123、全北創造経済革新センター、5F"
+        "address": "5F, Jeonbuk Center for Creative Economy & Innovation, 123 Ogong-ro, Deokjin-gu, Jeonju-si, Jeonbuk State, South Korea"
       },
       {
-        "name": "大田 R&D センター",
-        "address": "大田広域市 西区 済伯路1161、404-D38号（ユニオンビル）"
+        "name": "大田R&Dセンター",
+        "address": "404-D38, Union Building, 1161 Gyebaek-ro, Seo-gu, Daejeon, South Korea"
       },
       {
-        "name": "ソウル フィンテック Lab",
-        "address": "ソウル特別市 永登浦区 議事堂大路83（オーツータワー）、5F"
+        "name": "ソウルフィンテックLab",
+        "address": "5F, O2 Tower, 83 Uisadang-daero, Yeongdeungpo-gu, Seoul, South Korea"
       },
       {
-        "name": "釜山 グローバル センター",
-        "address": "釜山広域市 南区 門峴金融路40、BIFC釜山国際金融センター、9F"
+        "name": "仁川企業付設研究所",
+        "address": "7F, 229 Seokjeong-ro, Michuhol-gu, Incheon, South Korea"
       },
       {
-        "name": "大邱 ユニコーン Lab",
-        "address": "大邱広域市 北区 玉山路111、5F"
+        "name": "釜山グローバルセンター",
+        "address": "9F, BIFC (Busan International Finance Center), 40 Munhyeongeumyung-ro, Nam-gu, Busan, South Korea"
       },
       {
-        "name": "光州 AI ハブ",
-        "address": "光州広域市 東区 金南路193-22、光州AI創業キャンプ、3F"
+        "name": "大邱ユニコーンLab",
+        "address": "5F, 111 Oksan-ro, Buk-gu, Daegu, South Korea"
       },
       {
-        "name": "済州 スマート観光センター",
-        "address": "済州特別自治道 西帰浦市 西湖南路25、3F"
+        "name": "済州スマート観光センター",
+        "address": "3F, 25 Seohonam-ro, Seogwipo-si, Jeju, South Korea"
       },
       {
-        "name": "日本 東京 支社",
-        "address": "東京都渋谷区千駄ヶ谷5丁目27−5"
+        "name": "東京支社",
+        "address": "5 Chome-27-5 Sendagaya, Shibuya City, Tokyo, Japan"
       }
     ]
   },

@@ -63,11 +63,12 @@ export const CONTACT_ICON_LIST = [
   'https://cdn.builder.io/api/v1/image/assets/TEMP/ef6c4dc94f5d1d8a9fefbdc25532dbda47eb5baa47271eea7d24e7f258129901?placeholderIfAbsent=true&apiKey=342eb70ec9c347beb3127fd33e54f28d',
 ];
 
-// [전북, 대전, 서울, 부산, 대구, 제주, 일본]
+// [전북, 대전, 서울, 인천, 부산, 대구, 제주, 일본]
 export const MAP_LOCATION_LIST = [
   { lat: 35.8365014, lng: 127.0685451 },
   { lat: 36.3053465, lng: 127.3522232 },
   { lat: 37.523358, lng: 126.923431 },
+  { lat: 37.4563, lng: 126.7052 },
   { lat: 35.146978, lng: 129.065708 },
   { lat: 35.884328, lng: 128.588543 },
   { lat: 33.250921, lng: 126.518166 },
