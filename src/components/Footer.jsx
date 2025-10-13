@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
@@ -44,20 +44,14 @@ export default function Footer() {
         rel="noopener noreferrer"
         aria-label="social link"
       >
-        <Image src={url} name={"social icon"} />
+        <Image src={url} name={'social icon'} />
       </Link>
     );
   });
 
   const files = FILE_LINK_LIST.map((url, index) => {
     return (
-      <Link
-        key={index}
-        to={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="file link"
-      >
+      <Link key={index} to={url} target="_blank" rel="noopener noreferrer" aria-label="file link">
         {t(`top.context[${index}]`)}
       </Link>
     );
@@ -68,18 +62,25 @@ export default function Footer() {
       <div className={`container ${styles.inner}`}>
         <div className={styles.footerLeft}>
           <ul className={styles.contact}>
-            <li>{t("bottom.company")}</li>
-            <li>TEL : +82 2-6975-9999</li>
-            <li>FAX : +82 2-6008-5040</li>
+            <li>{t('bottom.company')}</li>
             <li>
-              E-mail :
+              <a href="tel:+82269759999" aria-label="전화번호: +82-2-6975-9999">
+                TEL : +82 2-6975-9999
+              </a>
+            </li>
+            <li>
+              <a href="fax:+8260085040" aria-label="팩스번호: +82-2-6008-5040">
+                FAX : +82 2-6008-5040
+              </a>
+            </li>
+            <li>
               <a
                 href="mailto:crosshub@crosshub.kr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="email"
               >
-                crosshub@crosshub.kr
+                E-mail : crosshub@crosshub.kr
               </a>
             </li>
           </ul>
