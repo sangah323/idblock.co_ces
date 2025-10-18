@@ -1,8 +1,10 @@
 export const AUTH_LOGO_LIST = [
+  '/assets/footer/auth_image4.png',
+  '/assets/footer/iso.png',
+  '/assets/footer/tips.png',
   '/assets/footer/auth_image1.png',
   '/assets/footer/auth_image2.png',
   '/assets/footer/auth_image3.png',
-  '/assets/footer/auth_image4.png',
 ];
 
 export const SOCIAL_LINK_LIST = [
