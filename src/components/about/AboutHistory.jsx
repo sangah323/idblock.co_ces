@@ -1,10 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
-import styles from '@/style/about/AboutHistory.module.css';
-import { translate } from '@/utils/translates';
-import { HISTORY_IMAGE_LIST } from '@/utils/constants';
-import { useT } from '@/hooks/useT';
 import Image from '@/components/common/Image';
+import { useT } from '@/hooks/useT';
+import styles from '@/style/about/AboutHistory.module.css';
+import { HISTORY_IMAGE_LIST } from '@/utils/constants';
+import { translate } from '@/utils/translates';
 
 export default function AboutHistory({ lan }) {
   const t = useT('AboutHistory');
@@ -14,7 +14,6 @@ export default function AboutHistory({ lan }) {
   const sectionRefs = useRef([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [indices, setIndices] = useState({
-    2023: 0,
     2024: 0,
     2025: 0,
   });

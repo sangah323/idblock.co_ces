@@ -53,23 +53,25 @@
   border-radius: 50%;
 }
 
-.timeline-year {
-  color: #555;
-  font-size: 4rem;
-  font-weight: 800;
-  margin-top: 3rem;
-}
-
 .timeline-entries {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr);
+  gap: 12px;
+  column-gap: 10rem;
 }
 
-.timeline-item {
+/* .timeline-item {
   display: flex;
   gap: 2rem;
   margin-top: 2rem;
+  align-items: flex-start;
+} */
+
+.timeline-item {
+  display: flex;
+  gap: 1.25rem; /* 항목 내 요소 간 간격도 조금 줄임 */
+  margin-top: 1rem; /* 항목끼리 위 간격 줄이기 */
   align-items: flex-start;
 }
 
@@ -77,6 +79,10 @@
   color: #888;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.sr-only {
+  font-size: var(--font-size-24);
 }
 
 .timeline-title {
@@ -88,5 +94,53 @@
 .timeline-description {
   margin-top: 0.5rem;
   color: #aaa;
-  font-size: 1rem;
+  font-size: var(--font-size-18);
+}
+
+.timeline-month-group {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1020px) {
+  .timeline-entries {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-month-group {
+    margin-top: 2rem;
+  }
+
+  .company-timeline {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .timeline-title {
+    font-size: var(--font-size-18);
+  }
+
+  .timeline-month {
+    font-size: var(--font-size-16);
+  }
+
+  .timeline-description {
+    font-size: var(--font-size-16);
+  }
+
+  .year-button {
+    font-size: 1.25rem;
+  }
+
+  .year-button.active {
+    font-size: 1.75rem;
+  }
+
+  .company-timeline {
+    padding: 2rem;
+  }
+
+  .timeline-container {
+    padding: 0 1rem;
+  }
 }

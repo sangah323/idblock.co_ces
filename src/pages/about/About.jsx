@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import AboutMain from '@/components/about/AboutMain';
-import AboutGoal from '@/components/about/AboutGoal';
 import AboutCompanyTimeline from '@/components/about/AboutCompanyTimeline';
-import AboutNews from '@/components/about/AboutNews';
-import AboutMap from '@/components/about/AboutMap';
 import AboutContact from '@/components/about/AboutContact';
+import AboutGoal from '@/components/about/AboutGoal';
+import AboutMain from '@/components/about/AboutMain';
+import AboutMap from '@/components/about/AboutMap';
+import AboutNews from '@/components/about/AboutNews';
+import { useEffect } from 'react';
 
-import { Element, scroller } from 'react-scroll';
-import { useLocation } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 import { TContext } from '@/contexts/TContext';
+import { useSelector } from 'react-redux';
+import { useLocation } from 'react-router-dom';
+import { Element, scroller } from 'react-scroll';
 
 export default function About() {
   const location = useLocation();
