@@ -53,27 +53,123 @@
       ]
     }
   },
-  "AboutHistory": {
-    "title": "Awards and History",
-    "timelineData": {
-      "2025": [
-        { "month": "Jan", "title": "Selected as Outstanding Company in 2024 Pre-startup Package and Received Outstanding Company Commendation" },
-        { "month": "Feb", "title": "Grand Prize Winner at Global Startup Competition" },
-        { "month": "Mar", "title": "Selected as Korea Credit Guarantee Fund 'Little Penguin' Company" },
-        { "month": "Jun", "title": "Grand Prize Winner at Fintech-specialized IR X Fintech Support Council IR Demo Day" },
-        { "month": "Jun", "title": "Selected for Global Enterprise Collaboration Program (Trust My Tech)" },
-        { "month": "Jul", "title": "Grand Prize Winner at Financial Services Commission's First Half 2025 Fintech-specialized IR Competition" },
-        { "month": "Aug", "title": "Regional Digital Scale-up Challenge - Korea IT Industry Promotion Agency Director's Award" }
-      ],
-      "2024": [
-        { "month": "May", "title": "CrossHub Corporation Established" },
-        { "month": "Aug", "title": "15th KIBO Venture Camp Excellence Award" },
-        { "month": "Nov", "title": "Seoul Fintech Week Demo Day with IBK Bank Popularity Award" },
-        { "month": "Dec", "title": "KINGO-GA Startup Competition Gold Prize" }
-      ],
-      "2023": [{ "month": "Nov", "title": "Chungbuk Institute of Science & Technology Innovation Blockchain Startup Idea Competition Excellence Award" }]
-    },
 
+  "AboutHistory": {
+    "title": "Awards & History",
+    "timelineData": [
+      {
+        "year": "2024",
+        "timeline": [
+          {
+            "month": "04",
+            "contents": [
+              "Selected for the 2024 Pre-Startup Package Program by the Ministry of SMEs and Startups"
+            ]
+          },
+          { "month": "05", "contents": ["Established CROSSHUB Inc."] },
+          { "month": "08", "contents": ["Acquired Certificate of Venture Business"] },
+          {
+            "month": "09",
+            "contents": [
+              "Selected as a participant in the 15th KIBO Venture Camp hosted by Korea Technology Finance Corporation (KIBO)"
+            ]
+          },
+          {
+            "month": "10",
+            "contents": [
+              "Selected for the 1st LAB Program by Seoul Fintech Lab X IBK Industrial Bank of Korea",
+              "Selected as a resident company at Seoul Fintech Lab",
+              "Selected by the Busan Blockchain Expansion Support Center"
+            ]
+          },
+          {
+            "month": "11",
+            "contents": [
+              "Awarded Popularity Prize in the IBK IR Session at Seoul Fintech Week 2024",
+              "Won Gold Prize at KINGO-GA Startup Competition hosted by Sungkyunkwan University",
+              "Awarded Grand Prize at the 15th KIBO Venture Camp Demo Day",
+              "Selected as a new tenant at the 2025 Tokyo Korea Tourism Startup Center (KTSC) by Korea Tourism Organization",
+              "Selected for the Vietnam TechFest Overseas Expansion Support Program",
+              "Selected for Blockchain Growth Support Program by KISA (Korea Internet & Security Agency)",
+              "Selected for Localization Lab Program by NIPA (National IT Industry Promotion Agency)"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "timeline": [
+          {
+            "month": "02",
+            "contents": [
+              "Participated in Startup Japan Expo 2025 (CCEI)",
+              "Participated in the Tourism Startup Showcase linked to the 2025 Osaka Expo",
+              "Grand Prize at Global Startup Competition co-hosted by Peking University, Shimsan Ventures, and BoxLadder",
+              "Selected for Woori Financial Group Dinolab Busan Batch 1",
+              "Selected for KOTRA Service Business Model Program",
+              "Selected for Jeonbuk Changkyung J-Curve Batch 3"
+            ]
+          },
+          {
+            "month": "03",
+            "contents": ["Selected for the ‘Little Penguin’ Program by Korea Credit Guarantee Fund"]
+          },
+          {
+            "month": "04",
+            "contents": [
+              "elected for Thales Global Open Innovation Program 'Trust My Tech'",
+              "Selected for Seoul Tourism Startup Collaboration Project"
+            ]
+          },
+          {
+            "month": "05",
+            "contents": [
+              "Selected for DGB Financial Group PIUM Lab Batch 7",
+              "Selected for GDIN K-Global Overseas Expansion Program",
+              "Selected to participate in CES 2026 (Joint & Solo Booths – Jan 2026 Exhibition)"
+            ]
+          },
+          {
+            "month": "06",
+            "contents": [
+              "Participated in Busan Smart Project Prep Vietnam",
+              "Participated in Viva Technology 2025 (France–Korea Open Innovation)",
+              "Selected for 2025 Korea–Vietnam Mega-US Expo",
+              "Grand Prize at Fintech IR Pitching (IR X Fintech Support Council)",
+              "Selected for KDB Industrial Bank’s NextONE Busan Batch 3"
+            ]
+          },
+          {
+            "month": "07",
+            "contents": ["Selected for Sejong Invest-On Investment Capability Enhancement Program"]
+          },
+          {
+            "month": "08",
+            "contents": [
+              "Participated in Serbia Market Entry Program under Digital Innovation Hub Global Collaboration",
+              "IAcquired ISO/IEC 27001 Information Security Certification"
+            ]
+          },
+          {
+            "month": "09",
+            "contents": [
+              "Grand Prize at 2025 B-Startup FLY Awards",
+              "Selected for Lotte Ventures ‘L-CAMP JAPAN 2025’ Batch 3",
+              "Selected as a co-prosperity startup by Incheon International Airport Corporation",
+              "Panel Award at Seoul Fintech Week 2025 hosted by NAVER Cloud",
+              "Selected for Deep-Tech TIPS (Tech Incubator Program for Startup)"
+            ]
+          },
+          {
+            "month": "10",
+            "contents": [
+              "Grand Prize at 2025 Gyeonggi Startup Contest G-STAR Audition",
+              "Grand Prize at “BUSAN FINANCE WEEK 2025” co-hosted by B-Vensday x KIBO Venture Camp"
+            ]
+          }
+        ]
+      }
+    ],
     "contentList": [
       {
         "year": "2025",
@@ -153,17 +249,6 @@
             "contents": [
               "Secured seed investment ($148K) from local angel investor (AC) group",
               "Selected for Pre-startup Package by Ministry of SMEs and Startups"
-            ]
-          }
-        ]
-      },
-      {
-        "year": "2023",
-        "quarter": [
-          {
-            "name": "4Q",
-            "contents": [
-              "Received Grand Prize at BIC Blockchain Conference Competition hosted by Chungbuk Institute of Science and Technology Innovation"
             ]
           }
         ]

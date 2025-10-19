@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useMemo, useState } from 'react';
+import { useT } from '@/hooks/useT';
 import '@/style/about/AboutCompanyTimeline.css';
 import { translate } from '@/utils/translates';
-import { useT } from '@/hooks/useT';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 // -------------------------------- 유틸 ----------------------------------------
 function classNames(...args) {
@@ -47,27 +47,25 @@ function YearTabs({ years, activeYear, onChange }) {
   );
 }
 
-// ------------------------------ TimelineItem ----------------------------------
-function TimelineItem({ month, title, description }) {
-  return (
-    <div className="timeline-item">
-      <div className="timeline-month">{month}</div>
-      <div className="timeline-content">
-        <div className="timeline-title">{title}</div>
-        {description && <p className="timeline-description">{description}</p>}
-      </div>
-    </div>
-  );
-}
-
 // ------------------------------ Timeline --------------------------------------
+
 function Timeline({ year, entries }) {
   return (
     <div className="timeline">
-      <div className="timeline-year">{year}</div>
       <div className="timeline-entries">
-        {entries.map((e, idx) => (
-          <TimelineItem key={`${year}-${idx}`} {...e} />
+        {entries.map((entry, idx) => (
+          <div key={`${year}-${idx}`} className="timeline-month-group">
+            <div className="timeline-month">
+              {year}.{entry.month}
+            </div>
+            <ul className="timeline-content-list">
+              {entry.contents.map((text, i) => (
+                <li key={`${year}-${entry.month}-${i}`} className="timeline-item">
+                  - {text}
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
       </div>
     </div>
@@ -75,20 +73,19 @@ function Timeline({ year, entries }) {
 }
 
 // ---------------------------- CompanyTimeline ---------------------------------
+
 export default function CompanyTimeline({ lan, defaultYear }) {
-  const data = translate('about', lan.toLowerCase(), 'AboutHistory.timelineData');
   const t = useT('AboutHistory');
-  
-  const years = useMemo(
-    () =>
-      Object.keys(data)
-        .map((y) => Number(y))
-        .sort((a, b) => b - a),
-    [data],
-  );
+  const data = translate('about', lan.toLowerCase(), 'AboutHistory.timelineData');
+
+  // === JSON이 배열이므로 key 리스트 대신 map으로 변환 ===
+  const years = useMemo(() => data.map((d) => Number(d.year)).sort((a, b) => b - a), [data]);
+
   const [activeYear, setActiveYear] = useState(defaultYear ?? years[0]);
 
-  const entries = data[String(activeYear)] ?? [];
+  // ===선택된 연도의 timeline 데이터 추출 ===
+  const currentYearData = data.find((d) => Number(d.year) === Number(activeYear));
+  const entries = currentYearData ? currentYearData.timeline : [];
 
   return (
     <main className="company-timeline">
@@ -100,7 +97,3 @@ export default function CompanyTimeline({ lan, defaultYear }) {
     </main>
   );
 }
-
-/* ---------------------------- CompanyTimeline.css ----------------------------
-
-*/
