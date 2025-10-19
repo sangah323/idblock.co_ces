@@ -45,7 +45,7 @@
 
 .goalTitle h2,
 .valueTitle h2 {
-  font-size: var(--font-size-40);
+  font-size: var(--font-size-36);
 }
 
 /* goal */
@@ -140,7 +140,7 @@
 }
 
 .valueCard img {
-  width: 120px;
+  width: 110px;
 }
 
 .valueCard:hover {
