@@ -111,7 +111,7 @@ export default function AboutNews({ lan }) {
       }
     });
 
-    setPressItems(filteredNews.slice(0, 10)); // 최대 10개만 표시
+    setPressItems(filteredNews.slice(0, 30)); // 최대 10개만 표시
   }, [allNewsData, lan]);
 
   // 날짜 포맷 변환 함수 (ISO 8601 -> YYYY.MM.DD)
