@@ -41,10 +41,11 @@ export async function apiRequest(endpoint, options = {}) {
  * 뉴스 목록을 가져오는 함수
  * @param {number} page - 페이지 번호
  * @param {number} limit - 가져올 뉴스 개수
+ * @param {string} language - 언어 코드 (ko, en, ja, vi)
  * @returns {Promise<Object>} - 뉴스 데이터
  */
-export async function getNews(page = 1, limit = 10) {
-  return apiRequest(`/api/v1/news?page=${page}&limit=${limit}`);
+export async function getNews(page = 1, limit = 10, language = 'ko') {
+  return apiRequest(`/api/v1/news?page=${page}&limit=${limit}&lang=${language}`);
 }
 
 /**
