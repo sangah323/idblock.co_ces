@@ -38,7 +38,17 @@ export async function apiRequest(endpoint, options = {}) {
 }
 
 /**
- * 뉴스 목록을 가져오는 함수
+ * 전체 뉴스 목록을 가져오는 함수 (언어 필터링 없음)
+ * @param {number} page - 페이지 번호
+ * @param {number} limit - 가져올 뉴스 개수
+ * @returns {Promise<Object>} - 전체 뉴스 데이터
+ */
+export async function getAllNews(page = 1, limit = 50) {
+  return apiRequest(`/api/v1/news?page=${page}&limit=${limit}`);
+}
+
+/**
+ * 언어별 뉴스 목록을 가져오는 함수 (기존 호환성을 위해 유지)
  * @param {number} page - 페이지 번호
  * @param {number} limit - 가져올 뉴스 개수
  * @param {string} language - 언어 코드 (ko, en, ja, vi)
