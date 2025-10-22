@@ -15,12 +15,24 @@ export default function AboutNews({ lan }) {
   const [isAutoScrolling, setIsAutoScrolling] = useState(true);
   const [scrollInterval, setScrollInterval] = useState(null);
 
+  // 언어 코드 매핑 함수
+  const getLanguageCode = (language) => {
+    const langMap = {
+      'Korean': 'ko',
+      'English': 'en', 
+      'Japanese': 'ja',
+      'Vietnamese': 'vi'
+    };
+    return langMap[language] || 'ko';
+  };
+
   // 백엔드에서 뉴스 데이터 가져오기
   useEffect(() => {
     const fetchNews = async () => {
       try {
         setLoading(true);
-        const response = await getNews(1, 10);
+        const languageCode = getLanguageCode(lan);
+        const response = await getNews(1, 10, languageCode);
         
         // API 응답 데이터를 컴포넌트에서 사용하는 형식으로 변환
         const transformedData = response.data.map(item => ({
@@ -39,8 +51,18 @@ export default function AboutNews({ lan }) {
         setError('뉴스를 불러오는 중 오류가 발생했습니다.');
         
         // 에러 발생 시 기존 정적 데이터를 fallback으로 사용
-        const fallbackData = translate('about', lan.toLowerCase(), 'AboutNews.pressItems');
-        setPressItems(fallbackData);
+        try {
+          const fallbackData = translate('about', lan.toLowerCase(), 'AboutNews.pressItems');
+          if (fallbackData && Array.isArray(fallbackData)) {
+            setPressItems(fallbackData);
+          } else {
+            // 정적 데이터도 없으면 빈 배열로 설정
+            setPressItems([]);
+          }
+        } catch (fallbackErr) {
+          console.error('Fallback 데이터 로드 실패:', fallbackErr);
+          setPressItems([]);
+        }
       } finally {
         setLoading(false);
       }
@@ -168,7 +190,7 @@ export default function AboutNews({ lan }) {
       <section className={`subSection ${styles.newsSection}`}>
         <div className={`container ${styles.newsContainer}`}>
           <h2 className={styles.newsTitle}>{t('title')}</h2>
-          <div className={styles.loadingMessage}>뉴스를 불러오는 중...</div>
+          <div className={styles.loadingMessage}>{t('loading') || '뉴스를 불러오는 중...'}</div>
         </div>
       </section>
     );
@@ -180,7 +202,7 @@ export default function AboutNews({ lan }) {
       <section className={`subSection ${styles.newsSection}`}>
         <div className={`container ${styles.newsContainer}`}>
           <h2 className={styles.newsTitle}>{t('title')}</h2>
-          <div className={styles.emptyMessage}>표시할 뉴스가 없습니다.</div>
+          <div className={styles.emptyMessage}>{t('empty') || '표시할 뉴스가 없습니다.'}</div>
         </div>
       </section>
     );
@@ -203,7 +225,7 @@ export default function AboutNews({ lan }) {
           </button>
         </div>
         
-        {error && <div className={styles.errorMessage}>{error}</div>}
+        {error && <div className={styles.errorMessage}>{t('error') || error}</div>}
         
         <div 
           className={styles.newsBox}
