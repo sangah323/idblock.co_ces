@@ -1,8 +1,7 @@
-import React from 'react'
-import styles from '@/style/about/AboutGoal.module.css';
-import { useT } from '@/hooks/useT';
-import { VALUE_TITLE_LIST, VALUE_IMAGE_LIST } from '@/utils/constants';
 import Image from '@/components/common/Image';
+import { useT } from '@/hooks/useT';
+import styles from '@/style/about/AboutGoal.module.css';
+import { VALUE_IMAGE_LIST, VALUE_TITLE_LIST } from '@/utils/constants';
 
 export default function AboutGoal() {
   const t = useT('AboutGoal');

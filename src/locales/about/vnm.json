@@ -53,8 +53,9 @@
       ]
     }
   },
+
   "AboutHistory": {
-    "title": "Thành tích & Dấu mốc phát triển",
+    "title": "Giải thưởng & Cột mốc phát triển",
     "timelineData": [
       {
         "year": "2024",
@@ -62,43 +63,40 @@
           {
             "month": "04",
             "contents": [
-              "Được chọn vào “Chương trình Gói Khởi nghiệp Dự bị 2024” do Bộ Kế hoạch và Đầu tư Hàn Quốc chủ trì."
+              "Được lựa chọn cho Chương trình Tiền Khởi nghiệp 2024 do Bộ Doanh nghiệp vừa và nhỏ Hàn Quốc (MSS) chủ trì"
             ]
           },
-          {
-            "month": "05",
-            "contents": ["Thành lập Công ty TNHH Cổ phần CROSSHUB (CROSSHUB Co., Ltd.)."]
-          },
+          { "month": "05", "contents": ["Thành lập Công ty Cổ phần CROSSHUB"] },
           {
             "month": "08",
             "contents": [
-              "Nhận chứng nhận “Doanh nghiệp Khởi nghiệp (Certificate of Venture Business)."
+              "Đạt chứng nhận Doanh nghiệp Khởi nghiệp (Certificate of Venture Business)"
             ]
           },
           {
             "month": "09",
             "contents": [
-              "Được chọn là doanh nghiệp tham gia “KIBO Venture Camp lần thứ 15”, do Quỹ Bảo lãnh Công nghệ Hàn Quốc (KIBO) chủ trì."
+              "Được chọn tham gia Trại Khởi nghiệp KIBO lần thứ 15 do Quỹ Bảo lãnh Công nghệ Hàn Quốc (KIBO) tổ chức"
             ]
           },
           {
             "month": "10",
             "contents": [
-              "Được chọn vào chương trình “1st LAB” do Seoul Fintech Lab và IBK Ngân hàng Công nghiệp Hàn Quốc đồng tổ chức.",
-              "Được chọn là công ty cư trú tại Seoul Fintech Lab.",
-              "Được chọn là doanh nghiệp thuộc Trung tâm Phát triển Doanh nghiệp ngoài khu vực Blockchain Thành phố Busan."
+              "Được chọn cho Chương trình LAB lần thứ nhất của Seoul Fintech Lab × Ngân hàng IBK",
+              "Được chọn làm Doanh nghiệp cư trú tại Seoul Fintech Lab",
+              "Được chọn tại Trung tâm Hỗ trợ Doanh nghiệp Blockchain Ngoài khu vực Busan"
             ]
           },
           {
             "month": "11",
             "contents": [
-              "Giải “Popularity Award” tại phiên IR của IBK Ngân hàng Công nghiệp trong khuôn khổ Seoul Fintech Week 2024.",
-              "Giải Vàng tại Cuộc thi Khởi nghiệp KINGO‑GA do Đại học Sungkyunkwan tổ chức.",
-              "Giải “Best Award” tại Demo Day của KIBO Venture Camp lần thứ 15.",
-              "Được chọn là doanh nghiệp mới vào “Trung tâm Hỗ trợ Doanh nghiệp Du lịch Tokyo 2025 (KTSC)” do Tổng cục Du lịch Hàn Quốc bảo trợ.",
-              "Được chọn vào dự án hỗ trợ doanh nghiệp thâm nhập thị trường “TechFest Việt Nam”.",
-              "Được chọn vào chương trình hỗ trợ tăng trưởng doanh nghiệp blockchain do KISA (Cơ quan Phát triển Internet & An ninh Hàn Quốc) chủ trì.",
-              "Được chọn vào chương trình “Localization Lab” của NIPA (Cơ quan Phát triển Công nghiệp CNTT & Truyền thông Hàn Quốc)."
+              "Giải thưởng Yêu thích (Popularity Award) trong Phiên IR của Ngân hàng IBK tại Seoul Fintech Week 2024",
+              "Giải Vàng (Gold Prize) tại Cuộc thi Khởi nghiệp KINGO-GA do Đại học Sungkyunkwan tổ chức",
+              "Giải Xuất sắc (Excellence Award) tại Ngày Demo Trại Khởi nghiệp KIBO lần thứ 15",
+              "Được chọn làm Doanh nghiệp cư trú tại Trung tâm Hỗ trợ Khởi nghiệp Du lịch Hàn Quốc tại Tokyo 2025 (KTSC) do Tổ chức Du lịch Hàn Quốc (KTO) quản lý",
+              "Được chọn tham gia Chương trình Mở rộng ra nước ngoài của Vietnam TechFest",
+              "Được chọn tham gia Chương trình Phát triển Doanh nghiệp Blockchain do Cơ quan An ninh Internet Hàn Quốc (KISA) tài trợ",
+              "Được chọn tham gia Chương trình Phòng thí nghiệm Bản địa hóa (Localization Lab) của Cơ quan Xúc tiến Công nghiệp CNTT Hàn Quốc (NIPA)"
             ]
           }
         ]
@@ -109,78 +107,77 @@
           {
             "month": "02",
             "contents": [
-              "Tham gia “Startup Japan Expo 2025 (CCEI)”.",
-              "Tham gia Showcase doanh nghiệp du lịch liên kết với Expo Osaka 2025.",
-              "Giải Đặc biệt tại Cuộc thi Khởi nghiệp Toàn cầu do Trường Đại học Bắc Kinh, Shimsan Ventures và BoxLadder đồng tổ chức.",
-              "Được chọn tham gia DinoLab Busan Đợt 1 của Tập đoàn Tài chính Woori.",
-              "Được chọn vào chương trình Dịch vụ BM của KOTRA.",
-              "Được chọn vào đợt 3 “J‑Curve” thuộc chương trình Khởi nghiệp & Đổi mới sáng tạo Jeonbuk Changkyung."
+              "Tham gia Startup Japan Expo 2025 (CCEI)",
+              "Tham gia Showcase Khởi nghiệp Du lịch liên kết với Triển lãm Osaka Expo 2025",
+              "Giải Nhất (Grand Prize) tại Cuộc thi Khởi nghiệp Toàn cầu do Đại học Bắc Kinh, Shimsan Ventures và BoxLadder đồng tổ chức",
+              "Được chọn vào Chương trình Woori Financial Group Dinolab Busan Batch 1",
+              "Được chọn vào Chương trình Mô hình Kinh doanh Dịch vụ của KOTRA",
+              "Được chọn vào Chương trình Jeonbuk Changkyung J-Curve Batch 3"
             ]
           },
           {
             "month": "03",
             "contents": [
-              "Được chọn vào chương trình “Little Penguin” của Quỹ Bảo lãnh Tín dụng Hàn Quốc."
+              "Được chọn vào Chương trình 'Little Penguin' của Quỹ Bảo lãnh Tín dụng Hàn Quốc (KODIT)"
             ]
           },
           {
             "month": "04",
             "contents": [
-              "Được chọn vào chương trình “Global Open Innovation Trust My Tech” của Thales.",
-              "Được chọn vào dự án hợp tác startup du lịch của Quỹ Du lịch Seoul."
+              "Được chọn cho Chương trình Đổi mới Mở Toàn cầu của Thales ‘Trust My Tech’",
+              "Được chọn cho Dự án Hợp tác Khởi nghiệp Du lịch của Tổ chức Du lịch Seoul"
             ]
           },
           {
             "month": "05",
             "contents": [
-              "Được chọn vào PIUM LAB Đợt 7 của Tập đoàn Tài chính DGB.",
-              "Được chọn vào chương trình K‑Global Thâm nhập thị trường nước ngoài do GDIN tổ chức.",
-              "Được chọn là doanh nghiệp tham gia gian hàng chung và gian hàng đơn tại CES 2026 (Triển lãm dự kiến tháng 1/2026)."
+              "Được chọn vào Chương trình DGB Financial Group PIUM Lab Batch 7",
+              "Được chọn vào Chương trình GDIN K-Global Mở rộng Quốc tế",
+              "Được chọn tham gia Triển lãm CES 2026 (Gian hàng Hàn Quốc & Gian hàng riêng)"
             ]
           },
           {
             "month": "06",
             "contents": [
-              "Tham gia “Busan Smart Project Prep Vietnam”.",
-              "Tham gia “Viva Technology 2025” (Pháp–Hàn Liên kết đổi mới sáng tạo) tại Paris.",
-              "Được chọn là doanh nghiệp tham gia “Mega‑US EXPO Hàn–Việt 2025”.",
-              "Giải Vô địch tại buổi pitch IR đặc biệt “IR X Hội đồng Hỗ trợ Fintech”.",
-              "Được chọn tham gia NextONE Busan Đợt 3 của Ngân hàng Công nghiệp KDB."
+              "Tham gia Busan Smart Project Prep tại Việt Nam",
+              "Tham gia Viva Technology 2025 tại Paris, Pháp",
+              "Được chọn tham gia Triển lãm 2025 Korea–Vietnam Mega-US Expo",
+              "Giải Nhất (Grand Prize) tại Cuộc thi IR Fintech (IR × Fintech Support Council)",
+              "Được chọn vào Chương trình KDB Industrial Bank NextONE Busan Batch 3"
             ]
           },
           {
             "month": "07",
-            "contents": [
-              "Được chọn vào chương trình nâng cao năng lực đầu tư “Invest‑On” tại Sejong."
-            ]
+            "contents": ["Được chọn vào Chương trình Tăng cường Năng lực Đầu tư Sejong Invest-On"]
           },
           {
             "month": "08",
             "contents": [
-              "Tham gia Đoàn Khai phá Thị trường Serbia liên kết Hợp tác Toàn cầu tại Trung tâm Đổi mới Số.",
-              "Nhận chứng nhận an ninh thông tin ISO/IEC 27001."
+              "Tham gia Chương trình Hợp tác Toàn cầu của Digital Innovation Hub và Đoàn thâm nhập thị trường Serbia",
+              "Đạt chứng nhận An ninh Thông tin ISO/IEC 27001"
             ]
           },
           {
             "month": "09",
             "contents": [
-              "Nhận Giải “Best Award” tại B‑Startup FLY Awards 2025.",
-              "Được chọn vào L‑CAMP JAPAN 2025 Đợt 3 của Lotte Ventures.",
-              "Được chọn là doanh nghiệp khởi nghiệp – kết nối sinh lợi với Tập đoàn Cảng Hàng không Quốc tế Incheon.",
-              "Nhận Giải Panel tại Seoul Fintech Week 2025 do Naver Cloud tài trợ.",
-              "Được chọn vào chương trình Deep‑Tech TIPS (Tech Incubator Program for Startup)."
+              "Giải Nhất (Grand Prize) tại 2025 B-Startup FLY Awards",
+              "Được chọn vào Chương trình Lotte Ventures ‘L-CAMP JAPAN 2025’ Batch 3",
+              "Được chọn là Doanh nghiệp Khởi nghiệp Đồng Hành (Co-prosperity Startup) của Tập đoàn Sân bay Quốc tế Incheon",
+              "Giải Panel (Panel Award) tại Seoul Fintech Week 2025 do NAVER Cloud tổ chức",
+              "Được chọn vào Chương trình Deep-Tech TIPS (Tech Incubator Program for Startup)"
             ]
           },
           {
             "month": "10",
             "contents": [
-              "Nhận Giải Đặc biệt tại G‑Star Audition Cuộc thi Khởi nghiệp Gyeonggi 2025.",
-              "Nhận “Giải Best Award” tại “BUSAN FINANCE WEEK 2025” do B‑Vensday × KIBO Venture Camp đồng tổ chức."
+              "Giải Nhất (Grand Prize) tại Chung kết Cuộc thi Khởi nghiệp Gyeonggi G-STAR Audition 2025",
+              "Giải Xuất sắc (Excellence Award) tại ‘BUSAN FINANCE WEEK 2025’ đồng tổ chức bởi B-Vensday × KIBO Venture Camp"
             ]
           }
         ]
       }
     ],
+
     "contentList": [
       {
         "year": "2025",
