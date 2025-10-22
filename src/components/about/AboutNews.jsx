@@ -19,10 +19,10 @@ export default function AboutNews({ lan }) {
   // 언어 코드 매핑 함수
   const getLanguageCode = (language) => {
     const langMap = {
-      'Korean': 'ko',
-      'English': 'en', 
-      'Japanese': 'ja',
-      'Vietnamese': 'vi'
+      'KOR': 'ko',
+      'ENG': 'en', 
+      'JPN': 'ja',
+      'VNM': 'vi'
     };
     return langMap[language] || 'ko';
   };
@@ -81,7 +81,6 @@ export default function AboutNews({ lan }) {
     if (allNewsData.length === 0) return;
 
     const languageCode = getLanguageCode(lan);
-    
     // 현재 언어에 맞는 뉴스만 필터링
     const filteredNews = allNewsData.filter(item => {
       // 백엔드에서 언어 정보를 제공하는 경우
