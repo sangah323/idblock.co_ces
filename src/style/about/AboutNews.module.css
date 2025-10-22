@@ -15,6 +15,23 @@
   font-size: var(--font-size-40);
 }
 
+/* 로딩 및 에러 메시지 스타일 */
+.loadingMessage,
+.emptyMessage,
+.errorMessage {
+  padding: 40px;
+  text-align: center;
+  font-size: var(--font-size-18);
+  color: var(--text-300);
+}
+
+.errorMessage {
+  color: #ff6b6b;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-radius: var(--border-radius-20);
+  margin-bottom: var(--gap-content);
+}
+
 /* newsBox */
 .newsBox {
   width: 100%;
