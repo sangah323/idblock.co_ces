@@ -3,13 +3,14 @@ import styles from '@/style/about/AboutNews.module.css';
 import { translate } from '@/utils/translates';
 import { useT } from '@/hooks/useT';
 import Image from '@/components/common/Image';
-import { getNews } from '@/utils/api';
+import { getAllNews } from '@/utils/api';
 
 export default function AboutNews({ lan }) {
   const t = useT('AboutNews');
   const [activeIndex, setActiveIndex] = useState(0);
   const [currentWidth, setCurrentWidth] = useState(window.innerWidth);
   const [pressItems, setPressItems] = useState([]);
+  const [allNewsData, setAllNewsData] = useState([]); // 전체 뉴스 데이터 저장
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isAutoScrolling, setIsAutoScrolling] = useState(true);
@@ -26,25 +27,27 @@ export default function AboutNews({ lan }) {
     return langMap[language] || 'ko';
   };
 
-  // 백엔드에서 뉴스 데이터 가져오기
+  // 전체 뉴스 데이터를 한 번만 가져오기
   useEffect(() => {
-    const fetchNews = async () => {
+    const fetchAllNews = async () => {
       try {
         setLoading(true);
-        const languageCode = getLanguageCode(lan);
-        const response = await getNews(1, 10, languageCode);
+        // 전체 뉴스 데이터를 가져옴 (언어 필터링 없음)
+        const response = await getAllNews(1, 50);
         
         // API 응답 데이터를 컴포넌트에서 사용하는 형식으로 변환
         const transformedData = response.data.map(item => ({
+          id: item.id,
           title: item.title,
           link: item.source_url,
           date: formatDate(item.publishedAt),
           source: item.publisher,
           image: item.imageUrl,
-          preview: item.content
+          preview: item.content,
+          language: item.language || 'ko' // 언어 정보 추가 (백엔드에서 제공하는 경우)
         }));
         
-        setPressItems(transformedData);
+        setAllNewsData(transformedData);
         setError(null);
       } catch (err) {
         console.error('뉴스 데이터 로드 실패:', err);
@@ -54,22 +57,63 @@ export default function AboutNews({ lan }) {
         try {
           const fallbackData = translate('about', lan.toLowerCase(), 'AboutNews.pressItems');
           if (fallbackData && Array.isArray(fallbackData)) {
-            setPressItems(fallbackData);
+            setAllNewsData(fallbackData.map(item => ({ ...item, language: 'ko' })));
           } else {
-            // 정적 데이터도 없으면 빈 배열로 설정
-            setPressItems([]);
+            setAllNewsData([]);
           }
         } catch (fallbackErr) {
           console.error('Fallback 데이터 로드 실패:', fallbackErr);
-          setPressItems([]);
+          setAllNewsData([]);
         }
       } finally {
         setLoading(false);
       }
     };
 
-    fetchNews();
-  }, [lan]);
+    // 전체 뉴스 데이터가 없을 때만 가져오기
+    if (allNewsData.length === 0) {
+      fetchAllNews();
+    }
+  }, [allNewsData.length, lan]);
+
+  // 언어별 필터링 로직
+  useEffect(() => {
+    if (allNewsData.length === 0) return;
+
+    const languageCode = getLanguageCode(lan);
+    
+    // 현재 언어에 맞는 뉴스만 필터링
+    const filteredNews = allNewsData.filter(item => {
+      // 백엔드에서 언어 정보를 제공하는 경우
+      if (item.language) {
+        return item.language === languageCode;
+      }
+      
+      // 백엔드에서 언어 정보를 제공하지 않는 경우, 제목이나 내용으로 언어 감지
+      const title = item.title || '';
+      const content = item.preview || '';
+      const text = title + ' ' + content;
+      
+      switch (languageCode) {
+        case 'ko':
+          // 한글 포함 여부로 판단 (한글 문자가 있는 경우)
+          return /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/.test(text);
+        case 'en':
+          // 영어 포함 여부로 판단 (한글이나 일본어, 베트남어가 없고 영어가 있는 경우)
+          return !/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣|ひらがなカタカナ一-龯|àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/.test(text) && /[a-zA-Z]/.test(text);
+        case 'ja':
+          // 일본어 포함 여부로 판단 (히라가나, 가타카나, 한자)
+          return /[ひらがなカタカナ一-龯]/.test(text);
+        case 'vi':
+          // 베트남어 포함 여부로 판단 (베트남어 특수문자)
+          return /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/.test(text);
+        default:
+          return true;
+      }
+    });
+
+    setPressItems(filteredNews.slice(0, 10)); // 최대 10개만 표시
+  }, [allNewsData, lan]);
 
   // 날짜 포맷 변환 함수 (ISO 8601 -> YYYY.MM.DD)
   const formatDate = (isoDate) => {
