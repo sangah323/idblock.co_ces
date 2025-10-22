@@ -34,7 +34,7 @@ export default function AboutNews({ lan }) {
         setLoading(true);
         // 전체 뉴스 데이터를 가져옴 (언어 필터링 없음)
         const response = await getAllNews(1, 50);
-        
+        console.log("response.data", response.data)
         // API 응답 데이터를 컴포넌트에서 사용하는 형식으로 변환
         const transformedData = response.data.map(item => ({
           id: item.id,
@@ -44,7 +44,7 @@ export default function AboutNews({ lan }) {
           source: item.publisher,
           image: item.imageUrl,
           preview: item.content,
-          language: item.language || 'ko' // 언어 정보 추가 (백엔드에서 제공하는 경우)
+          language: item.language || '' // 언어 정보 추가 (백엔드에서 제공하는 경우)
         }));
         
         setAllNewsData(transformedData);
@@ -80,6 +80,7 @@ export default function AboutNews({ lan }) {
   useEffect(() => {
     if (allNewsData.length === 0) return;
 
+    console.log("allNewsData", allNewsData)
     const languageCode = getLanguageCode(lan);
     // 현재 언어에 맞는 뉴스만 필터링
     const filteredNews = allNewsData.filter(item => {
