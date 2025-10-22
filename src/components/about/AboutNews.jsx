@@ -110,7 +110,8 @@ export default function AboutNews({ lan }) {
           return true;
       }
     });
-
+    console.log("languageCode", languageCode)
+    console.log("filteredNews.length", filteredNews.length)
     setPressItems(filteredNews.slice(0, 30)); // 최대 10개만 표시
   }, [allNewsData, lan]);
 
