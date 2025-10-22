@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import styles from '@/style/about/AboutNews.module.css';
 import { translate } from '@/utils/translates';
 import { useT } from '@/hooks/useT';
@@ -12,6 +12,8 @@ export default function AboutNews({ lan }) {
   const [pressItems, setPressItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isAutoScrolling, setIsAutoScrolling] = useState(true);
+  const [scrollInterval, setScrollInterval] = useState(null);
 
   // 백엔드에서 뉴스 데이터 가져오기
   useEffect(() => {
@@ -56,21 +58,90 @@ export default function AboutNews({ lan }) {
     return `${year}.${month}.${day}`;
   };
 
+  // 자동 스크롤 함수
+  const startAutoScroll = useCallback(() => {
+    if (pressItems.length === 0) return;
+    
+    const interval = setInterval(() => {
+      setActiveIndex(prevIndex => {
+        const maxIndex = currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
+        return prevIndex >= maxIndex ? 0 : prevIndex + 1;
+      });
+    }, 3000); // 3초마다 자동 스크롤
+    
+    setScrollInterval(interval);
+  }, [pressItems.length, currentWidth]);
+
+  // 자동 스크롤 중지 함수
+  const stopAutoScroll = useCallback(() => {
+    if (scrollInterval) {
+      clearInterval(scrollInterval);
+      setScrollInterval(null);
+    }
+  }, [scrollInterval]);
+
+  // 자동 스크롤 시작/중지 토글
+  const toggleAutoScroll = useCallback(() => {
+    if (isAutoScrolling) {
+      stopAutoScroll();
+      setIsAutoScrolling(false);
+    } else {
+      startAutoScroll();
+      setIsAutoScrolling(true);
+    }
+  }, [isAutoScrolling, startAutoScroll, stopAutoScroll]);
+
+  // 컴포넌트 마운트 시 자동 스크롤 시작
   useEffect(() => {
-    setCurrentWidth(window.innerWidth);
+    if (!loading && pressItems.length > 0 && isAutoScrolling) {
+      startAutoScroll();
+    }
+    
+    return () => stopAutoScroll();
+  }, [loading, pressItems.length, isAutoScrolling, startAutoScroll, stopAutoScroll]);
+
+  // 화면 크기 변경 감지
+  useEffect(() => {
+    const handleResize = () => {
+      setCurrentWidth(window.innerWidth);
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const handlePrev = () => {
-    currentWidth <= 1100
-      ? setActiveIndex((prev) => (prev === 0 ? pressItems.length - 1 : prev - 1))
-      : setActiveIndex((prev) => (prev === 0 ? pressItems.length / 2 - 1 : prev - 1));
-  };
+  // 수동 네비게이션 함수들
+  const handlePrev = useCallback(() => {
+    stopAutoScroll();
+    setIsAutoScrolling(false);
+    
+    setActiveIndex(prev => {
+      const maxIndex = currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
+      return prev === 0 ? maxIndex : prev - 1;
+    });
+  }, [currentWidth, pressItems.length, stopAutoScroll]);
 
-  const handleNext = () => {
-    currentWidth <= 1100
-      ? setActiveIndex((prev) => (prev === pressItems.length - 1 ? 0 : prev + 1))
-      : setActiveIndex((prev) => (prev === pressItems.length / 2 - 1 ? 0 : prev + 1));
-  };
+  const handleNext = useCallback(() => {
+    stopAutoScroll();
+    setIsAutoScrolling(false);
+    
+    setActiveIndex(prev => {
+      const maxIndex = currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
+      return prev >= maxIndex ? 0 : prev + 1;
+    });
+  }, [currentWidth, pressItems.length, stopAutoScroll]);
+
+  // 마우스 이벤트 핸들러
+  const handleMouseEnter = useCallback(() => {
+    stopAutoScroll();
+  }, [stopAutoScroll]);
+
+  const handleMouseLeave = useCallback(() => {
+    if (isAutoScrolling) {
+      startAutoScroll();
+    }
+  }, [isAutoScrolling, startAutoScroll]);
+
 
   const news = pressItems.map((press, index) => {
     return (
@@ -118,9 +189,27 @@ export default function AboutNews({ lan }) {
   return (
     <section className={`subSection ${styles.newsSection}`}>
       <div className={`container ${styles.newsContainer}`}>
-        <h2 className={styles.newsTitle}>{t('title')}</h2>
+        <div className={styles.newsHeader}>
+          <h2 className={styles.newsTitle}>{t('title')}</h2>
+          <button 
+            className={`${styles.autoScrollToggle} ${isAutoScrolling ? styles.active : ''}`}
+            onClick={toggleAutoScroll}
+            aria-label={isAutoScrolling ? '자동 스크롤 중지' : '자동 스크롤 시작'}
+            title={isAutoScrolling ? '자동 스크롤 중지' : '자동 스크롤 시작'}
+          >
+            <div className={styles.toggleIcon}>
+              {isAutoScrolling ? '⏸️' : '▶️'}
+            </div>
+          </button>
+        </div>
+        
         {error && <div className={styles.errorMessage}>{error}</div>}
-        <div className={styles.newsBox}>
+        
+        <div 
+          className={styles.newsBox}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
           <button onClick={handlePrev} className={styles.leftArrow} aria-label="prev">
             <Image className={styles.arrow} src="/assets/about/arrow-left.png" alt="left arrow" />
           </button>
@@ -145,6 +234,22 @@ export default function AboutNews({ lan }) {
           <button onClick={handleNext} className={styles.rightArrow} aria-label="next">
             <Image className={styles.arrow} src="/assets/about/arrow-right.png" alt="right arrow" />
           </button>
+        </div>
+        
+        {/* 인디케이터 */}
+        <div className={styles.indicators}>
+          {Array.from({ length: currentWidth <= 1100 ? pressItems.length : Math.ceil(pressItems.length / 2) }).map((_, index) => (
+            <button
+              key={index}
+              className={`${styles.indicator} ${activeIndex === index ? styles.active : ''}`}
+              onClick={() => {
+                setActiveIndex(index);
+                stopAutoScroll();
+                setIsAutoScrolling(false);
+              }}
+              aria-label={`뉴스 ${index + 1}로 이동`}
+            />
+          ))}
         </div>
       </div>
     </section>
