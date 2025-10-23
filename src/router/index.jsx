@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, ScrollRestoration } from 'react-router-dom';
 import { Navigate } from 'react-router-dom';
 
 import {
@@ -45,7 +45,12 @@ import PrivacyEn from '@/pages/policy/PrivacyEn';
 const router = createBrowserRouter([
   {
     path: HOME_ROUTES.INDEX.PATH,
-    element: <RootLayout />,
+    element: (
+      <>
+        <RootLayout />
+        <ScrollRestoration />
+      </>
+    ),
     children: [
       {
         index: true,
@@ -99,7 +104,12 @@ const router = createBrowserRouter([
   },
   {
     path: DEVELOPER_ROUTES.ROOT.PATH,
-    element: <DevLayout />,
+    element: (
+      <>
+        <DevLayout />
+        <ScrollRestoration />
+      </>
+    ),
     children: [
       {
         index: true,
@@ -123,7 +133,12 @@ const router = createBrowserRouter([
   },
   {
     path: AUTH_ROUTES.ROOT.PATH,
-    element: <AuthLayout />,
+    element: (
+      <>
+        <AuthLayout />
+        <ScrollRestoration />
+      </>
+    ),
     children: [
       {
         path: AUTH_ROUTES.LOGIN.PATH,
@@ -140,11 +155,11 @@ const router = createBrowserRouter([
     element: <NotFound />,
   },
   {
-    path: "/index.co",
+    path: '/index.co',
     element: <Navigate to={HOME_ROUTES.INDEX.PATH} replace />,
   },
   {
-    path: "*",
+    path: '*',
     element: <Navigate to={NOTFOUND_ROUTES.ROOT.PATH} replace />,
   },
 ]);
