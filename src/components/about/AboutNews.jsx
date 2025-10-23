@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
 import styles from '@/style/about/AboutNews.module.css';
 import { translate } from '@/utils/translates';
 import { useT } from '@/hooks/useT';
@@ -15,14 +15,15 @@ export default function AboutNews({ lan }) {
   const [error, setError] = useState(null);
   const [isAutoScrolling, setIsAutoScrolling] = useState(true);
   const [scrollInterval, setScrollInterval] = useState(null);
+  const hasLoadedData = useRef(false); // 데이터 로딩 완료 여부를 추적
 
   // 언어 코드 매핑 함수
   const getLanguageCode = (language) => {
     const langMap = {
-      'KOR': 'ko',
-      'ENG': 'en', 
-      'JPN': 'ja',
-      'VNM': 'vi'
+      KOR: 'ko',
+      ENG: 'en',
+      JPN: 'ja',
+      VNM: 'vi',
     };
     return langMap[language] || 'ko';
   };
@@ -30,13 +31,16 @@ export default function AboutNews({ lan }) {
   // 전체 뉴스 데이터를 한 번만 가져오기
   useEffect(() => {
     const fetchAllNews = async () => {
+      if (hasLoadedData.current) return; // 이미 로딩했으면 중복 실행 방지
+
       try {
         setLoading(true);
+        hasLoadedData.current = true; // 로딩 시작 플래그 설정
+
         // 전체 뉴스 데이터를 가져옴 (언어 필터링 없음)
         const response = await getAllNews(1, 50);
-        console.log("response.data", response.data)
         // API 응답 데이터를 컴포넌트에서 사용하는 형식으로 변환
-        const transformedData = response.data.map(item => ({
+        const transformedData = response.data.map((item) => ({
           id: item.id,
           title: item.title,
           link: item.source_url,
@@ -44,20 +48,20 @@ export default function AboutNews({ lan }) {
           source: item.publisher,
           image: item.imageUrl,
           preview: item.content,
-          language: item.language || '' // 언어 정보 추가 (백엔드에서 제공하는 경우)
+          language: item.language || '', // 언어 정보 추가 (백엔드에서 제공하는 경우)
         }));
-        
+
         setAllNewsData(transformedData);
         setError(null);
       } catch (err) {
         console.error('뉴스 데이터 로드 실패:', err);
         setError('뉴스를 불러오는 중 오류가 발생했습니다.');
-        
+
         // 에러 발생 시 기존 정적 데이터를 fallback으로 사용
         try {
           const fallbackData = translate('about', lan.toLowerCase(), 'AboutNews.pressItems');
           if (fallbackData && Array.isArray(fallbackData)) {
-            setAllNewsData(fallbackData.map(item => ({ ...item, language: 'ko' })));
+            setAllNewsData(fallbackData.map((item) => ({ ...item, language: 'ko' })));
           } else {
             setAllNewsData([]);
           }
@@ -70,37 +74,41 @@ export default function AboutNews({ lan }) {
       }
     };
 
-    // 전체 뉴스 데이터가 없을 때만 가져오기
-    if (allNewsData.length === 0) {
+    // 데이터가 없고 아직 로딩하지 않았을 때만 가져오기
+    if (!hasLoadedData.current) {
       fetchAllNews();
     }
-  }, [allNewsData.length, lan]);
+  }, [lan]);
 
   // 언어별 필터링 로직
   useEffect(() => {
     if (allNewsData.length === 0) return;
 
-    console.log("allNewsData", allNewsData)
+    console.log('allNewsData', allNewsData);
     const languageCode = getLanguageCode(lan);
     // 현재 언어에 맞는 뉴스만 필터링
-    const filteredNews = allNewsData.filter(item => {
+    const filteredNews = allNewsData.filter((item) => {
       // 백엔드에서 언어 정보를 제공하는 경우
       if (item.language) {
         return item.language === languageCode;
       }
-      
+
       // 백엔드에서 언어 정보를 제공하지 않는 경우, 제목이나 내용으로 언어 감지
       const title = item.title || '';
       const content = item.preview || '';
       const text = title + ' ' + content;
-      
+
       switch (languageCode) {
         case 'ko':
           // 한글 포함 여부로 판단 (한글 문자가 있는 경우)
           return /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/.test(text);
         case 'en':
           // 영어 포함 여부로 판단 (한글이나 일본어, 베트남어가 없고 영어가 있는 경우)
-          return !/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣|ひらがなカタカナ一-龯|àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/.test(text) && /[a-zA-Z]/.test(text);
+          return (
+            !/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣|ひらがなカタカナ一-龯|àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/.test(
+              text,
+            ) && /[a-zA-Z]/.test(text)
+          );
         case 'ja':
           // 일본어 포함 여부로 판단 (히라가나, 가타카나, 한자)
           return /[ひらがなカタカナ一-龯]/.test(text);
@@ -111,8 +119,8 @@ export default function AboutNews({ lan }) {
           return true;
       }
     });
-    console.log("languageCode", languageCode)
-    console.log("filteredNews.length", filteredNews.length)
+    console.log('languageCode', languageCode);
+    console.log('filteredNews.length', filteredNews.length);
     setPressItems(filteredNews.slice(0, 30)); // 최대 10개만 표시
   }, [allNewsData, lan]);
 
@@ -128,14 +136,15 @@ export default function AboutNews({ lan }) {
   // 자동 스크롤 함수
   const startAutoScroll = useCallback(() => {
     if (pressItems.length === 0) return;
-    
+
     const interval = setInterval(() => {
-      setActiveIndex(prevIndex => {
-        const maxIndex = currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
+      setActiveIndex((prevIndex) => {
+        const maxIndex =
+          currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
         return prevIndex >= maxIndex ? 0 : prevIndex + 1;
       });
     }, 3000); // 3초마다 자동 스크롤
-    
+
     setScrollInterval(interval);
   }, [pressItems.length, currentWidth]);
 
@@ -163,16 +172,16 @@ export default function AboutNews({ lan }) {
     if (!loading && pressItems.length > 0 && isAutoScrolling) {
       startAutoScroll();
     }
-    
+
     return () => stopAutoScroll();
-  }, [loading, pressItems.length, isAutoScrolling, startAutoScroll, stopAutoScroll]);
+  }, [loading, pressItems.length, isAutoScrolling]); // startAutoScroll, stopAutoScroll 제거
 
   // 화면 크기 변경 감지
   useEffect(() => {
     const handleResize = () => {
       setCurrentWidth(window.innerWidth);
     };
-    
+
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -181,9 +190,10 @@ export default function AboutNews({ lan }) {
   const handlePrev = useCallback(() => {
     stopAutoScroll();
     setIsAutoScrolling(false);
-    
-    setActiveIndex(prev => {
-      const maxIndex = currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
+
+    setActiveIndex((prev) => {
+      const maxIndex =
+        currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
       return prev === 0 ? maxIndex : prev - 1;
     });
   }, [currentWidth, pressItems.length, stopAutoScroll]);
@@ -191,9 +201,10 @@ export default function AboutNews({ lan }) {
   const handleNext = useCallback(() => {
     stopAutoScroll();
     setIsAutoScrolling(false);
-    
-    setActiveIndex(prev => {
-      const maxIndex = currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
+
+    setActiveIndex((prev) => {
+      const maxIndex =
+        currentWidth <= 1100 ? pressItems.length - 1 : Math.floor(pressItems.length / 2) - 1;
       return prev >= maxIndex ? 0 : prev + 1;
     });
   }, [currentWidth, pressItems.length, stopAutoScroll]);
@@ -208,7 +219,6 @@ export default function AboutNews({ lan }) {
       startAutoScroll();
     }
   }, [isAutoScrolling, startAutoScroll]);
-
 
   const news = pressItems.map((press, index) => {
     return (
@@ -258,21 +268,19 @@ export default function AboutNews({ lan }) {
       <div className={`container ${styles.newsContainer}`}>
         <div className={styles.newsHeader}>
           <h2 className={styles.newsTitle}>{t('title')}</h2>
-          <button 
+          <button
             className={`${styles.autoScrollToggle} ${isAutoScrolling ? styles.active : ''}`}
             onClick={toggleAutoScroll}
             aria-label={isAutoScrolling ? '자동 스크롤 중지' : '자동 스크롤 시작'}
             title={isAutoScrolling ? '자동 스크롤 중지' : '자동 스크롤 시작'}
           >
-            <div className={styles.toggleIcon}>
-              {isAutoScrolling ? '⏸️' : '▶️'}
-            </div>
+            <div className={styles.toggleIcon}>{isAutoScrolling ? '⏸️' : '▶️'}</div>
           </button>
         </div>
-        
+
         {error && <div className={styles.errorMessage}>{t('error') || error}</div>}
-        
-        <div 
+
+        <div
           className={styles.newsBox}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
@@ -302,10 +310,12 @@ export default function AboutNews({ lan }) {
             <Image className={styles.arrow} src="/assets/about/arrow-right.png" alt="right arrow" />
           </button>
         </div>
-        
+
         {/* 인디케이터 */}
         <div className={styles.indicators}>
-          {Array.from({ length: currentWidth <= 1100 ? pressItems.length : Math.ceil(pressItems.length / 2) }).map((_, index) => (
+          {Array.from({
+            length: currentWidth <= 1100 ? pressItems.length : Math.ceil(pressItems.length / 2),
+          }).map((_, index) => (
             <button
               key={index}
               className={`${styles.indicator} ${activeIndex === index ? styles.active : ''}`}
