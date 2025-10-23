@@ -20,8 +20,9 @@ export default function MenuItem({ item, isOpenSideBar, setIsOpenSideBar }) {
       setIsOpenDropDown(!isOpenDropDown);
     }
 
-    navigate(item.path);
+    // 페이지 이동 전에 스크롤을 맨 위로 이동
     handleScrollToTop();
+    navigate(item.path);
   };
 
   let dropdownStyle = undefined;
@@ -33,11 +34,7 @@ export default function MenuItem({ item, isOpenSideBar, setIsOpenSideBar }) {
   }
 
   return (
-    <button
-      className={styles.menuItem}
-      onClick={(e) => handleMenuClick(e)}
-      aria-label="menu"
-    >
+    <button className={styles.menuItem} onClick={(e) => handleMenuClick(e)} aria-label="menu">
       <p>{item.label}</p>
 
       {item.children && (
