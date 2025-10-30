@@ -11,8 +11,89 @@
   gap: var(--gap-layout);
 }
 
+.newsHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .newsTitle {
   font-size: var(--font-size-40);
+}
+
+/* 자동 스크롤 토글 버튼 */
+.autoScrollToggle {
+  background-color: var(--text-600);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition-basic);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.autoScrollToggle:hover {
+  background-color: var(--primary-100);
+  transform: scale(1.05);
+}
+
+.autoScrollToggle.active {
+  background-color: var(--primary-100);
+}
+
+.toggleIcon {
+  font-size: 20px;
+  color: white;
+}
+
+/* 로딩 및 에러 메시지 스타일 */
+.loadingMessage,
+.emptyMessage,
+.errorMessage {
+  padding: 40px;
+  text-align: center;
+  font-size: var(--font-size-18);
+  color: var(--text-300);
+}
+
+.errorMessage {
+  color: #ff6b6b;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-radius: var(--border-radius-20);
+  margin-bottom: var(--gap-content);
+}
+
+/* 인디케이터 */
+.indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: var(--gap-content);
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--text-600);
+  cursor: pointer;
+  transition: var(--transition-basic);
+}
+
+.indicator:hover {
+  background-color: var(--text-400);
+  transform: scale(1.2);
+}
+
+.indicator.active {
+  background-color: var(--primary-100);
+  transform: scale(1.3);
 }
 
 /* newsBox */
@@ -149,8 +230,22 @@
     margin: 0;
   }
 
+  .newsHeader {
+    flex-direction: column;
+    gap: var(--gap-small);
+  }
+
   .newsTitle {
     font-size: var(--font-size-32);
+  }
+
+  .autoScrollToggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .toggleIcon {
+    font-size: 16px;
   }
 
   .newsBox {
@@ -201,5 +296,14 @@
   .newsContent .preview,
   .newsContent .date {
     font-size: var(--font-size-14);
+  }
+
+  .indicators {
+    margin-top: var(--gap-small);
+  }
+
+  .indicator {
+    width: 10px;
+    height: 10px;
   }
 }

@@ -257,6 +257,9 @@
   },
   "AboutNews": {
     "title": "Press Release",
+    "loading": "Loading news...",
+    "empty": "No news to display.",
+    "error": "An error occurred while loading news.",
     "pressItems": [
       {
         "title": "CrossHub Raises 800 Million KRW Seed Investment from 4 Investors",
