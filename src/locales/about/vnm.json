@@ -264,6 +264,9 @@
   },
   "AboutNews": {
     "title": "Thông cáo báo chí",
+    "loading": "Đang tải tin tức...",
+    "empty": "Không có tin tức để hiển thị.",
+    "error": "Đã xảy ra lỗi khi tải tin tức.",
     "pressItems": [
       {
         "title": "CrossHub huy động thành công 8 tỷ KRW từ 4 nhà đầu tư",
