@@ -5,6 +5,8 @@ import HomeQuestionGlobal from '@/components/home/HomeQuestionGlobal';
 import HomeFeature from '@/components/home/HomeFeature';
 import HomeStep from '@/components/home/HomeStep';
 import HomePatent from '@/components/home/HomePatent';
+import HomeAchievement from '@/components/home/HomeAchievement';
+import HomeRoadmap from '@/components/home/HomeRoadmap';
 import HomePartner from '@/components/home/HomePartner';
 
 import { TContext } from '@/contexts/TContext';
@@ -22,6 +24,8 @@ export default function Home() {
         <HomeFeature lan={lan} />
         <HomeStep />
         <HomePatent />
+        <HomeAchievement />
+        <HomeRoadmap />
         <HomePartner />
       </main>
     </TContext.Provider>

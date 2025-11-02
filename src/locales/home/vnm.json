@@ -94,7 +94,145 @@
     "description": "Sở hữu chứng nhận công nghệ cốt lõi như bằng sáng chế liên kết, chứng nhận doanh nghiệp khởi nghiệp, phòng nghiên cứu doanh nghiệp",
     "title": ["IDBlock đã được công nhận về năng lực công nghệ", "và tiềm năng tăng trưởng"]
   },
+  "HomeAchievement": {
+    "title": ["혁신성과"],
+    "description": ["약", "130", "건 지원사업 선정", "(2025년 기준)"],
+    "list": [
+      {
+        "value": 8,
+        "label": "금융",
+        "details": [
+          "한국산업은행",
+          "IBK기업은행",
+          "우리금융그룹",
+          "DGB금융그룹",
+          "신한금융그룹",
+          "하나금융그룹",
+          "기술보증기금",
+          "신용보증기금"
+        ]
+      },
+      {
+        "value": 11,
+        "label": "수상",
+        "details": [
+          "CES 2026 최고 혁신상 수상",
+          "경기창업공모 G-Startup 오디션 (대상)",
+          "핀테크 지원 협의체 IR 챌린지 (대상)",
+          "영국, 중국 공동 글로벌 창업 경진대회 (대상) 외 7건"
+        ]
+      },
+      {
+        "value": 4,
+        "label": "R&D",
+        "details": [
+          "Thales X 글로벌 오픈이노베이션",
+          "딥테크 팁스(Deep-Tech TIPS) 선정",
+          "부산 블록체인 기업 사업화 외 1건"
+        ]
+      },
+      {
+        "value": 34,
+        "label": "해외진출",
+        "details": [
+          "CES 2026 공동관 참가 기업 선정",
+          "VIVA TECHNOLOGY 공식 참가 기업",
+          "Singapore FinTech Festival 공식 참가 기업",
+          "GITEX Global 2025 공동 참가 외 30건"
+        ]
+      },
+      {
+        "value": 63,
+        "label": "정부지원",
+        "details": [
+          "인천국제항공사 상생형 창업·벤처기업 프로그램",
+          "스마트해운물류 창업 Flame 기타사업화 프로그램",
+          "서울관광재단 관광스타트업 협력 프로젝트",
+          "전북창경 J-curve배치 3기 외 59건"
+        ]
+      },
+      {
+        "value": 8,
+        "label": "기타",
+        "details": [
+          "강원 외국인 유학생 규제 샌드박스 실증기업",
+          "글로벌 인턴십 프로그램 운영",
+          "성균관대학교 SW 인턴십 협력기업",
+          "청년일자리도약장려금 외 4건"
+        ]
+      }
+    ]
+  },
+  "HomeRoadmap": {
+    "title": "기술 로드맵",
+    "description": [
+      "신원인증부터 글로벌 결제·송금·교육까지",
+      "— IDBlock 기술이 확장되는 영역입니다"
+    ],
+    "list": [
+      {
+        "key": "identity",
+        "label": "신원 인증",
+        "desc": "하나의 디지털 ID로\n전 세계 어디서나 안전하게 인증",
+        "active": true
+      },
+      {
+        "key": "payment",
+        "label": "결제",
+        "desc": "국경 없이 빠르고 간편한\n결제 경험 제공",
+        "active": true
+      },
+      {
+        "key": "remittance",
+        "label": "송금",
+        "desc": "실시간 송금 및 정산으로\n해외 송금 속도 향상 수수료 절감",
+        "active": true
+      },
+      {
+        "key": "education",
+        "label": "교육 인증",
+        "desc": "유학생 비자·졸업 인증 자동화로\n행정 절차 간소화",
+        "active": true
+      },
+      {
+        "key": "lifestyle",
+        "label": "라이프 서비스",
+        "desc": "하나의 ID로 숙박·교통·결제 등\n다양한 글로벌 앱 연동 가능",
+        "active": false
+      },
+      {
+        "key": "insurance",
+        "label": "보험",
+        "desc": "간편하게 보험 가입 및\n결제 가능",
+        "active": false
+      },
+      {
+        "key": "healthcare",
+        "label": "헬스케어",
+        "desc": "의료·병원·약국 간 데이터 공유로\n호환 가능한 글로벌 인증·결제",
+        "active": false
+      },
+      {
+        "key": "mobility",
+        "label": "모빌리티",
+        "desc": "하나의 ID로 대중교통과\n공유 이동수단 인증·결제 가능",
+        "active": false
+      },
+      {
+        "key": "public",
+        "label": "공공기관",
+        "desc": "외국인 대상 행정 서비스\n접근성 향상 및 신뢰성 강화",
+        "active": false
+      },
+      {
+        "key": "quantum",
+        "label": "양자컴퓨터",
+        "desc": "미래형 암호기술을 통해\n글로벌 인증 인프라 보안성 강화",
+        "active": false
+      }
+    ]
+  },
   "HomePartner": {
-    "title": ["Crosshub hợp tác với nhiều tổ chức tại Hàn Quốc", "và trên toàn thế giới"]
+    "title": ["크로스허브는", "국내 및 해외 다양한 기관들과 함께해요"]
   }
 }
