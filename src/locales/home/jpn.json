@@ -165,7 +165,10 @@
   },
   "HomeRoadmap": {
     "title": "技術ロードマップ",
-    "description": "本人確認からグローバル決済・送金、教育まで — これらはIDBlock技術が拡張していく領域です",
+    "description": [
+      "本人確認からグローバル決済・送金、教育まで",
+      "— これらはIDBlock技術が拡張していく領域です"
+    ],
     "list": [
       {
         "key": "identity",

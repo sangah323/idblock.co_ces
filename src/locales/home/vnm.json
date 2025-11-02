@@ -170,7 +170,10 @@
   },
   "HomeRoadmap": {
     "title": "Lộ trình công nghệ",
-    "description": "Từ xác thực danh tính đến thanh toán toàn cầu, chuyển tiền và giáo dục — đây là các lĩnh vực mà công nghệ IDBlock đang mở rộng",
+    "description": [
+      "Từ xác thực danh tính đến thanh toán toàn cầu chuyển tiền và giáo dục",
+      "— đây là các lĩnh vực mà công nghệ IDBlock đang mở rộng"
+    ],
     "list": [
       {
         "key": "identity",
