@@ -174,7 +174,10 @@
   },
   "HomeRoadmap": {
     "title": "Technology Roadmap",
-    "description": "From identity verification to global payments, remittance, and education — these are the domains IDBlock technology is expanding into.",
+    "description": [
+      "From identity verification to global payments, remittance, and education",
+      "— these are the domains IDBlock technology is expanding into."
+    ],
     "list": [
       {
         "key": "identity",
