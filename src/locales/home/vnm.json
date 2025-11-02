@@ -95,144 +95,146 @@
     "title": ["IDBlock đã được công nhận về năng lực công nghệ", "và tiềm năng tăng trưởng"]
   },
   "HomeAchievement": {
-    "title": ["혁신성과"],
-    "description": ["약", "130", "건 지원사업 선정", "(2025년 기준)"],
+    "title": ["Thành tựu & Đổi mới"],
+    "description": [
+      "Được chọn tham gia hơn",
+      "130",
+      "chương trình của chính phủ và doanh nghiệp",
+      "(tính đến năm 2025)"
+    ],
     "list": [
       {
         "value": 8,
-        "label": "금융",
+        "label": "Tài chính",
         "details": [
-          "한국산업은행",
-          "IBK기업은행",
-          "우리금융그룹",
-          "DGB금융그룹",
-          "신한금융그룹",
-          "하나금융그룹",
-          "기술보증기금",
-          "신용보증기금"
+          "Ngân hàng Phát triển Hàn Quốc (KDB)",
+          "Ngân hàng Công nghiệp Hàn Quốc (IBK)",
+          "Tập đoàn Tài chính Woori",
+          "Tập đoàn Tài chính DGB",
+          "Tập đoàn Tài chính Shinhan",
+          "Tập đoàn Tài chính Hana",
+          "Quỹ Bảo lãnh Công nghệ Hàn Quốc (KIBO)",
+          "Quỹ Bảo lãnh Tín dụng Hàn Quốc (KODIT)"
         ]
       },
       {
         "value": 11,
-        "label": "수상",
+        "label": "Giải thưởng",
         "details": [
-          "CES 2026 최고 혁신상 수상",
-          "경기창업공모 G-Startup 오디션 (대상)",
-          "핀테크 지원 협의체 IR 챌린지 (대상)",
-          "영국, 중국 공동 글로벌 창업 경진대회 (대상) 외 7건"
+          "Đạt \"Giải thưởng Đổi mới Tốt nhất\" (Best of Innovation Award) tại sự kiện \"CES 2026\"",
+          "Đạt \"Giải Nhất\" (Grand Prize) tại \"Cuộc thi Audition G-Startup\" của tỉnh Gyeonggi",
+          "Đạt \"Giải Nhất (Grand Prize)\" tại \"IR Challenge\" của Hội đồng Hỗ trợ Fintech",
+          "Đạt \"Giải Nhất (Grand Prize)\" tại \"Cuộc thi khởi nghiệp toàn cầu\" do Vương quốc Anh và Trung Quốc đồng tổ chức Cùng 7 giải thưởng khác."
         ]
       },
       {
         "value": 4,
         "label": "R&D",
         "details": [
-          "Thales X 글로벌 오픈이노베이션",
-          "딥테크 팁스(Deep-Tech TIPS) 선정",
-          "부산 블록체인 기업 사업화 외 1건"
+          "Được chọn tham gia \"Chương trình Open Innovation Toàn cầu\" (hợp tác) cùng Tập đoàn Thales.",
+          "Được chọn tham gia \"Chương trình Deep-Tech TIPS\"",
+          "Được chọn tham gia \"Chương trình Hỗ trợ Thương mại hóa Doanh nghiệp Blockchain\" của Busan, cùng 1 thành tích khác"
         ]
       },
       {
         "value": 34,
-        "label": "해외진출",
+        "label": "Vươn ra thị trường quốc tế",
         "details": [
-          "CES 2026 공동관 참가 기업 선정",
-          "VIVA TECHNOLOGY 공식 참가 기업",
-          "Singapore FinTech Festival 공식 참가 기업",
-          "GITEX Global 2025 공동 참가 외 30건"
+          "Được chọn là doanh nghiệp tham gia \"Khu gian hàng chung\" tại sự kiện \"CES 2026\"",
+          "Được chọn là doanh nghiệp tham gia chính thức tại sự kiện \"VIVA TECHNOLOGY\"",
+          "Được chọn là doanh nghiệp tham gia chính thức tại \"Lễ hội FinTech Singapore\"",
+          "Đồng tham gia sự kiện \"GITEX Global 2025\", cùng 30 thành tích khác"
         ]
       },
       {
         "value": 63,
-        "label": "정부지원",
+        "label": "Hỗ trợ từ Chính phủ",
         "details": [
-          "인천국제항공사 상생형 창업·벤처기업 프로그램",
-          "스마트해운물류 창업 Flame 기타사업화 프로그램",
-          "서울관광재단 관광스타트업 협력 프로젝트",
-          "전북창경 J-curve배치 3기 외 59건"
+          "Được chọn tham gia \"Chương trình Doanh nghiệp Khởi nghiệp và Venture Cùng phát triển\" của Tập đoàn Sân bay Quốc tế Incheon",
+          "Được chọn tham gia \"Chương trình Thương mại hóa Khởi nghiệp Logistics Hàng hải Thông minh - Flame\"",
+          "Được chọn tham gia \"Dự án Hợp tác Startup Du lịch\" của Tổ chức Du lịch Seoul (STO)",
+          "Được chọn tham gia \"Chương trình tăng tốc J-curve Batch\" Khóa 3 của Trung tâm Sáng tạo Kinh tế Jeonbuk Cùng 59 thành tích khác"
         ]
       },
       {
         "value": 8,
-        "label": "기타",
+        "label": "Hoạt động khác",
         "details": [
-          "강원 외국인 유학생 규제 샌드박스 실증기업",
-          "글로벌 인턴십 프로그램 운영",
-          "성균관대학교 SW 인턴십 협력기업",
-          "청년일자리도약장려금 외 4건"
+          "Được chọn là \"Doanh nghiệp thực chứng\" trong \"Chương trình Sandbox Quản lý cho Du học sinh nước ngoài\" của tỉnh Gangwon",
+          "Vận hành \"Chương trình Thực tập Toàn cầu\"",
+          "Là doanh nghiệp hợp tác trong \"Chương trình Thực tập Phần mềm (SW)\" của Trường Đại học Sungkyunkwan",
+          "Nhận hỗ trợ từ \"Chương trình Trợ cấp Thúc đẩy Việc làm cho Thanh niên\", cùng 4 thành tích khác"
         ]
       }
     ]
   },
   "HomeRoadmap": {
-    "title": "기술 로드맵",
-    "description": [
-      "신원인증부터 글로벌 결제·송금·교육까지",
-      "— IDBlock 기술이 확장되는 영역입니다"
-    ],
+    "title": "Lộ trình công nghệ",
+    "description": "Từ xác thực danh tính đến thanh toán toàn cầu, chuyển tiền và giáo dục — đây là các lĩnh vực mà công nghệ IDBlock đang mở rộng",
     "list": [
       {
         "key": "identity",
-        "label": "신원 인증",
-        "desc": "하나의 디지털 ID로\n전 세계 어디서나 안전하게 인증",
+        "label": "Xác thực danh tính",
+        "desc": "XCho phép xác thực danh tính an toàn ở bất kỳ đâu trên toàn thế giới chỉ với một Danh tính Kỹ thuật số duy nhất",
         "active": true
       },
       {
         "key": "payment",
-        "label": "결제",
-        "desc": "국경 없이 빠르고 간편한\n결제 경험 제공",
+        "label": "Thanh toán toàn cầu",
+        "desc": "Cung cấp trải nghiệm thanh toán nhanh chóng và tiện lợi, không có biên giới",
         "active": true
       },
       {
         "key": "remittance",
-        "label": "송금",
-        "desc": "실시간 송금 및 정산으로\n해외 송금 속도 향상 수수료 절감",
+        "label": "Chuyển tiền toàn cầu",
+        "desc": "Cải thiện tốc độ chuyển tiền quốc tế và giảm thiểu chi phí thông qua (hệ thống) chuyển tiền và quyết toán theo thời gian thực",
         "active": true
       },
       {
         "key": "education",
-        "label": "교육 인증",
-        "desc": "유학생 비자·졸업 인증 자동화로\n행정 절차 간소화",
+        "label": "Xác thực trong lĩnh vực Giáo dục",
+        "desc": "Đơn giản hóa thủ tục hành chính thông qua việc tự động hóa (quy trình) xác thực visa du học và chứng nhận tốt nghiệp",
         "active": true
       },
       {
         "key": "lifestyle",
-        "label": "라이프 서비스",
-        "desc": "하나의 ID로 숙박·교통·결제 등\n다양한 글로벌 앱 연동 가능",
+        "label": "Dịch vụ Đời sống",
+        "desc": "Cho phép liên kết với nhiều ứng dụng toàn cầu khác nhau như lưu trú, giao thông, thanh toán, v.v. chỉ bằng một ID duy nhất",
         "active": false
       },
       {
         "key": "insurance",
-        "label": "보험",
-        "desc": "간편하게 보험 가입 및\n결제 가능",
+        "label": "Dịch vụ Bảo hiểm",
+        "desc": "Cho phép đăng ký tham gia bảo hiểm và thanh toán một cách tiện lợi",
         "active": false
       },
       {
         "key": "healthcare",
-        "label": "헬스케어",
-        "desc": "의료·병원·약국 간 데이터 공유로\n호환 가능한 글로벌 인증·결제",
+        "label": "Chăm sóc sức khỏe",
+        "desc": "Cho phép chia sẻ dữ liệu giữa các cơ sở y tế, bệnh viện và nhà thuốc, tạo ra hệ thống xác thực và thanh toán toàn cầu có khả năng tương thích",
         "active": false
       },
       {
         "key": "mobility",
-        "label": "모빌리티",
-        "desc": "하나의 ID로 대중교통과\n공유 이동수단 인증·결제 가능",
+        "label": "Di động",
+        "desc": "Cho phép xác thực và thanh toán cho các phương tiện giao thông công cộng và phương tiện di chuyển chia sẻ chỉ bằng một ID duy nhất",
         "active": false
       },
       {
         "key": "public",
-        "label": "공공기관",
-        "desc": "외국인 대상 행정 서비스\n접근성 향상 및 신뢰성 강화",
+        "label": "Cơ quan công",
+        "desc": "Nâng cao khả năng tiếp cận dịch vụ hành chính cho người nước ngoài và tăng cường tính tin cậy",
         "active": false
       },
       {
         "key": "quantum",
-        "label": "양자컴퓨터",
-        "desc": "미래형 암호기술을 통해\n글로벌 인증 인프라 보안성 강화",
+        "label": "Máy tính lượng tử",
+        "desc": "Tối đa hóa tính bảo mật của cơ sở hạ tầng xác thực toàn cầu bằng công nghệ mã hóa của tương lai",
         "active": false
       }
     ]
   },
   "HomePartner": {
-    "title": ["크로스허브는", "국내 및 해외 다양한 기관들과 함께해요"]
+    "title": ["Crosshub", "hợp tác với nhiều tổ chức trong và ngoài nước"]
   }
 }
