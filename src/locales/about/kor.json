@@ -237,6 +237,125 @@
       }
     ]
   },
+  "CompanyTimeline": {
+    "title": "수상 및 연혁",
+    "timelineData": [
+      {
+        "year": "2024",
+        "timeline": [
+          { "month": "04", "contents": ["중소벤쳐기업부 주관 2024년 예비창업패키지 선정"] },
+          { "month": "05", "contents": ["㈜크로스허브 법인 설립"] },
+          { "month": "08", "contents": ["벤처기업(Certificate of Venture Business) 획득"] },
+          { "month": "09", "contents": ["기술보증기금(KIBO) 제 15기 기업 선정"] },
+          {
+            "month": "10",
+            "contents": [
+              "서울핀테크랩 X IBK 기업은행 1st LAB 사업 선정",
+              "서울핀테크랩 입주기업 선정",
+              "부산광역시 블록체인 역외기업 육성센터 기업 선정"
+            ]
+          },
+          {
+            "month": "11",
+            "contents": [
+              "서울핀테크위크 2024, IBK기업은행 IR (인기상)",
+              "성균관대학교 KINGO-GA 창업경진대회 (금상)",
+              "기술보증기금 기보벤처캠프 15기 (최우수상)",
+              "한국관광공사 도쿄 관광기업지원센터 입주 선정",
+              "베트남 TechFest 현지진출기업 선정",
+              "KISA(한국인터넷진흥원) 블록체인 기업성장 선정",
+              "NIPA(정보통신산업진흥원) 현지화랩 선정"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "timeline": [
+          {
+            "month": "02",
+            "contents": [
+              "Startup Japan Expo 2025 (CCEI) 참가",
+              "2025 오사카엑스포 관광벤처기업 쇼케이스 참가",
+              "영국, 중국 공동 글로벌 창업 경진대회 (대상)",
+              "우리금융그룹 디노랩 부산 1기 선정",
+              "KOTRA 서비스 BM 프로그램 선정",
+              "전북창경 J-curve배치 3기"
+            ]
+          },
+          { "month": "03", "contents": ["신용보증기금 ‘리틀펭귄’ 프로그램 선정"] },
+          {
+            "month": "04",
+            "contents": [
+              "Thales x 글로벌 오픈이노베이션",
+              "서울관광재단 관광스타트업 협력 프로젝트 선정"
+            ]
+          },
+          {
+            "month": "05",
+            "contents": [
+              "DGB금융그룹 피움랩 7기 선정",
+              "GDIN K-Global 해외진출 프로그램 선정",
+              "CES 2026 공식 참가기업 선정"
+            ]
+          },
+          {
+            "month": "06",
+            "contents": [
+              "Busan Smart Project Prep Vietnam 참가",
+              "VIVA TECHNOLOGY 공식 참가 기업",
+              "핀테크 지원 협의체 IR 챌린지 (대상)",
+              "KDB산업은행 NextONE 부산 3기 선정"
+            ]
+          },
+          {
+            "month": "07",
+            "contents": [
+              "Thales Global Collaboration 참가",
+              "IVS Japan 2025 참가",
+              "세종 Invest-On 투자 역량강화 프로그램 선정"
+            ]
+          },
+          {
+            "month": "08",
+            "contents": [
+              "ISO/IEC 27001 정보보안 인증 획득",
+              "Techsauce Global Summit 2025 참가",
+              "한–베 Mega-Us EXPO 2025 참가",
+              "InnoEX 2025 Vietnam 선정",
+              "2025 APEC xß 제주 워케이션 프로그램 참가",
+              "Busan-Vietnam ‘Prep Project’ 참가"
+            ]
+          },
+          {
+            "month": "09",
+            "contents": [
+              "2025 B-Startup FLY 어워즈 (최우수상)",
+              "Deep-Tech TIPS 프로그램 선정",
+              "롯데벤처스 ‘L-CAMP JAPAN 2025’ 3기 선정",
+              "2025 항저우 글로벌 디지털 무역 박람회 참가",
+              "베트남 ‘Immersion Week’ 참가",
+              "글로벌 협업 연계 세르비아 시장개척단 참가",
+              "서울핀테크위크 2025 공식 참가 기업"
+            ]
+          },
+          {
+            "month": "10",
+            "contents": [
+              "GITEX Global 2025 공동 참가",
+              "경기창업공모 G-Startup 결선 (대상)",
+              "B-Vensday x 기보벤처캠프 (최우수상)",
+              "싱가포르 SWITCH 컨퍼런스 참가"
+            ]
+          },
+          {
+            "month": "11",
+            "contents": ["CES 2026 최고 혁신상 수상", "Singapore FinTech Festival 공식 참가 기업"]
+          }
+        ]
+      }
+    ]
+  },
   "AboutNews": {
     "title": "보도자료",
     "loading": "뉴스를 불러오는 중...",

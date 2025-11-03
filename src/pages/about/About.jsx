@@ -1,9 +1,9 @@
-import AboutCompanyTimeline from '@/components/about/AboutCompanyTimeline';
 import AboutContact from '@/components/about/AboutContact';
 import AboutGoal from '@/components/about/AboutGoal';
 import AboutMain from '@/components/about/AboutMain';
 import AboutMap from '@/components/about/AboutMap';
 import AboutNews from '@/components/about/AboutNews';
+import CompanyTimeline from '@/components/about/CompanyTimeline';
 import { useEffect, useRef } from 'react';
 
 import { TContext } from '@/contexts/TContext';
@@ -59,8 +59,7 @@ export default function About() {
           <AboutGoal />
         </Element>
         <Element name="history">
-          {/* <AboutHistory lan={lan} /> */}
-          <AboutCompanyTimeline lan={lan} />
+          <CompanyTimeline lan={lan} />
         </Element>
         <Element name="news">
           <AboutNews lan={lan} />
