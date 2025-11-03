@@ -262,6 +262,144 @@
       }
     ]
   },
+
+  "CompanyTimeline": {
+    "title": "Hồ sơ hàng năm",
+    "timelineData": [
+      {
+        "year": "2024",
+        "timeline": [
+          {
+            "month": "04",
+            "contents": [
+              "Được chọn tham gia \"Gói Hỗ trợ Khởi nghiệp Tiền ươm tạo 2024\" do Bộ Doanh nghiệp vừa và nhỏ và Khởi nghiệp (Hàn Quốc) tổ chức."
+            ]
+          },
+          { "month": "05", "contents": ["Thành lập pháp nhân Công ty CrossHub."] },
+          { "month": "08", "contents": ["Nhận \"Chứng nhận Doanh nghiệp Venture\""] },
+          {
+            "month": "09",
+            "contents": [
+              "Được chọn tham gia \"KIBO Venture Camp\" Khóa 15 do Quỹ Bảo lãnh Công nghệ Hàn Quốc (KIBO) tổ chức."
+            ]
+          },
+          {
+            "month": "10",
+            "contents": [
+              "Được chọn tham gia dự án \"1st LAB\" do Seoul Fintech Lab và Ngân hàng Công nghiệp Hàn Quốc (IBK) đồng tổ chức",
+              "Được chọn là doanh nghiệp nội trú tại Seoul Fintech Lab",
+              "Được chọn là doanh nghiệp thuộc \"Trung tâm Phát triển Doanh nghiệp Blockchain Offshore\" của Thành phố Busan"
+            ]
+          },
+          {
+            "month": "11",
+            "contents": [
+              "Đạt \"Giải thưởng được yêu thích nhất\" tại Phiên IR của Ngân hàng Công nghiệp Hàn Quốc (IBK), trong khuôn khổ sự kiện Seoul Fintech Week 2024.",
+              "Đạt \"Giải Vàng\" tại \"Cuộc thi khởi nghiệp KINGO-GA\" do Trường Đại học Sungkyunkwan tổ chức.",
+              "Đạt \"Giải Xuất sắc nhất\" tại sự kiện \"Demoday KIBO Venture Camp Khóa 15\" do Quỹ Bảo lãnh Công nghệ Hàn Quốc (KIBO) tổ chức.",
+              "Được chọn là doanh nghiệp nội trú năm 2025 của \"Trung tâm Hỗ trợ Doanh nghiệp Du lịch tại Tokyo (KTSC)\", do Tổng cục Du lịch Hàn Quốc (KTO) điều hành.",
+              "Được chọn là doanh nghiệp tiêu biểu thâm nhập thị trường địa phương tại sự kiện \"Techfest Vietnam\"",
+              "Được chọn tham gia \"Chương trình Phát triển Doanh nghiệp Blockchain\" do Cơ quan Internet và An ninh Hàn Quốc (KISA) tổ chức.",
+              "Được chọn tham gia chương trình \"Localization Lab\" do Cơ quan Xúc tiến Công nghiệp CNTT Quốc gia (NIPA) tổ chức."
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "timeline": [
+          {
+            "month": "02",
+            "contents": [
+              "Tham gia sự kiện \"Startup Japan Expo 2025\" (do CCEI tổ chức).",
+              "Tham gia \"Showcase Doanh nghiệp Du lịch Venture\" liên kết với sự kiện \"Expo 2025 Osaka\".",
+              "Đạt \"Giải Nhất\" (Grand Prize) tại \"Cuộc thi khởi nghiệp toàn cầu\" do Vương quốc Anh và Trung Quốc đồng tổ chức.",
+              "Được chọn tham gia \"D.Nno Lab Busan\" Khóa 1 (Chương trình hỗ trợ khởi nghiệp của Tập đoàn Tài chính Woori).",
+              "Được chọn tham gia \"Chương trình Mô hình Kinh doanh (BM) Dịch vụ\" do KOTRA (Cơ quan Xúc tiến Thương mại-Đầu tư Hàn Quốc) tổ chức.",
+              "Được chọn tham gia \"Chương trình tăng tốc J-curve Batch\" Khóa 3 của Trung tâm Sáng tạo Kinh tế Jeonbuk"
+            ]
+          },
+          {
+            "month": "03",
+            "contents": [
+              "Được chọn tham gia chương trình \"Little Penguin\" của Quỹ Bảo lãnh Tín dụng Hàn Quốc (KODIT)"
+            ]
+          },
+          {
+            "month": "04",
+            "contents": [
+              "Được chọn tham gia \"Chương trình Open Innovation Toàn cầu - Trust My Tech\" do Tập đoàn Thales tổ chức",
+              "Được chọn tham gia \"Dự án Hợp tác Startup Du lịch\" của Tổ chức Du lịch Seoul (STO)"
+            ]
+          },
+          {
+            "month": "05",
+            "contents": [
+              "Được chọn tham gia \"Chương trình Pium Lab\" Khóa 7 của Tập đoàn Tài chính DGB",
+              "Được chọn tham gia \"Chương trình Hỗ trợ Vươn ra Nước ngoài K-Global\" do Mạng lưới Đổi mới Kỹ thuật số Toàn cầu (GDIN) tổ chức",
+              "Được chọn là doanh nghiệp tham gia chính thức tại sự kiện \"CES 2026\"."
+            ]
+          },
+          {
+            "month": "06",
+            "contents": [
+              "Tham gia chương trình \"Busan Smart Project Prep Vietnam\"",
+              "Được chọn là doanh nghiệp tham gia chính thức tại sự kiện \"VIVA TECHNOLOGY\"",
+              "Đạt \"Giải Nhất (Grand Prize)\" tại \"IR Challenge\" của Hội đồng Hỗ trợ Fintech",
+              "Được chọn tham gia chương trình \"NextONE\" Khóa 3 tại Busan của Ngân hàng Phát triển Hàn Quốc (KDB)."
+            ]
+          },
+          {
+            "month": "07",
+            "contents": [
+              "Tham gia \"Chương trình Hợp tác Toàn cầu\" của Tập đoàn Thales.",
+              "Tham gia sự kiện \"IVS Japan 2025\"",
+              "Được chọn tham gia \"Chương trình Nâng cao Năng lực Đầu tư Sejong Invest-On\""
+            ]
+          },
+          {
+            "month": "08",
+            "contents": [
+              "Đạt chứng nhận An toàn thông tin theo tiêu chuẩn quốc tế \"ISO/IEC 27001\"",
+              "Tham gia Hội nghị Thượng đỉnh Toàn cầu \"Techsauce Global Summit 2025\"",
+              "Tham gia sự kiện \"Triển lãm Mega-Us Expo Hàn–Việt 2025\"",
+              "Được chọn tham gia sự kiện \"InnoEX 2025 Vietnam\"",
+              "Tham gia chương trình \"Workation tại Jeju - JOIN 2025 with APEC\"",
+              "Tham gia dự án \"Prep Project\" Busan-Việt Nam."
+            ]
+          },
+          {
+            "month": "09",
+            "contents": [
+              "Đạt \"Giải Xuất sắc nhất\" tại \"Giải thưởng B-Startup FLY 2025\"",
+              "Được chọn tham gia \"Chương trình Deep-Tech TIPS\"",
+              "Được chọn tham gia \"L-CAMP JAPAN 2025\" Khóa 3 của Lotte Ventures.",
+              "Tham gia \"Triển lãm Thương mại Kỹ thuật số Toàn cầu 2025\" tại Hàng Châu",
+              "Tham gia chương trình \"Immersion Week - Around X Vietnam: Quantum Jump\" tại Việt Nam.",
+              "Tham gia \"Đoàn Xúc tiến Thị trường Serbia\" - chương trình liên kết Hợp tác Toàn cầu của Trung tâm Đổi mới Kỹ thuật số",
+              "Được chọn là doanh nghiệp tham gia chính thức tại sự kiện \"Seoul Fintech Week 2025\""
+            ]
+          },
+          {
+            "month": "10",
+            "contents": [
+              "Đồng tham gia sự kiện \"GITEX Global 2025\"",
+              "Đạt \"Giải Nhất\" (Grand Prize) tại Vòng chung kết \"Cuộc thi G-Startup\" do tỉnh Gyeonggi tổ chức",
+              "Đạt \"Giải Xuất sắc nhất\" tại sự kiện \"BUSAN FINANCE WEEK 2025\", do \"B-Vensday\" và \"KIBO Venture Camp\" đồng tổ chức",
+              "Tham gia Hội nghị \"SWITCH\" tại Singapore"
+            ]
+          },
+          {
+            "month": "11",
+            "contents": [
+              "Đạt \"Giải thưởng Đổi mới Tốt nhất\" (Best of Innovation Award) tại sự kiện \"CES 2026\"",
+              "Được chọn là doanh nghiệp tham gia chính thức tại \"Lễ hội FinTech Singapore\""
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "AboutNews": {
     "title": "Thông cáo báo chí",
     "loading": "Đang tải tin tức...",
