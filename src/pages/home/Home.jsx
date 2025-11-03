@@ -9,6 +9,8 @@ import HomeAchievement from '@/components/home/HomeAchievement';
 import HomeRoadmap from '@/components/home/HomeRoadmap';
 import HomePartner from '@/components/home/HomePartner';
 
+import IntroVideo from '@/components/common/IntroVideo';
+
 import { TContext } from '@/contexts/TContext';
 import { useSelector } from 'react-redux';
 
@@ -18,16 +20,19 @@ export default function Home() {
 
   return (
     <TContext.Provider value={{ pageKey }}>
-      <main>
-        <HomeMain />
-        {lan === 'KOR' ? <HomeQuestion /> : <HomeQuestionGlobal />}
-        <HomeFeature lan={lan} />
-        <HomeStep />
-        <HomePatent />
-        <HomeAchievement />
-        <HomeRoadmap />
-        <HomePartner />
-      </main>
+      <IntroVideo />
+      <>
+        <main>
+          <HomeMain />
+          {lan === 'KOR' ? <HomeQuestion /> : <HomeQuestionGlobal />}
+          <HomeFeature lan={lan} />
+          <HomeStep />
+          <HomePatent />
+          <HomeAchievement />
+          <HomeRoadmap />
+          <HomePartner />
+        </main>
+      </>
     </TContext.Provider>
   );
 }
