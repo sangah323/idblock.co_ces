@@ -255,6 +255,144 @@
       }
     ]
   },
+
+  "CompanyTimeline": {
+    "title": "Annual Record",
+    "timelineData": [
+      {
+        "year": "2024",
+        "timeline": [
+          {
+            "month": "04",
+            "contents": [
+              "Selected for the 2024 Pre-Startup Package by the Ministry of SMEs and Startups (MSS)"
+            ]
+          },
+          { "month": "05", "contents": ["Crosshub, Inc. Established"] },
+          { "month": "08", "contents": ["Certificate of Venture Business"] },
+          {
+            "month": "09",
+            "contents": [
+              "Selected for the 15th KIBO Venture Camp by the Korea Technology Finance Corporation (KIBO)"
+            ]
+          },
+          {
+            "month": "10",
+            "contents": [
+              "Selected for the '1st LAB' Program, a joint initiative by Seoul Fintech Lab and IBK Industrial Bank of Korea",
+              "Selected as a resident company of Seoul Fintech Lab",
+              "Selected as a company for the Busan Metropolitan City's Blockchain Offshore Enterprise Incubation Center"
+            ]
+          },
+          {
+            "month": "11",
+            "contents": [
+              "Audience Choice Award at the IBK Industrial Bank of Korea IR Session, Seoul Fintech Week 2024",
+              "Gold Award, KINGO-GA Startup Competition, Sungkyunkwan University (SKKU)",
+              "Grand Prize, 15th KIBO Venture Camp Demoday (Korea Technology Finance Corporation, KIBO)",
+              "Selected as a 2025 resident company of the Korea Tourism Startup Center (KTSC) in Tokyo, run by the Korea Tourism Organization (KTO)",
+              "Selected as a Local Market Entry Company at Techfest Vietnam",
+              "Selected for the Blockchain Enterprise Growth Support Program by the Korea Internet & Security Agency (KISA)",
+              "Selected for the 'Localization Lab' Program by the National IT Industry Promotion Agency (NIPA)"
+            ]
+          }
+        ]
+      },
+      {
+        "year": "2025",
+        "timeline": [
+          {
+            "month": "02",
+            "contents": [
+              "Participated in Startup Japan Expo 2025 (CCEI)",
+              "Participated in the Tourism Venture Showcase associated with Expo 2025 Osaka",
+              "Grand Prize, UK-China Joint Global Startup Competition",
+              "Selected for the 1st Batch of Dinolil Busan by Woori Financial Group",
+              "Selected for the Service Business Model (BM) Program by Korea Trade-Investment Promotion Agency (KOTRA)",
+              "Selected for the 3rd Batch of the J-Curve Batch Program, Jeonbuk Center for Creative Economy and Innovation (CCEI)"
+            ]
+          },
+          {
+            "month": "03",
+            "contents": [
+              "Selected for the ‘Little Penguin’ Program by the Korea Credit Guarantee Fund (KODIT)"
+            ]
+          },
+          {
+            "month": "04",
+            "contents": [
+              "Selected for ‘Trust My Tech,’ the Global Open Innovation Program by Thales",
+              "Selected for the Tourism Startup Collaboration Project by the Seoul Tourism Organization (STO)"
+            ]
+          },
+          {
+            "month": "05",
+            "contents": [
+              "Selected for the 7th Batch of Pium Lab by DGB Financial Group",
+              "Selected for the GDIN K-Global Overseas Expansion Program by National IT Industry Promotion Agency (NIPA)",
+              "Selected as an official exhibitor for CES 2026"
+            ]
+          },
+          {
+            "month": "06",
+            "contents": [
+              "Participated in the 'Busan Smart Project: Prep Vietnam' Program",
+              "Participated in VIVA TECHNOLOGY (France–Korea Open Innovation)",
+              "Grand Prize, Fintech Support Council IR Challenge",
+              "Selected for the 3rd Batch of NextONE Busan by KDB Korea Development Bank"
+            ]
+          },
+          {
+            "month": "07",
+            "contents": [
+              "Participated in the Thales Global Collaboration Program",
+              "Participated in the IVS Japan 2025",
+              "Selected for the Sejong 'Invest-On' Investment Capability Enhancement Program"
+            ]
+          },
+          {
+            "month": "08",
+            "contents": [
+              "Achieved ISO/IEC 27001 Certification for Information Security Management",
+              "Participated in the Techsauce Global Summit 2025",
+              "Participated in the Korea–Vietnam Mega-Us EXPO 2025",
+              "Selected for InnoEX 2025 Vietnam",
+              "Participated in the 'JOIN 2025 with APEC x Jeju Workation' Program",
+              "Participated in the Busan-Vietnam ‘Prep Project’"
+            ]
+          },
+          {
+            "month": "09",
+            "contents": [
+              "Grand Prize, 2025 B-Startup FLY Awards",
+              "Selected for the Deep-Tech TIPS Program",
+              "Selected for the 3rd Batch of ‘L-CAMP JAPAN 2025’ by Lotte Ventures",
+              "Participated in the 2025 Hangzhou Global Digital Trade Expo",
+              "Participated in the 'Immersion Week - Around X Vietnam: Quantum Jump' Program",
+              "Participated in the Serbia Market Development Delegation, associated with the Digital Innovation Hub Global Collaboration Program",
+              "Selected for joint participation at GITEX Global 2025"
+            ]
+          },
+          {
+            "month": "10",
+            "contents": [
+              "Selected for joint participation at GITEX Global 2025",
+              "Grand Prize, Gyeonggi G-Startup Competition Finals",
+              "Grand Prize, B-Vensday x KIBO Venture Camp 'Busan Finance Week 2025",
+              "Participated in the SWITCH Conference Singapore"
+            ]
+          },
+          {
+            "month": "11",
+            "contents": [
+              "Selected as an official exhibitor for the Singapore FinTech Festival",
+              "Selected as an official exhibitor for the Singapore FinTech Festival"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "AboutNews": {
     "title": "Press Release",
     "loading": "Loading news...",
