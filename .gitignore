@@ -4,6 +4,8 @@
 ### Setting ###
 .env
 
+dist
+
 ### Images ###
 # # JPEG
 # *.jpg

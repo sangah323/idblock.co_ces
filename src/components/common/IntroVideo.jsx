@@ -1,43 +1,48 @@
+// src/components/common/IntroVideo.jsx
 import React, { useEffect, useState } from 'react';
 import styles from '@/style/common/IntroVideo.module.css';
 
 export default function IntroVideo() {
-  const [visible, setVisible] = useState(false);
+  const [show, setShow] = useState(false);
+  const [disappear, setDisappear] = useState(false);
 
   useEffect(() => {
-    const hasSeenIntro = localStorage.getItem('seenIntro');
+    // 처음에만 보여주고 싶으면 localStorage 체크 넣어도 됨
+    setShow(true);
 
-    if (!hasSeenIntro) {
-      setVisible(true);
-      localStorage.setItem('seenIntro', 'true');
+    // 6초 동안은 영상만 보이고
+    const t1 = setTimeout(() => {
+      setDisappear(true); // 사사사삭 시작
+    }, 7000);
 
-      document.body.style.overflow = 'hidden';
-      document.documentElement.style.overflow = 'hidden';
+    // 완전 제거
+    const t2 = setTimeout(() => {
+      setShow(false);
+    }, 8500);
 
-      const timer = setTimeout(() => {
-        document.body.style.overflow = '';
-        setVisible(false);
-      }, 7000);
-
-      return () => {
-        document.body.style.overflow = '';
-        clearTimeout(timer);
-      };
-    }
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
   }, []);
 
-  if (!visible) return null;
+  if (!show) return null;
 
   return (
     <div className={styles.overlay}>
-      <video
-        src="/video/CES_2026.mp4"
-        autoPlay
-        muted
-        playsInline
-        preload="auto"
-        className={styles.video}
-      />
+      <div className={styles.videoWrapper}>
+        <video src="/video/CES_2026_full.mp4" autoPlay muted playsInline className={styles.video} />
+        <img src="/assets/home/vignetteOverlay.png" className={styles.vignetteImage} alt="" />
+      </div>
+      {/* 조각들 */}
+      <div className={`${styles.shards} ${disappear ? styles.active : ''}`}>
+        <div className={`${styles.shard} ${styles.s1}`}></div>
+        <div className={`${styles.shard} ${styles.s2}`}></div>
+        <div className={`${styles.shard} ${styles.s3}`}></div>
+        <div className={`${styles.shard} ${styles.s4}`}></div>
+        <div className={`${styles.shard} ${styles.s5}`}></div>
+        <div className={`${styles.shard} ${styles.s6}`}></div>
+      </div>
     </div>
   );
 }
